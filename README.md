@@ -1,2 +1,3 @@
-# songbooks
-Transcription of song books in JSON
+# Song Books
+
+Transcription of song books in JSON.

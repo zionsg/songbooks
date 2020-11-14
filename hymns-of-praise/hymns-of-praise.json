@@ -1,0 +1,103 @@
+{
+  "//": [
+    "JSON consists of key-value pairs. Keys are always strings. Values can be strings/arrays/objects. Don't mix types.",
+    "Keys using // are treated as comments. The value is an array of 1 or more strings.",
+    "If a key can have 1 or more values, the value will be of array type for consistency's sake.",
+    "Keys may be omitted for sake of brevity.",
+    "Titles and lyrics use en and cn keys to store English and Chinese language versions respectively.",
+    "Try to cap line lengths to 120 characters as much as possible to reduce horizontal scrolling."
+  ],
+  "repository": "https://github.com/zionsg/songbooks",
+  "title": {
+    "en": "Hymns of Praise",
+    "cn": "赞美诗"
+  },
+  "copyright": "Copyright 1978 by the 福音自传会 Christian Nationals Evangelism Commission, Southeast Asia Headquarter",
+  "sections": {
+    "//": [
+      "A section contains a title and a song list.",
+      "A section can contain subsections which in turn have their own titles and song lists.",
+      "If the title for a section is not specified for a language or is empty, eg. for en key, its JSON key is used.",
+      "A song list consists of arrays of songs. If an array contains exactly 2 values, it means from song1 to song2.",
+      "If an array in the song list contains 3 or more values, it means song1, song2, song3, etc. If 1 value, song1."
+    ],
+    "Hymns of Worship": {
+      "title": {
+        "cn": "崇拜诗歌"
+      },
+      "subsections": {
+        "Worship and Praise": {
+          "title": {
+            "cn": "敬拜赞美"
+          },
+          "songList": [
+            [
+              "1",
+              "19"
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "songs": {
+    "//": [
+      "Songs are indexed by the number alone, to make it easier to reference in song lists.",
+      "The exceptions are those songs without numbers, typically those on the front and back covers of the songbook.",
+      "If the title for a song is not specified for a language or is empty, eg. for en key, its JSON key is used.",
+      "Key/time signatures are arrays as some songs may switch halfway.",
+      "Lyrics contain an order and language versions. The order may be overridden by each language version.",
+      "The order, if specified, contains the order in which the stanzas and/or choruses are sung.",
+      "Each language version of the lyrics contains an order, stanzas and/or choruses.",
+      "Each stanza/chorus is an array of strings, each string is a sentence, typically ended by an ending punctuation."
+    ],
+    "31": {
+      "title": {
+        "en": "Rejoice, the Lord is King!",
+        "cn": "你当欢喜"
+      },
+      "keySignature": [
+        "Db"
+      ],
+      "timeSignature": [
+        "4/4"
+      ],
+      "lyrics": {
+        "order": [
+          "1",
+          "chorus",
+          "2",
+          "chorus",
+          "3",
+          "chorus",
+          "4",
+          "chorus"
+        ],
+        "en": {
+          "1": [
+            "Rejoice - the Lord is King!",
+            "Your Lord and King adore!",
+            "Rejoice, give thanks, and sing.",
+            "And triumph evermore:"
+          ],
+          "chorus": [
+            "Lift up your heart, lift up your voice!",
+            "Rejoice, again I say, rejoice!"
+          ]
+        },
+        "cn": {
+          "1": [
+            "欢喜救主为君！",
+            "你当叩拜至尊",
+            "高声感谢主恩",
+            "凯歌永远欢欣；"
+          ],
+          "chorus": [
+            "振起你心！举起你声！",
+            "欢欣！欢欣！你当欢欣！"
+          ]
+        }
+      }
+    }
+  }
+}
