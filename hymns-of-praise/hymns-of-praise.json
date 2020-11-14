@@ -49,8 +49,8 @@
       "The exceptions are those songs without numbers, typically those on the front and back covers of the songbook.",
       "If the title for a song is not specified for a language or is empty, eg. for en key, its JSON key is used.",
       "Key/time signatures are arrays as some songs may switch halfway.",
-      "Lyrics contain language versions.",
-      "Each language version of the lyrics contains stanzas and/or choruses.",
+      "Lyrics contain language-specific versions.",
+      "Each language-specific version of the lyrics contains stanzas and/or choruses.",
       "Each stanza/chorus is an array of strings, each string is a sentence, typically ended by an ending punctuation."
     ],
     "31": {
