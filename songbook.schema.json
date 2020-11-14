@@ -1,0 +1,151 @@
+{
+  "$id": "https://github.com/zionsg/songbooks/blob/master/songbook.schema.json",
+  "$schema": "http://json-schema.org/draft/2019-09/schema#",
+  "type": "object",
+  "properties": {
+    "//": {
+      "$ref": "#/definitions/comments"
+    },
+    "json": {
+      "type": "object",
+      "properties": {
+        "source": {
+          "$comment": "Url for the source of the JSON file, same meaning as $id.",
+          "type": "string",
+          "format": "uri"
+        },
+        "schema": {
+          "$comment": "Url for the JSON schema that the JSON file uses, same meaning as $schema.",
+          "type": "string",
+          "format": "uri",
+          "default": "https://github.com/zionsg/songbooks/blob/master/songbook.schema.json"
+        }
+      },
+      "required": [
+        "source",
+        "schema"
+      ]
+    },
+    "title": {
+      "$ref": "#/definitions/title"
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "sections": {
+      "type": "object",
+      "anyOf": [
+        {
+          "$ref": "#/definitions/comments"
+        },
+        {
+          "$ref": "#/definitions/section"
+        }
+      ]
+    },
+    "songs": {
+      "type": "object",
+      "anyOf": [
+        {
+          "$ref": "#/definitions/comments"
+        },
+        {
+          "$ref": "#/definitions/section"
+        }
+      ]
+    }
+  },
+  "required": [
+    "json",
+    "title",
+    "copyright",
+    "sections",
+    "songs"
+  ],
+  "definitions": {
+    "comments": {
+      "$comment": "Keys named // are to be treated as comments.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "title": {
+      "$comment": "A title can contain 1 or more properties, 1 for each language version.",
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^(en|cn)$"
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "songRange": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "songList": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/songRange"
+      }
+    },
+    "section": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "$ref": "#/definitions/title"
+        },
+        "songList": {
+          "$ref": "#/definitions/songList"
+        },
+        "subsections": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/definitions/section"
+          }
+        }
+      }
+    },
+    "stanza": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "song": {
+      "type": "object",
+      "properties": {
+        "//": {
+          "$ref": "#/definitions/comments"
+        },
+        "title": {
+          "$ref": "#/definitions/title"
+        },
+        "keySignature": {
+          "$comment": "A song may have more than 1 key signature and switch key signatures at different parts.",
+          "type": "array",
+          "items": {
+            "type": "string "
+          }
+        },
+        "timeSignature": {
+          "$comment": "A song may have more than 1 time signature and switch time signatures at different parts.",
+          "type": "array",
+          "items": {
+            "type": "string "
+          }
+        },
+        "lyrics": {
+          "$comment": "A chorus/refrain is considered as a type of stanza.",
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/definitions/stanza"
+          }
+        }
+      }
+    }
+  }
+}

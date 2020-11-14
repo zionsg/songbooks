@@ -7,7 +7,10 @@
     "Titles and lyrics use en and cn keys to store English and Chinese language versions respectively.",
     "Try to cap line lengths to 120 characters as much as possible to reduce horizontal scrolling."
   ],
-  "repository": "https://github.com/zionsg/songbooks",
+  "json": {
+    "source": "https://github.com/zionsg/songbooks/blob/master/hymns-of-praise/hymns-of-praise.json",
+    "schema": "https://github.com/zionsg/songbooks/blob/master/songbook.schema.json"
+  },
   "title": {
     "en": "Hymns of Praise",
     "cn": "赞美诗"
@@ -46,9 +49,8 @@
       "The exceptions are those songs without numbers, typically those on the front and back covers of the songbook.",
       "If the title for a song is not specified for a language or is empty, eg. for en key, its JSON key is used.",
       "Key/time signatures are arrays as some songs may switch halfway.",
-      "Lyrics contain an order and language versions. The order may be overridden by each language version.",
-      "The order, if specified, contains the order in which the stanzas and/or choruses are sung.",
-      "Each language version of the lyrics contains an order, stanzas and/or choruses.",
+      "Lyrics contain language versions.",
+      "Each language version of the lyrics contains stanzas and/or choruses.",
       "Each stanza/chorus is an array of strings, each string is a sentence, typically ended by an ending punctuation."
     ],
     "31": {
@@ -63,16 +65,6 @@
         "4/4"
       ],
       "lyrics": {
-        "order": [
-          "1",
-          "chorus",
-          "2",
-          "chorus",
-          "3",
-          "chorus",
-          "4",
-          "chorus"
-        ],
         "en": {
           "1": [
             "Rejoice - the Lord is King!",
