@@ -130,6 +130,12 @@
         "$ref": "#/definitions/stanza"
       }
     },
+    "people": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "song": {
       "type": "object",
       "properties": {
@@ -139,25 +145,40 @@
         "title": {
           "$ref": "#/definitions/title"
         },
-        "keySignature": {
-          "$comment": "A song may have more than 1 key signature and switch key signatures at different parts.",
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        },
-        "timeSignature": {
-          "$comment": "A song may have more than 1 time signature and switch time signatures at different parts.",
-          "type": "array",
-          "items": {
-            "type": "string"
+        "music": {
+          "type": "object",
+          "properties": {
+            "composers": { "$ref": "#/definitions/people" },
+            "arrangers": { "$ref": "#/definitions/people" },
+            "tune": {
+              "$comment": "Name of tune, if any.",
+              "type": "string"
+            },
+            "keySignature": {
+              "$comment": "A song may have more than 1 key signature and switch key signatures at different parts.",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "timeSignature": {
+              "$comment": "A song may have more than 1 time signature and switch time signatures at different parts.",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
           }
         },
         "lyrics": {
           "$comment": "A chorus/refrain is considered as a type of stanza.",
           "type": "object",
           "propertyNames": {
-            "pattern": "^(en|cn)$"
+            "pattern": "^(authors|translators|en|cn)$"
+          },
+          "properties": {
+            "authors": { "$ref": "#/definitions/people" },
+            "translators": { "$ref": "#/definitions/people" },
           },
           "additionalProperties": {
             "$ref": "#/definitions/languageSpecificLyrics"
