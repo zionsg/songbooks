@@ -1,5 +1,5 @@
 {
-  "$id": "https://github.com/zionsg/songbooks/blob/master/songbook.schema.json",
+  "$id": "https://github.com/zionsg/songbooks/blob/master/schema/songbook.schema.json",
   "$schema": "http://json-schema.org/draft/2019-09/schema#",
   "type": "object",
   "properties": {
@@ -12,13 +12,14 @@
         "source": {
           "$comment": "Url for the source of the JSON file, same meaning as $id.",
           "type": "string",
-          "format": "uri"
+          "format": "uri",
+          "default": "https://github.com/zionsg/songbooks/blob/master/data/songbook.example.json"
         },
         "schema": {
           "$comment": "Url for the JSON schema that the JSON file uses, same meaning as $schema.",
           "type": "string",
           "format": "uri",
-          "default": "https://github.com/zionsg/songbooks/blob/master/songbook.schema.json"
+          "default": "https://github.com/zionsg/songbooks/blob/master/schema/songbook.schema.json"
         }
       },
       "required": [
