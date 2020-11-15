@@ -1,0 +1,80 @@
+{
+  "json": {
+    "source": "https://github.com/zionsg/songbooks/blob/master/hymns-of-praise/hymns-of-praise.json",
+    "schema": "https://github.com/zionsg/songbooks/blob/master/songbook.schema.json"
+  },
+  "title": {
+    "en": "Hymns of Praise",
+    "cn": "赞美诗"
+  },
+  "copyright": "Copyright 1978 by the 福音自传会 Christian Nationals Evangelism Commission, Southeast Asia Headquarter",
+  "sections": {
+    "Hymns of Worship": {
+      "title": {
+        "cn": "崇拜诗歌"
+      },
+      "subsections": {
+        "Worship and Praise": {
+          "title": {
+            "cn": "敬拜赞美"
+          },
+          "songList": [
+            [
+              "1",
+              "19"
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "songs": {
+    "31": {
+      "title": {
+        "en": "Rejoice, the Lord is King!",
+        "cn": "你当欢喜"
+      },
+      "music": {
+        "composers": [
+          "John Darwall"
+        ],
+        "tune": "Darwall",
+        "keySignature": [
+          "Db"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Charles Wesley"
+        ],
+        "en": {
+          "1": [
+            "Rejoice - the Lord is King!",
+            "Your Lord and King adore!",
+            "Rejoice, give thanks, and sing.",
+            "And triumph evermore:"
+          ],
+          "chorus": [
+            "Lift up your heart, lift up your voice!",
+            "Rejoice, again I say, rejoice!"
+          ]
+        },
+        "cn": {
+          "1": [
+            "欢喜救主为君！",
+            "你当叩拜至尊",
+            "高声感谢主恩",
+            "凯歌永远欢欣；"
+          ],
+          "chorus": [
+            "振起你心！举起你声！",
+            "欢欣！欢欣！你当欢欣！"
+          ]
+        }
+      }
+    }
+  }
+}
