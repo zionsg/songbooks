@@ -8,14 +8,14 @@
     "Try to cap line lengths to 120 characters as much as possible to reduce horizontal scrolling."
   ],
   "json": {
-    "source": "https://github.com/zionsg/songbooks/blob/master/hymns-of-praise/hymns-of-praise.json",
-    "schema": "https://github.com/zionsg/songbooks/blob/master/songbook.schema.json"
+    "source": "https://github.com/zionsg/songbooks/blob/master/data/songbook.example.json",
+    "schema": "https://github.com/zionsg/songbooks/blob/master/schema/songbook.schema.json"
   },
   "title": {
-    "en": "Hymns of Praise",
-    "cn": "赞美诗"
+    "en": "SongBook Title",
+    "cn": "歌本书名"
   },
-  "copyright": "Copyright 1978 by the 福音自传会 Christian Nationals Evangelism Commission, Southeast Asia Headquarter",
+  "copyright": "Copyright for songbook",
   "sections": {
     "//": [
       "A section contains a title and a song list.",
@@ -24,19 +24,34 @@
       "A song list consists of arrays of songs. If an array contains exactly 2 values, it means from song1 to song2.",
       "If an array in the song list contains 3 or more values, it means song1, song2, song3, etc. If 1 value, song1."
     ],
-    "Hymns of Worship": {
+    "Front Cover": {
       "title": {
-        "cn": "崇拜诗歌"
+        "cn": "封面"
+      },
+      "songList": [
+        [
+          "songOnFrontCover01",
+          "songOnFrontCover02",
+          "songOnFrontCover03"
+        ]
+      ]
+    },
+    "Broad Category 01": {
+      "title": {
+        "cn": "大类一"
       },
       "subsections": {
-        "Worship and Praise": {
+        "Topic A": {
           "title": {
-            "cn": "敬拜赞美"
+            "cn": "甲主题"
           },
           "songList": [
             [
               "1",
-              "19"
+              "10"
+            ],
+            [
+              "songOnBackCover01"
             ]
           ]
         }
@@ -53,40 +68,73 @@
       "Each language-specific version of the lyrics contains stanzas and/or choruses.",
       "Each stanza/chorus is an array of strings, each string is a sentence, typically ended by an ending punctuation."
     ],
-    "31": {
+    "songOnFrontCover01": {
       "title": {
-        "en": "Rejoice, the Lord is King!",
-        "cn": "你当欢喜"
+        "en": "Theme Song"
       },
-      "keySignature": [
-        "Db"
-      ],
-      "timeSignature": [
-        "4/4"
-      ],
+      "music": {
+        "keySignature": [
+          "Db",
+          "E"
+        ],
+        "timeSignature": [
+          "4/4",
+          "6/8"
+        ]
+      },
       "lyrics": {
         "en": {
           "1": [
-            "Rejoice - the Lord is King!",
-            "Your Lord and King adore!",
-            "Rejoice, give thanks, and sing.",
-            "And triumph evermore:"
+            "Hello World!"
+          ]
+        }
+      }
+    },
+    "1": {
+      "title": {
+        "en": "Song 01",
+        "cn": "歌曲一"
+      },
+      "music": {
+        "composers": [
+          "Composer A"
+        ],
+        "arrangers": [
+          "Arranger B"
+        ],
+        "tune": "Lullaby",
+        "keySignature": [
+          "C"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Author C"
+        ],
+        "translators": [
+          "Translator D"
+        ],
+        "en": {
+          "1": [
+            "Sentence 01",
+            "Sentence 02"
           ],
           "chorus": [
-            "Lift up your heart, lift up your voice!",
-            "Rejoice, again I say, rejoice!"
+            "Refrain line 01",
+            "Refrain line 02"
           ]
         },
         "cn": {
           "1": [
-            "欢喜救主为君！",
-            "你当叩拜至尊",
-            "高声感谢主恩",
-            "凯歌永远欢欣；"
+            "第一句",
+            "第二句"
           ],
           "chorus": [
-            "振起你心！举起你声！",
-            "欢欣！欢欣！你当欢欣！"
+            "副歌第一行",
+            "副歌第而行"
           ]
         }
       }

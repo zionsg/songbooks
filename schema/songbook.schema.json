@@ -13,7 +13,9 @@
           "$comment": "Url for the source of the JSON file, same meaning as $id.",
           "type": "string",
           "format": "uri",
-          "default": "https://github.com/zionsg/songbooks/blob/master/data/songbook.example.json"
+          "examples": [
+            "https://github.com/zionsg/songbooks/blob/master/data/songbook.example.json"
+          ]
         },
         "schema": {
           "$comment": "Url for the JSON schema that the JSON file uses, same meaning as $schema.",
