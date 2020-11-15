@@ -3,6 +3,7 @@
     "source": "https://github.com/zionsg/songbooks/blob/master/hymns-of-praise/hymns-of-praise.json",
     "schema": "https://github.com/zionsg/songbooks/blob/master/songbook.schema.json"
   },
+  "bookPrefix": "HP",
   "title": {
     "en": "Hymns of Praise",
     "cn": "赞美诗"
@@ -74,7 +75,10 @@
             "欢欣！欢欣！你当欢欣！"
           ]
         }
-      }
+      },
+      "notes": [
+        "Same song: RHC217."
+      ]
     }
   }
 }

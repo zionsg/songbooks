@@ -4,6 +4,7 @@
     "Keys using // are treated as comments. The value is an array of 1 or more strings.",
     "If a key can have 1 or more values, the value will be of array type for consistency's sake.",
     "Keys may be omitted for sake of brevity.",
+    "bookPrefix is short prefix used for referring to songs in book, e.g if prefix is ABC, ABC001 refers to 1st song.",
     "Titles and lyrics use en and cn keys to store English and Chinese language versions respectively.",
     "Try to cap line lengths to 120 characters as much as possible to reduce horizontal scrolling."
   ],
@@ -11,6 +12,7 @@
     "source": "https://github.com/zionsg/songbooks/blob/master/data/songbook.example.json",
     "schema": "https://github.com/zionsg/songbooks/blob/master/schema/songbook.schema.json"
   },
+  "bookPrefix": "ABC",
   "title": {
     "en": "SongBook Title",
     "cn": "歌本书名"
@@ -137,7 +139,10 @@
             "副歌第而行"
           ]
         }
-      }
+      },
+      "notes": [
+        "Same tune: ABC025, DEF001."
+      ]
     }
   }
 }

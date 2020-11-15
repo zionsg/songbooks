@@ -29,6 +29,10 @@
         "schema"
       ]
     },
+    "bookPrefix": {
+      "$comment": "Short prefix used for referring to songs in book, e.g if prefix is ABC, ABC001 refers to 1st song.",
+      "type": "string"
+    },
     "title": {
       "$ref": "#/definitions/title"
     },
@@ -185,6 +189,13 @@
           },
           "additionalProperties": {
             "$ref": "#/definitions/languageSpecificLyrics"
+          }
+        },
+        "notes": {
+          "$comments": "Additional notes on song, e.g. songs with similar tune.",
+          "type": "array",
+          "items": {
+            "type": "string"
           }
         }
       }
