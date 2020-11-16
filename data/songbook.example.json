@@ -6,7 +6,7 @@
     "Keys may be omitted for sake of brevity.",
     "bookPrefix is short prefix used for referring to songs in book, e.g if prefix is ABC, ABC001 refers to 1st song.",
     "Titles and lyrics use en and cn keys to store English and Chinese language versions respectively.",
-    "Try to cap line lengths to 120 characters as much as possible to reduce horizontal scrolling."
+    "Try to cap line lengths to 100 characters (120 for comments) as much as possible to reduce horizontal scrolling."
   ],
   "json": {
     "source": "https://github.com/zionsg/songbooks/blob/master/data/songbook.example.json",
@@ -68,7 +68,8 @@
       "Key/time signatures are arrays as some songs may switch halfway.",
       "Lyrics contain language-specific versions.",
       "Each language-specific version of the lyrics contains stanzas and/or choruses.",
-      "Each stanza/chorus is an array of strings, each string is a sentence, typically ended by an ending punctuation."
+      "Each stanza/chorus is an array of strings, each string is a sentence, typically ended by an ending punctuation.",
+      "Assume each stanza/chorus is to fit in 1 presentation slide, at 30pt/40px font size, viewed from 10m away."
     ],
     "songOnFrontCover01": {
       "title": {
@@ -87,7 +88,8 @@
       "lyrics": {
         "en": {
           "1": [
-            "Hello World!"
+            "Hello World!",
+            "Sentence capped at 100 chars line length w/indent fits 1920x1080 screen at 40px Arial."
           ]
         }
       }
