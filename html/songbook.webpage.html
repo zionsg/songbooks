@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+        This webpage is meant to be run from a local/remote server due to reading of JSON file.
+        It takes in the following querystring param(s):
+        @param {string} data Path to JSON file for songbook.
+    -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title> <!-- to be filled in by JavaScript -->
+
+    <style>
+      html,
+      body {
+        background-color: lightyellow;
+        font-family: Helvetica, Arial, SimHei, "黑体", sans-serif;
+        font-size: 16px;
+      }
+
+      footer {
+        font-style: italic;
+        margin-top: 1em;
+        text-align: right;
+      }
+
+      a {
+        color: #0000ff;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #ff00ff;
+        text-decoration: underline;
+      }
+
+      .songbook-title {
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .section-link {
+        display: inline-block;
+        margin: 0.5em;
+      }
+    </style>
+  </head>
+
+  <body>
+     <!-- Empty elements to be filled in by JavaScript -->
+    <h1 class="songbook-title"></h1>
+
+    <h3>Table of Contents</h3>
+    <nav class="section-links"></nav>
+
+    <footer></footer>
+
+    <script>
+      (function () {
+          const COMMENTS = '//';
+          const LANG_EN = 'en';
+          const LANG_CN = 'cn';
+
+          let queryParams = null;
+          let data = null;
+
+          /**
+           * Initialization
+           *
+           * @returns {void}
+           */
+          function init() {
+              let dataFile = getQueryParam('data', '');
+              if (!dataFile) {
+                  return;
+              }
+
+              readJsonFile(dataFile, function (json) {
+                  // Save contents of JSON file
+                  data = json;
+
+                  // Book title and copyright
+                  let bookTitles = Object.values(data['title'] || '');
+                  document.title = bookTitles.join(' ');
+                  document.querySelector('.songbook-title').innerHTML = bookTitles.join('<br>');
+                  document.querySelector('footer').innerHTML = data['copyright'] || '';
+
+                  // Section links
+                  let sections = data['sections'] || {};
+                  let sectionHtml = '';
+                  Object.entries(sections).forEach(function (entry) {
+                      let sectionKey = entry[0];
+                      let section = entry[1];
+
+                      sectionHtml += getSectionLinks(sectionKey, section);
+                  });
+                  document.querySelector('.section-links').innerHTML = sectionHtml.trim();
+              });
+          }
+
+          /**
+           * Get section links, including subsections
+           *
+           * If a section has no songList key set, no link is generated for the section itself, but if it
+           * has subsections, links will be generated for those subsections (if they have songList key set).
+           *
+           * @param {string} key - JSON key for section. Used for English title if latter is not specified.
+           * @param {object} section - Section info.
+           * @returns {string}
+           */
+          function getSectionLinks(key, section) {
+              let result = [];
+              if (COMMENTS === key) {
+                  return '';
+              }
+
+              let sectionTitles = section['title'];
+              let sectionName = sectionTitles[LANG_EN] || key || '';
+
+              let songList = section['songList'] || [];
+              let songArray = [];
+              songList.forEach(function (songRange) {
+                  songArray.push(
+                      (2 === songRange.length) ? songRange[0] + ' - ' + songRange[1] : songRange.join(', ')
+                  );
+              });
+
+              if (songArray.length > 0) {
+                  result.push(sprintf(
+                      '<div class="section-link">[<a href="#%s">%s %s %s</a>]</div>',
+                      titleToVariableName(sectionName),
+                      sectionName,
+                      sectionTitles[LANG_CN] || '',
+                      songArray.join(', ')
+                  ));
+              }
+
+              let subsections = section['subsections'] || {};
+              Object.entries(subsections).forEach(function (entry) {
+                  let subsectionKey = entry[0];
+                  let subsection = entry[1];
+                  result = result.concat(getSectionLinks(subsectionKey, subsection));
+              });
+
+              return result.join('');
+          }
+
+          /**
+           * Convert title to variable name
+           *
+           * @param {string} title
+           * @returns {string}
+           */
+          function titleToVariableName(title) {
+              return title.trim().toLowerCase().replace(/\s/g, '-').replace(/[^a-z0-9_\-]/gi, '');
+          }
+
+          /**
+           * Simple string replacement function
+           *
+           * @example sprintf('<img src="%s" class="%s" />', 'a.png', 'beta') => <img src="a.png" class="beta" />
+           * @link https://github.com/zionsg/javascript/blob/master/sprintf/sprintf.js
+           * @param {string} format - Use "%s" as placeholder
+           * @param {...string} arguments - Add as many arguments as there are %s after the format
+           * @returns {string}
+           */
+          function sprintf(format) {
+              for (var i = 1; i < arguments.length; i++) {
+                  format = format.replace(/%s/, arguments[i]);
+              }
+
+              return format;
+          }
+
+          /**
+           * Read JSON file
+           *
+           * @param {string} file - Path to JSON file.
+           * @param (function(string): void) callback - Callback to receive contents of JSON file.
+           * @returns {void}
+           */
+          function readJsonFile(file, callback) {
+              let req = new XMLHttpRequest();
+              req.overrideMimeType('application/json');
+              req.open('GET', file, true);
+              req.onreadystatechange = function () {
+                  if (XMLHttpRequest.DONE === req.readyState && 200 === req.status) {
+                      let json = null;
+                      try {
+                          json = JSON.parse(req.responseText);
+                      } catch (e) {
+                          json = null;
+                      }
+
+                      callback(json);
+                  }
+              }
+
+              req.send(null);
+          }
+
+          /*
+           * Get value of query string param
+           *
+           * @param {string} paramName - Name of querystring param.
+           * @param {*} defaultValue - Value to use if param is not found.
+           * @returns {*} An array will be returned if the param has multiple values, e.g. "?a=1&a=2" returns [1, 2].
+           */
+          function getQueryParam(paramName, defaultValue) {
+              if (null === queryParams) { // parse just once
+                  queryParams = {};
+                  window.location.search.substr(1).split('&').forEach(function (item) {
+                      let pair = item.split('=');
+                      let key = pair[0];
+                      let value = pair[1] && decodeURIComponent(pair[1]); // null-coalescing/short-circuit
+
+                      // ignore empty params
+                      if (value !== '') {
+                          (queryParams[key] = queryParams[key] || []).push(value); // null-coalescing/short-circuit
+                      }
+                  });
+              }
+
+              let result = queryParams[paramName];
+              if (undefined === result) {
+                  return defaultValue;
+              }
+
+              // All the values are stored as arrays. If array only has 1 value, return that.
+              return (1 === result.length) ? result[0] : result;
+          }
+
+          // Run init
+          init();
+      })();
+    </script>
+  </body>
+</html>
