@@ -10,6 +10,18 @@
   },
   "copyright": "Copyright 1978 by the 福音自传会 Christian Nationals Evangelism Commission, Southeast Asia Headquarter",
   "sections": {
+    "Front Cover": {
+      "title": {
+        "cn": "封面"
+      },
+      "songList": [
+        [
+          "Doxology",
+          "The Lord Is In His Holy Temple",
+          "Glory Be To The Father"
+        ]
+      ]
+    },
     "Hymns of Worship": {
       "title": {
         "cn": "崇拜诗歌"
@@ -454,6 +466,19 @@
         [
           "463",
           "470"
+        ]
+      ]
+    },
+    "Back Cover": {
+      "title": {
+        "cn": "封底"
+      },
+      "songList": [
+        [
+          "The Lord Bless You And Keep You",
+          "Twofold Amen",
+          "Threefold Amen",
+          "May The Grace Of Christ Our Savior"
         ]
       ]
     }
