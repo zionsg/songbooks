@@ -2,9 +2,11 @@
 <html>
   <head>
     <!--
-        This webpage is meant to be run from a local/remote server due to reading of JSON file.
-        It takes in the following querystring param(s):
-        @param {string} data Path to JSON file for songbook.
+      /**
+       * This webpage is meant to be run from a local/remote server due to reading of JSON file.
+       * It takes in the following querystring param(s):
+       * @param {string} data - Path to JSON file for songbook.
+       */
     -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,6 +26,22 @@
         text-align: right;
       }
 
+      table {
+        border-spacing: 0;
+        border-collapse: separate;
+        width: 100%;
+      }
+      th, td {
+        border: 1px solid #ccc;
+        padding: 5px;
+      }
+      th {
+        background: #ddd;
+      }
+      td:not(:first-child) {
+        text-align: center;
+      }
+
       a {
         color: #0000ff;
         text-decoration: none;
@@ -31,6 +49,14 @@
       a:hover {
         color: #ff00ff;
         text-decoration: underline;
+      }
+      a[id] {
+        color: black;
+        text-decoration: none;
+      }
+      a[id]:hover {
+        color: black;
+        text-decoration: none;
       }
 
       .songbook-title {
@@ -49,8 +75,9 @@
      <!-- Empty elements to be filled in by JavaScript -->
     <h1 class="songbook-title"></h1>
 
-    <h3>Table of Contents</h3>
-    <nav class="section-links"></nav>
+    <h2>Table of Contents</h2>
+    <nav class="table-of-contents"></nav>
+    <main class="sections"></main>
 
     <footer></footer>
 
@@ -84,64 +111,185 @@
                   document.querySelector('.songbook-title').innerHTML = bookTitles.join('<br>');
                   document.querySelector('footer').innerHTML = data['copyright'] || '';
 
-                  // Section links
-                  let sections = data['sections'] || {};
-                  let sectionHtml = '';
+                  // Table of contents and sections
+                  let sections = data.sections || {};
+                  let tableOfContentsHtml = '';
+                  let sectionsHtml = '';
                   Object.entries(sections).forEach(function (entry) {
-                      let sectionKey = entry[0];
+                      let sectionJsonKey = entry[0];
                       let section = entry[1];
+                      let sectionResult = getSectionInfo(sectionJsonKey, section);
 
-                      sectionHtml += getSectionLinks(sectionKey, section);
+                      sectionResult.forEach(function (sectionInfo) {
+                          tableOfContentsHtml += sectionInfo.link;
+
+                          if (!isEmpty(sectionInfo.songs)) {
+                              sectionsHtml += sectionInfo.anchor + "\n<table>\n"
+                                  + '<tr><th>Name</th><th>Lyrics</th><th>Music</th>'
+                                  + '<th>Key/Time Signature</th><th>Notes</th></tr>';
+
+                              sectionInfo.songs.forEach(function (song) {
+                                  sectionsHtml += sprintf(
+                                      '<tr><td>%s%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>',
+                                      song.songPrefix ? song.songPrefix + ': ' : '',
+                                      song.name,
+                                      song.lyrics,
+                                      song.music,
+                                      song.signature,
+                                      song.notes
+                                  );
+                              });
+                          }
+                      });
                   });
-                  document.querySelector('.section-links').innerHTML = sectionHtml.trim();
+                  document.querySelector('.table-of-contents').innerHTML = tableOfContentsHtml.trim();
+                  document.querySelector('.sections').innerHTML = sectionsHtml.trim();
               });
           }
 
           /**
-           * Get section links, including subsections
+           * Get rendering for section info, including subsections
            *
-           * If a section has no songList key set, no link is generated for the section itself, but if it
-           * has subsections, links will be generated for those subsections (if they have songList key set).
+           * Subsections, if any, will be placed at the same level of the section itself.
+           *
+           * If a section has no songList key set, no info is generated for the section itself, but if it
+           * has subsections, info will be generated for those subsections (if they have songList key set).
            *
            * @param {string} key - JSON key for section. Used for English title if latter is not specified.
-           * @param {object} section - Section info.
+           * @param {object} section - JSON value for section.
+           * @returns {object[]} 1st element will the section itself, followed by 1 element for each subsection if any.
+           *     [
+           *       {
+           *         title: <combination of English and Chinese titles>,
+           *         anchor: <HTML for section header anchor>,
+           *         link: <HTML for section link as used in table of contents>,
+           *         songs: [<as per return result of getSongInfo9)>]
+           *       }
+           *     ]
+           */
+          function getSectionInfo(key, section) {
+              let result = [];
+              let sectionInfo = {
+                  title: '',
+                  anchor: '',
+                  link: '',
+                  songs: []
+              };
+
+              // Skip comments
+              if (COMMENTS === key) {
+                  return result;
+              }
+
+              // Only generate info for current section and add to result if its songList key is set
+              let songList = section.songList || [];
+              if (!isEmpty(songList)) {
+                  let sectionTitle = resolveTitle(key, section.title);
+                  let sectionVarName = titleToVariableName(sectionTitle);
+                  let songs = (data && data.songs) || {};
+
+                  // Song ranges
+                  let songRanges = [];
+                  songList.forEach(function (songRange) {
+                      // For textual representation
+                      songRanges.push(
+                          (2 === songRange.length) ? songRange[0] + ' - ' + songRange[1] : songRange.join(', ')
+                      );
+
+                      // Collate songs
+                      if (2 === songRange.length) { // convert ["1", "3"] to ["1", "2", "3"]
+                          let start = parseInt(songRange[0]);
+                          let end = parseInt(songRange[1]);
+                          songRange = new Array(end - start + 1).fill().map((val, index) => (index + start + ''));
+                      }
+                      songRange.forEach(function (songJsonKey) {
+                          let song = (songs && songs[songJsonKey]) || null;
+                          if (!song) {
+                              return;
+                          }
+
+                          sectionInfo.songs.push(getSongInfo(songJsonKey, song));
+                      });
+                  });
+
+                  sectionInfo.title = sectionTitle;
+                  sectionInfo.anchor = sprintf(
+                      '<h3><a id="%s">%s</a></h3>',
+                      sectionVarName,
+                      sectionTitle
+                  );
+                  sectionInfo.link = sprintf(
+                      '<div class="section-link">[<a href="#%s">%s %s</a>]</div>',
+                      sectionVarName,
+                      sectionTitle,
+                      songRanges.join(', ')
+                  );
+
+                  result.push(sectionInfo);
+              }
+
+              // Iterate thru subsections
+              let subsections = section.subsections || {};
+              Object.entries(subsections).forEach(function (entry) {
+                  let subsectionJsonKey = entry[0];
+                  let subsection = entry[1];
+                  let subsectionResult = getSectionInfo(subsectionJsonKey, subsection);
+
+                  if (!isEmpty(subsectionResult)) {
+                      result = result.concat(subsectionResult);
+                  }
+              });
+
+              return result;
+          }
+
+          /**
+           * Get rendering for song info
+           *
+           * @param {string} key - JSON key for song. Used for English title if latter is not specified.
+           * @param {object} song - JSON value for song.
+           * @returns {object}
+           *     {
+           *       songPrefix: <bookPrefix + song number>
+           *       name: <HTML for Name column>
+           *       lyrics: <HTML for Lyrics column>
+           *       music: <HTML for Music column>
+           *       signature: <HTML for Key/Time Signature column>
+           *       notes: <HTML for Notes column>
+           *     }
+           */
+          function getSongInfo(key, song) {
+              let bookPrefix = data.bookPrefix || '';
+              let songPrefix = (null === key.match(/^\d+$/)) ? '' : (bookPrefix + key.padStart(3, '0'));
+              let lyrics = song.lyrics || {};
+              let music = song.music || {};
+              let tune = music.tune || '';
+              let notes = song.notes || [];
+
+              return {
+                  songPrefix: songPrefix,
+                  name: resolveTitle(key, song.title),
+                  lyrics: (lyrics.authors || []).join(', '),
+                  music: (tune ? tune.toUpperCase() + '<br>' : '') + (music.composers || []).join(', '),
+                  signature: (music.keySignature || []).join(', ') + '<br>' + (music.timeSignature || []).join(', '),
+                  notes: notes.join('<br>')
+              };
+          }
+
+          /**
+           * Resolve title for section/song, combining all language versions
+           *
+           * @param {string} jsonKey - JSON key for section/song. This is used for the English title if latter not set.
+           * @param {object} titles - Value for "titles" key in section/song, e.g. { "en":"A", "cn":"甲" }.
            * @returns {string}
            */
-          function getSectionLinks(key, section) {
-              let result = [];
-              if (COMMENTS === key) {
-                  return '';
-              }
+          function resolveTitle(jsonKey, titles) {
+              titles = titles || {};
 
-              let sectionTitles = section['title'];
-              let sectionName = sectionTitles[LANG_EN] || key || '';
+              let titleEn = titles[LANG_EN] || jsonKey || '';
+              let titleCn = titles[LANG_CN] || '';
 
-              let songList = section['songList'] || [];
-              let songArray = [];
-              songList.forEach(function (songRange) {
-                  songArray.push(
-                      (2 === songRange.length) ? songRange[0] + ' - ' + songRange[1] : songRange.join(', ')
-                  );
-              });
-
-              if (songArray.length > 0) {
-                  result.push(sprintf(
-                      '<div class="section-link">[<a href="#%s">%s %s %s</a>]</div>',
-                      titleToVariableName(sectionName),
-                      sectionName,
-                      sectionTitles[LANG_CN] || '',
-                      songArray.join(', ')
-                  ));
-              }
-
-              let subsections = section['subsections'] || {};
-              Object.entries(subsections).forEach(function (entry) {
-                  let subsectionKey = entry[0];
-                  let subsection = entry[1];
-                  result = result.concat(getSectionLinks(subsectionKey, subsection));
-              });
-
-              return result.join('');
+              return titleEn + (titleCn ? ' ' + titleCn : '');
           }
 
           /**
@@ -151,7 +299,7 @@
            * @returns {string}
            */
           function titleToVariableName(title) {
-              return title.trim().toLowerCase().replace(/\s/g, '-').replace(/[^a-z0-9_\-]/gi, '');
+              return (title || '').toLowerCase().replace(/[^a-z0-9_\-\s]/gi, '').trim().replace(/\s/g, '-');
           }
 
           /**
@@ -159,16 +307,38 @@
            *
            * @example sprintf('<img src="%s" class="%s" />', 'a.png', 'beta') => <img src="a.png" class="beta" />
            * @link https://github.com/zionsg/javascript/blob/master/sprintf/sprintf.js
-           * @param {string} format - Use "%s" as placeholder
-           * @param {...string} arguments - Add as many arguments as there are %s after the format
+           * @param {string} format - Use "%s" as placeholder.
+           * @param {...string} arguments - Add as many arguments as there are %s after the format.
            * @returns {string}
            */
           function sprintf(format) {
+              format = format || '';
+
               for (var i = 1; i < arguments.length; i++) {
                   format = format.replace(/%s/, arguments[i]);
               }
 
               return format;
+          }
+
+
+          /**
+           * Check if value is empty
+           *
+           * @param {mixed} value
+           * @returns {boolean}
+           */
+          function isEmpty(value) {
+              // (null == value) checks for both (null === value) and (undefined === value)
+              // ('null' === x) is to cater for null in JSON cast to "null"
+              if (!value || null == value || 'null' === value) {
+                  return true;
+              }
+
+              // [] is not considered empty, hence must check length
+              if (value instanceof Array) {
+                  return (0 === value.length);
+              }
           }
 
           /**
