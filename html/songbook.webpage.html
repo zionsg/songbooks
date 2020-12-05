@@ -86,16 +86,33 @@
 
     <script src="js/utils.js"></script>
     <script>
+      // No support for Internet Explorer
       (function () {
+          /**
+           * Constants
+           *
+           * @private
+           * @type {string}
+           */
           const COMMENTS = '//';
           const LANG_EN = 'en';
           const LANG_CN = 'cn';
+          const LANGUAGES = [LANG_EN, LANG_CN];
+          const CSS_CLASS_LYRICS_LINK = 'lyrics-link';
+          const ATTR_SONG_KEY = 'data-song-key';
 
+          /**
+           * Parsed songbook info
+           *
+           * @private
+           * @type {object}
+           */
           let data = null;
 
           /**
-           * Initialization
+           * Initialization - function will be run at the end of this module
            *
+           * @private
            * @returns {void}
            */
           function init() {
@@ -147,6 +164,13 @@
                   });
                   document.querySelector('.table-of-contents').innerHTML = tableOfContentsHtml.trim();
                   document.querySelector('.sections').innerHTML = sectionsHtml.trim();
+
+                  // Add click handlers
+                  Array.from(document.querySelectorAll('.' + CSS_CLASS_LYRICS_LINK)).forEach(function (link) {
+                      link.addEventListener('click', function (event) {
+                          showLyrics(link.getAttribute(ATTR_SONG_KEY));
+                      });
+                  });
               });
           }
 
@@ -158,6 +182,7 @@
            * If a section has no songList key set, no info is generated for the section itself, but if it
            * has subsections, info will be generated for those subsections (if they have songList key set).
            *
+           * @private
            * @param {string} key - JSON key for section. Used for English title if latter is not specified.
            * @param {object} section - JSON value for section.
            * @returns {object[]} 1st element will the section itself, followed by 1 element for each subsection if any.
@@ -249,6 +274,7 @@
           /**
            * Get rendering for song info
            *
+           * @private
            * @param {string} key - JSON key for song. Used for English title if latter is not specified.
            * @param {object} song - JSON value for song.
            * @returns {object}
@@ -262,17 +288,26 @@
            *     }
            */
           function getSongInfo(key, song) {
-              let bookPrefix = data.bookPrefix || '';
-              let songPrefix = (null === key.match(/^\d+$/)) ? '' : (bookPrefix + key.padStart(3, '0'));
+              let songPrefix = getSongPrefix(key);
               let lyrics = song.lyrics || {};
               let music = song.music || {};
               let tune = music.tune || '';
               let notes = song.notes || [];
 
+              let lyricsHtml = (lyrics.authors || []).join(', ');
+              if (getLanguageLyrics(key)) { // check if any lyrics at all
+                  lyricsHtml += utils.sprintf(
+                    '<br><a href="#" class="%s" %s="%s">lyrics</a>',
+                    CSS_CLASS_LYRICS_LINK,
+                    ATTR_SONG_KEY,
+                    key
+                  );
+              }
+
               return {
                   songPrefix: songPrefix,
                   name: resolveTitle(key, song.title),
-                  lyrics: (lyrics.authors || []).join(', '),
+                  lyrics: lyricsHtml,
                   music: (tune ? tune.toUpperCase() + '<br>' : '') + (music.composers || []).join(', '),
                   signature: (music.keySignature || []).join(', ') + '<br>' + (music.timeSignature || []).join(', '),
                   notes: notes.join('<br>')
@@ -282,6 +317,7 @@
           /**
            * Resolve title for section/song, combining all language versions
            *
+           * @private
            * @param {string} jsonKey - JSON key for section/song. This is used for the English title if latter not set.
            * @param {object} titles - Value for "titles" key in section/song, e.g. { "en":"A", "cn":"甲" }.
            * @returns {string}
@@ -293,6 +329,99 @@
               let titleCn = titles[LANG_CN] || '';
 
               return titleEn + (titleCn ? ' ' + titleCn : '');
+          }
+
+          /**
+           * Get song prefix
+           *
+           * @example Given book prefix "ABC", key "31" returns "ABC031", key "test" returns "".
+           * @param {string} key - JSON key for song.
+           * @returns {string}
+           */
+          function getSongPrefix(key) {
+              let bookPrefix = data.bookPrefix || '';
+              let songPrefix = (null === key.match(/^\d+$/)) ? '' : (bookPrefix + key.padStart(3, '0'));
+
+              return songPrefix;
+          }
+
+          /**
+           * Get transcribed language lyrics for a song
+           *
+           * @param {string} key - JSON key for song.
+           * @returns {(null|object)} Indexed by languages. Other lyrics info like authors are omitted.
+           */
+          function getLanguageLyrics(key) {
+              let song = (data && data.songs && data.songs[key]) || null;
+              let lyrics = (song && song.lyrics) || null;
+              if (!lyrics) {
+                  return null;
+              }
+
+              let result = {};
+              LANGUAGES.forEach(function (lang) {
+                  if (lyrics[lang]) {
+                      result[lang] = lyrics[lang];
+                  }
+              });
+
+              return utils.isEmpty(result) ? null : result;
+          }
+
+          /**
+           * Show lyrics for a song
+           *
+           * @private
+           * @param {string} key - JSON key for song.
+           * @returns {void}
+           */
+          function showLyrics(key) {
+              let lyrics = getLanguageLyrics(key);
+              if (!lyrics) {
+                  return;
+              }
+
+              let songPrefix = getSongPrefix(key);
+              songPrefix += songPrefix ? ': ' : '';
+
+              // Note that lyrics open in a new child window and has no access to the CSS in parent window
+              let titles = (data && data.songs && data.songs[key] && data.songs[key].title) || null;
+              let lyricsHtml = utils.sprintf(
+                  '<title>%s%s</title>' + "\n",
+                  songPrefix,
+                  resolveTitle(key, titles)
+              );
+              LANGUAGES.forEach(function (lang) {
+                  let langLyrics = lyrics[lang];
+                  if (!langLyrics) {
+                      return; // continue
+                  }
+
+                  lyricsHtml += utils.sprintf(
+                      '<div><b>%s%s</b></div><br>',
+                      songPrefix,
+                      (titles[lang] || '').toUpperCase()
+                  );
+
+                  Object.entries(langLyrics).forEach(function (entry) {
+                      let stanzaJsonKey = entry[0];
+                      let stanza = entry[1];
+
+                      lyricsHtml += utils.sprintf(
+                          '<div><i>%s</i></div>' + "\n" + '<div>%s</div>' + "\n<br>",
+                          Number.isInteger(parseInt(stanzaJsonKey))
+                              ? 'Stanza ' + stanzaJsonKey
+                              : utils.capitalizeFirstLetter(stanzaJsonKey),
+                          stanza.join('<br>')
+                      );
+                  });
+
+                  lyricsHtml += '<br>';
+              });
+
+              let childWindow = window.open('about:blank'); // need "about:blank" else new window cannot zoom in Chrome
+              childWindow.document.write(lyricsHtml);
+              childWindow.document.close();
           }
 
           // Run init

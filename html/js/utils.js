@@ -11,7 +11,7 @@ const utils = (function () {
      * @public This is considered public as it will be returned as the public interface at the end.
      * @type {object}
      */
-    let self = {};
+    const self = {};
 
     /**
      * Parsed query params
@@ -20,6 +20,17 @@ const utils = (function () {
      * @type {object} Key-value pairs.
      */
     let queryParams = null;
+
+    /**
+     * Capitalize first letter
+     *
+     * @private
+     * @param {string} text
+     * @returns {string}
+     */
+    self.capitalizeFirstLetter = function (text) {
+        return (text[0].toUpperCase() + text.slice(1));
+    };
 
     /*
      * Get value of query string param
@@ -69,11 +80,18 @@ const utils = (function () {
             return true;
         }
 
-        // [] is not considered empty, hence must check length
+        // [] not considered empty, hence check length. Note that arrays are specialized objects.
         if (value instanceof Array) {
             return (0 === value.length);
         }
-    }
+
+        // {} not considered empty, hence check number of keys
+        if (value instanceof Object) {
+            return (0 === Object.keys(value).length);
+        }
+
+        return false; // considered non-empty if cannot resolve
+    };
 
     /**
      * Read JSON file
@@ -104,7 +122,7 @@ const utils = (function () {
         }
 
         req.send(null);
-    }
+    };
 
     /**
      * Simple string replacement function
