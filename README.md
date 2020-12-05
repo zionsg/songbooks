@@ -5,6 +5,10 @@ Transcription of song books in JSON.
 The purpose of this project is to store a digital copy of the songbooks, separate data from presentation
 and facilitate generation of webpages/slides.
 
+Think of it as Mail Merge in Microsoft Word using a Word template with recipients from an Excel spreadsheet - if there
+are any changes, just change these 2 files and run Mail Merge again, instead of changing 1000 manually typed out
+Word documents.
+
 ## Schema
 - See `schema/songbook.schema.json`, which is based on [JSON Schema](https://json-schema.org/).
 - Sample songbook document: `data/songbook.example.json`.
