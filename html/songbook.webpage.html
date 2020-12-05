@@ -4,8 +4,11 @@
     <!--
       /**
        * This webpage is meant to be run from a local/remote server due to reading of JSON file.
+       *
        * It takes in the following querystring param(s):
-       * @param {string} data - Path to JSON file for songbook.
+       *   @param {string} data - Path to JSON file for songbook.
+       *
+       * @link https://github.com/zionsg/songbooks/blob/master/html/songbook.webpage.html
        */
     -->
     <meta charset="utf-8">
@@ -81,13 +84,13 @@
 
     <footer></footer>
 
+    <script src="js/utils.js"></script>
     <script>
       (function () {
           const COMMENTS = '//';
           const LANG_EN = 'en';
           const LANG_CN = 'cn';
 
-          let queryParams = null;
           let data = null;
 
           /**
@@ -96,12 +99,12 @@
            * @returns {void}
            */
           function init() {
-              let dataFile = getQueryParam('data', '');
+              let dataFile = utils.getQueryParam('data', '');
               if (!dataFile) {
                   return;
               }
 
-              readJsonFile(dataFile, function (json) {
+              utils.readJsonFile(dataFile, function (json) {
                   // Save contents of JSON file
                   data = json;
 
@@ -123,13 +126,13 @@
                       sectionResult.forEach(function (sectionInfo) {
                           tableOfContentsHtml += sectionInfo.link;
 
-                          if (!isEmpty(sectionInfo.songs)) {
+                          if (!utils.isEmpty(sectionInfo.songs)) {
                               sectionsHtml += sectionInfo.anchor + "\n<table>\n"
                                   + '<tr><th>Name</th><th>Lyrics</th><th>Music</th>'
                                   + '<th>Key/Time Signature</th><th>Notes</th></tr>';
 
                               sectionInfo.songs.forEach(function (song) {
-                                  sectionsHtml += sprintf(
+                                  sectionsHtml += utils.sprintf(
                                       '<tr><td>%s%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>',
                                       song.songPrefix ? song.songPrefix + ': ' : '',
                                       song.name,
@@ -183,9 +186,9 @@
 
               // Only generate info for current section and add to result if its songList key is set
               let songList = section.songList || [];
-              if (!isEmpty(songList)) {
+              if (!utils.isEmpty(songList)) {
                   let sectionTitle = resolveTitle(key, section.title);
-                  let sectionVarName = titleToVariableName(sectionTitle);
+                  let sectionVarName = utils.textToVariableName(sectionTitle);
                   let songs = (data && data.songs) || {};
 
                   // Song ranges
@@ -213,12 +216,12 @@
                   });
 
                   sectionInfo.title = sectionTitle;
-                  sectionInfo.anchor = sprintf(
+                  sectionInfo.anchor = utils.sprintf(
                       '<h3><a id="%s">%s</a></h3>',
                       sectionVarName,
                       sectionTitle
                   );
-                  sectionInfo.link = sprintf(
+                  sectionInfo.link = utils.sprintf(
                       '<div class="section-link">[<a href="#%s">%s %s</a>]</div>',
                       sectionVarName,
                       sectionTitle,
@@ -235,7 +238,7 @@
                   let subsection = entry[1];
                   let subsectionResult = getSectionInfo(subsectionJsonKey, subsection);
 
-                  if (!isEmpty(subsectionResult)) {
+                  if (!utils.isEmpty(subsectionResult)) {
                       result = result.concat(subsectionResult);
                   }
               });
@@ -290,113 +293,6 @@
               let titleCn = titles[LANG_CN] || '';
 
               return titleEn + (titleCn ? ' ' + titleCn : '');
-          }
-
-          /**
-           * Convert title to variable name
-           *
-           * @param {string} title
-           * @returns {string}
-           */
-          function titleToVariableName(title) {
-              return (title || '').toLowerCase().replace(/[^a-z0-9_\-\s]/gi, '').trim().replace(/\s/g, '-');
-          }
-
-          /**
-           * Simple string replacement function
-           *
-           * @example sprintf('<img src="%s" class="%s" />', 'a.png', 'beta') => <img src="a.png" class="beta" />
-           * @link https://github.com/zionsg/javascript/blob/master/sprintf/sprintf.js
-           * @param {string} format - Use "%s" as placeholder.
-           * @param {...string} arguments - Add as many arguments as there are %s after the format.
-           * @returns {string}
-           */
-          function sprintf(format) {
-              format = format || '';
-
-              for (var i = 1; i < arguments.length; i++) {
-                  format = format.replace(/%s/, arguments[i]);
-              }
-
-              return format;
-          }
-
-
-          /**
-           * Check if value is empty
-           *
-           * @param {mixed} value
-           * @returns {boolean}
-           */
-          function isEmpty(value) {
-              // (null == value) checks for both (null === value) and (undefined === value)
-              // ('null' === x) is to cater for null in JSON cast to "null"
-              if (!value || null == value || 'null' === value) {
-                  return true;
-              }
-
-              // [] is not considered empty, hence must check length
-              if (value instanceof Array) {
-                  return (0 === value.length);
-              }
-          }
-
-          /**
-           * Read JSON file
-           *
-           * @param {string} file - Path to JSON file.
-           * @param (function(string): void) callback - Callback to receive contents of JSON file.
-           * @returns {void}
-           */
-          function readJsonFile(file, callback) {
-              let req = new XMLHttpRequest();
-              req.overrideMimeType('application/json');
-              req.open('GET', file, true);
-              req.onreadystatechange = function () {
-                  if (XMLHttpRequest.DONE === req.readyState && 200 === req.status) {
-                      let json = null;
-                      try {
-                          json = JSON.parse(req.responseText);
-                      } catch (e) {
-                          json = null;
-                      }
-
-                      callback(json);
-                  }
-              }
-
-              req.send(null);
-          }
-
-          /*
-           * Get value of query string param
-           *
-           * @param {string} paramName - Name of querystring param.
-           * @param {*} defaultValue - Value to use if param is not found.
-           * @returns {*} An array will be returned if the param has multiple values, e.g. "?a=1&a=2" returns [1, 2].
-           */
-          function getQueryParam(paramName, defaultValue) {
-              if (null === queryParams) { // parse just once
-                  queryParams = {};
-                  window.location.search.substr(1).split('&').forEach(function (item) {
-                      let pair = item.split('=');
-                      let key = pair[0];
-                      let value = pair[1] && decodeURIComponent(pair[1]); // null-coalescing/short-circuit
-
-                      // ignore empty params
-                      if (value !== '') {
-                          (queryParams[key] = queryParams[key] || []).push(value); // null-coalescing/short-circuit
-                      }
-                  });
-              }
-
-              let result = queryParams[paramName];
-              if (undefined === result) {
-                  return defaultValue;
-              }
-
-              // All the values are stored as arrays. If array only has 1 value, return that.
-              return (1 === result.length) ? result[0] : result;
           }
 
           // Run init
