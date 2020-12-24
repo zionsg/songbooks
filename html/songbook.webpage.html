@@ -51,10 +51,6 @@
            * @private
            * @type {string}
            */
-          const COMMENTS = '//';
-          const LANG_EN = 'en';
-          const LANG_CN = 'cn';
-          const LANGUAGES = [LANG_EN, LANG_CN];
           const CSS_CLASS_LYRICS_LINK = 'lyrics-link';
           const ATTR_SONG_KEY = 'data-song-key';
 
@@ -162,7 +158,7 @@
               };
 
               // Skip comments
-              if (COMMENTS === key) {
+              if (utils.COMMENTS === key) {
                   return result;
               }
 
@@ -282,8 +278,8 @@
           function resolveTitle(jsonKey, titles) {
               titles = titles || {};
 
-              let titleEn = titles[LANG_EN] || jsonKey || '';
-              let titleCn = titles[LANG_CN] || '';
+              let titleEn = titles[utils.LANG_EN] || jsonKey || '';
+              let titleCn = titles[utils.LANG_CN] || '';
 
               return titleEn + (titleCn ? ' ' + titleCn : '');
           }
@@ -316,7 +312,7 @@
               }
 
               let result = {};
-              LANGUAGES.forEach(function (lang) {
+              utils.LANGUAGES.forEach(function (lang) {
                   if (lyrics[lang]) {
                       result[lang] = lyrics[lang];
                   }
@@ -348,7 +344,7 @@
                   songPrefix,
                   resolveTitle(key, titles)
               );
-              LANGUAGES.forEach(function (lang) {
+              utils.LANGUAGES.forEach(function (lang) {
                   let langLyrics = lyrics[lang];
                   if (!langLyrics) {
                       return; // continue

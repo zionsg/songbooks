@@ -11,7 +11,13 @@ const utils = (function () {
      * @public This is considered public as it will be returned as the public interface at the end.
      * @type {object}
      */
-    const self = {};
+    const self = {
+        // Common constants enumerated here, names to be all in caps, listed alphabetically
+        COMMENTS: '//',
+        LANG_EN: 'en',
+        LANG_CN: 'cn',
+        LANGUAGES: ['en', 'cn'],
+    };
 
     /**
      * Parsed query params
