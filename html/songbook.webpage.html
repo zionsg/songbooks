@@ -165,7 +165,7 @@
               // Only generate info for current section and add to result if its songList key is set
               let songList = section.songList || [];
               if (!utils.isEmpty(songList)) {
-                  let sectionTitle = resolveTitle(key, section.title);
+                  let sectionTitle = utils.resolveTitle(key, section.title);
                   let sectionVarName = utils.textToVariableName(sectionTitle);
                   let songs = (data && data.songs) || {};
 
@@ -241,14 +241,14 @@
            *     }
            */
           function getSongInfo(key, song) {
-              let songPrefix = getSongPrefix(key);
+              let songPrefix = utils.getSongPrefix(key, data);
               let lyrics = song.lyrics || {};
               let music = song.music || {};
               let tune = music.tune || '';
               let notes = song.notes || [];
 
               let lyricsHtml = (lyrics.authors || []).join(', ');
-              if (getLanguageLyrics(key)) { // check if any lyrics at all
+              if (utils.getLanguageLyrics(key, data)) { // check if any lyrics at all
                   lyricsHtml += utils.sprintf(
                     '<br><a href="#" class="%s" %s="%s">lyrics</a>',
                     CSS_CLASS_LYRICS_LINK,
@@ -259,66 +259,12 @@
 
               return {
                   songPrefix: songPrefix,
-                  name: resolveTitle(key, song.title),
+                  name: utils.resolveTitle(key, song.title),
                   lyrics: lyricsHtml,
                   music: (tune ? tune.toUpperCase() + '<br>' : '') + (music.composers || []).join(', '),
                   signature: (music.keySignature || []).join(', ') + '<br>' + (music.timeSignature || []).join(', '),
                   notes: notes.join('<br>')
               };
-          }
-
-          /**
-           * Resolve title for section/song, combining all language versions
-           *
-           * @private
-           * @param {string} jsonKey - JSON key for section/song. This is used for the English title if latter not set.
-           * @param {object} titles - Value for "titles" key in section/song, e.g. { "en":"A", "cn":"甲" }.
-           * @returns {string}
-           */
-          function resolveTitle(jsonKey, titles) {
-              titles = titles || {};
-
-              let titleEn = titles[utils.LANG_EN] || jsonKey || '';
-              let titleCn = titles[utils.LANG_CN] || '';
-
-              return titleEn + (titleCn ? ' ' + titleCn : '');
-          }
-
-          /**
-           * Get song prefix
-           *
-           * @example Given book prefix "ABC", key "31" returns "ABC031", key "test" returns "".
-           * @param {string} key - JSON key for song.
-           * @returns {string}
-           */
-          function getSongPrefix(key) {
-              let bookPrefix = data.bookPrefix || '';
-              let songPrefix = (null === key.match(/^\d+$/)) ? '' : (bookPrefix + key.padStart(3, '0'));
-
-              return songPrefix;
-          }
-
-          /**
-           * Get transcribed language lyrics for a song
-           *
-           * @param {string} key - JSON key for song.
-           * @returns {(null|object)} Indexed by languages. Other lyrics info like authors are omitted.
-           */
-          function getLanguageLyrics(key) {
-              let song = (data && data.songs && data.songs[key]) || null;
-              let lyrics = (song && song.lyrics) || null;
-              if (!lyrics) {
-                  return null;
-              }
-
-              let result = {};
-              utils.LANGUAGES.forEach(function (lang) {
-                  if (lyrics[lang]) {
-                      result[lang] = lyrics[lang];
-                  }
-              });
-
-              return utils.isEmpty(result) ? null : result;
           }
 
           /**
@@ -329,12 +275,12 @@
            * @returns {void}
            */
           function showLyrics(key) {
-              let lyrics = getLanguageLyrics(key);
+              let lyrics = utils.getLanguageLyrics(key, data);
               if (!lyrics) {
                   return;
               }
 
-              let songPrefix = getSongPrefix(key);
+              let songPrefix = utils.getSongPrefix(key, data);
               songPrefix += songPrefix ? ': ' : '';
 
               // Note that lyrics open in a new child window and has no access to the CSS in parent window
@@ -342,7 +288,7 @@
               let lyricsHtml = utils.sprintf(
                   '<title>%s%s</title>' + "\n",
                   songPrefix,
-                  resolveTitle(key, titles)
+                  utils.resolveTitle(key, titles)
               );
               utils.LANGUAGES.forEach(function (lang) {
                   let langLyrics = lyrics[lang];

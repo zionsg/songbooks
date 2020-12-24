@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+      /**
+       * This webpage shows the lyrics for a song using slides done up with Reveal.js.
+       *
+       * This webpage is meant to be run from a local/remote server due to reading of JSON file.
+       *
+       * It takes in the following querystring param(s):
+       *   @param {string} data - Path to JSON file for songbook.
+       *   @param {string} song - JSON key for song in songbook, e.g. "31", "Doxology".
+       *   @param {lang} lang - Language for lyrics, e.g. "en", "cn".
+       *
+       * @link https://github.com/zionsg/songbooks/blob/master/html/song.slides.html
+       */
+    -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title> <!-- to be filled in by JavaScript -->
+
+    <link rel="stylesheet" href="reveal/reveal.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+  </head>
+
+  <body>
+    <script src="reveal/reveal.js"></script>
+    <script src="js/utils.js"></script>
+    <script>
+      // No support for Internet Explorer
+      (function () {
+          /**
+           * Parsed songbook info
+           *
+           * @private
+           * @type {object}
+           */
+          let data = null;
+
+          /**
+           * Initialization - function will be run at the end of this module
+           *
+           * @private
+           * @returns {void}
+           */
+          function init() {
+              // Parse query params
+              let dataFile = utils.getQueryParam('data', '');
+              let songJsonKey = utils.getQueryParam('song', '');
+              let language = utils.getQueryParam('lang', utils.LANG_EN);
+              if (!dataFile || !songJsonKey) {
+                  return;
+              }
+
+              utils.readJsonFile(dataFile, function (json) {
+                  // Save contents of JSON file
+                  data = json;
+
+                  // Retrieve song
+                  let song = (data && data.songs && data.songs[songJsonKey]) || null;
+                  if (!song) {
+                      return;
+                  }
+              });
+          }
+
+          // Run init
+          init();
+      })();
+    </script>
+  </body>
+</html>

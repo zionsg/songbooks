@@ -30,12 +30,37 @@ const utils = (function () {
     /**
      * Capitalize first letter
      *
-     * @private
+     * @public
      * @param {string} text
      * @returns {string}
      */
     self.capitalizeFirstLetter = function (text) {
         return (text[0].toUpperCase() + text.slice(1));
+    };
+
+    /**
+     * Get transcribed language lyrics for a song
+     *
+     * @public
+     * @param {string} key - JSON key for song.
+     * @param {object} data - Songbook data.
+     * @returns {(null|object)} Indexed by languages. Other lyrics info like authors are omitted.
+     */
+    self.getLanguageLyrics = function (key, data) {
+        let song = (data && data.songs && data.songs[key]) || null;
+        let lyrics = (song && song.lyrics) || null;
+        if (!lyrics) {
+            return null;
+        }
+
+        let result = {};
+        utils.LANGUAGES.forEach(function (lang) {
+            if (lyrics[lang]) {
+                result[lang] = lyrics[lang];
+            }
+        });
+
+        return utils.isEmpty(result) ? null : result;
     };
 
     /*
@@ -69,6 +94,22 @@ const utils = (function () {
 
         // All the values are stored as arrays. If array only has 1 value, return that.
         return (1 === result.length) ? result[0] : result;
+    };
+
+    /**
+     * Get song prefix
+     *
+     * @public
+     * @example Given book prefix "ABC", key "31" returns "ABC031", key "test" returns "".
+     * @param {string} key - JSON key for song.
+     * @param {object} data - Songbook data.
+     * @returns {string}
+     */
+    self.getSongPrefix = function (key, data) {
+        let bookPrefix = data.bookPrefix || '';
+        let songPrefix = (null === key.match(/^\d+$/)) ? '' : (bookPrefix + key.padStart(3, '0'));
+
+        return songPrefix;
     };
 
     /**
@@ -128,6 +169,23 @@ const utils = (function () {
         }
 
         req.send(null);
+    };
+
+    /**
+     * Resolve title for section/song, combining all language versions
+     *
+     * @public
+     * @param {string} jsonKey - JSON key for section/song. This is used for the English title if latter not set.
+     * @param {object} titles - Value for "titles" key in section/song, e.g. { "en":"A", "cn":"甲" }.
+     * @returns {string}
+     */
+    self.resolveTitle = function (jsonKey, titles) {
+        titles = titles || {};
+
+        let titleEn = titles[utils.LANG_EN] || jsonKey || '';
+        let titleCn = titles[utils.LANG_CN] || '';
+
+        return titleEn + (titleCn ? ' ' + titleCn : '');
     };
 
     /**
