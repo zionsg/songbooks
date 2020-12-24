@@ -1,5 +1,9 @@
 html,
 body {
+  /*
+  On why the English fonts are before the Chinese fonts, see:
+  http://kendraschaefer.com/2012/06/chinese-standard-web-fonts-the-ultimate-guide-to-css-font-family-declarations-for-web-design-in-simplified-chinese
+  */
   background-color: lightyellow;
   font-family: Helvetica, Arial, SimHei, "黑体", sans-serif;
   font-size: 16px;
