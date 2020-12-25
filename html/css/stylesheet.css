@@ -23,6 +23,7 @@ table {
 th, td {
   border: 1px solid #ccc;
   padding: 5px;
+  vertical-align: top;
 }
 th {
   background: #ddd;

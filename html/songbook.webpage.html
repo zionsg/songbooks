@@ -247,12 +247,26 @@
                 let notes = song.notes || [];
 
                 let lyricsHtml = (lyrics.authors || []).join(', ');
-                if (utils.getLanguageLyrics(data, key)) { // check if any lyrics at all
+                let langLyrics = utils.getLanguageLyrics(data, key);
+                if (langLyrics) { // check if any lyrics at all
+                    let slidesHtml = '';
+                    let dataParam = utils.getQueryParam('data', '');
+                    Object.keys(langLyrics).forEach(function (lang) {
+                        slidesHtml += utils.sprintf(
+                            ' <a target="_blank" href="song.slides.html?data=%s&song=%s&lang=%s">%s</a>',
+                            dataParam,
+                            key,
+                            lang,
+                            lang
+                        );
+                    });
+
                     lyricsHtml += utils.sprintf(
-                      '<br><a href="#" class="%s" %s="%s">lyrics</a>',
+                      '<br><a href="#" class="%s" %s="%s">lyrics</a><br>slides:%s',
                       CSS_CLASS_LYRICS_LINK,
                       ATTR_SONG_KEY,
-                      key
+                      key,
+                      slidesHtml
                     );
                 }
 

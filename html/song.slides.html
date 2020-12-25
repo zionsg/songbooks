@@ -95,7 +95,7 @@
                     }
 
                     // Update title and add 1st slide
-                    document.title = songPrefix + ': ' + songTitle;
+                    document.title = songPrefix + ': ' + songTitle.replace(/<br>/g, ' ');
                     addSlide(utils.sprintf(
                         '<h1>%s<br><br>%s</h1>',
                         songPrefix,
