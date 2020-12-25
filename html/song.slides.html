@@ -30,6 +30,13 @@
         font-family: Helvetica, Arial, SimHei, "黑体", sans-serif;
         font-size: 42px; /* comfortable size when viewed from 10 metres away */
       }
+
+      .stanza-heading {
+        font-size: 0.6em;
+        font-style: italic;
+        margin-bottom: 0.5em;
+        text-align: right;
+      }
     </style>
   </head>
 
@@ -101,6 +108,20 @@
                         songPrefix,
                         songTitle
                     ));
+
+                    // Add a slide for each stanza
+                    let allLyrics = utils.getLanguageLyrics(data, songJsonKey);
+                    let lyrics = allLyrics[language] || {};
+                    Object.keys(lyrics).forEach(function (stanzaJsonKey) {
+                        let isChorus = utils.isChorus(stanzaJsonKey);
+                        addSlide(utils.sprintf(
+                            '<div class="stanza-heading">%s</div>%s',
+                            isChorus
+                                ? utils.capitalizeFirstLetter(stanzaJsonKey)
+                                : 'Stanza ' + stanzaJsonKey,
+                            lyrics[stanzaJsonKey].join('<br>')
+                        ));
+                    });
 
                     // Init Reveal.js only after all the slides have been added
                     Reveal.initialize({
