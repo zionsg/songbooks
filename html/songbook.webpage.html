@@ -165,7 +165,7 @@
               // Only generate info for current section and add to result if its songList key is set
               let songList = section.songList || [];
               if (!utils.isEmpty(songList)) {
-                  let sectionTitle = utils.resolveTitle(key, section.title);
+                  let sectionTitle = utils.getCombinedTitle(key, section.title);
                   let sectionVarName = utils.textToVariableName(sectionTitle);
                   let songs = (data && data.songs) || {};
 
@@ -259,7 +259,7 @@
 
               return {
                   songPrefix: songPrefix,
-                  name: utils.resolveTitle(key, song.title),
+                  name: utils.getCombinedTitle(key, song.title),
                   lyrics: lyricsHtml,
                   music: (tune ? tune.toUpperCase() + '<br>' : '') + (music.composers || []).join(', '),
                   signature: (music.keySignature || []).join(', ') + '<br>' + (music.timeSignature || []).join(', '),
@@ -288,7 +288,7 @@
               let lyricsHtml = utils.sprintf(
                   '<title>%s%s</title>' + "\n",
                   songPrefix,
-                  utils.resolveTitle(key, titles)
+                  utils.getCombinedTitle(key, titles)
               );
               utils.LANGUAGES.forEach(function (lang) {
                   let langLyrics = lyrics[lang];

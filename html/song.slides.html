@@ -90,12 +90,12 @@
                   }
 
                   let songPrefix = utils.getSongPrefix(songJsonKey, data);
-                  let songTitle = utils.resolveTitle(songJsonKey, song.title);
+                  let songTitle = utils.getCombinedTitle(songJsonKey, song.title);
                   if (!songPrefix || !songTitle) {
                       return;
                   }
 
-                  // 1st slide
+                  // Update title and add 1st slide
                   document.title = songPrefix + ': ' + songTitle;
                   addSlide(utils.sprintf(
                       '<h1>%s<br><br>%s</h1>',
@@ -103,7 +103,7 @@
                       songTitle
                   ));
 
-                  // Init Reveal.js only if there is at least 1 slide
+                  // Init Reveal.js only after all the slides have been added
                   Reveal.initialize({
                       // Note: setting width and height to percentages will mess up the overview "o" mode
                       controls: true,

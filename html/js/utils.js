@@ -39,6 +39,30 @@ const utils = (function () {
     };
 
     /**
+     * Combine all language versions of title for section/song
+     *
+     * @public
+     * @param {string} jsonKey - JSON key for section/song. This is used for the English title if latter not set.
+     * @param {object} titles - Value for "titles" key in section/song, e.g. { "en":"A", "cn":"甲" }.
+     * @returns {string}
+     */
+    self.getCombinedTitle = function (jsonKey, titles) {
+        titles = titles || {};
+
+        let result = titles[utils.LANG_EN] || jsonKey || '';
+        self.LANGUAGES.forEach(function (lang) {
+            if (self.LANG_EN === lang) {
+                return;
+            }
+
+            let langTitle = titles[lang] || '';
+            result += (langTitle ? ' ' + langTitle : '');
+        });
+
+        return result;
+    };
+
+    /**
      * Get transcribed language lyrics for a song
      *
      * @public
@@ -169,23 +193,6 @@ const utils = (function () {
         }
 
         req.send(null);
-    };
-
-    /**
-     * Resolve title for section/song, combining all language versions
-     *
-     * @public
-     * @param {string} jsonKey - JSON key for section/song. This is used for the English title if latter not set.
-     * @param {object} titles - Value for "titles" key in section/song, e.g. { "en":"A", "cn":"甲" }.
-     * @returns {string}
-     */
-    self.resolveTitle = function (jsonKey, titles) {
-        titles = titles || {};
-
-        let titleEn = titles[utils.LANG_EN] || jsonKey || '';
-        let titleCn = titles[utils.LANG_CN] || '';
-
-        return titleEn + (titleCn ? ' ' + titleCn : '');
     };
 
     /**
