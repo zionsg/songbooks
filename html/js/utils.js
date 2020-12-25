@@ -1,8 +1,13 @@
 /**
  * Common utility functions wrapped using Module pattern
- * Functions ordered in alphabetical order, public before private.
  *
- * @link https://github.com/zionsg/songbooks/blob/master/html/js/utils.js
+ * Functions ordered in alphabetical order, public before private.
+ * No support for Internet Explorer.
+ *
+ * For consistency, functions using record and key arguments should always
+ * place the record as the 1st argument, e.g. getSongPrefix(data, key). This
+ * makes it easier to add optional arguments - compare fn(data, key, optional)
+ * versus fn(key, data, optional). This also applies to inline scripts in webpages.
  */
 const utils = (function () {
     /**
@@ -42,11 +47,12 @@ const utils = (function () {
      * Combine all language versions of title for section/song
      *
      * @public
-     * @param {string} jsonKey - JSON key for section/song. This is used for the English title if latter not set.
      * @param {object} titles - Value for "titles" key in section/song, e.g. { "en":"A", "cn":"甲" }.
+     * @param {string} jsonKey - JSON key for section/song. This is used for the English title if latter not set.
+     * @param {string} separator - Separator between different language titless
      * @returns {string}
      */
-    self.getCombinedTitle = function (jsonKey, titles) {
+    self.getCombinedTitle = function (titles, jsonKey, separator = ' ') {
         titles = titles || {};
 
         let result = titles[utils.LANG_EN] || jsonKey || '';
@@ -56,7 +62,7 @@ const utils = (function () {
             }
 
             let langTitle = titles[lang] || '';
-            result += (langTitle ? ' ' + langTitle : '');
+            result += (langTitle ? separator + langTitle : '');
         });
 
         return result;
@@ -66,11 +72,11 @@ const utils = (function () {
      * Get transcribed language lyrics for a song
      *
      * @public
-     * @param {string} key - JSON key for song.
      * @param {object} data - Songbook data.
+     * @param {string} key - JSON key for song.
      * @returns {(null|object)} Indexed by languages. Other lyrics info like authors are omitted.
      */
-    self.getLanguageLyrics = function (key, data) {
+    self.getLanguageLyrics = function (data, key) {
         let song = (data && data.songs && data.songs[key]) || null;
         let lyrics = (song && song.lyrics) || null;
         if (!lyrics) {
@@ -125,11 +131,11 @@ const utils = (function () {
      *
      * @public
      * @example Given book prefix "ABC", key "31" returns "ABC031", key "test" returns "".
-     * @param {string} key - JSON key for song.
      * @param {object} data - Songbook data.
+     * @param {string} key - JSON key for song.
      * @returns {string}
      */
-    self.getSongPrefix = function (key, data) {
+    self.getSongPrefix = function (data, key) {
         let bookPrefix = data.bookPrefix || '';
         let songPrefix = (null === key.match(/^\d+$/)) ? '' : (bookPrefix + key.padStart(3, '0'));
 

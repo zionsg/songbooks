@@ -46,92 +46,91 @@
     <script src="reveal/reveal.js"></script>
     <script src="js/utils.js"></script>
     <script>
-      // No support for Internet Explorer
-      (function () {
-          /**
-           * Parsed songbook info
-           *
-           * @private
-           * @type {object}
-           */
-          let data = null;
+        (function () {
+            /**
+             * Parsed songbook info
+             *
+             * @private
+             * @type {object}
+             */
+            let data = null;
 
-          /**
-           * Slides container
-           *
-           * @private
-           * @type {HTMLElement}
-           */
-          let slidesContainer = document.getElementById('slides-container');
+            /**
+             * Slides container
+             *
+             * @private
+             * @type {HTMLElement}
+             */
+            let slidesContainer = document.getElementById('slides-container');
 
-          /**
-           * Initialization - function will be run at the end of this module
-           *
-           * @private
-           * @returns {void}
-           */
-          function init() {
-              // Parse query params
-              let dataFile = utils.getQueryParam('data', '');
-              let songJsonKey = utils.getQueryParam('song', '');
-              let language = utils.getQueryParam('lang', utils.LANG_EN);
-              if (!dataFile || !songJsonKey) {
-                  return;
-              }
+            /**
+             * Initialization - function will be run at the end of this module
+             *
+             * @private
+             * @returns {void}
+             */
+            function init() {
+                // Parse query params
+                let dataFile = utils.getQueryParam('data', '');
+                let songJsonKey = utils.getQueryParam('song', '');
+                let language = utils.getQueryParam('lang', utils.LANG_EN);
+                if (!dataFile || !songJsonKey) {
+                    return;
+                }
 
-              utils.readJsonFile(dataFile, function (json) {
-                  // Save contents of JSON file
-                  data = json;
+                utils.readJsonFile(dataFile, function (json) {
+                    // Save contents of JSON file
+                    data = json;
 
-                  // Retrieve song
-                  let song = (data && data.songs && data.songs[songJsonKey]) || null;
-                  if (!song) {
-                      return;
-                  }
+                    // Retrieve song
+                    let song = (data && data.songs && data.songs[songJsonKey]) || null;
+                    if (!song) {
+                        return;
+                    }
 
-                  let songPrefix = utils.getSongPrefix(songJsonKey, data);
-                  let songTitle = utils.getCombinedTitle(songJsonKey, song.title);
-                  if (!songPrefix || !songTitle) {
-                      return;
-                  }
+                    let songPrefix = utils.getSongPrefix(data, songJsonKey);
+                    let songTitle = utils.getCombinedTitle(song.title, songJsonKey, '<br>');
+                    if (!songPrefix || !songTitle) {
+                        return;
+                    }
 
-                  // Update title and add 1st slide
-                  document.title = songPrefix + ': ' + songTitle;
-                  addSlide(utils.sprintf(
-                      '<h1>%s<br><br>%s</h1>',
-                      songPrefix,
-                      songTitle
-                  ));
+                    // Update title and add 1st slide
+                    document.title = songPrefix + ': ' + songTitle;
+                    addSlide(utils.sprintf(
+                        '<h1>%s<br><br>%s</h1>',
+                        songPrefix,
+                        songTitle
+                    ));
 
-                  // Init Reveal.js only after all the slides have been added
-                  Reveal.initialize({
-                      // Note: setting width and height to percentages will mess up the overview "o" mode
-                      controls: true,
-                      hash: true,
-                      progress: true,
-                      history: true,
-                      center: true,
-                      loop: true, // go back to 1st slide
-                  });
-              });
-          }
+                    // Init Reveal.js only after all the slides have been added
+                    Reveal.initialize({
+                        // Note: setting width and height to percentages will mess up the overview "o" mode
+                        controls: true,
+                        hash: true,
+                        progress: true,
+                        history: true,
+                        center: true,
+                        loop: true, // go back to 1st slide
+                    });
+                });
+            }
 
-          /**
-           * Create slide
-           *
-           * @param {string} html - Slide contents
-           * @returns {void}
-           */
-          function addSlide(html) {
-              let slide = document.createElement('section');
-              slide.innerHTML = html;
+            /**
+             * Create slide
+             *
+             * @param {string} html - Slide contents
+             * @returns {void}
+             */
+            function addSlide(html) {
+                let slide = document.createElement('section');
+                slide.innerHTML = html;
 
-              slidesContainer.appendChild(slide);
-          }
+                slidesContainer.appendChild(slide);
+            }
 
-          // Run init
-          init();
-      })();
+            // Run init
+            init();
+        })();
     </script>
   </body>
 </html>

@@ -43,289 +43,288 @@
 
     <script src="js/utils.js"></script>
     <script>
-      // No support for Internet Explorer
-      (function () {
-          /**
-           * Constants
-           *
-           * @private
-           * @type {string}
-           */
-          const CSS_CLASS_LYRICS_LINK = 'lyrics-link';
-          const ATTR_SONG_KEY = 'data-song-key';
+        (function () {
+            /**
+             * Constants
+             *
+             * @private
+             * @type {string}
+             */
+            const CSS_CLASS_LYRICS_LINK = 'lyrics-link';
+            const ATTR_SONG_KEY = 'data-song-key';
 
-          /**
-           * Parsed songbook info
-           *
-           * @private
-           * @type {object}
-           */
-          let data = null;
+            /**
+             * Parsed songbook info
+             *
+             * @private
+             * @type {object}
+             */
+            let data = null;
 
-          /**
-           * Initialization - function will be run at the end of this module
-           *
-           * @private
-           * @returns {void}
-           */
-          function init() {
-              let dataFile = utils.getQueryParam('data', '');
-              if (!dataFile) {
-                  return;
-              }
+            /**
+             * Initialization - function will be run at the end of this module
+             *
+             * @private
+             * @returns {void}
+             */
+            function init() {
+                let dataFile = utils.getQueryParam('data', '');
+                if (!dataFile) {
+                    return;
+                }
 
-              utils.readJsonFile(dataFile, function (json) {
-                  // Save contents of JSON file
-                  data = json;
+                utils.readJsonFile(dataFile, function (json) {
+                    // Save contents of JSON file
+                    data = json;
 
-                  // Book title and copyright
-                  let bookTitles = Object.values(data['title'] || '');
-                  document.title = bookTitles.join(' ');
-                  document.querySelector('.songbook-title').innerHTML = bookTitles.join('<br>');
-                  document.querySelector('footer').innerHTML = data['copyright'] || '';
+                    // Book title and copyright
+                    let bookTitles = Object.values(data['title'] || '');
+                    document.title = bookTitles.join(' ');
+                    document.querySelector('.songbook-title').innerHTML = bookTitles.join('<br>');
+                    document.querySelector('footer').innerHTML = data['copyright'] || '';
 
-                  // Table of contents and sections
-                  let sections = data.sections || {};
-                  let tableOfContentsHtml = '';
-                  let sectionsHtml = '';
-                  Object.entries(sections).forEach(function (entry) {
-                      let sectionJsonKey = entry[0];
-                      let section = entry[1];
-                      let sectionResult = getSectionInfo(sectionJsonKey, section);
+                    // Table of contents and sections
+                    let sections = data.sections || {};
+                    let tableOfContentsHtml = '';
+                    let sectionsHtml = '';
+                    Object.entries(sections).forEach(function (entry) {
+                        let sectionJsonKey = entry[0];
+                        let section = entry[1];
+                        let sectionResult = getSectionInfo(section, sectionJsonKey);
 
-                      sectionResult.forEach(function (sectionInfo) {
-                          tableOfContentsHtml += sectionInfo.link;
+                        sectionResult.forEach(function (sectionInfo) {
+                            tableOfContentsHtml += sectionInfo.link;
 
-                          if (!utils.isEmpty(sectionInfo.songs)) {
-                              sectionsHtml += sectionInfo.anchor + "\n<table>\n"
-                                  + '<tr><th>Name</th><th>Lyrics</th><th>Music</th>'
-                                  + '<th>Key/Time Signature</th><th>Notes</th></tr>';
+                            if (!utils.isEmpty(sectionInfo.songs)) {
+                                sectionsHtml += sectionInfo.anchor + "\n<table>\n"
+                                    + '<tr><th>Name</th><th>Lyrics</th><th>Music</th>'
+                                    + '<th>Key/Time Signature</th><th>Notes</th></tr>';
 
-                              sectionInfo.songs.forEach(function (song) {
-                                  sectionsHtml += utils.sprintf(
-                                      '<tr><td>%s%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>',
-                                      song.songPrefix ? song.songPrefix + ': ' : '',
-                                      song.name,
-                                      song.lyrics,
-                                      song.music,
-                                      song.signature,
-                                      song.notes
-                                  );
-                              });
-                          }
-                      });
-                  });
-                  document.querySelector('.table-of-contents').innerHTML = tableOfContentsHtml.trim();
-                  document.querySelector('.sections').innerHTML = sectionsHtml.trim();
+                                sectionInfo.songs.forEach(function (song) {
+                                    sectionsHtml += utils.sprintf(
+                                        '<tr><td>%s%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>',
+                                        song.songPrefix ? song.songPrefix + ': ' : '',
+                                        song.name,
+                                        song.lyrics,
+                                        song.music,
+                                        song.signature,
+                                        song.notes
+                                    );
+                                });
+                            }
+                        });
+                    });
+                    document.querySelector('.table-of-contents').innerHTML = tableOfContentsHtml.trim();
+                    document.querySelector('.sections').innerHTML = sectionsHtml.trim();
 
-                  // Add click handlers
-                  Array.from(document.querySelectorAll('.' + CSS_CLASS_LYRICS_LINK)).forEach(function (link) {
-                      link.addEventListener('click', function (event) {
-                          showLyrics(link.getAttribute(ATTR_SONG_KEY));
-                      });
-                  });
-              });
-          }
+                    // Add click handlers
+                    Array.from(document.querySelectorAll('.' + CSS_CLASS_LYRICS_LINK)).forEach(function (link) {
+                        link.addEventListener('click', function (event) {
+                            showLyrics(link.getAttribute(ATTR_SONG_KEY));
+                        });
+                    });
+                });
+            }
 
-          /**
-           * Get rendering for section info, including subsections
-           *
-           * Subsections, if any, will be placed at the same level of the section itself.
-           *
-           * If a section has no songList key set, no info is generated for the section itself, but if it
-           * has subsections, info will be generated for those subsections (if they have songList key set).
-           *
-           * @private
-           * @param {string} key - JSON key for section. Used for English title if latter is not specified.
-           * @param {object} section - JSON value for section.
-           * @returns {object[]} 1st element will the section itself, followed by 1 element for each subsection if any.
-           *     [
-           *       {
-           *         title: <combination of English and Chinese titles>,
-           *         anchor: <HTML for section header anchor>,
-           *         link: <HTML for section link as used in table of contents>,
-           *         songs: [<as per return result of getSongInfo9)>]
-           *       }
-           *     ]
-           */
-          function getSectionInfo(key, section) {
-              let result = [];
-              let sectionInfo = {
-                  title: '',
-                  anchor: '',
-                  link: '',
-                  songs: []
-              };
+            /**
+             * Get rendering for section info, including subsections
+             *
+             * Subsections, if any, will be placed at the same level of the section itself.
+             *
+             * If a section has no songList key set, no info is generated for the section itself, but if it
+             * has subsections, info will be generated for those subsections (if they have songList key set).
+             *
+             * @private
+             * @param {object} section - Section data.
+             * @param {string} key - JSON key for section. Used for English title if latter is not specified.
+             * @returns {object[]} 1st element is the section itself, followed by 1 element for each subsection if any.
+             *     [
+             *       {
+             *         title: <combination of English and Chinese titles>,
+             *         anchor: <HTML for section header anchor>,
+             *         link: <HTML for section link as used in table of contents>,
+             *         songs: [<as per return result of getSongInfo()>]
+             *       }
+             *     ]
+             */
+            function getSectionInfo(section, key) {
+                let result = [];
+                let sectionInfo = {
+                    title: '',
+                    anchor: '',
+                    link: '',
+                    songs: []
+                };
 
-              // Skip comments
-              if (utils.COMMENTS === key) {
-                  return result;
-              }
+                // Skip comments
+                if (utils.COMMENTS === key) {
+                    return result;
+                }
 
-              // Only generate info for current section and add to result if its songList key is set
-              let songList = section.songList || [];
-              if (!utils.isEmpty(songList)) {
-                  let sectionTitle = utils.getCombinedTitle(key, section.title);
-                  let sectionVarName = utils.textToVariableName(sectionTitle);
-                  let songs = (data && data.songs) || {};
+                // Only generate info for current section and add to result if its songList key is set
+                let songList = section.songList || [];
+                if (!utils.isEmpty(songList)) {
+                    let sectionTitle = utils.getCombinedTitle(section.title, key);
+                    let sectionVarName = utils.textToVariableName(sectionTitle);
+                    let songs = (data && data.songs) || {};
 
-                  // Song ranges
-                  let songRanges = [];
-                  songList.forEach(function (songRange) {
-                      // For textual representation
-                      songRanges.push(
-                          (2 === songRange.length) ? songRange[0] + ' - ' + songRange[1] : songRange.join(', ')
-                      );
+                    // Song ranges
+                    let songRanges = [];
+                    songList.forEach(function (songRange) {
+                        // For textual representation
+                        songRanges.push(
+                            (2 === songRange.length) ? songRange[0] + ' - ' + songRange[1] : songRange.join(', ')
+                        );
 
-                      // Collate songs
-                      if (2 === songRange.length) { // convert ["1", "3"] to ["1", "2", "3"]
-                          let start = parseInt(songRange[0]);
-                          let end = parseInt(songRange[1]);
-                          songRange = new Array(end - start + 1).fill().map((val, index) => (index + start + ''));
-                      }
-                      songRange.forEach(function (songJsonKey) {
-                          let song = (songs && songs[songJsonKey]) || null;
-                          if (!song) {
-                              return;
-                          }
+                        // Collate songs
+                        if (2 === songRange.length) { // convert ["1", "3"] to ["1", "2", "3"]
+                            let start = parseInt(songRange[0]);
+                            let end = parseInt(songRange[1]);
+                            songRange = new Array(end - start + 1).fill().map((val, index) => (index + start + ''));
+                        }
+                        songRange.forEach(function (songJsonKey) {
+                            let song = (songs && songs[songJsonKey]) || null;
+                            if (!song) {
+                                return;
+                            }
 
-                          sectionInfo.songs.push(getSongInfo(songJsonKey, song));
-                      });
-                  });
+                            sectionInfo.songs.push(getSongInfo(song, songJsonKey));
+                        });
+                    });
 
-                  sectionInfo.title = sectionTitle;
-                  sectionInfo.anchor = utils.sprintf(
-                      '<h3><a id="%s">%s</a></h3>',
-                      sectionVarName,
-                      sectionTitle
-                  );
-                  sectionInfo.link = utils.sprintf(
-                      '<div class="section-link">[<a href="#%s">%s %s</a>]</div>',
-                      sectionVarName,
-                      sectionTitle,
-                      songRanges.join(', ')
-                  );
+                    sectionInfo.title = sectionTitle;
+                    sectionInfo.anchor = utils.sprintf(
+                        '<h3><a id="%s">%s</a></h3>',
+                        sectionVarName,
+                        sectionTitle
+                    );
+                    sectionInfo.link = utils.sprintf(
+                        '<div class="section-link">[<a href="#%s">%s %s</a>]</div>',
+                        sectionVarName,
+                        sectionTitle,
+                        songRanges.join(', ')
+                    );
 
-                  result.push(sectionInfo);
-              }
+                    result.push(sectionInfo);
+                }
 
-              // Iterate thru subsections
-              let subsections = section.subsections || {};
-              Object.entries(subsections).forEach(function (entry) {
-                  let subsectionJsonKey = entry[0];
-                  let subsection = entry[1];
-                  let subsectionResult = getSectionInfo(subsectionJsonKey, subsection);
+                // Iterate thru subsections
+                let subsections = section.subsections || {};
+                Object.entries(subsections).forEach(function (entry) {
+                    let subsectionJsonKey = entry[0];
+                    let subsection = entry[1];
+                    let subsectionResult = getSectionInfo(subsection, subsectionJsonKey);
 
-                  if (!utils.isEmpty(subsectionResult)) {
-                      result = result.concat(subsectionResult);
-                  }
-              });
+                    if (!utils.isEmpty(subsectionResult)) {
+                        result = result.concat(subsectionResult);
+                    }
+                });
 
-              return result;
-          }
+                return result;
+            }
 
-          /**
-           * Get rendering for song info
-           *
-           * @private
-           * @param {string} key - JSON key for song. Used for English title if latter is not specified.
-           * @param {object} song - JSON value for song.
-           * @returns {object}
-           *     {
-           *       songPrefix: <bookPrefix + song number>
-           *       name: <HTML for Name column>
-           *       lyrics: <HTML for Lyrics column>
-           *       music: <HTML for Music column>
-           *       signature: <HTML for Key/Time Signature column>
-           *       notes: <HTML for Notes column>
-           *     }
-           */
-          function getSongInfo(key, song) {
-              let songPrefix = utils.getSongPrefix(key, data);
-              let lyrics = song.lyrics || {};
-              let music = song.music || {};
-              let tune = music.tune || '';
-              let notes = song.notes || [];
+            /**
+             * Get rendering for song info
+             *
+             * @private
+             * @param {object} song - Song data.
+             * @param {string} key - JSON key for song. Used for English title if latter is not specified.
+             * @returns {object}
+             *     {
+             *       songPrefix: <bookPrefix + song number>
+             *       name: <HTML for Name column>
+             *       lyrics: <HTML for Lyrics column>
+             *       music: <HTML for Music column>
+             *       signature: <HTML for Key/Time Signature column>
+             *       notes: <HTML for Notes column>
+             *     }
+             */
+            function getSongInfo(song, key) {
+                let songPrefix = utils.getSongPrefix(data, key);
+                let lyrics = song.lyrics || {};
+                let music = song.music || {};
+                let tune = music.tune || '';
+                let notes = song.notes || [];
 
-              let lyricsHtml = (lyrics.authors || []).join(', ');
-              if (utils.getLanguageLyrics(key, data)) { // check if any lyrics at all
-                  lyricsHtml += utils.sprintf(
-                    '<br><a href="#" class="%s" %s="%s">lyrics</a>',
-                    CSS_CLASS_LYRICS_LINK,
-                    ATTR_SONG_KEY,
-                    key
-                  );
-              }
+                let lyricsHtml = (lyrics.authors || []).join(', ');
+                if (utils.getLanguageLyrics(data, key)) { // check if any lyrics at all
+                    lyricsHtml += utils.sprintf(
+                      '<br><a href="#" class="%s" %s="%s">lyrics</a>',
+                      CSS_CLASS_LYRICS_LINK,
+                      ATTR_SONG_KEY,
+                      key
+                    );
+                }
 
-              return {
-                  songPrefix: songPrefix,
-                  name: utils.getCombinedTitle(key, song.title),
-                  lyrics: lyricsHtml,
-                  music: (tune ? tune.toUpperCase() + '<br>' : '') + (music.composers || []).join(', '),
-                  signature: (music.keySignature || []).join(', ') + '<br>' + (music.timeSignature || []).join(', '),
-                  notes: notes.join('<br>')
-              };
-          }
+                return {
+                    songPrefix: songPrefix,
+                    name: utils.getCombinedTitle(song.title, key),
+                    lyrics: lyricsHtml,
+                    music: (tune ? tune.toUpperCase() + '<br>' : '') + (music.composers || []).join(', '),
+                    signature: (music.keySignature || []).join(', ') + '<br>' + (music.timeSignature || []).join(', '),
+                    notes: notes.join('<br>')
+                };
+            }
 
-          /**
-           * Show lyrics for a song
-           *
-           * @private
-           * @param {string} key - JSON key for song.
-           * @returns {void}
-           */
-          function showLyrics(key) {
-              let lyrics = utils.getLanguageLyrics(key, data);
-              if (!lyrics) {
-                  return;
-              }
+            /**
+             * Show lyrics for a song
+             *
+             * @private
+             * @param {string} key - JSON key for song.
+             * @returns {void}
+             */
+            function showLyrics(key) {
+                let lyrics = utils.getLanguageLyrics(data, key);
+                if (!lyrics) {
+                    return;
+                }
 
-              let songPrefix = utils.getSongPrefix(key, data);
-              songPrefix += songPrefix ? ': ' : '';
+                let songPrefix = utils.getSongPrefix(data, key);
+                songPrefix += songPrefix ? ': ' : '';
 
-              // Note that lyrics open in a new child window and has no access to the CSS in parent window
-              let titles = (data && data.songs && data.songs[key] && data.songs[key].title) || null;
-              let lyricsHtml = utils.sprintf(
-                  '<title>%s%s</title>' + "\n",
-                  songPrefix,
-                  utils.getCombinedTitle(key, titles)
-              );
-              utils.LANGUAGES.forEach(function (lang) {
-                  let langLyrics = lyrics[lang];
-                  if (!langLyrics) {
-                      return; // continue
-                  }
+                // Note that lyrics open in a new child window and has no access to the CSS in parent window
+                let titles = (data && data.songs && data.songs[key] && data.songs[key].title) || null;
+                let lyricsHtml = utils.sprintf(
+                    '<title>%s%s</title>' + "\n",
+                    songPrefix,
+                    utils.getCombinedTitle(titles, key)
+                );
+                utils.LANGUAGES.forEach(function (lang) {
+                    let langLyrics = lyrics[lang];
+                    if (!langLyrics) {
+                        return; // continue
+                    }
 
-                  lyricsHtml += utils.sprintf(
-                      '<div><b>%s%s</b></div><br>',
-                      songPrefix,
-                      (titles[lang] || '').toUpperCase()
-                  );
+                    lyricsHtml += utils.sprintf(
+                        '<div><b>%s%s</b></div><br>',
+                        songPrefix,
+                        (titles[lang] || '').toUpperCase()
+                    );
 
-                  Object.entries(langLyrics).forEach(function (entry) {
-                      let stanzaJsonKey = entry[0];
-                      let stanza = entry[1];
+                    Object.entries(langLyrics).forEach(function (entry) {
+                        let stanzaJsonKey = entry[0];
+                        let stanza = entry[1];
 
-                      lyricsHtml += utils.sprintf(
-                          '<div><i>%s</i></div>' + "\n" + '<div>%s</div>' + "\n<br>",
-                          Number.isInteger(parseInt(stanzaJsonKey))
-                              ? 'Stanza ' + stanzaJsonKey
-                              : utils.capitalizeFirstLetter(stanzaJsonKey),
-                          stanza.join('<br>')
-                      );
-                  });
+                        lyricsHtml += utils.sprintf(
+                            '<div><i>%s</i></div>' + "\n" + '<div>%s</div>' + "\n<br>",
+                            Number.isInteger(parseInt(stanzaJsonKey))
+                                ? 'Stanza ' + stanzaJsonKey
+                                : utils.capitalizeFirstLetter(stanzaJsonKey),
+                            stanza.join('<br>')
+                        );
+                    });
 
-                  lyricsHtml += '<br>';
-              });
+                    lyricsHtml += '<br>';
+                });
 
-              let childWindow = window.open('about:blank'); // need "about:blank" else new window cannot zoom in Chrome
-              childWindow.document.write(lyricsHtml);
-              childWindow.document.close();
-          }
+                let childWindow = window.open('about:blank'); // "about:blank" else new window cannot zoom in Chrome
+                childWindow.document.write(lyricsHtml);
+                childWindow.document.close();
+            }
 
-          // Run init
-          init();
-      })();
+            // Run init
+            init();
+        })();
     </script>
   </body>
 </html>
