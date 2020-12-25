@@ -281,7 +281,7 @@
             }
 
             /**
-             * Show lyrics for a song
+             * Show lyrics for a song in a new window
              *
              * @private
              * @param {string} key - JSON key for song.
@@ -321,9 +321,9 @@
 
                         lyricsHtml += utils.sprintf(
                             '<div><i>%s</i></div>' + "\n" + '<div>%s</div>' + "\n<br>",
-                            Number.isInteger(parseInt(stanzaJsonKey))
-                                ? 'Stanza ' + stanzaJsonKey
-                                : utils.capitalizeFirstLetter(stanzaJsonKey),
+                            utils.isChorus(stanzaJsonKey)
+                                ? utils.capitalizeFirstLetter(stanzaJsonKey)
+                                : 'Stanza ' + stanzaJsonKey,
                             stanza.join('<br>')
                         );
                     });

@@ -143,6 +143,16 @@ const utils = (function () {
     };
 
     /**
+     * Check if a stanza is a chorus
+     *
+     * @param {string} stanzaJsonKey - The JSON key for the stanza.
+     * @returns {boolean} True if not a number.
+     */
+    self.isChorus = function (stanzaJsonKey) {
+        return (stanzaJsonKey.match(/^\d$/) ? false : true); // Number.isInteger() doesn't seem to work well here
+    };
+
+    /**
      * Check if value is empty
      *
      * @public
