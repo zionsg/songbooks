@@ -266,7 +266,8 @@
                     });
 
                     lyricsHtml += utils.sprintf(
-                      '<br><a href="#" class="%s" %s="%s">lyrics</a><br>slides:%s',
+                      '%s<a href="#" class="%s" %s="%s">lyrics</a><br>slides:%s',
+                      (lyricsHtml ? '<br>' : ''),
                       CSS_CLASS_LYRICS_LINK,
                       ATTR_SONG_KEY,
                       key,
