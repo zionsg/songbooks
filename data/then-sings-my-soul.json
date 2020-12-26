@@ -1,0 +1,188 @@
+{
+  "json": {
+    "source": "https://github.com/zionsg/songbooks/blob/master/data/then-sings-my-soul.json",
+    "schema": "https://github.com/zionsg/songbooks/blob/master/schema/songbook.schema.json"
+  },
+  "bookPrefix": "TSMS",
+  "title": {
+    "en": "Then Sings My Soul"
+  },
+  "copyright": "Life B-P Church Combined Fellowships, 9A Gilstead Road, Singapore 309063",
+  "sections": {
+    "Front Cover": {
+      "songList": [
+        [
+          "Lord, Help Our Fellowship"
+        ]
+      ]
+    },
+    "God's Attributes": {
+      "songList": [
+        [
+          1,
+          14
+        ]
+      ]
+    },
+    "God's Works": {
+      "songList": [
+        [
+          15,
+          22
+        ]
+      ]
+    },
+    "God's Love & Care": {
+      "songList": [
+        [
+          23,
+          59
+        ]
+      ]
+    },
+    "God's Word": {
+      "songList": [
+        [
+          60,
+          71
+        ]
+      ]
+    },
+    "Jesus' Advent & Birth": {
+      "songList": [
+        [
+          72,
+          93
+        ]
+      ]
+    },
+    "Jesus' Name & Attributes": {
+      "songList": [
+        [
+          94,
+          114
+        ]
+      ]
+    },
+    "Jesus' Suffering & Death": {
+      "songList": [
+        [
+          115,
+          125
+        ]
+      ]
+    },
+    "Jesus' Resurrection & Glorification": {
+      "songList": [
+        [
+          126,
+          129
+        ]
+      ]
+    },
+    "Jesus' Second Coming": {
+      "songList": [
+        [
+          130,
+          140
+        ]
+      ]
+    },
+    "Holy Spirit": {
+      "songList": [
+        [
+          141,
+          143
+        ]
+      ]
+    },
+    "Salvation": {
+      "songList": [
+        [
+          144,
+          161
+        ]
+      ]
+    },
+    "Consecration & Discipleship": {
+      "songList": [
+        [
+          162,
+          240
+        ]
+      ]
+    },
+    "Love & Thankfulness": {
+      "songList": [
+        [
+          241,
+          274
+        ]
+      ]
+    },
+    "Peace & Joy": {
+      "songList": [
+        [
+          275,
+          307
+        ]
+      ]
+    },
+    "Faith": {
+      "songList": [
+        [
+          308,
+          323
+        ]
+      ]
+    },
+    "Prayer & Holiness": {
+      "songList": [
+        [
+          324,
+          348
+        ]
+      ]
+    },
+    "Victorious Living": {
+      "songList": [
+        [
+          349,
+          407
+        ]
+      ]
+    },
+    "Worship & Fellowship": {
+      "songList": [
+        [
+          408,
+          423
+        ]
+      ]
+    },
+    "Gospel Call": {
+      "songList": [
+        [
+          424,
+          440
+        ]
+      ]
+    },
+    "Evangelism & Missions": {
+      "songList": [
+        [
+          441,
+          460
+        ]
+      ]
+    },
+    "Glorious Hope": {
+      "songList": [
+        [
+          461,
+          471
+        ]
+      ]
+    }
+  }
+}
