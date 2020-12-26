@@ -141,6 +141,73 @@ const utils = (function () {
     };
 
     /**
+     * Get order of stanzas
+     *
+     * If not specified in song data, defaults to alternating btw stanza and chorus.
+     *
+     * @public
+     * @param {object} song - Song data.
+     * @returns {object} { lastStanzaKey: "2", order: ["1", "chorus", "2", "chorus"] }.
+     */
+    self.getStanzaOrder = function (song) {
+        let lyrics = (song && song.lyrics) || null;
+        let stanzaOrder = (lyrics && lyrics.stanzaOrder) || [];
+        let lastStanzaKey = '';
+
+        if (!self.isEmpty(stanzaOrder)) {
+            for (let i = stanzaOrder.length - 1; i >= 0; i--) {
+                if (!self.isChorus(stanzaOrder[i])) {
+                    lastStanzaKey = stanzaOrder[i];
+                    break;
+                }
+            }
+
+            return {
+                lastStanzaKey: lastStanzaKey,
+                order: stanzaOrder
+            };
+        }
+
+        let isDone = false;
+        utils.LANGUAGES.forEach(function (lang) {
+            let langLyrics = lyrics[lang] || null;
+            if (isDone || self.isEmpty(langLyrics)) {
+                return;
+            }
+
+            // List stanza keys, find chorus key
+            let chorusJsonKey = '';
+            let stanzaKeys = [];
+            Object.keys(langLyrics).forEach(function (stanzaJsonKey) {
+                if (!utils.isChorus(stanzaJsonKey)) {
+                    stanzaKeys.push(stanzaJsonKey);
+                    return;
+                }
+
+                // Find chorus. Only the 1st chorus is used, grand chorus is not catered for.
+                if (!chorusJsonKey) {
+                    chorusJsonKey = stanzaJsonKey;
+                }
+            });
+
+            // Alternate between stanza and chorus
+            lastStanzaKey = stanzaKeys[stanzaKeys.length - 1];
+            stanzaKeys.forEach(function (stanzaJsonKey) {
+                stanzaOrder.push(stanzaJsonKey);
+                stanzaOrder.push(chorusJsonKey);
+            });
+
+            // Resolve stanza order based on stanzas for 1st language version found, assumes all languages are the same
+            isDone = true;
+        });
+
+        return {
+            lastStanzaKey: lastStanzaKey,
+            order: stanzaOrder
+        }
+    };
+
+    /**
      * Check if a stanza is a chorus
      *
      * @param {string} stanzaJsonKey - The JSON key for the stanza.
