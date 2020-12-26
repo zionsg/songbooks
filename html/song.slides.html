@@ -118,13 +118,20 @@
                     // Add a slide for each stanza
                     let allLyrics = utils.getLanguageLyrics(song);
                     let lyrics = allLyrics[language] || {};
-                    Object.keys(lyrics).forEach(function (stanzaJsonKey) {
+                    let stanzaOrder = utils.getStanzaOrder(song);
+                    let lastStanzaText = '';
+                    (stanzaOrder.order || []).forEach(function (stanzaJsonKey, index) {
                         let isChorus = utils.isChorus(stanzaJsonKey);
+
+                        if (stanzaJsonKey === (stanzaOrder.lastStanzaKey || '')) {
+                            lastStanzaText = ' (Last)'; // this will persist to chorus after last stanza, if any
+                        }
+
                         addSlide(utils.sprintf(
                             '<div class="stanza-heading">%s</div><div class="stanza">%s</stanza>',
                             isChorus
-                                ? utils.capitalizeFirstLetter(stanzaJsonKey)
-                                : 'Stanza ' + stanzaJsonKey,
+                                ? utils.capitalizeFirstLetter(stanzaJsonKey) + lastStanzaText
+                                : 'Stanza ' + stanzaJsonKey + lastStanzaText,
                             lyrics[stanzaJsonKey].join('<br>')
                         ));
                     });
@@ -135,7 +142,7 @@
                         center: false,
                         controls: true,
                         hash: true,
-                        loop: true, // go back to 1st slide
+                        loop: false, // do not go back to 1st slide
                         progress: true,
 
                         // Presentation size - give buffer at edges cos usually cut off by projectors
