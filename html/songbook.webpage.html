@@ -294,7 +294,7 @@
                     return;
                 }
 
-                let songPrefix = utils.getSongPrefix(data, key);
+                let songPrefix = utils.getSongPrefix(data, songJsonKey);
                 songPrefix += songPrefix ? ': ' : '';
 
                 // Note that lyrics open in a new child window and has no access to the CSS in parent window
@@ -302,7 +302,7 @@
                 let lyricsHtml = utils.sprintf(
                     '<title>%s%s</title>' + "\n",
                     songPrefix,
-                    utils.getCombinedTitle(titles, key)
+                    utils.getCombinedTitle(titles, songJsonKey)
                 );
                 utils.LANGUAGES.forEach(function (lang) {
                     let langLyrics = lyrics[lang];
