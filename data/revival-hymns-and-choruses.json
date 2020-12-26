@@ -1,0 +1,237 @@
+{
+  "json": {
+    "source": "https://github.com/zionsg/songbooks/blob/master/data/revival-hymns-and-choruses.json",
+    "schema": "https://github.com/zionsg/songbooks/blob/master/schema/songbook.schema.json"
+  },
+  "bookPrefix": "RHC",
+  "title": {
+    "en": "Revival Hymns and Choruses"
+  },
+  "copyright": "Bible-Presbyterian Banner, #05-01 Singapore Medical Centre, 19 Tanglin Road, Singapore 1024",
+  "sections": {
+    "Front Cover": {
+      "songList": [
+        [
+          "Doxology",
+          "The Lord Is In His Holy Temple",
+          "Gloria Patri (Meineke)",
+          "Gloria Patri (Greatorex)",
+          "Pressing On!"
+        ]
+      ]
+    },
+    "Worship Of God": {
+      "songList": [
+        [
+          1,
+          79
+        ]
+      ]
+    },
+    "Lord's Day": {
+      "songList": [
+        [
+          80,
+          86
+        ]
+      ]
+    },
+    "Praise & Testimony": {
+      "songList": [
+        [
+          87,
+          142
+        ]
+      ]
+    },
+    "Christmas": {
+      "songList": [
+        [
+          143,
+          172
+        ]
+      ]
+    },
+    "Passion & Cross": {
+      "songList": [
+        [
+          173,
+          202
+        ]
+      ]
+    },
+    "Resurrection & Reign": {
+      "songList": [
+        [
+          203,
+          217
+        ]
+      ]
+    },
+    "Second Coming": {
+      "songList": [
+        [
+          218,
+          230
+        ]
+      ]
+    },
+    "Holy Spirit & Revival": {
+      "songList": [
+        [
+          231,
+          249
+        ]
+      ]
+    },
+    "Word Of God": {
+      "songList": [
+        [
+          250,
+          259
+        ]
+      ]
+    },
+    "Church Of Christ": {
+      "songList": [
+        [
+          260,
+          263
+        ]
+      ]
+    },
+    "Invitation": {
+      "songList": [
+        [
+          264,
+          276
+        ]
+      ]
+    },
+    "Salvation": {
+      "songList": [
+        [
+          277,
+          310
+        ]
+      ]
+    },
+    "Assurance & Trust": {
+      "songList": [
+        [
+          311,
+          340
+        ]
+      ]
+    },
+    "Guidance & Care": {
+      "songList": [
+        [
+          341,
+          357
+        ]
+      ]
+    },
+    "Prayer": {
+      "songList": [
+        [
+          358,
+          375
+        ]
+      ]
+    },
+    "Aspiration": {
+      "songList": [
+        [
+          376,
+          400
+        ]
+      ]
+    },
+    "Challenge": {
+      "songList": [
+        [
+          401,
+          414
+        ]
+      ]
+    },
+    "Commitment": {
+      "songList": [
+        [
+          415,
+          431
+        ]
+      ]
+    },
+    "Warfare & Victory": {
+      "songList": [
+        [
+          432,
+          444
+        ]
+      ]
+    },
+    "Service": {
+      "songList": [
+        [
+          445,
+          470
+        ]
+      ]
+    },
+    "Home": {
+      "songList": [
+        [
+          471,
+          475
+        ]
+      ]
+    },
+    "Choruses": {
+      "songList": [
+        [
+          476,
+          520
+        ]
+      ]
+    },
+    "Children's Hymns": {
+      "songList": [
+        [
+          521,
+          532
+        ]
+      ]
+    },
+    "Heaven & Eternity": {
+      "songList": [
+        [
+          533,
+          549
+        ]
+      ]
+    },
+    "Miscellaneous": {
+      "songList": [
+        [
+          550,
+          567
+        ]
+      ]
+    },
+    "Back Cover": {
+      "songList": [
+        [
+          "Lord Dismiss Us",
+          "Benediction",
+          "The Lord Bless You And Keep You",
+          "Twofold Amen",
+          "Threefold Amen",
+          "Sevenfold Amen",
+          "May The Grace Of Christ Our Savior"
+        ]
+      ]
+    }
+  }
+}
