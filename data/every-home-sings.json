@@ -1,0 +1,211 @@
+{
+  "json": {
+    "source": "https://github.com/zionsg/songbooks/blob/master/data/every-home-sings.json",
+    "schema": "https://github.com/zionsg/songbooks/blob/master/schema/songbook.schema.json"
+  },
+  "bookPrefix": "EHS",
+  "title": {
+    "en": "Every Home Sings!",
+    "cn": "家家都来唱！"
+  },
+  "copyright": "Obtainable from Tabernacle Books, 201 Pandan Gardens and FEBC Bookshop, 9A Gilstead Road",
+  "sections": {
+    "Front Cover": {
+      "title": {
+        "cn": "封面"
+      },
+      "songList": [
+        [
+          "Read Your Bible, Pray Every Day"
+        ]
+      ]
+    },
+    "Assurance": {
+      "title": {
+        "cn": "确保"
+      },
+      "songList": [
+        [
+          1,
+          4
+        ]
+      ]
+    },
+    "Blood of Christ": {
+      "title": {
+        "cn": "基督的宝血"
+      },
+      "songList": [
+        [
+          5,
+          13
+        ]
+      ]
+    },
+    "Christ's Return": {
+      "title": {
+        "cn": "基督再临"
+      },
+      "songList": [
+        [
+          14,
+          15
+        ]
+      ]
+    },
+    "Comfort": {
+      "title": {
+        "cn": "安慰"
+      },
+      "songList": [
+        [
+          16,
+          18
+        ]
+      ]
+    },
+    "Consecration": {
+      "title": {
+        "cn": "奉献"
+      },
+      "songList": [
+        [
+          19,
+          28
+        ]
+      ]
+    },
+    "Contentment in Christ": {
+      "title": {
+        "cn": "基督里的满足"
+      },
+      "songList": [
+        [
+          29,
+          33
+        ]
+      ]
+    },
+    "Cross of Calvary": {
+      "title": {
+        "cn": "加略山的十字架"
+      },
+      "songList": [
+        [
+          34,
+          37
+        ]
+      ]
+    },
+    "Faith": {
+      "title": {
+        "cn": "信心"
+      },
+      "songList": [
+        [
+          38,
+          42
+        ]
+      ]
+    },
+    "God's Love": {
+      "title": {
+        "cn": "神的爱"
+      },
+      "songList": [
+        [
+          43,
+          52
+        ]
+      ]
+    },
+    "Heaven": {
+      "title": {
+        "cn": "天家"
+      },
+      "songList": [
+        [
+          53,
+          60
+        ]
+      ]
+    },
+    "Holy Spirit": {
+      "title": {
+        "cn": "圣灵"
+      },
+      "songList": [
+        [
+          61,
+          64
+        ]
+      ]
+    },
+    "Invitation": {
+      "title": {
+        "cn": "呼召"
+      },
+      "songList": [
+        [
+          65,
+          75
+        ]
+      ]
+    },
+    "Praise": {
+      "title": {
+        "cn": "赞美"
+      },
+      "songList": [
+        [
+          76,
+          83
+        ]
+      ]
+    },
+    "Prayer": {
+      "title": {
+        "cn": "祷告"
+      },
+      "songList": [
+        [
+          84,
+          87
+        ]
+      ]
+    },
+    "Salvation": {
+      "title": {
+        "cn": "救恩"
+      },
+      "songList": [
+        [
+          88,
+          96
+        ]
+      ]
+    },
+    "Soul Winning": {
+      "title": {
+        "cn": "拯救灵魂"
+      },
+      "songList": [
+        [
+          97,
+          99
+        ]
+      ]
+    },
+    "Victory": {
+      "title": {
+        "cn": "得胜"
+      },
+      "songList": [
+        [
+          100,
+          103
+        ]
+      ]
+    }
+  }
+}
