@@ -67,8 +67,10 @@
       "If the title for a song is not specified for a language or is empty, eg. for en key, its JSON key is used.",
       "Key/time signatures are arrays as some songs may switch halfway.",
       "Lyrics contain language-specific versions.",
-      "Each language-specific version of the lyrics contains stanzas and/or choruses.",
+      "Each language-specific version of the lyrics contains stanzas and/or choruses (treated as a type of stanza).",
       "Each stanza/chorus is an array of strings, each string is a sentence, typically ended by an ending punctuation.",
+      "Order in which stanzas are sung can be specified by lyrics.stanzaOrder, especially if there is a grand chorus.",
+      "If stanzaOrder is not specified, it alternates btw stanza and chorus, e.g. [1, chorus, 2, chorus, etc.].",
       "Assume each stanza/chorus is to fit in 1 presentation slide, at 30pt/40px font size, viewed from 10m away."
     ],
     "songOnFrontCover01": {
@@ -120,6 +122,10 @@
         ],
         "translators": [
           "Translator D"
+        ],
+        "stanzaOrder": [
+          "chorus",
+          "1"
         ],
         "en": {
           "1": [

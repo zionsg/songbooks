@@ -181,11 +181,18 @@
           "$comment": "A chorus/refrain is considered as a type of stanza.",
           "type": "object",
           "propertyNames": {
-            "pattern": "^(authors|translators|en|cn)$"
+            "pattern": "^(authors|translators|stanzaOrder|en|cn)$"
           },
           "properties": {
             "authors": { "$ref": "#/definitions/people" },
             "translators": { "$ref": "#/definitions/people" },
+            "stanzaOrder": {
+              "$comment": "Order in which stanzas are sung. If not specified, alternates btw stanza and chorus.",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
           },
           "additionalProperties": {
             "$ref": "#/definitions/languageSpecificLyrics"
