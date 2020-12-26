@@ -246,6 +246,44 @@ const utils = (function () {
     };
 
     /**
+     * Load external script at end of <bodu>
+     *
+     * @public
+     * @param {string} path - Path to script.
+     * @returns {void}
+     */
+    self.loadScript = function (path) {
+        if (!path) {
+            return;
+        }
+
+        let scriptElement = document.createElement('script');
+        scriptElement.setAttribute('type', 'text/javascript');
+        scriptElement.src = path;
+
+        document.body.appendChild(scriptElement);
+    };
+
+    /**
+     * Load external stylesheet at end of <head>
+     *
+     * @public
+     * @param {string} path - Path to stylesheet.
+     * @returns {void}
+     */
+    self.loadStylesheet = function (path) {
+        if (!path) {
+            return;
+        }
+
+        let linkElement = document.createElement('link');
+        linkElement.setAttribute('rel', 'stylesheet');
+        linkElement.href = path;
+
+        document.querySelector('head').appendChild(linkElement);
+    };
+
+    /**
      * Read JSON file
      *
      * This must be run from a local/remote server due to CORS, i.e. the webpage using this function

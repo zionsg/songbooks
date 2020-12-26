@@ -94,6 +94,9 @@
                 utils.readJsonFile(dataFile, function (json) {
                     // Save contents of JSON file
                     data = json;
+                    if (!data) {
+                        return;
+                    }
 
                     // Retrieve song
                     let song = (data && data.songs && data.songs[songJsonKey]) || null;

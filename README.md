@@ -21,3 +21,5 @@ Word documents.
   a JSON file.
 - Pass the path of the JSON file for the songbook via the `data` query param,
   e.g. `http://localhost/songbooks/html/songbook.webpage.html?data=../data/songbook.example.json`.
+- The webpage also takes in `css` and `js` query params for loading of an additional stylesheet and script
+  respectively. See the top docblock in the webpage source for more details.

@@ -9,6 +9,8 @@
        *
        * It takes in the following querystring param(s):
        *   @param {string} data - Path to JSON file for songbook.
+       *   @param {string} css - Path to additional CSS file to load, before dynamic elements are rendered.
+       *   @param {string} js - Path to additional Javascript file to load, after dynamic elements are rendered.
        *
        * @link https://github.com/zionsg/songbooks/blob/master/html/songbook.webpage.html
        */
@@ -68,7 +70,10 @@
              * @returns {void}
              */
             function init() {
+                // Parse query params
                 let dataFile = utils.getQueryParam('data', '');
+                let cssFile = utils.getQueryParam('css', '');
+                let jsFile = utils.getQueryParam('js', '');
                 if (!dataFile) {
                     return;
                 }
@@ -76,6 +81,12 @@
                 utils.readJsonFile(dataFile, function (json) {
                     // Save contents of JSON file
                     data = json;
+                    if (!data) {
+                        return;
+                    }
+
+                    // Load additional CSS file if any
+                    utils.loadStylesheet(cssFile);
 
                     // Book title and copyright
                     let bookTitles = Object.values(data['title'] || '');
@@ -126,6 +137,9 @@
                             showLyrics(link.getAttribute(ATTR_SONG_KEY));
                         });
                     });
+
+                    // Load additional JS file if any
+                    utils.loadScript(jsFile);
                 });
             }
 
