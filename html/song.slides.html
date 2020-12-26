@@ -28,7 +28,8 @@
 
       .reveal.slide section {
         font-family: Helvetica, Arial, SimHei, "黑体", sans-serif;
-        font-size: 42px; /* comfortable size when viewed from 10 metres away */
+        font-size: 48px; /* comfortable size when viewed from projector 10 metres away */
+        font-weight: bold; /* easier to see when viewed far away */
       }
 
       .stanza-heading {
@@ -36,6 +37,11 @@
         font-style: italic;
         margin-bottom: 0.5em;
         text-align: right;
+      }
+
+      .stanza {
+        line-height: 1.5em;
+        text-align: left;
       }
     </style>
   </head>
@@ -110,12 +116,12 @@
                     ));
 
                     // Add a slide for each stanza
-                    let allLyrics = utils.getLanguageLyrics(data, songJsonKey);
+                    let allLyrics = utils.getLanguageLyrics(song);
                     let lyrics = allLyrics[language] || {};
                     Object.keys(lyrics).forEach(function (stanzaJsonKey) {
                         let isChorus = utils.isChorus(stanzaJsonKey);
                         addSlide(utils.sprintf(
-                            '<div class="stanza-heading">%s</div>%s',
+                            '<div class="stanza-heading">%s</div><div class="stanza">%s</stanza>',
                             isChorus
                                 ? utils.capitalizeFirstLetter(stanzaJsonKey)
                                 : 'Stanza ' + stanzaJsonKey,
@@ -125,13 +131,18 @@
 
                     // Init Reveal.js only after all the slides have been added
                     Reveal.initialize({
-                        // Note: setting width and height to percentages will mess up the overview "o" mode
+                        // Standard config
+                        center: false,
                         controls: true,
                         hash: true,
-                        progress: true,
-                        history: true,
-                        center: true,
                         loop: true, // go back to 1st slide
+                        progress: true,
+
+                        // Presentation size - give buffer at edges cos usually cut off by projectors
+                        // Note: setting width and height to percentages will mess up the overview "o" mode
+                        width: '80%',
+                        height: '80%',
+                        margin: 0.1,
                     });
                 });
             }

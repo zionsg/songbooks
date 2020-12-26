@@ -72,12 +72,10 @@ const utils = (function () {
      * Get transcribed language lyrics for a song
      *
      * @public
-     * @param {object} data - Songbook data.
-     * @param {string} key - JSON key for song.
+     * @param {object} song - Song data.
      * @returns {(null|object)} Indexed by languages. Other lyrics info like authors are omitted.
      */
-    self.getLanguageLyrics = function (data, key) {
-        let song = (data && data.songs && data.songs[key]) || null;
+    self.getLanguageLyrics = function (song) {
         let lyrics = (song && song.lyrics) || null;
         if (!lyrics) {
             return null;

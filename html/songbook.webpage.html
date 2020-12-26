@@ -247,7 +247,7 @@
                 let notes = song.notes || [];
 
                 let lyricsHtml = (lyrics.authors || []).join(', ');
-                let langLyrics = utils.getLanguageLyrics(data, key);
+                let langLyrics = utils.getLanguageLyrics(song);
                 if (langLyrics) { // check if any lyrics at all
                     let slidesHtml = '';
                     let dataParam = utils.getQueryParam('data', '');
@@ -284,11 +284,12 @@
              * Show lyrics for a song in a new window
              *
              * @private
-             * @param {string} key - JSON key for song.
+             * @param {string} songJsonKey - JSON key for song.
              * @returns {void}
              */
-            function showLyrics(key) {
-                let lyrics = utils.getLanguageLyrics(data, key);
+            function showLyrics(songJsonKey) {
+                let song = (data && data.songs && data.songs[songJsonKey]) || null;
+                let lyrics = utils.getLanguageLyrics(song);
                 if (!lyrics) {
                     return;
                 }
@@ -297,7 +298,7 @@
                 songPrefix += songPrefix ? ': ' : '';
 
                 // Note that lyrics open in a new child window and has no access to the CSS in parent window
-                let titles = (data && data.songs && data.songs[key] && data.songs[key].title) || null;
+                let titles = (song && song.title) || null;
                 let lyricsHtml = utils.sprintf(
                     '<title>%s%s</title>' + "\n",
                     songPrefix,
