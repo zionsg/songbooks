@@ -620,6 +620,7 @@
         ]
       },
       "notes": [
+        "Same tune as \"When Morning Gilds the Skies\".",
         "Same song: HP059-stanza3diff"
       ]
     },
@@ -7490,6 +7491,7 @@
         ]
       },
       "notes": [
+        "Beginning of chorus usually sung with bass clef.",
         "Same song: TSMS048, HP141"
       ]
     },
@@ -11080,6 +11082,31 @@
     },
     "432": {
       "title": {
+        "en": "Faith of Our Fathers"
+      },
+      "music": {
+        "composers": [
+          "Henri F. Hemy, adapted by James G. Walton"
+        ],
+        "tune": "ST. CATHERINE",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Frederick W. Faber"
+        ]
+      },
+      "notes": [
+        "Same song: HP181"
+      ]
+    },
+    "432a": {
+      "title": {
         "en": "How Good Is The God We Adore"
       },
       "music": {
@@ -11099,7 +11126,9 @@
           "Joseph Hart"
         ]
       },
-      "notes": []
+      "notes": [
+        "Replaces RHC432 in February 2006 reprint."
+      ]
     },
     "433": {
       "title": {
@@ -12816,7 +12845,7 @@
         "authors": []
       },
       "notes": [
-        "Same song: TSMS342, HP274*"
+        "Same song: TSMS342, HP274"
       ]
     },
     "501": {
@@ -14177,6 +14206,7 @@
         ]
       },
       "notes": [
+        "Alternate tune: RHC563",
         "Same tune: RHC068, RHC327"
       ]
     },
