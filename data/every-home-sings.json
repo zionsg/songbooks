@@ -207,5 +207,2601 @@
         ]
       ]
     }
+  },
+  "songs": {
+    "Read Your Bible, Pray Every Day": {
+      "music": {
+        "composers": [
+          "Harry D. Clarke"
+        ],
+        "tune": "",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "S. H. Tow"
+        ]
+      },
+      "notes": [
+        "Junior RPG Anthem.",
+        "Same tune: TSMS227, EHS097"
+      ]
+    },
+    "1": {
+      "title": {
+        "en": "God Will Take Care of You"
+      },
+      "music": {
+        "composers": [
+          "W. Stillman Martin"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Bb"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Civilla D. Martin"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC353, TSMS050, HP289"
+      ]
+    },
+    "2": {
+      "title": {
+        "en": "But I Know Whom I Have Believed"
+      },
+      "music": {
+        "composers": [
+          "James McGranahan"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Daniel W. Whittle"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC087, TSMS310, HP146"
+      ]
+    },
+    "3": {
+      "title": {
+        "en": "He Will Hold Me Fast"
+      },
+      "music": {
+        "composers": [
+          "Robert Harkness"
+        ],
+        "tune": "HE WILL HOLD ME FAST",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Ada R. Habershon"
+        ]
+      },
+      "notes": [
+        "Also titled \"When I Fail My Faith Will Fail\".",
+        "Same song: chorus only: RHC339"
+      ]
+    },
+    "4": {
+      "title": {
+        "en": "On Christ the Solid Rock"
+      },
+      "music": {
+        "composers": [
+          "William B. Bradbury"
+        ],
+        "tune": "",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Edward Mote"
+        ]
+      },
+      "notes": [
+        "Also titled \"The Solid Rock\".",
+        "Same song: chorus only: RHC317, HP216"
+      ]
+    },
+    "5": {
+      "title": {
+        "en": "When I See the Blood"
+      },
+      "music": {
+        "composers": [
+          "John G. Foote"
+        ],
+        "tune": "",
+        "keySignature": [
+          "C"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John G. Foote"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC302, HP159"
+      ]
+    },
+    "6": {
+      "title": {
+        "en": "Are You Washed in the Blood?"
+      },
+      "music": {
+        "composers": [
+          "Elisha A. Hoffman"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Elisha A. Hoffman"
+        ]
+      },
+      "notes": [
+        "Same song: RHC288, TSMS424, HP156"
+      ]
+    },
+    "7": {
+      "title": {
+        "en": "I Hear Thy Welcome Voice"
+      },
+      "music": {
+        "composers": [
+          "Lewis Hartsough"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "3/4",
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Lewis Hartsough"
+        ]
+      },
+      "notes": [
+        "Same song: RHC266, HP199"
+      ]
+    },
+    "8": {
+      "title": {
+        "en": "There is a Fountain"
+      },
+      "music": {
+        "composers": [
+          "American melody"
+        ],
+        "tune": "CLEANSING FOUNTAIN",
+        "keySignature": [
+          "Bb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "William Cowper"
+        ]
+      },
+      "notes": [
+        "Same song: RHC173, HP158",
+        "Same lyrics: RHC174"
+      ]
+    },
+    "9": {
+      "title": {
+        "en": "Heaven Fills My Soul"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Db"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": [
+        "Same song: RHC511"
+      ]
+    },
+    "10": {
+      "title": {
+        "en": "His Way with Thee"
+      },
+      "music": {
+        "composers": [
+          "Cyrus S. Nusbaum"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Cyrus S. Nusbaum"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC402, TSMS178, HP239"
+      ]
+    },
+    "11": {
+      "title": {
+        "en": "Jesus Paid It All"
+      },
+      "music": {
+        "composers": [
+          "John T. Grape"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Db"
+        ],
+        "timeSignature": [
+          "3/4",
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Elvina M. Hall"
+        ]
+      },
+      "notes": [
+        "Same song: RHC183, HP145"
+      ]
+    },
+    "12": {
+      "title": {
+        "en": "There is Pow'r, Pow'r"
+      },
+      "music": {
+        "composers": [
+          "Lewis E. Jones"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Bb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Lewis E. Jones"
+        ]
+      },
+      "notes": [
+        "Also titled \"There is Power in the Blood\".",
+        "Same song: chorus only: RHC281, TSMS440, HP157"
+      ]
+    },
+    "13": {
+      "title": {
+        "en": "Wonderful, Cleansing Power"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Db"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": [
+        "Same song: RHC495"
+      ]
+    },
+    "14": {
+      "title": {
+        "en": "Christ Returns!"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "A"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": []
+    },
+    "15": {
+      "title": {
+        "en": "Will Jesus Find Us Watching?"
+      },
+      "music": {
+        "composers": [
+          "William H. Doane"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Bb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Fanny J. Crosby"
+        ]
+      },
+      "notes": [
+        "Same song: RHC220, HP115"
+      ]
+    },
+    "16": {
+      "title": {
+        "en": "What a Friend We Have in Jesus"
+      },
+      "music": {
+        "composers": [
+          "Charles C. Converse"
+        ],
+        "tune": "CONVERSE",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Joseph Scriven"
+        ]
+      },
+      "notes": [
+        "Same song: RHC358, TSMS341, HP279"
+      ]
+    },
+    "17": {
+      "title": {
+        "en": "Abide with Me"
+      },
+      "music": {
+        "composers": [
+          "William H. Monk"
+        ],
+        "tune": "EVENTIDE",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Henry F. Lyte"
+        ]
+      },
+      "notes": [
+        "Same song: RHC013, HP061"
+      ]
+    },
+    "18": {
+      "title": {
+        "en": "When Days are Sad and Dreary"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": []
+    },
+    "19": {
+      "title": {
+        "en": "Have Thine Own Way, Lord!"
+      },
+      "music": {
+        "composers": [
+          "George C. Stebbins"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "9/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Adelaide A. Pollard"
+        ]
+      },
+      "notes": [
+        "Same song: RHC412, TSMS175, HP409"
+      ]
+    },
+    "20": {
+      "title": {
+        "en": "Jesus, Jesus, Dearer Than All"
+      },
+      "music": {
+        "composers": [
+          "Geo. Bennard"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Bb"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Geo. Bennard"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC051, TSMS255"
+      ]
+    },
+    "21": {
+      "title": {
+        "en": "Must Jesus Bear the Cross Alone?"
+      },
+      "music": {
+        "composers": [
+          "George N. Allen"
+        ],
+        "tune": "MAITLAND",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "6/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Thomas Shepherd, ed. by Tow"
+        ]
+      },
+      "notes": [
+        "Same song: unedited: RHC391, HP266"
+      ]
+    },
+    "22": {
+      "title": {
+        "en": "My Jesus, I Love Thee"
+      },
+      "music": {
+        "composers": [],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "William R. Featherston"
+        ]
+      },
+      "notes": [
+        "Same lyrics: RHC384, TSMS270-1, TSMS270-2, HP389"
+      ]
+    },
+    "23": {
+      "title": {
+        "en": "O to Be Like Thee!"
+      },
+      "music": {
+        "composers": [
+          "William J. Kirkpatrick"
+        ],
+        "tune": "",
+        "keySignature": [
+          "D"
+        ],
+        "timeSignature": [
+          "9/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Thomas O. Chisholm"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC376, HP251"
+      ]
+    },
+    "24": {
+      "title": {
+        "en": "Follow! Follow!"
+      },
+      "music": {
+        "composers": [
+          "Robert Lowry"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "William O. Cushing"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC422, TSMS229, HP402"
+      ]
+    },
+    "25": {
+      "title": {
+        "en": "I Will Follow Where He Leadeth"
+      },
+      "music": {
+        "composers": [
+          "C. F. Weigele"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Bb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "C. F. Weigele"
+        ]
+      },
+      "notes": [
+        "Same song: RHC497, TSMS234"
+      ]
+    },
+    "26": {
+      "title": {
+        "en": "More Love to Thee"
+      },
+      "music": {
+        "composers": [
+          "William H. Doane"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Elizabeth Prentiss"
+        ]
+      },
+      "notes": [
+        "Same song: RHC392, TSMS204, HP392"
+      ]
+    },
+    "26a": {
+      "title": {
+        "en": "For God so Loved the World"
+      },
+      "music": {
+        "composers": [
+          "Alfred B. Smith"
+        ],
+        "tune": "",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Frances Townsend"
+        ]
+      },
+      "notes": [
+        "Same song: RHC224, TSMS029, HP117"
+      ]
+    },
+    "27": {
+      "title": {
+        "en": "Where He Leads Me"
+      },
+      "music": {
+        "composers": [
+          "John S. Norris"
+        ],
+        "tune": "",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "E. W. Blandy"
+        ]
+      },
+      "notes": [
+        "Same song: unedited: RHC424, HP401"
+      ]
+    },
+    "28": {
+      "title": {
+        "en": "All for Jesus"
+      },
+      "music": {
+        "composers": [
+          "Source unknown(Asa Hull)"
+        ],
+        "tune": "CONSTANCY",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Mary D. James"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC424, HP393",
+        "Same tune: RHC381"
+      ]
+    },
+    "29": {
+      "title": {
+        "en": "Light That Groweth Not Pale"
+      },
+      "music": {
+        "composers": [
+          "H. E. Nichol"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Db"
+        ],
+        "timeSignature": [
+          "6/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Colin Sterne"
+        ]
+      },
+      "notes": []
+    },
+    "30": {
+      "title": {
+        "en": "Jesus! The Very Thought of Thee"
+      },
+      "music": {
+        "composers": [],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Bernard of Clairvaux, trans. by Edward Caswall"
+        ]
+      },
+      "notes": [
+        "Same song: RHC056",
+        "Same lyrics: no chorus & 1 stanza more: RHC057, HP055"
+      ]
+    },
+    "31": {
+      "title": {
+        "en": "Since Jesus Came into My Heart"
+      },
+      "music": {
+        "composers": [
+          "Charles H. Gabriel"
+        ],
+        "tune": "",
+        "keySignature": [
+          "A"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "R. H. McDaniel"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC129, TSMS300"
+      ]
+    },
+    "32": {
+      "title": {
+        "en": "O There's Sunshine, Blessed Sunshine"
+      },
+      "music": {
+        "composers": [
+          "John R. Sweney, arr. by Jon Drevits"
+        ],
+        "tune": "SUNSHINE",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Eliza E. Hewitt"
+        ]
+      },
+      "notes": [
+        "Also titled \"Sunshine in My Soul\".",
+        "Same song: chorus only: RHC103, TSMS301, HP345"
+      ]
+    },
+    "33": {
+      "title": {
+        "en": "Only Jesus! Only Jesus!"
+      },
+      "music": {
+        "composers": [
+          "Lance B. Latham"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Avis M. B. Christiansen"
+        ]
+      },
+      "notes": [
+        "Same song: HP369"
+      ]
+    },
+    "34": {
+      "title": {
+        "en": "In the Cross"
+      },
+      "music": {
+        "composers": [
+          "William H. Doane"
+        ],
+        "tune": "",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Fanny J. Crosby, ed. by Tow"
+        ]
+      },
+      "notes": [
+        "Also titled \"Near the Cross\".",
+        "Same song: chorus only: RHC559, TSMS209, HP281"
+      ]
+    },
+    "35": {
+      "title": {
+        "en": "I Am Coming to the Cross"
+      },
+      "music": {
+        "composers": [
+          "William G. Fischer"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "William McDonald"
+        ]
+      },
+      "notes": [
+        "Same song: RHC264"
+      ]
+    },
+    "36": {
+      "title": {
+        "en": "Alone, Alone"
+      },
+      "music": {
+        "composers": [
+          "Ben H. Price"
+        ],
+        "tune": "",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "B. H. P., stanza 2 by Tow"
+        ]
+      },
+      "notes": [
+        "Also titled \"Alone\".",
+        "Same song: chorus only w/o stanza 2: RHC190"
+      ]
+    },
+    "37": {
+      "title": {
+        "en": "The Way of the Cross Leads Home"
+      },
+      "music": {
+        "composers": [
+          "Charles H. Gabriel"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Jessie Brown Pounds"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC179, TSMS400"
+      ]
+    },
+    "38": {
+      "title": {
+        "en": "Keep on Believing"
+      },
+      "music": {
+        "composers": [
+          "L. M. B., arr. by Alfred B. Smith"
+        ],
+        "tune": "",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "9/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "M. D., ed. by A. B. S."
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC335, TSMS311"
+      ]
+    },
+    "39": {
+      "title": {
+        "en": "I Am Standing, Standing On The Word"
+      },
+      "music": {
+        "composers": [
+          "Daniel B. Towner"
+        ],
+        "tune": "",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "E. M. Wadsworth"
+        ]
+      },
+      "notes": [
+        "Also titled \"I Am Standing on the Word of God\"."
+      ]
+    },
+    "40": {
+      "title": {
+        "en": "Never Fear! He is Near!"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": [
+        "Same song: RHC520, TSMS319"
+      ]
+    },
+    "41": {
+      "title": {
+        "en": "Trust and Obey"
+      },
+      "music": {
+        "composers": [
+          "Daniel B. Towner"
+        ],
+        "tune": "",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John H. Sammis"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC323, TSMS320, HP210"
+      ]
+    },
+    "42": {
+      "title": {
+        "en": "Without the Lord"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses"
+        ]
+      },
+      "notes": []
+    },
+    "43": {
+      "title": {
+        "en": "Heavenly Palaces"
+      },
+      "music": {
+        "composers": [
+          "Henry Barraclough, arr. by Donald P. Hustad"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "6/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Henry Barraclough, ed. by Tow"
+        ]
+      },
+      "notes": [
+        "Edited version of \"Ivory Palaces\".",
+        "Same song: unedited: RHC191, HP103"
+      ]
+    },
+    "44": {
+      "title": {
+        "en": "O Love That Wilt Not Let Me Go"
+      },
+      "music": {
+        "composers": [
+          "Albert L. Peace"
+        ],
+        "tune": "ST. MARGARET",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "George Matheson, ed. by Tow"
+        ]
+      },
+      "notes": [
+        "Same song: unedited: RHC313, HP386"
+      ]
+    },
+    "45": {
+      "title": {
+        "en": "Sweeter as the Years Go By"
+      },
+      "music": {
+        "composers": [
+          "Lelia N. Morris"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Lelia N. Morris"
+        ]
+      },
+      "notes": [
+        "Same song: RHC119, TSMS043, HP379-xHP379 translation totally out"
+      ]
+    },
+    "46": {
+      "title": {
+        "en": "Jesus Loves the Little Children"
+      },
+      "music": {
+        "composers": [
+          "George F. Root"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Bb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "C. H. Woolston"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC525"
+      ]
+    },
+    "47": {
+      "title": {
+        "en": "How Marvellous His Love"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Bb"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": [
+        "Same song: stanza 1 only: RHC515, TSMS028"
+      ]
+    },
+    "48": {
+      "title": {
+        "en": "Jesus Lord, Gracious God"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": []
+    },
+    "49": {
+      "title": {
+        "en": "For His Anger is Only for a Moment"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "9/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": []
+    },
+    "50": {
+      "title": {
+        "en": "O the Love That Sought Me"
+      },
+      "music": {
+        "composers": [
+          "Adoniram J. Gordon"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "W. Spencer Walton"
+        ]
+      },
+      "notes": [
+        "Also titled \"In Tenderness He Sought Me\".",
+        "Same song: chorus only: RHC117, TSMS150, HP380"
+      ]
+    },
+    "51": {
+      "title": {
+        "en": "O How I Love Jesus"
+      },
+      "music": {
+        "composers": [
+          "American melody, arr. by John W. Peterson"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Frederick Whitfield"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC118, TSMS273, HP388"
+      ]
+    },
+    "52": {
+      "title": {
+        "en": "Though I May Forget Him"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": []
+    },
+    "53": {
+      "title": {
+        "en": "Face to Face"
+      },
+      "music": {
+        "composers": [
+          "Grant Colfax Tullar"
+        ],
+        "tune": "",
+        "keySignature": [
+          "A"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Carrie E. Breck"
+        ]
+      },
+      "notes": [
+        "Same song: RHC543, TSMS461, HP417"
+      ]
+    },
+    "54": {
+      "title": {
+        "en": "Dwelling in Beulah Land"
+      },
+      "music": {
+        "composers": [
+          "C. A. Miles"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Bb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "C. A. Miles"
+        ]
+      },
+      "notes": [
+        "Same song: stanza 1 only: RHC127, TSMS359"
+      ]
+    },
+    "55": {
+      "title": {
+        "en": "There's a Land That is Fairer"
+      },
+      "music": {
+        "composers": [
+          "Joseph P. Webster"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Sanford F. Bennett"
+        ]
+      },
+      "notes": [
+        "Also titled \"In the Sweet By and By\".",
+        "Same song: RHC548, HP413"
+      ]
+    },
+    "56": {
+      "title": {
+        "en": "By and By, When the Morning Comes"
+      },
+      "music": {
+        "composers": [
+          "Charles A. Tindley"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Charles A. Tindley"
+        ]
+      },
+      "notes": [
+        "Also titled \"We'll Understand It Better By and By\".",
+        "Same song: chorus only: TSMS470"
+      ]
+    },
+    "57": {
+      "title": {
+        "en": "Hallelujah Fills the Heavens"
+      },
+      "music": {
+        "composers": [
+          "Bethel Hymns"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Bb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "T. Tow"
+        ]
+      },
+      "notes": [
+        "Also titled \"In the New Jerusalem\".",
+        "Same song: chorus only: RHC538, TSMS465"
+      ]
+    },
+    "58": {
+      "title": {
+        "en": "Since Christ My Soul From Sin Set Free"
+      },
+      "music": {
+        "composers": [
+          "J. M. Black"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Charles J. Butler"
+        ]
+      },
+      "notes": [
+        "Also titled \"Where Jesus Is, Tis Heaven\".",
+        "Same song: stanza 1 only: RHC132"
+      ]
+    },
+    "59": {
+      "title": {
+        "en": "Joyful, Joyful will the Meeting Be"
+      },
+      "music": {
+        "composers": [
+          "George F. Root"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Bb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "George F. Root"
+        ]
+      },
+      "notes": [
+        "Also titled \"Come to the Savior\".",
+        "Same song: chorus only: RHC269, TSMS425, HP194"
+      ]
+    },
+    "60": {
+      "title": {
+        "en": "Heaven Is My Home",
+        "cn": "天堂是我家"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses"
+        ]
+      },
+      "notes": []
+    },
+    "61": {
+      "title": {
+        "en": "Revive Thy Work"
+      },
+      "music": {
+        "composers": [
+          "W. H. Doane"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "A. Midlane, ed. by Tow"
+        ]
+      },
+      "notes": [
+        "Same song: RHC236"
+      ]
+    },
+    "62": {
+      "title": {
+        "en": "Lord, Send the OldTime Power"
+      },
+      "music": {
+        "composers": [
+          "Charles H. Gabriel"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Charlotte G. Homer"
+        ]
+      },
+      "notes": [
+        "Also titled \"Pentecostal Power\".",
+        "Same song: chorus only: RHC235"
+      ]
+    },
+    "63": {
+      "title": {
+        "en": "Fill Me Now"
+      },
+      "music": {
+        "composers": [
+          "John R. Sweney"
+        ],
+        "tune": "",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "6/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Elwood R. Stokes"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC244, HP123"
+      ]
+    },
+    "64": {
+      "title": {
+        "en": "Fill Me Breath of God"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": [
+        "Same song: RHC248"
+      ]
+    },
+    "65": {
+      "title": {
+        "en": "Come and Dine"
+      },
+      "music": {
+        "composers": [
+          "C. C. Widmeyer"
+        ],
+        "tune": "",
+        "keySignature": [
+          "C"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "C. C. Widmeyer"
+        ]
+      },
+      "notes": []
+    },
+    "66": {
+      "title": {
+        "en": "Come Unto Me"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "C"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": [
+        "Also titled \"Come Unto Me With Your Heavy Load\".",
+        "Same song: RHC507, TSMS426"
+      ]
+    },
+    "67": {
+      "title": {
+        "en": "Somebody's Knocking at Your Door"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": []
+    },
+    "68": {
+      "title": {
+        "en": "Let Him In!"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": [
+        "Also titled \"Let Him In, Let Him In\".",
+        "Same song: RHC499"
+      ]
+    },
+    "69": {
+      "title": {
+        "en": "O Come to My Heart, Lord Jesus"
+      },
+      "music": {
+        "composers": [],
+        "tune": "",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": []
+      },
+      "notes": [
+        "Same lyrics: chorus only: RHC165, TSMS090"
+      ]
+    },
+    "70": {
+      "title": {
+        "en": "Follow Me"
+      },
+      "music": {
+        "composers": [
+          "Arr. by Herbert G. Tovey"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "George D. Watson"
+        ]
+      },
+      "notes": [
+        "Same song: stanza 1 only: RHC567"
+      ]
+    },
+    "71": {
+      "title": {
+        "en": "Coming Home"
+      },
+      "music": {
+        "composers": [
+          "William J. Kirkpatrick"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "William J. Kirkpatrick"
+        ]
+      },
+      "notes": []
+    },
+    "72": {
+      "title": {
+        "en": "Come to Jesus"
+      },
+      "music": {
+        "composers": [
+          "Old Melody"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": []
+      },
+      "notes": []
+    },
+    "73": {
+      "title": {
+        "en": "Just Now Your Doubtings Give Over"
+      },
+      "music": {
+        "composers": [
+          "Lelia N. Morris"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Lelia N. Morris"
+        ]
+      },
+      "notes": [
+        "Also titled \"Let Jesus Come into Your Heart\".",
+        "Same song: chorus only: RHC272"
+      ]
+    },
+    "74": {
+      "title": {
+        "en": "Into My Heart"
+      },
+      "music": {
+        "composers": [
+          "Harry D. Clarke"
+        ],
+        "tune": "",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "6/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Harry D. Clarke"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC531, TSMS151"
+      ]
+    },
+    "75": {
+      "title": {
+        "en": "Why Not? Why Not?"
+      },
+      "music": {
+        "composers": [],
+        "tune": "",
+        "keySignature": [
+          "A"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": []
+      },
+      "notes": []
+    },
+    "76": {
+      "title": {
+        "en": "Only Jesus, Always Jesus"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Db"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": [
+        "Same song: RHC494, TSMS386"
+      ]
+    },
+    "77": {
+      "title": {
+        "en": "Rejoice O Men of God"
+      },
+      "music": {
+        "composers": [
+          "William H. Walter"
+        ],
+        "tune": "FESTAL SONG",
+        "keySignature": [
+          "Bb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "S. H. Tow"
+        ]
+      },
+      "notes": [
+        "Same tune: RHC413, HP331"
+      ]
+    },
+    "78": {
+      "title": {
+        "en": "Majestic Sweetness Sits Enthroned"
+      },
+      "music": {
+        "composers": [
+          "Thomas Hastings"
+        ],
+        "tune": "ORTONVILLE",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "6/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Samuel Stennett"
+        ]
+      },
+      "notes": [
+        "Same song: RHC068, HP048-1stanzaless",
+        "Same tune: RHC327, RHC556"
+      ]
+    },
+    "79": {
+      "title": {
+        "en": "Blessed Be the Name"
+      },
+      "music": {
+        "composers": [
+          "Ralph E. Hudson, arr. by William J. Kirkpatrick"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "W. H. Clark, chorus by Ralph E. Hudson"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC031, TSMS097, HP033"
+      ]
+    },
+    "80": {
+      "title": {
+        "en": "Praise the Lord"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Db"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": []
+    },
+    "81": {
+      "title": {
+        "en": "Yesterday, Today, Forever"
+      },
+      "music": {
+        "composers": [
+          "James H. Burke"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Albert B. Simpson"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC333, TSMS014, HP221"
+      ]
+    },
+    "82": {
+      "title": {
+        "en": "What a Wonderful Saviour"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "6/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": [
+        "Same song: TSMS114"
+      ]
+    },
+    "83": {
+      "title": {
+        "en": "Glory to His Name"
+      },
+      "music": {
+        "composers": [
+          "John H. Stockton"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Elisha A. Hoffman"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC122, HP346"
+      ]
+    },
+    "84": {
+      "title": {
+        "en": "Keep on Praying"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "2/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses"
+        ]
+      },
+      "notes": []
+    },
+    "85": {
+      "title": {
+        "en": "Deeper, Deeper"
+      },
+      "music": {
+        "composers": [
+          "Charles P. Jones"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Charles P. Jones"
+        ]
+      },
+      "notes": [
+        "Same song: 1 stanza more: RHC393, TSMS169"
+      ]
+    },
+    "86": {
+      "title": {
+        "en": "I Need Thee Every Hour"
+      },
+      "music": {
+        "composers": [
+          "Robert Lowry"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Annie S. Hawks, chorus by Robert Lowry"
+        ]
+      },
+      "notes": [
+        "Same song: RHC387, TSMS331, HP255"
+      ]
+    },
+    "87": {
+      "title": {
+        "en": "I Need Jesus"
+      },
+      "music": {
+        "composers": [
+          "C. H. Gabriel"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "2/2"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "George O. Webster"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: TSMS376"
+      ]
+    },
+    "88": {
+      "title": {
+        "en": "Amazing Grace"
+      },
+      "music": {
+        "composers": [
+          "American melody, from Carrell & Clayton's Virginia Harmony, arr. by Norman Johnson"
+        ],
+        "tune": "AMAZING GRACE",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Newto"
+        ]
+      },
+      "notes": [
+        "Same song: RHC307, TSMS023, HP140",
+        "Same lyrics: RHC563-2stanzasmore"
+      ]
+    },
+    "89": {
+      "title": {
+        "en": "He Took My Sins Away"
+      },
+      "music": {
+        "composers": [
+          "Mrs M. J. Harris"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Mrs M. J. Harris"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC133, TSMS145"
+      ]
+    },
+    "90": {
+      "title": {
+        "en": "If I Should Die"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": []
+    },
+    "91": {
+      "title": {
+        "en": "Wounded for Me"
+      },
+      "music": {
+        "composers": [
+          "W. G. Ovens"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "W. G. Ovens"
+        ]
+      },
+      "notes": [
+        "Same song: stanza 1 only: RHC186, TSMS124, HP095"
+      ]
+    },
+    "92": {
+      "title": {
+        "en": "Saviour, Saviour"
+      },
+      "music": {
+        "composers": [
+          "William H. Doane"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Fanny J. Crosby, stanza 2 by Tow"
+        ]
+      },
+      "notes": [
+        "Also titled \"Pass Me Not\".",
+        "Same song: original 4 stanzas w/o stanza 2: RHC306"
+      ]
+    },
+    "93": {
+      "title": {
+        "en": "He Took My Sin, Washed Me Within"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "3/2"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": [
+        "Also titled \"He Took My Sin\".",
+        "Same song: RHC516"
+      ]
+    },
+    "94": {
+      "title": {
+        "en": "All My Sins Rolled Away"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": [
+        "Same song: RHC514"
+      ]
+    },
+    "95": {
+      "title": {
+        "en": "Christ Jesus Came into This World"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": [
+        "Same song: RHC498"
+      ]
+    },
+    "96": {
+      "title": {
+        "en": "Jesus Breaks Every Fetter"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": [
+        "Same song: RHC496"
+      ]
+    },
+    "97": {
+      "title": {
+        "en": "I Will Make You Fishers of Men"
+      },
+      "music": {
+        "composers": [
+          "Harry D. Clarke"
+        ],
+        "tune": "",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Harry D. Clarke"
+        ]
+      },
+      "notes": [
+        "Same tune: TSMS227, EHS000"
+      ]
+    },
+    "98": {
+      "title": {
+        "en": "Must I Go and Empty-Handed?"
+      },
+      "music": {
+        "composers": [
+          "George C. Stebbins"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Db"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Charles C. Luther"
+        ]
+      },
+      "notes": [
+        "Same song: stanza 1 only: RHC457, TSMS205, HP315"
+      ]
+    },
+    "99": {
+      "title": {
+        "en": "Lord Crucified"
+      },
+      "music": {
+        "composers": [],
+        "tune": "",
+        "keySignature": [
+          "D"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": []
+      },
+      "notes": []
+    },
+    "100": {
+      "title": {
+        "en": "Glorious Freedom"
+      },
+      "music": {
+        "composers": [
+          "Alfred Judson"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "9/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Haldor Lillenas"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC310"
+      ]
+    },
+    "101": {
+      "title": {
+        "en": "Victory, Victory"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "A"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": []
+    },
+    "102": {
+      "title": {
+        "en": "Onward March to Victory"
+      },
+      "music": {
+        "composers": [
+          "John Sung Choruses"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Sung Choruses, trans. by Tow"
+        ]
+      },
+      "notes": []
+    },
+    "103": {
+      "title": {
+        "en": "Faith Is the Victory"
+      },
+      "music": {
+        "composers": [
+          "Ira D. Sankey"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John H. Yates"
+        ]
+      },
+      "notes": [
+        "Same song: chorus only: RHC441, HP297"
+      ]
+    }
   }
 }
