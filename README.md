@@ -18,8 +18,9 @@ Word documents.
 
 ## Webpage
 - Run `html/songbook.webpage.html` on a localhost or remote server. This is required as it will be reading in
-  a JSON file.
-- Pass the path of the JSON file for the songbook via the `data` query param,
-  e.g. `http://localhost/songbooks/html/songbook.webpage.html?data=../data/songbook.example.json`.
-- The webpage also takes in `css` and `js` query params for loading of an additional stylesheet and script
-  respectively. See the top docblock in the webpage source for more details.
+  a JSON file, else there will be the error "Access to XMLHttpRequest at url from origin 'null' has been blocked by
+  CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.".
+- Pass the path of the JSON file for the songbook via the `data` query param (do NOT use relative paths), e.g.
+  `http://localhost/songbooks/html/songbook.webpage.html?data=http://localhost/songbooks/data/songbook.example.json`.
+- The webpage also takes in query params `css` and `js` for loading of an additional stylesheet and script
+  respectively. See the top docblock in `html/songbook.webpage.html` for more details.

@@ -290,11 +290,18 @@ const utils = (function () {
      * is accessed via http:// or https:// but not file://.
      *
      * @public
-     * @param {string} path - Path to JSON file.
+     * @param {string} path - Path to JSON file. This must be a valid URL and not a relative path.
      * @param (function(object): void) callback - Callback to receive parsed JSON object from file or null.
      * @returns {void}
      */
     self.readJsonFile = function (path, callback) {
+        try {
+            let url = new URL(path);
+        } catch (e) {
+            console.log('Invalid url (do not use relative paths): ' + path);
+            callback(null);
+        }
+
         let req = new XMLHttpRequest();
         req.overrideMimeType('application/json');
         req.open('GET', path, true);
