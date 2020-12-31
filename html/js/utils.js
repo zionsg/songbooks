@@ -295,16 +295,18 @@ const utils = (function () {
      * @returns {void}
      */
     self.readJsonFile = function (path, callback) {
+        let url = null;
         try {
-            let url = new URL(path);
+            url = new URL(path);
         } catch (e) {
             console.log('Invalid url (do not use relative paths): ' + path);
             callback(null);
+            return;
         }
 
         let req = new XMLHttpRequest();
         req.overrideMimeType('application/json');
-        req.open('GET', path, true);
+        req.open('GET', url.href, true);
         req.onreadystatechange = function () {
             if (XMLHttpRequest.DONE === req.readyState && 200 === req.status) {
                 let json = null;
