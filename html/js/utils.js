@@ -69,6 +69,33 @@ const utils = (function () {
     };
 
     /**
+     * Get language-specific title for section/song
+     *
+     * @public
+     * @param {object} titles - Value for "titles" key in section/song, e.g. { "en":"A", "cn":"甲" }.
+     * @param {string} jsonKey - JSON key for section/song. This is used for the English title if latter not set.
+     * @param {string} language
+     * @returns {string} Defaults to English title if language-specific title does not exist.
+     */
+    self.getLanguageTitle = function (titles, jsonKey, language) {
+        titles = titles || {};
+
+        let result = titles[utils.LANG_EN] || jsonKey || '';
+        self.LANGUAGES.forEach(function (lang) {
+            if (self.LANG_EN === lang) {
+                return;
+            }
+
+            let langTitle = titles[lang] || '';
+            if (langTitle) {
+                result = langTitle;
+            }
+        });
+
+        return result;
+    };
+
+    /**
      * Get transcribed language lyrics for a song
      *
      * @public
@@ -137,7 +164,7 @@ const utils = (function () {
         let filename = data.bookPrefix || '';
 
         if (isNumber(key)) {
-            filename += key.padStart(3, '0');
+            filename += padNum(key);
         } else {
             filename += (filename ? '-' : '') + self.textToVariableName(key);
         }
@@ -156,7 +183,7 @@ const utils = (function () {
      */
     self.getSongPrefix = function (data, key) {
         let bookPrefix = data.bookPrefix || '';
-        let songPrefix = isNumber(key) ? (bookPrefix + key.padStart(3, '0')) : '';
+        let songPrefix = isNumber(key) ? (bookPrefix + padNum(key)) : '';
 
         return (songPrefix || bookPrefix);
     };
@@ -383,14 +410,29 @@ const utils = (function () {
      *
      * @private
      * @param {string} text
-     * @returns {boolean}
+     * @returns {boolean} True for "123" and "123a" but false for "test".
      */
     function isNumber(text) {
         if (!text) { // ''.match() does not work
             return false;
         }
 
-        return (text.match(/^\d+$/) ? true : false);
+        return (text.match(/^\d+/) ? true : false); // check only the beginning
+    }
+
+    /**
+     * Pad number
+     *
+     * @private
+     * @param {string} num
+     * @returns {string} 12 becomes "012", 1a becomes "001a", "test" remains as "test".
+     */
+    function padNum(num) {
+        num = num.toString();
+        let prefix = parseInt(num) + '';
+        let suffix = num.substring(prefix.length);
+
+        return prefix.padStart(3, '0') + suffix;
     }
 
     // Return public interface
