@@ -106,7 +106,7 @@
 
                     let songPrefix = utils.getSongPrefix(data, songJsonKey);
                     let songTitle = utils.getCombinedTitle(song.title, songJsonKey, '<br>');
-                    if (!songPrefix || !songTitle) {
+                    if (!songPrefix && !songTitle) {
                         return;
                     }
 
@@ -135,7 +135,7 @@
                             isChorus
                                 ? utils.capitalizeFirstLetter(stanzaJsonKey) + lastStanzaText
                                 : 'Stanza ' + stanzaJsonKey + lastStanzaText,
-                            lyrics[stanzaJsonKey].join('<br>')
+                            (lyrics[stanzaJsonKey] || []).join('<br>')
                         ));
                     });
 
