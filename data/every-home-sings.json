@@ -253,7 +253,8 @@
     },
     "1": {
       "title": {
-        "en": "God Will Take Care of You"
+        "en": "God Will Take Care of You",
+        "cn": "天父必看顾你"
       },
       "music": {
         "composers": [
@@ -294,7 +295,8 @@
     },
     "2": {
       "title": {
-        "en": "But I Know Whom I Have Believed"
+        "en": "But I Know Whom I Have Believed",
+        "cn": "惟我深知所信的"
       },
       "music": {
         "composers": [
@@ -335,7 +337,8 @@
     },
     "3": {
       "title": {
-        "en": "He Will Hold Me Fast"
+        "en": "He Will Hold Me Fast",
+        "cn": "主必保守我"
       },
       "music": {
         "composers": [
@@ -377,7 +380,8 @@
     },
     "4": {
       "title": {
-        "en": "On Christ the Solid Rock"
+        "en": "On Christ the Solid Rock",
+        "cn": "立在基督"
       },
       "music": {
         "composers": [
@@ -417,7 +421,8 @@
     },
     "5": {
       "title": {
-        "en": "When I See the Blood"
+        "en": "When I See the Blood",
+        "cn": "等我见此血"
       },
       "music": {
         "composers": [
@@ -458,7 +463,8 @@
     },
     "6": {
       "title": {
-        "en": "Are You Washed in the Blood?"
+        "en": "Are You Washed in the Blood?",
+        "cn": "你总要倚靠宝血"
       },
       "music": {
         "composers": [
@@ -547,7 +553,8 @@
     },
     "7": {
       "title": {
-        "en": "I Hear Thy Welcome Voice"
+        "en": "I Hear Thy Welcome Voice",
+        "cn": "祢的欢迎声音"
       },
       "music": {
         "composers": [
@@ -625,7 +632,8 @@
     },
     "8": {
       "title": {
-        "en": "There is a Fountain"
+        "en": "There is a Fountain",
+        "cn": "赎罪之泉"
       },
       "music": {
         "composers": [
@@ -703,7 +711,8 @@
     },
     "9": {
       "title": {
-        "en": "Heaven Fills My Soul"
+        "en": "Heaven Fills My Soul",
+        "cn": "喜乐满我心"
       },
       "music": {
         "composers": [
@@ -744,7 +753,8 @@
     },
     "10": {
       "title": {
-        "en": "His Way with Thee"
+        "en": "His Way with Thee",
+        "cn": "祂大有权柄"
       },
       "music": {
         "composers": [
@@ -785,7 +795,8 @@
     },
     "11": {
       "title": {
-        "en": "Jesus Paid It All"
+        "en": "Jesus Paid It All",
+        "cn": "罪债全还清"
       },
       "music": {
         "composers": [
@@ -875,7 +886,8 @@
     },
     "12": {
       "title": {
-        "en": "There is Pow'r, Pow'r"
+        "en": "There is Pow'r, Pow'r",
+        "cn": "大有权能"
       },
       "music": {
         "composers": [
@@ -917,7 +929,8 @@
     },
     "13": {
       "title": {
-        "en": "Wonderful, Cleansing Power"
+        "en": "Wonderful, Cleansing Power",
+        "cn": "奇妙变化能力"
       },
       "music": {
         "composers": [
@@ -958,7 +971,8 @@
     },
     "14": {
       "title": {
-        "en": "Christ Returns!"
+        "en": "Christ Returns!",
+        "cn": "主快来"
       },
       "music": {
         "composers": [
@@ -997,7 +1011,8 @@
     },
     "15": {
       "title": {
-        "en": "Will Jesus Find Us Watching?"
+        "en": "Will Jesus Find Us Watching?",
+        "cn": "必须儆醒"
       },
       "music": {
         "composers": [
@@ -1086,7 +1101,8 @@
     },
     "16": {
       "title": {
-        "en": "What a Friend We Have in Jesus"
+        "en": "What a Friend We Have in Jesus",
+        "cn": "恩友歌"
       },
       "music": {
         "composers": [
@@ -1151,7 +1167,8 @@
     },
     "17": {
       "title": {
-        "en": "Abide with Me"
+        "en": "Abide with Me",
+        "cn": "夕阳西沉"
       },
       "music": {
         "composers": [
@@ -1228,7 +1245,8 @@
     },
     "18": {
       "title": {
-        "en": "When Days are Sad and Dreary"
+        "en": "When Days are Sad and Dreary",
+        "cn": "举目四面"
       },
       "music": {
         "composers": [
@@ -1279,7 +1297,8 @@
     },
     "19": {
       "title": {
-        "en": "Have Thine Own Way, Lord!"
+        "en": "Have Thine Own Way, Lord!",
+        "cn": "凭袮意行"
       },
       "music": {
         "composers": [
@@ -1356,7 +1375,8 @@
     },
     "20": {
       "title": {
-        "en": "Jesus, Jesus, Dearer Than All"
+        "en": "Jesus, Jesus, Dearer Than All",
+        "cn": "耶稣，耶稣"
       },
       "music": {
         "composers": [
@@ -1397,7 +1417,8 @@
     },
     "21": {
       "title": {
-        "en": "Must Jesus Bear the Cross Alone?"
+        "en": "Must Jesus Bear the Cross Alone?",
+        "cn": "岂独耶稣"
       },
       "music": {
         "composers": [
@@ -1474,7 +1495,8 @@
     },
     "22": {
       "title": {
-        "en": "My Jesus, I Love Thee"
+        "en": "My Jesus, I Love Thee",
+        "cn": "主耶稣我爱祢"
       },
       "music": {
         "composers": [],
@@ -1501,7 +1523,7 @@
         },
         "cn": {
           "1": [
-            "主耶稣我爱你，深知我属你，",
+            "主耶稣我爱祢，深知我属祢，",
             "世上诸凡乐趣愿为袮丢弃；",
             "袮是我救主，因袮赎我罪恶，",
             "我曾经爱救主，我曾经爱救主，",
@@ -1515,7 +1537,8 @@
     },
     "23": {
       "title": {
-        "en": "O to Be Like Thee!"
+        "en": "O to Be Like Thee!",
+        "cn": "主我愿像祢"
       },
       "music": {
         "composers": [
@@ -1543,8 +1566,8 @@
         },
         "cn": {
           "1": [
-            "主我愿像你，主我愿像你",
-            "荣耀之救主洁净像你，",
+            "主我愿像祢，主我愿像祢",
+            "荣耀之救主洁净像祢，",
             "愿主之丰满进入我心中，",
             "更将主荣形，深印我心。"
           ]
@@ -1556,7 +1579,8 @@
     },
     "24": {
       "title": {
-        "en": "Follow! Follow!"
+        "en": "Follow! Follow!",
+        "cn": "跟随，跟随"
       },
       "music": {
         "composers": [
@@ -1597,7 +1621,8 @@
     },
     "25": {
       "title": {
-        "en": "I Will Follow Where He Leadeth"
+        "en": "I Will Follow Where He Leadeth",
+        "cn": "祂到何处"
       },
       "music": {
         "composers": [
@@ -1638,7 +1663,8 @@
     },
     "26": {
       "title": {
-        "en": "More Love to Thee"
+        "en": "More Love to Thee",
+        "cn": "切愿深爱我主"
       },
       "music": {
         "composers": [
@@ -1715,7 +1741,8 @@
     },
     "26a": {
       "title": {
-        "en": "For God so Loved the World"
+        "en": "For God so Loved the World",
+        "cn": "因为神爱世人"
       },
       "music": {
         "composers": [
@@ -1766,7 +1793,8 @@
     },
     "27": {
       "title": {
-        "en": "Where He Leads Me"
+        "en": "Where He Leads Me",
+        "cn": "耶稣领我"
       },
       "music": {
         "composers": [
@@ -1831,7 +1859,8 @@
     },
     "28": {
       "title": {
-        "en": "All for Jesus"
+        "en": "All for Jesus",
+        "cn": "都归耶稣"
       },
       "music": {
         "composers": [
@@ -1873,7 +1902,8 @@
     },
     "29": {
       "title": {
-        "en": "Light That Groweth Not Pale"
+        "en": "Light That Groweth Not Pale",
+        "cn": "赐下真光"
       },
       "music": {
         "composers": [
@@ -1912,7 +1942,8 @@
     },
     "30": {
       "title": {
-        "en": "Jesus! The Very Thought of Thee"
+        "en": "Jesus! The Very Thought of Thee",
+        "cn": "主耶稣啊！想起了袮"
       },
       "music": {
         "composers": [],
@@ -2000,7 +2031,8 @@
     },
     "31": {
       "title": {
-        "en": "Since Jesus Came into My Heart"
+        "en": "Since Jesus Came into My Heart",
+        "cn": "自耶稣来住在我心"
       },
       "music": {
         "composers": [
@@ -2043,7 +2075,8 @@
     },
     "32": {
       "title": {
-        "en": "O There's Sunshine, Blessed Sunshine"
+        "en": "O There's Sunshine, Blessed Sunshine",
+        "cn": "快乐日光"
       },
       "music": {
         "composers": [
@@ -2085,7 +2118,8 @@
     },
     "33": {
       "title": {
-        "en": "Only Jesus! Only Jesus!"
+        "en": "Only Jesus! Only Jesus!",
+        "cn": "惟有耶稣"
       },
       "music": {
         "composers": [
@@ -2126,7 +2160,8 @@
     },
     "34": {
       "title": {
-        "en": "In the Cross"
+        "en": "In the Cross",
+        "cn": "十字架"
       },
       "music": {
         "composers": [
@@ -2168,7 +2203,8 @@
     },
     "35": {
       "title": {
-        "en": "I Am Coming to the Cross"
+        "en": "I Am Coming to the Cross",
+        "cn": "依傍十架"
       },
       "music": {
         "composers": [
@@ -2245,7 +2281,8 @@
     },
     "36": {
       "title": {
-        "en": "Alone, Alone"
+        "en": "Alone, Alone",
+        "cn": "为我，为我"
       },
       "music": {
         "composers": [
@@ -2299,7 +2336,8 @@
     },
     "37": {
       "title": {
-        "en": "The Way of the Cross Leads Home"
+        "en": "The Way of the Cross Leads Home",
+        "cn": "十架路领导"
       },
       "music": {
         "composers": [
@@ -2340,7 +2378,8 @@
     },
     "38": {
       "title": {
-        "en": "Keep on Believing"
+        "en": "Keep on Believing",
+        "cn": "信心不停止"
       },
       "music": {
         "composers": [
@@ -2381,7 +2420,8 @@
     },
     "39": {
       "title": {
-        "en": "I Am Standing, Standing On The Word"
+        "en": "I Am Standing, Standing On The Word",
+        "cn": "我今站在主的言语上"
       },
       "music": {
         "composers": [
@@ -2422,7 +2462,8 @@
     },
     "40": {
       "title": {
-        "en": "Never Fear! He is Near!"
+        "en": "Never Fear! He is Near!",
+        "cn": "不要怕，只要信"
       },
       "music": {
         "composers": [
@@ -2461,7 +2502,8 @@
     },
     "41": {
       "title": {
-        "en": "Trust and Obey"
+        "en": "Trust and Obey",
+        "cn": "信而顺服"
       },
       "music": {
         "composers": [
@@ -2498,7 +2540,8 @@
     },
     "42": {
       "title": {
-        "en": "Without the Lord"
+        "en": "Without the Lord",
+        "cn": "我离了主就不能作"
       },
       "music": {
         "composers": [
@@ -2537,7 +2580,8 @@
     },
     "43": {
       "title": {
-        "en": "Heavenly Palaces"
+        "en": "Heavenly Palaces",
+        "cn": "华美天庭"
       },
       "music": {
         "composers": [
@@ -2616,7 +2660,8 @@
     },
     "44": {
       "title": {
-        "en": "O Love That Wilt Not Let Me Go"
+        "en": "O Love That Wilt Not Let Me Go",
+        "cn": "袮这不肯放我的爱"
       },
       "music": {
         "composers": [
@@ -2701,7 +2746,8 @@
     },
     "45": {
       "title": {
-        "en": "Sweeter as the Years Go By"
+        "en": "Sweeter as the Years Go By",
+        "cn": "主的爱越久越深"
       },
       "music": {
         "composers": [
@@ -2776,7 +2822,8 @@
     },
     "46": {
       "title": {
-        "en": "Jesus Loves the Little Children"
+        "en": "Jesus Loves the Little Children",
+        "cn": "耶稣喜爱一切小孩"
       },
       "music": {
         "composers": [
@@ -2819,7 +2866,8 @@
     },
     "47": {
       "title": {
-        "en": "How Marvellous His Love"
+        "en": "How Marvellous His Love",
+        "cn": "主恩实在更多"
       },
       "music": {
         "composers": [
@@ -2860,7 +2908,8 @@
     },
     "48": {
       "title": {
-        "en": "Jesus Lord, Gracious God"
+        "en": "Jesus Lord, Gracious God",
+        "cn": "最亲爱的救主"
       },
       "music": {
         "composers": [
@@ -2899,7 +2948,8 @@
     },
     "49": {
       "title": {
-        "en": "For His Anger is Only for a Moment"
+        "en": "For His Anger is Only for a Moment",
+        "cn": "祂的怒气"
       },
       "music": {
         "composers": [
@@ -2938,7 +2988,8 @@
     },
     "50": {
       "title": {
-        "en": "O the Love That Sought Me"
+        "en": "O the Love That Sought Me",
+        "cn": "爱何大寻找我"
       },
       "music": {
         "composers": [
@@ -2980,7 +3031,8 @@
     },
     "51": {
       "title": {
-        "en": "O How I Love Jesus"
+        "en": "O How I Love Jesus",
+        "cn": "我真实爱耶稣"
       },
       "music": {
         "composers": [
@@ -3021,7 +3073,8 @@
     },
     "52": {
       "title": {
-        "en": "Though I May Forget Him"
+        "en": "Though I May Forget Him",
+        "cn": "我虽然忘记主"
       },
       "music": {
         "composers": [
@@ -3060,7 +3113,8 @@
     },
     "53": {
       "title": {
-        "en": "Face to Face"
+        "en": "Face to Face",
+        "cn": "面对面"
       },
       "music": {
         "composers": [
@@ -3149,7 +3203,8 @@
     },
     "54": {
       "title": {
-        "en": "Dwelling in Beulah Land"
+        "en": "Dwelling in Beulah Land",
+        "cn": "前在埃及"
       },
       "music": {
         "composers": [
@@ -3202,7 +3257,8 @@
     },
     "55": {
       "title": {
-        "en": "There's a Land That is Fairer"
+        "en": "There's a Land That is Fairer",
+        "cn": "有一地比日中更光彩"
       },
       "music": {
         "composers": [
@@ -3280,7 +3336,8 @@
     },
     "56": {
       "title": {
-        "en": "By and By, When the Morning Comes"
+        "en": "By and By, When the Morning Comes",
+        "cn": "等一等，荣耀早晨到"
       },
       "music": {
         "composers": [
@@ -3322,7 +3379,8 @@
     },
     "57": {
       "title": {
-        "en": "Hallelujah Fills the Heavens"
+        "en": "Hallelujah Fills the Heavens",
+        "cn": "欢呼颂扬充满天庭"
       },
       "music": {
         "composers": [
@@ -3364,7 +3422,8 @@
     },
     "58": {
       "title": {
-        "en": "Since Christ My Soul From Sin Set Free"
+        "en": "Since Christ My Soul From Sin Set Free",
+        "cn": "主释放我"
       },
       "music": {
         "composers": [
@@ -3416,7 +3475,8 @@
     },
     "59": {
       "title": {
-        "en": "Joyful, Joyful will the Meeting Be"
+        "en": "Joyful, Joyful will the Meeting Be",
+        "cn": "乐哉，乐哉"
       },
       "music": {
         "composers": [
@@ -3494,7 +3554,8 @@
     },
     "61": {
       "title": {
-        "en": "Revive Thy Work"
+        "en": "Revive Thy Work",
+        "cn": "复兴主工"
       },
       "music": {
         "composers": [
@@ -3583,7 +3644,8 @@
     },
     "62": {
       "title": {
-        "en": "Lord, Send the OldTime Power"
+        "en": "Lord, Send the OldTime Power",
+        "cn": "主赐古时能力"
       },
       "music": {
         "composers": [
@@ -3625,7 +3687,8 @@
     },
     "63": {
       "title": {
-        "en": "Fill Me Now"
+        "en": "Fill Me Now",
+        "cn": "充满我"
       },
       "music": {
         "composers": [
@@ -3666,7 +3729,8 @@
     },
     "64": {
       "title": {
-        "en": "Fill Me Breath of God"
+        "en": "Fill Me Breath of God",
+        "cn": "向我吹灵气"
       },
       "music": {
         "composers": [
@@ -3707,7 +3771,8 @@
     },
     "65": {
       "title": {
-        "en": "Come and Dine"
+        "en": "Come and Dine",
+        "cn": "来吃饱"
       },
       "music": {
         "composers": [
@@ -3746,7 +3811,8 @@
     },
     "66": {
       "title": {
-        "en": "Come Unto Me"
+        "en": "Come Unto Me",
+        "cn": "快来就我"
       },
       "music": {
         "composers": [
@@ -3788,7 +3854,8 @@
     },
     "67": {
       "title": {
-        "en": "Somebody's Knocking at Your Door"
+        "en": "Somebody's Knocking at Your Door",
+        "cn": "有人在你心外叩门"
       },
       "music": {
         "composers": [
@@ -3827,7 +3894,8 @@
     },
     "68": {
       "title": {
-        "en": "Let Him In!"
+        "en": "Let Him In!",
+        "cn": "请主来"
       },
       "music": {
         "composers": [
@@ -3869,7 +3937,8 @@
     },
     "69": {
       "title": {
-        "en": "O Come to My Heart, Lord Jesus"
+        "en": "O Come to My Heart, Lord Jesus",
+        "cn": "求来到我心"
       },
       "music": {
         "composers": [],
@@ -3906,7 +3975,8 @@
     },
     "70": {
       "title": {
-        "en": "Follow Me"
+        "en": "Follow Me",
+        "cn": "跟随我"
       },
       "music": {
         "composers": [
@@ -3959,7 +4029,8 @@
     },
     "71": {
       "title": {
-        "en": "Coming Home"
+        "en": "Coming Home",
+        "cn": "归家吧"
       },
       "music": {
         "composers": [
@@ -3998,7 +4069,8 @@
     },
     "72": {
       "title": {
-        "en": "Come to Jesus"
+        "en": "Come to Jesus",
+        "cn": "来信耶稣"
       },
       "music": {
         "composers": [
@@ -4035,7 +4107,8 @@
     },
     "73": {
       "title": {
-        "en": "Just Now Your Doubtings Give Over"
+        "en": "Just Now Your Doubtings Give Over",
+        "cn": "如今你不必怀疑"
       },
       "music": {
         "composers": [
@@ -4077,7 +4150,8 @@
     },
     "74": {
       "title": {
-        "en": "Into My Heart"
+        "en": "Into My Heart",
+        "cn": "进入我心"
       },
       "music": {
         "composers": [
@@ -4118,7 +4192,8 @@
     },
     "75": {
       "title": {
-        "en": "Why Not? Why Not?"
+        "en": "Why Not? Why Not?",
+        "cn": "为何？为何？"
       },
       "music": {
         "composers": [],
@@ -4165,7 +4240,8 @@
     },
     "76": {
       "title": {
-        "en": "Only Jesus, Always Jesus"
+        "en": "Only Jesus, Always Jesus",
+        "cn": "惟独耶稣"
       },
       "music": {
         "composers": [
@@ -4206,7 +4282,8 @@
     },
     "77": {
       "title": {
-        "en": "Rejoice O Men of God"
+        "en": "Rejoice O Men of God",
+        "cn": "神的子民都来"
       },
       "music": {
         "composers": [
@@ -4307,7 +4384,8 @@
     },
     "78": {
       "title": {
-        "en": "Majestic Sweetness Sits Enthroned"
+        "en": "Majestic Sweetness Sits Enthroned",
+        "cn": "尊贵威严"
       },
       "music": {
         "composers": [
@@ -4393,7 +4471,8 @@
     },
     "79": {
       "title": {
-        "en": "Blessed Be the Name"
+        "en": "Blessed Be the Name",
+        "cn": "颂赞主圣名"
       },
       "music": {
         "composers": [
@@ -4434,7 +4513,8 @@
     },
     "80": {
       "title": {
-        "en": "Praise the Lord"
+        "en": "Praise the Lord",
+        "cn": "赞美主"
       },
       "music": {
         "composers": [
@@ -4473,7 +4553,8 @@
     },
     "81": {
       "title": {
-        "en": "Yesterday, Today, Forever"
+        "en": "Yesterday, Today, Forever",
+        "cn": "昔在今在"
       },
       "music": {
         "composers": [
@@ -4514,7 +4595,8 @@
     },
     "82": {
       "title": {
-        "en": "What a Wonderful Saviour"
+        "en": "What a Wonderful Saviour",
+        "cn": "何等奇妙的救主"
       },
       "music": {
         "composers": [
@@ -4555,7 +4637,8 @@
     },
     "83": {
       "title": {
-        "en": "Glory to His Name"
+        "en": "Glory to His Name",
+        "cn": "荣耀归主名"
       },
       "music": {
         "composers": [
@@ -4596,7 +4679,8 @@
     },
     "84": {
       "title": {
-        "en": "Keep on Praying"
+        "en": "Keep on Praying",
+        "cn": "不住祈祷"
       },
       "music": {
         "composers": [
@@ -4635,7 +4719,8 @@
     },
     "85": {
       "title": {
-        "en": "Deeper, Deeper"
+        "en": "Deeper, Deeper",
+        "cn": "进深，进深"
       },
       "music": {
         "composers": [
@@ -4712,7 +4797,8 @@
     },
     "86": {
       "title": {
-        "en": "I Need Thee Every Hour"
+        "en": "I Need Thee Every Hour",
+        "cn": "我惟需主"
       },
       "music": {
         "composers": [
@@ -4801,7 +4887,8 @@
     },
     "87": {
       "title": {
-        "en": "I Need Jesus"
+        "en": "I Need Jesus",
+        "cn": "我要耶稣"
       },
       "music": {
         "composers": [
@@ -4846,7 +4933,8 @@
     },
     "88": {
       "title": {
-        "en": "Amazing Grace"
+        "en": "Amazing Grace",
+        "cn": "奇异恩典"
       },
       "music": {
         "composers": [
@@ -4924,7 +5012,8 @@
     },
     "89": {
       "title": {
-        "en": "He Took My Sins Away"
+        "en": "He Took My Sins Away",
+        "cn": "祂除掉我的罪"
       },
       "music": {
         "composers": [
@@ -4965,7 +5054,8 @@
     },
     "90": {
       "title": {
-        "en": "If I Should Die"
+        "en": "If I Should Die",
+        "cn": "人若死了"
       },
       "music": {
         "composers": [
@@ -5016,7 +5106,8 @@
     },
     "91": {
       "title": {
-        "en": "Wounded for Me"
+        "en": "Wounded for Me",
+        "cn": "为我受伤"
       },
       "music": {
         "composers": [
@@ -5057,7 +5148,8 @@
     },
     "92": {
       "title": {
-        "en": "Saviour, Saviour"
+        "en": "Saviour, Saviour",
+        "cn": "救主，救主"
       },
       "music": {
         "composers": [
@@ -5103,7 +5195,8 @@
     },
     "93": {
       "title": {
-        "en": "He Took My Sin, Washed Me Within"
+        "en": "He Took My Sin, Washed Me Within",
+        "cn": "罪恶出去"
       },
       "music": {
         "composers": [
@@ -5145,7 +5238,8 @@
     },
     "94": {
       "title": {
-        "en": "All My Sins Rolled Away"
+        "en": "All My Sins Rolled Away",
+        "cn": "罪重担皆脱落"
       },
       "music": {
         "composers": [
@@ -5186,7 +5280,8 @@
     },
     "95": {
       "title": {
-        "en": "Christ Jesus Came into This World"
+        "en": "Christ Jesus Came into This World",
+        "cn": "基督耶稣降生"
       },
       "music": {
         "composers": [
@@ -5227,7 +5322,8 @@
     },
     "96": {
       "title": {
-        "en": "Jesus Breaks Every Fetter"
+        "en": "Jesus Breaks Every Fetter",
+        "cn": "主断开一切锁链"
       },
       "music": {
         "composers": [
@@ -5272,7 +5368,8 @@
     },
     "97": {
       "title": {
-        "en": "I Will Make You Fishers of Men"
+        "en": "I Will Make You Fishers of Men",
+        "cn": "主要使你得人如鱼"
       },
       "music": {
         "composers": [
@@ -5313,7 +5410,8 @@
     },
     "98": {
       "title": {
-        "en": "Must I Go and Empty-Handed?"
+        "en": "Must I Go and Empty-Handed?",
+        "cn": "主若今日接我灵魂"
       },
       "music": {
         "composers": [
@@ -5366,7 +5464,8 @@
     },
     "99": {
       "title": {
-        "en": "Lord Crucified"
+        "en": "Lord Crucified",
+        "cn": "受苦的主"
       },
       "music": {
         "composers": [],
@@ -5403,7 +5502,8 @@
     },
     "100": {
       "title": {
-        "en": "Glorious Freedom"
+        "en": "Glorious Freedom",
+        "cn": "荣耀的释放"
       },
       "music": {
         "composers": [
@@ -5444,7 +5544,8 @@
     },
     "101": {
       "title": {
-        "en": "Victory, Victory"
+        "en": "Victory, Victory",
+        "cn": "打胜仗"
       },
       "music": {
         "composers": [
@@ -5483,7 +5584,8 @@
     },
     "102": {
       "title": {
-        "en": "Onward March to Victory"
+        "en": "Onward March to Victory",
+        "cn": "我要往前打胜仗"
       },
       "music": {
         "composers": [
@@ -5524,7 +5626,8 @@
     },
     "103": {
       "title": {
-        "en": "Faith Is the Victory"
+        "en": "Faith Is the Victory",
+        "cn": "靠信心就得救"
       },
       "music": {
         "composers": [
