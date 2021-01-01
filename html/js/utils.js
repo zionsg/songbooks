@@ -82,7 +82,7 @@ const utils = (function () {
 
         let result = titles[utils.LANG_EN] || jsonKey || '';
         self.LANGUAGES.forEach(function (lang) {
-            if (self.LANG_EN === lang) {
+            if (self.LANG_EN === lang || lang !== language) {
                 return;
             }
 
