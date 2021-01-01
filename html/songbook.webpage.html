@@ -331,7 +331,7 @@
                     lyricsHtml += utils.sprintf(
                         '<div><b>%s%s</b></div><br>',
                         songPrefix,
-                        (titles[lang] || '').toUpperCase()
+                        ((titles && titles[lang]) || songJsonKey || '').toUpperCase()
                     );
 
                     Object.entries(langLyrics).forEach(function (entry) {
