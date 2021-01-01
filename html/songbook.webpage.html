@@ -179,6 +179,7 @@
                 }
 
                 // Only generate info for current section and add to result if its songList key is set
+                let songJsonKeys = Object.keys(data.songs || {});
                 let songList = section.songList || [];
                 if (!utils.isEmpty(songList)) {
                     let sectionTitle = utils.getCombinedTitle(section.title, key);
@@ -194,10 +195,15 @@
                         );
 
                         // Collate songs
-                        if (2 === songRange.length) { // convert ["1", "3"] to ["1", "2", "3"]
+                        if (2 === songRange.length) { // convert ["1", "3"] to ["1", "2", "2a", "3", "3a", "3b"]
                             let start = parseInt(songRange[0]);
                             let end = parseInt(songRange[1]);
-                            songRange = new Array(end - start + 1).fill().map((val, index) => (index + start + ''));
+                            let numericSongRange =
+                                new Array(end - start + 1).fill().map((val, index) => (index + start + ''));
+
+                            songRange =
+                                songJsonKeys.filter((val) => numericSongRange.includes(parseInt(val).toString()));
+                            songRange.sort();
                         }
                         songRange.forEach(function (songJsonKey) {
                             let song = (songs && songs[songJsonKey]) || null;
@@ -330,10 +336,11 @@
                         return; // continue
                     }
 
+                    let langTitle = (titles && titles[lang]) || '';
                     lyricsHtml += utils.sprintf(
                         '<div><b>%s%s</b></div><br>',
                         songPrefix,
-                        ((titles && titles[lang]) || songJsonKey || '').toUpperCase()
+                        utils.getLanguageTitle(titles, songJsonKey, lang).toUpperCase()
                     );
 
                     Object.entries(langLyrics).forEach(function (entry) {
