@@ -40,7 +40,7 @@ const utils = (function () {
      * @returns {string}
      */
     self.capitalizeFirstLetter = function (text) {
-        return (text[0].toUpperCase() + text.slice(1));
+        return (text ? (text[0].toUpperCase() + text.slice(1)) : '');
     };
 
     /**
@@ -128,7 +128,7 @@ const utils = (function () {
      * Get song prefix
      *
      * @public
-     * @example Given book prefix "ABC", key "31" returns "ABC031", key "test" returns "".
+     * @example Given book prefix "ABC", key "31" returns "ABC031", key "test" returns book prefix "ABC".
      * @param {object} data - Songbook data.
      * @param {string} key - JSON key for song.
      * @returns {string}
@@ -137,7 +137,7 @@ const utils = (function () {
         let bookPrefix = data.bookPrefix || '';
         let songPrefix = (null === key.match(/^\d+$/)) ? '' : (bookPrefix + key.padStart(3, '0'));
 
-        return songPrefix;
+        return (songPrefix || bookPrefix);
     };
 
     /**
@@ -194,7 +194,9 @@ const utils = (function () {
             lastStanzaKey = stanzaKeys[stanzaKeys.length - 1];
             stanzaKeys.forEach(function (stanzaJsonKey) {
                 stanzaOrder.push(stanzaJsonKey);
-                stanzaOrder.push(chorusJsonKey);
+                if (chorusJsonKey) { // not all songs have a chorus
+                    stanzaOrder.push(chorusJsonKey);
+                }
             });
 
             // Resolve stanza order based on stanzas for 1st language version found, assumes all languages are the same
