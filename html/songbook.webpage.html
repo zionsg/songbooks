@@ -269,13 +269,15 @@
                     let slidesHtml = '';
                     let dataParam = utils.getQueryParam('data', '');
                     Object.keys(langLyrics).forEach(function (lang) {
-                        slidesHtml += utils.sprintf(
-                            ' <a target="_blank" href="song.slides.html?data=%s&song=%s&lang=%s">%s</a>',
-                            dataParam,
-                            key,
-                            lang,
-                            lang
-                        );
+                        if (!utils.isEmpty(langLyrics[lang])) {
+                            slidesHtml += utils.sprintf(
+                                ' <a target="_blank" href="song.slides.html?data=%s&song=%s&lang=%s">%s</a>',
+                                dataParam,
+                                key,
+                                lang,
+                                lang
+                            );
+                        }
                     });
 
                     lyricsHtml += utils.sprintf(
@@ -324,7 +326,7 @@
                 );
                 utils.LANGUAGES.forEach(function (lang) {
                     let langLyrics = lyrics[lang];
-                    if (!langLyrics) {
+                    if (utils.isEmpty(langLyrics)) {
                         return; // continue
                     }
 
