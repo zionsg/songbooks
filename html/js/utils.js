@@ -125,6 +125,27 @@ const utils = (function () {
     };
 
     /**
+     * Get filename for song
+     *
+     * @public
+     * @example Given book prefix "ABC", key "31" returns "abc031", key "test" returns "abc-test".
+     * @param {object} data - Songbook data.
+     * @param {string} key - JSON key for song.
+     * @returns {string}
+     */
+    self.getSongFilename = function (data, key) {
+        let filename = data.bookPrefix || '';
+
+        if (isNumber(key)) {
+            filename += key.padStart(3, '0');
+        } else {
+            filename += (filename ? '-' : '') + self.textToVariableName(key);
+        }
+
+        return filename.toLowerCase();
+    };
+
+    /**
      * Get song prefix
      *
      * @public
@@ -135,7 +156,7 @@ const utils = (function () {
      */
     self.getSongPrefix = function (data, key) {
         let bookPrefix = data.bookPrefix || '';
-        let songPrefix = (null === key.match(/^\d+$/)) ? '' : (bookPrefix + key.padStart(3, '0'));
+        let songPrefix = isNumber(key) ? (bookPrefix + key.padStart(3, '0')) : '';
 
         return (songPrefix || bookPrefix);
     };
@@ -216,7 +237,7 @@ const utils = (function () {
      * @returns {boolean} True if not a number.
      */
     self.isChorus = function (stanzaJsonKey) {
-        return (stanzaJsonKey.match(/^\d$/) ? false : true); // Number.isInteger() doesn't seem to work well here
+        return (isNumber(stanzaJsonKey) ? false : true); // Number.isInteger() doesn't seem to work well here
     };
 
     /**
@@ -356,6 +377,21 @@ const utils = (function () {
     self.textToVariableName = function (text) {
         return (text || '').toLowerCase().replace(/[^a-z0-9_\-\s]/gi, '').trim().replace(/\s/g, '-');
     };
+
+    /**
+     * Check if text is a number
+     *
+     * @private
+     * @param {string} text
+     * @returns {boolean}
+     */
+    function isNumber(text) {
+        if (!text) { // ''.match() does not work
+            return false;
+        }
+
+        return (text.match(/^\d+$/) ? true : false);
+    }
 
     // Return public interface
     return self;
