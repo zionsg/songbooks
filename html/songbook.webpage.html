@@ -203,7 +203,16 @@
 
                             songRange =
                                 songJsonKeys.filter((val) => numericSongRange.includes(parseInt(val).toString()));
-                            songRange.sort();
+                            songRange.sort(function (a, b) {
+                                // need custom function else may get ["1", "10", "5"] or ["1", "5", "10", "5a"]
+                                let aNum = parseInt(a);
+                                let bNum = parseInt(b);
+                                if (aNum === bNum) {
+                                    return (a < b) ? -1 : 1;
+                                }
+
+                                return (aNum < bNum) ? -1 : 1;
+                            });
                         }
                         songRange.forEach(function (songJsonKey) {
                             let song = (songs && songs[songJsonKey]) || null;
