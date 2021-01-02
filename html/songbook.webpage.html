@@ -47,6 +47,15 @@
     <script>
         (function () {
             /**
+             * Constants
+             *
+             * @private
+             * @type {string}
+             */
+            const ATTR_FILENAME = 'data-filename';
+            const ATTR_SONG = 'data-song';
+
+            /**
              * Parsed songbook info
              *
              * @private
@@ -105,7 +114,13 @@
 
                                 sectionInfo.songs.forEach(function (song) {
                                     sectionsHtml += utils.sprintf(
-                                        "<tr><td>%s%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>\n",
+                                        '<tr %s="%s" %s="%s">'
+                                        + '<td>%s%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td>'
+                                        + "</tr>\n",
+                                        ATTR_SONG,
+                                        song.songJsonKey,
+                                        ATTR_FILENAME,
+                                        song.filename,
                                         song.songPrefix ? song.songPrefix + ': ' : '',
                                         song.name,
                                         song.lyrics,
@@ -247,11 +262,13 @@
              * @param {string} key - JSON key for song. Used for English title if latter is not specified.
              * @returns {object}
              *     {
-             *       songPrefix: <bookPrefix + song number>
-             *       name: <HTML for Name column>
-             *       lyrics: <HTML for Lyrics column>
-             *       music: <HTML for Music column>
-             *       signature: <HTML for Key/Time Signature column>
+             *       songJsonKey: <JSON key for song in songbook>,
+             *       songPrefix: <bookPrefix + song number>,
+             *       filename: <computed filename for song>,
+             *       name: <HTML for Name column>,
+             *       lyrics: <HTML for Lyrics column>,
+             *       music: <HTML for Music column>,
+             *       signature: <HTML for Key/Time Signature column>,
              *       notes: <HTML for Notes column>
              *     }
              */
@@ -309,7 +326,9 @@
                 );
 
                 return {
+                    songJsonKey: key,
                     songPrefix: songPrefix,
+                    filename: utils.getSongFilename(data, key),
                     name: utils.getCombinedTitle(song.title, key),
                     lyrics: lyricsHtml,
                     music: musicHtml,
