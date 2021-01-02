@@ -54,6 +54,7 @@
              */
             const ATTR_FILENAME = 'data-filename';
             const ATTR_SONG = 'data-song';
+            const ATTR_SONGBOOK = 'data-songbook';
 
             /**
              * Parsed songbook info
@@ -90,8 +91,11 @@
 
                     // Book title and copyright
                     let bookTitles = Object.values(data['title'] || '');
+                    let songbookTitleDiv = document.querySelector('.songbook-title');
                     document.title = bookTitles.join(' ');
-                    document.querySelector('.songbook-title').innerHTML = bookTitles.join('<br>');
+                    songbookTitleDiv.setAttribute(ATTR_SONGBOOK, data.bookPrefix || '');
+                    songbookTitleDiv.innerHTML = bookTitles.join('<br>');
+
                     document.querySelector('footer').innerHTML = data['copyright'] || '';
 
                     // Table of contents and sections
