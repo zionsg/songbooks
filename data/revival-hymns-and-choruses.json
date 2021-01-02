@@ -254,7 +254,7 @@
         ]
       },
       "notes": [
-        "Same song: TSMS258-1, HP-frontcover",
+        "Same song: TSMS258-1, HP-doxology",
         "Same tune: RHC020, RHC048"
       ]
     },
@@ -297,7 +297,7 @@
         }
       },
       "notes": [
-        "Same song: HP-frontcover"
+        "Same song: HP-the-lord-is-in-his-holy-temple"
       ]
     },
     "Gloria Patri (Greatorex)": {
@@ -319,8 +319,8 @@
         ]
       },
       "notes": [
-        "Same song: HP-frontcover",
-        "Same lyrics: GloriaPatri-Meineke"
+        "Same song: HP-gloria-patri-greatorex",
+        "Same lyrics: RHC-gloria-patri-meineke"
       ]
     },
     "Gloria Patri (Meineke)": {
@@ -342,8 +342,8 @@
         ]
       },
       "notes": [
-        "Same song: HP-frontcover",
-        "Same lyrics: GloriaPatri-Greatorex"
+        "Same song: HP-gloria-patri-meineke",
+        "Same lyrics: RHC-gloria-patri-greatorex"
       ]
     },
     "Pressing On!": {
@@ -27053,7 +27053,7 @@
       },
       "notes": []
     },
-    "The Lord Bless You and Keep You": {
+    "The Lord Bless You And Keep You": {
       "music": {
         "composers": [
           "Peter C. Lutkin"
@@ -27094,7 +27094,7 @@
         }
       },
       "notes": [
-        "Same song: HP-backcover"
+        "Same song: HP-the-lord-bless-you-and-keep-you"
       ]
     },
     "Twofold Amen": {
@@ -27124,7 +27124,7 @@
         }
       },
       "notes": [
-        "Same song: HP-backcover"
+        "Same song: HP-twofold-amen"
       ]
     },
     "Threefold Amen": {
@@ -27154,7 +27154,7 @@
         }
       },
       "notes": [
-        "Same song: HP-backcover"
+        "Same song: HP-threefold-amen"
       ]
     },
     "Sevenfold Amen": {
@@ -27186,7 +27186,7 @@
         }
       },
       "notes": [
-        "Same song: HP-backcover"
+        "Same song: HP-sevenfold-amen"
       ]
     },
     "May The Grace Of Christ Our Savior": {
@@ -27242,7 +27242,7 @@
         }
       },
       "notes": [
-        "Same song: HP-backcover-stanza1only"
+        "Same song: HP-may-the-grace-of-christ-our-savior-stanza1only"
       ]
     }
   }
