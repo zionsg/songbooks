@@ -275,7 +275,7 @@
                     '%s%s%s',
                     authors,
                     (translators && authors) ? '<br>' : '',
-                    translators ? '(' + translators + ')' : ''
+                    translators ? 'Translated by: ' + translators : ''
                 );
 
                 let langLyrics = utils.getLanguageLyrics(song);
@@ -311,7 +311,7 @@
                     tune ? tune.toUpperCase() + '<br><br>' : '',
                     composers,
                     (composers && arrangers) ? '<br>' : '',
-                    arrangers ? '(' + arrangers + ')' : ''
+                    arrangers ? 'Arranged by: ' + arrangers : ''
                 );
 
                 return {
