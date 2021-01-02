@@ -14231,6 +14231,9 @@
         "translators": [
           "Zion Ng (Chinese)"
         ],
+        "stanzaOrder": [
+          "1", "chorus", "2", "chorus", "3", "chorus", "4", "chorus", "5", "grand chorus"
+        ],
         "en": {
           "1": [
             "Thou didst leave Thy throne, And Thy kingly crown",
@@ -14239,36 +14242,34 @@
             "For Thy holy nativity."
           ],
           "2": [
-            "(Refrain for stanzas 1-4)",
-            "O come to my heart, Lord Jesus -",
-            "There is room in my heart for Thee!"
-          ],
-          "3": [
             "Heaven's arches rang, When the angels sang,",
             "Proclaiming Thy royal degree;",
             "But of lowly birth, Didst Thou come to earth,",
             "And in great humility."
           ],
-          "4": [
+          "3": [
             "The foxes found rest, And the birds their nest",
             "In the shade of the forest tree;",
             "But Thy couch was the sod, O Thou Son of God,",
             "In the deserts of Galilee."
           ],
-          "5": [
+          "4": [
             "Thou camest, O Lord, With the living word",
             "That should set Thy people free;",
             "But with mocking scorn, And with crown of thorn,",
             "They bore Thee to Calvary."
           ],
-          "6": [
+          "5": [
             "When the heavens shall ring, And the angels sing",
             "At Thy coming to victory,",
             "Let Thy voice call me home, Saying, \"Yet there is room -",
             "There is room at My side for thee.\""
           ],
-          "7": [
-            "(Refrain for stanza 5)",
+          "chorus": [
+            "O come to my heart, Lord Jesus -",
+            "There is room in my heart for Thee!"
+          ],
+          "grand chorus": [
             "My heart shall rejoice, Lord Jesus,",
             "When Thou comest and callest for me!"
           ]
@@ -14305,6 +14306,10 @@
             "我身边有空位给你。」"
           ],
           "chorus": [
+            "请进入我心，主耶稣 －",
+            "我心中已为袮备房！"
+          ],
+          "grand chorus": [
             "我心将欢喜，主耶稣，",
             "当袮回来召我回家！"
           ]
