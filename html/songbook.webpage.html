@@ -269,7 +269,15 @@
                 let tune = music.tune || '';
                 let notes = song.notes || [];
 
-                let lyricsHtml = (lyrics.authors || []).join(', ');
+                let authors = (lyrics.authors || []).join(', ');
+                let translators = (lyrics.translators || []).join(', ');
+                let lyricsHtml = utils.sprintf(
+                    '%s%s%s',
+                    authors,
+                    (translators && authors) ? '<br>' : '',
+                    translators ? '(' + translators + ')' : ''
+                );
+
                 let langLyrics = utils.getLanguageLyrics(song);
                 if (langLyrics) { // check if any lyrics at all
                     let slidesHtml = '';
@@ -288,7 +296,7 @@
 
                     lyricsHtml += utils.sprintf(
                       '%s<a href="#" class="%s" %s="%s">lyrics</a><br>slides:%s',
-                      (lyricsHtml ? '<br>' : ''),
+                      (lyricsHtml ? '<br><br>' : ''),
                       CSS_CLASS_LYRICS_LINK,
                       ATTR_SONG_KEY,
                       key,
@@ -296,11 +304,21 @@
                     );
                 }
 
+                let composers = (music.composers || []).join(', ');
+                let arrangers = (music.arrangers || []).join(', ');
+                let musicHtml = utils.sprintf(
+                    '%s%s%s%s',
+                    tune ? tune.toUpperCase() + '<br><br>' : '',
+                    composers,
+                    (composers && arrangers) ? '<br>' : '',
+                    arrangers ? '(' + arrangers + ')' : ''
+                );
+
                 return {
                     songPrefix: songPrefix,
                     name: utils.getCombinedTitle(song.title, key),
                     lyrics: lyricsHtml,
-                    music: (tune ? tune.toUpperCase() + '<br>' : '') + (music.composers || []).join(', '),
+                    music: musicHtml,
                     signature: (music.keySignature || []).join(', ') + '<br>' + (music.timeSignature || []).join(', '),
                     notes: notes.join('<br>')
                 };
