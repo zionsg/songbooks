@@ -9,6 +9,7 @@
     /**
      * Init
      *
+     * @private
      * @returns {void}
      */
     function init() {
@@ -56,6 +57,7 @@
      * @private
      * @param {string} songbookPrefix
      * @param {string} songJsonKey
+     * @returns {boolean}
      */
     function hasMidi(songbookPrefix, songJsonKey) {
         if (['TSMS', 'EHS'].includes(songbookPrefix)) { // total 479 songs in TSMS, total 105 songs in EHS
