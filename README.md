@@ -24,3 +24,7 @@ Word documents.
   `http://localhost/songbooks/html/songbook.webpage.html?data=http://localhost/songbooks/data/songbook.example.json`.
 - The webpage also takes in query params `css` and `js` for loading of an additional stylesheet and script
   respectively. See the top docblock in `html/songbook.webpage.html` for more details.
+
+## Additional assets
+- The files in the `assets` folder, especially `hymns.css` and `hymns.js`, are site-specific (not generic)
+  and hence not put in the `html` folder.

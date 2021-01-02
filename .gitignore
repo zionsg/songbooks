@@ -1,5 +1,5 @@
-assets
 node_modules
 tmp
 vendor
 .DS_Store
+*.mid
