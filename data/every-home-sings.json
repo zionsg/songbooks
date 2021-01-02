@@ -3537,16 +3537,19 @@
         "authors": [
           "John Sung Choruses"
         ],
+        "translators": [
+          "English translation by Zion Ng"
+        ],
         "en": {
           "1": [
-            "天堂是我家，回家吧，世界无可挂，",
-            "天堂是我家，回家吧，世界无可挂。"
+            "Heaven is my home, let's go home, this world has no hold,",
+            "Heaven is my home, let's go home, this world has no hold."
           ]
         },
         "cn": {
           "1": [
-            "Heaven is my home, let's go home, this world has no hold,",
-            "Heaven is my home, let's go home, this world has no hold."
+            "天堂是我家，回家吧，世界无可挂，",
+            "天堂是我家，回家吧，世界无可挂。"
           ]
         }
       },
