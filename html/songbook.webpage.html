@@ -30,11 +30,16 @@
         display: inline-block;
         margin: 0.5em;
       }
+
+      .text-right {
+        text-align: right;
+      }
     </style>
   </head>
 
   <body>
-     <!-- Empty elements to be filled in by JavaScript -->
+    <!-- Empty elements to be filled in by JavaScript -->
+    <a id="top"></a>
     <h1 class="songbook-title"></h1>
 
     <h2>Table of Contents</h2>
@@ -134,7 +139,9 @@
                                     );
                                 });
 
-                                sectionsHtml += "</table>\n";
+                                sectionsHtml += "</table>\n"
+                                    + '<br><div class="text-right"><a href="#top">^ back to top ^</a></div>'
+                                    + "\n";
                             }
                         });
                     });
