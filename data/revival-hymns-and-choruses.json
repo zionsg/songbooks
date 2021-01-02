@@ -14,8 +14,8 @@
         [
           "Doxology",
           "The Lord Is In His Holy Temple",
-          "Gloria Patri (Meineke)",
           "Gloria Patri (Greatorex)",
+          "Gloria Patri (Meineke)",
           "Pressing On!"
         ]
       ]
@@ -14232,7 +14232,16 @@
           "Zion Ng (Chinese)"
         ],
         "stanzaOrder": [
-          "1", "chorus", "2", "chorus", "3", "chorus", "4", "chorus", "5", "grand chorus"
+          "1",
+          "chorus",
+          "2",
+          "chorus",
+          "3",
+          "chorus",
+          "4",
+          "chorus",
+          "5",
+          "grand chorus"
         ],
         "en": {
           "1": [

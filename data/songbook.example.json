@@ -24,7 +24,8 @@
       "A section can contain subsections which in turn have their own titles and song lists.",
       "If the title for a section is not specified for a language or is empty, eg. for en key, its JSON key is used.",
       "A song list consists of arrays of songs. If an array contains exactly 2 values, it means from song1 to song2.",
-      "If an array in the song list contains 3 or more values, it means song1, song2, song3, etc. If 1 value, song1."
+      "If an array in the song list contains 3 or more values, it means song1, song2, song3, etc. If 1 value, song1.",
+      "Note that JSON keys of sections/songs are case-sensitive."
     ],
     "Front Cover": {
       "title": {
@@ -64,6 +65,7 @@
     "//": [
       "Songs are indexed by the number alone, to make it easier to reference in song lists.",
       "The exceptions are those songs without numbers, typically those on the front and back covers of the songbook.",
+      "Note that JSON keys of songs are case-sensitive.",
       "If the title for a song is not specified for a language or is empty, eg. for en key, its JSON key is used.",
       "Key/time signatures are arrays as some songs may switch halfway.",
       "Lyrics contain language-specific versions.",
