@@ -2,10 +2,12 @@
  * Common Javascript file for all hymnals
  *
  * @link Used with https://github.com/zionsg/songbooks/blob/master/html/songbook.webpage.html
- * @version 2021-01-02T21:00+08:00 zionsg
  */
 
 (function () {
+    /** @type {string} */
+    let isMessageShown = false;
+
     /**
      * Init
      *
@@ -15,6 +17,19 @@
     function init() {
         // Load MIDIjs - cannot save script locally cos it will call other scripts from MIDIjs.net
         utils.loadScript('//www.midijs.net/lib/midi.js');
+
+        // Tack on method in loaded utils.js
+        utils.play = function (path) {
+            if (!isMessageShown) {
+                isMessageShown = true;
+                alert(
+                    'Please be patient as there may be an initial delay of about 10 secs when a MIDI file is played, '
+                    + 'due to loading of MIDI instruments. This message will not be shown again for this session.'
+                );
+            }
+
+            MIDIjs.play(path);
+        };
 
         let songbook = document.querySelector('h1[data-songbook]').getAttribute('data-songbook');
         let songRows = document.querySelectorAll('tr[data-song]');
@@ -36,7 +51,7 @@
             let currHtml = musicCol.innerHTML;
             let midiHtml = utils.sprintf( // "javascript:void(0);" prevents scroll to top after click, unlike href="#"
                 '%sMIDI: <a %s href="%s">file</a> '
-                    + '<a href="javascript:void(0);" onclick="MIDIjs.play(\'%s\');">play</a> '
+                    + '<a href="javascript:void(0);" onclick="utils.play(\'%s\');">play</a> '
                     + '<a href="javascript:void(0);" onclick="MIDIjs.stop();">stop</a>',
                 currHtml ? '<br><br>' : '',
                 'target="_blank" rel="noopener"',
