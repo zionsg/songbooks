@@ -47,15 +47,6 @@
     <script>
         (function () {
             /**
-             * Constants
-             *
-             * @private
-             * @type {string}
-             */
-            const CSS_CLASS_LYRICS_LINK = 'lyrics-link';
-            const ATTR_SONG_KEY = 'data-song-key';
-
-            /**
              * Parsed songbook info
              *
              * @private
@@ -130,13 +121,6 @@
                     });
                     document.querySelector('.table-of-contents').innerHTML = tableOfContentsHtml.trim();
                     document.querySelector('.sections').innerHTML = sectionsHtml.trim();
-
-                    // Add click handlers
-                    Array.from(document.querySelectorAll('.' + CSS_CLASS_LYRICS_LINK)).forEach(function (link) {
-                        link.addEventListener('click', function (event) {
-                            showLyrics(link.getAttribute(ATTR_SONG_KEY));
-                        });
-                    });
 
                     // Load additional JS file if any
                     utils.loadScript(jsFile);
@@ -273,6 +257,7 @@
              */
             function getSongInfo(song, key) {
                 let songPrefix = utils.getSongPrefix(data, key);
+                let dataParam = utils.getQueryParam('data', '');
                 let lyrics = song.lyrics || {};
                 let music = song.music || {};
                 let tune = music.tune || '';
@@ -290,11 +275,11 @@
                 let langLyrics = utils.getLanguageLyrics(song);
                 if (langLyrics) { // check if any lyrics at all
                     let slidesHtml = '';
-                    let dataParam = utils.getQueryParam('data', '');
                     Object.keys(langLyrics).forEach(function (lang) {
                         if (!utils.isEmpty(langLyrics[lang])) {
                             slidesHtml += utils.sprintf(
-                                ' <a target="_blank" href="song.slides.html?data=%s&song=%s&lang=%s">%s</a>',
+                                ' <a %s href="song.slides.html?data=%s&song=%s&lang=%s">%s</a>',
+                                'target="_blank" rel="noopener"',
                                 dataParam,
                                 key,
                                 lang,
@@ -304,10 +289,10 @@
                     });
 
                     lyricsHtml += utils.sprintf(
-                      '%s<a href="#" class="%s" %s="%s">lyrics</a><br>slides:%s',
+                      '%s<a %s href="song.lyrics.html?data=%s&song=%s">lyrics</a><br>slides:%s',
                       (lyricsHtml ? '<br><br>' : ''),
-                      CSS_CLASS_LYRICS_LINK,
-                      ATTR_SONG_KEY,
+                      'target="_blank" rel="noopener"',
+                      dataParam,
                       key,
                       slidesHtml
                     );
@@ -331,64 +316,6 @@
                     signature: (music.keySignature || []).join(', ') + '<br>' + (music.timeSignature || []).join(', '),
                     notes: notes.join('<br>')
                 };
-            }
-
-            /**
-             * Show lyrics for a song in a new window
-             *
-             * @private
-             * @param {string} songJsonKey - JSON key for song.
-             * @returns {void}
-             */
-            function showLyrics(songJsonKey) {
-                let song = (data && data.songs && data.songs[songJsonKey]) || null;
-                let lyrics = utils.getLanguageLyrics(song);
-                if (!lyrics) {
-                    return;
-                }
-
-                let songPrefix = utils.getSongPrefix(data, songJsonKey);
-                songPrefix += songPrefix ? ': ' : '';
-
-                // Note that lyrics open in a new child window and has no access to the CSS in parent window
-                let titles = (song && song.title) || null;
-                let lyricsHtml = utils.sprintf(
-                    '<title>%s%s</title>' + "\n",
-                    songPrefix,
-                    utils.getCombinedTitle(titles, songJsonKey)
-                );
-                utils.LANGUAGES.forEach(function (lang) {
-                    let langLyrics = lyrics[lang];
-                    if (utils.isEmpty(langLyrics)) {
-                        return; // continue
-                    }
-
-                    let langTitle = (titles && titles[lang]) || '';
-                    lyricsHtml += utils.sprintf(
-                        '<div><b>%s%s</b></div><br>',
-                        songPrefix,
-                        utils.getLanguageTitle(titles, songJsonKey, lang).toUpperCase()
-                    );
-
-                    Object.entries(langLyrics).forEach(function (entry) {
-                        let stanzaJsonKey = entry[0];
-                        let stanza = entry[1];
-
-                        lyricsHtml += utils.sprintf(
-                            '<div><i>%s</i></div>' + "\n" + '<div>%s</div>' + "\n<br>",
-                            utils.isChorus(stanzaJsonKey)
-                                ? utils.capitalizeFirstLetter(stanzaJsonKey)
-                                : 'Stanza ' + stanzaJsonKey,
-                            stanza.join('<br>')
-                        );
-                    });
-
-                    lyricsHtml += '<br>';
-                });
-
-                let childWindow = window.open('about:blank'); // "about:blank" else new window cannot zoom in Chrome
-                childWindow.document.write(lyricsHtml);
-                childWindow.document.close();
             }
 
             // Run init

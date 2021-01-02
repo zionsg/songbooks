@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+      /**
+       * This webpage shows the lyrics for a song in all available language versions.
+       *
+       * This webpage is meant to be run from a local/remote server due to reading of JSON file.
+       *
+       * It takes in the following querystring param(s):
+       *   @param {string} data - Path to JSON file for songbook.
+       *   @param {string} song - JSON key for song in songbook, e.g. "31", "Doxology".
+       *
+       * @link https://github.com/zionsg/songbooks/blob/master/html/song.lyrics.html
+       */
+    -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title> <!-- to be filled in by JavaScript -->
+  </head>
+
+  <body>
+    <div id="lyrics"></div>
+
+    <script src="js/utils.js"></script>
+    <script>
+        (function () {
+            /**
+             * Parsed songbook info
+             *
+             * @private
+             * @type {object}
+             */
+            let data = null;
+
+            /**
+             * Lyrics container
+             *
+             * @private
+             * @type {HTMLElement}
+             */
+            let lyricsContainer = document.getElementById('lyrics');
+
+            /**
+             * Initialization - function will be run at the end of this module
+             *
+             * @private
+             * @returns {void}
+             */
+            function init() {
+                // Parse query params
+                let dataFile = utils.getQueryParam('data', '');
+                let songJsonKey = utils.getQueryParam('song', '');
+                if (!dataFile || !songJsonKey) {
+                    return;
+                }
+
+                utils.readJsonFile(dataFile, function (json) {
+                    // Save contents of JSON file
+                    data = json;
+                    if (!data) {
+                        return;
+                    }
+
+                    // Retrieve song
+                    let song = (data && data.songs && data.songs[songJsonKey]) || null;
+                    if (!song) {
+                        return;
+                    }
+
+                    let songPrefix = utils.getSongPrefix(data, songJsonKey);
+                    let songTitle = utils.getCombinedTitle(song.title, songJsonKey, '<br>');
+                    if (!songPrefix && !songTitle) {
+                        return;
+                    }
+
+                    // Update title and show lyrics
+                    document.title = songPrefix + ': ' + songTitle.replace(/<br>/g, ' ');
+                    showLyrics(songJsonKey);
+                });
+            }
+
+            /**
+             * Show lyrics for a song in a new window
+             *
+             * @private
+             * @param {string} songJsonKey - JSON key for song.
+             * @returns {void}
+             */
+            function showLyrics(songJsonKey) {
+                let song = (data && data.songs && data.songs[songJsonKey]) || null;
+                let lyrics = utils.getLanguageLyrics(song);
+                if (!lyrics) {
+                    return;
+                }
+
+                let songPrefix = utils.getSongPrefix(data, songJsonKey);
+                songPrefix += songPrefix ? ': ' : '';
+
+                // Note that lyrics open in a new child window and has no access to the CSS in parent window
+                let titles = (song && song.title) || null;
+                let lyricsHtml = utils.sprintf(
+                    '<title>%s%s</title>' + "\n",
+                    songPrefix,
+                    utils.getCombinedTitle(titles, songJsonKey)
+                );
+                utils.LANGUAGES.forEach(function (lang) {
+                    let langLyrics = lyrics[lang];
+                    if (utils.isEmpty(langLyrics)) {
+                        return; // continue
+                    }
+
+                    let langTitle = (titles && titles[lang]) || '';
+                    lyricsHtml += utils.sprintf(
+                        '<div><b>%s%s</b></div><br>',
+                        songPrefix,
+                        utils.getLanguageTitle(titles, songJsonKey, lang).toUpperCase()
+                    );
+
+                    Object.entries(langLyrics).forEach(function (entry) {
+                        let stanzaJsonKey = entry[0];
+                        let stanza = entry[1];
+
+                        lyricsHtml += utils.sprintf(
+                            '<div><i>%s</i></div>' + "\n" + '<div>%s</div>' + "\n<br>",
+                            utils.isChorus(stanzaJsonKey)
+                                ? utils.capitalizeFirstLetter(stanzaJsonKey)
+                                : 'Stanza ' + stanzaJsonKey,
+                            stanza.join('<br>')
+                        );
+                    });
+
+                    lyricsHtml += '<br>';
+                });
+
+                lyricsContainer.innerHTML = lyricsHtml;
+            }
+
+            // Run init
+            init();
+        })();
+    </script>
+  </body>
+</html>
