@@ -251,7 +251,25 @@
       "lyrics": {
         "authors": [
           "Thomas Ken"
-        ]
+        ],
+        "en": {
+          "1": [
+            "Praise God, from whom all blessings flow;",
+            "Praise Him, all creatures here below;",
+            "Praise Him above, ye heav'nly host;",
+            "Praise Father, Son and Holy Ghost.",
+            "Amen."
+          ]
+        },
+        "cn": {
+          "1": [
+            "赞美真神万福之源，",
+            "世上万民都当颂扬，",
+            "天使天军赞美主名，",
+            "赞美圣父圣子圣灵，",
+            "阿们。"
+          ]
+        }
       },
       "notes": [
         "Same song: TSMS258-1, HP-doxology",
@@ -316,11 +334,27 @@
       "lyrics": {
         "authors": [
           "Source unknown"
-        ]
+        ],
+        "en": {
+          "1": [
+            "Glory be to the Father and to the Son and to the Holy Ghost,",
+            "As it was in the beginning, is now and ever shall be,",
+            "world without end.",
+            "Amen, Amen."
+          ]
+        },
+        "cn": {
+          "1": [
+            "荣耀都归于圣父，圣子，圣灵，三一全能真神！",
+            "正如太初直到现今，荣耀万古而常新，",
+            "永无穷尽！",
+            "阿们！阿们！"
+          ]
+        }
       },
       "notes": [
         "Same song: HP-gloria-patri-greatorex",
-        "Same lyrics: RHC-gloria-patri-meineke"
+        "Same lyrics: RHC-gloria-patri-meineke (English only)"
       ]
     },
     "Gloria Patri (Meineke)": {
@@ -339,11 +373,27 @@
       "lyrics": {
         "authors": [
           "Source unknown"
-        ]
+        ],
+        "en": {
+          "1": [
+            "Glory be to the Father and to the Son and to the Holy Ghost,",
+            "As it was in the beginning, is now and ever shall be,",
+            "world without end.",
+            "Amen, Amen."
+          ]
+        },
+        "cn": {
+          "1": [
+            "但愿荣耀归于父子圣灵，父子圣灵，",
+            "起初这样现在这样，以后也这样，",
+            "永无穷尽。",
+            "阿们，阿们。"
+          ]
+        }
       },
       "notes": [
         "Same song: HP-gloria-patri-meineke",
-        "Same lyrics: RHC-gloria-patri-greatorex"
+        "Same lyrics: RHC-gloria-patri-greatorex (English only)"
       ]
     },
     "Pressing On!": {
