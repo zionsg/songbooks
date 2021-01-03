@@ -17311,7 +17311,67 @@
       "lyrics": {
         "authors": [
           "Charles Wesley"
-        ]
+        ],
+        "en": {
+          "1": [
+            "Rejoice - the Lord is King!",
+            "Your Lord and King adore!",
+            "Rejoice, give thanks, and sing",
+            "And triumph evermore:"
+          ],
+          "chorus": [
+            "Lift up your heart, lift up your voice!",
+            "Rejoice, again I say, rejoice!"
+          ],
+          "2": [
+            "Jesus the Savior reigns,",
+            "The God of truth and love;",
+            "When he had purged our stains",
+            "He took His seat above:"
+          ],
+          "3": [
+            "His kingdom cannot fail -",
+            "He rules o'er earth and heav'n；",
+            "The keys of death and hell",
+            "Are to our Jesus giv'n："
+          ],
+          "4": [
+            "Rejoice in glorious hope!",
+            "Our Lord the Judge shall come",
+            "And take His servants up",
+            "To their eternal home:"
+          ]
+        },
+        "cn": {
+          "1": [
+            "欢欣救主为君！",
+            "你当叩拜至尊！",
+            "高声感谢主恩，",
+            "凯歌永远欢欣；"
+          ],
+          "chorus": [
+            "振起你心！举起你声！",
+            "欢欣！欢欣！你当欢欣！"
+          ],
+          "2": [
+            "耶稣执掌权衡，",
+            "真理慈爱之神：",
+            "主即使我洁清，",
+            "高举荣升天庭，"
+          ],
+          "3": [
+            "基督耶稣为主，",
+            "国度存到永远；",
+            "得胜阴府死亡，",
+            "天地属祂掌管；"
+          ],
+          "4": [
+            "你当希望欢欣！",
+            "耶稣必再降临！",
+            "引导从主仆人，",
+            "同归天上家庭，"
+          ]
+        }
       },
       "notes": [
         "Same song: HP031"
