@@ -80,6 +80,11 @@
         }
 
         if ('HP' === songbookPrefix) { // total 479 songs in HP (tentative cos have not indexed all songs)
+            // HP is still being indexed, only 1 hymn with MIDI
+            if (['31'].includes(songJsonKey)) {
+                return true;
+            }
+
             return false;
         }
 
