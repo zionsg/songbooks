@@ -23675,7 +23675,33 @@
       "lyrics": {
         "authors": [
           "Joseph Hart"
-        ]
+        ],
+        "en": {
+          "1": [
+            "How good is the Lord we adore,",
+            "Our faithful unchangeable Friend!",
+            "His love is as great as His pow'r,",
+            "And knows neither measure nor end!"
+          ],
+          "2": [
+            "'Tis Jesus the First and the Last,",
+            "Whose Spirit shall guide us safe home;",
+            "We'll praise Him for all that is past,",
+            "We'll trust Him for all that's to come."
+          ],
+          "3": [
+            "But what says our Shepherd divine?",
+            "For His holy word we must keep!",
+            "This flock hath the Father made mine;",
+            "I lay down my life for the sheep!"
+          ],
+          "4": [
+            "'Tis life everlasting I give;",
+            "My blood was the price my sheep cost;",
+            "Not one that on Me shall believe,",
+            "Shall ever be finally lost."
+          ]
+        }
       },
       "notes": [
         "Replaces RHC432 in February 2006 reprint."
