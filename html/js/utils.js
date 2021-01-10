@@ -33,6 +33,14 @@ const utils = (function () {
     let queryParams = null;
 
     /**
+     * Parsed data from songbook JSON file
+     *
+     * @private
+     * @type {object} As per readJsonFile().
+     */
+    let songbookData = null;
+
+    /**
      * Capitalize first letter
      *
      * @public
@@ -149,6 +157,18 @@ const utils = (function () {
 
         // All the values are stored as arrays. If array only has 1 value, return that.
         return (1 === result.length) ? result[0] : result;
+    };
+
+    /**
+     * Get parsed data from songbook JSON file
+     *
+     * readJsonFile() must have been run first.
+     *
+     * @public
+     * @returns {object} As per readJsonFile().
+     */
+    self.getSongbookData = function () {
+        return songbookData;
     };
 
     /**
@@ -334,10 +354,12 @@ const utils = (function () {
     };
 
     /**
-     * Read JSON file
+     * Read JSON file for songbook
      *
      * This must be run from a local/remote server due to CORS, i.e. the webpage using this function
      * is accessed via http:// or https:// but not file://.
+     *
+     * The parsed JSON will be stored internally and can be retrived via getSongbookData().
      *
      * @public
      * @param {string} path - Path to JSON file. This must be a valid URL and not a relative path.
@@ -350,6 +372,7 @@ const utils = (function () {
             url = new URL(path);
         } catch (e) {
             console.log('Invalid url (do not use relative paths): ' + path);
+            songbookData = null; // save copy
             callback(null);
             return;
         }
@@ -366,6 +389,7 @@ const utils = (function () {
                     json = null;
                 }
 
+                songbookData = json; // save copy
                 callback(json);
             }
         }
