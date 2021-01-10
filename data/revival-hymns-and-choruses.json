@@ -5088,29 +5088,28 @@
             "O hear the voice of Jesus!"
           ],
           "2": [
-            "(Refrain)",
-            "Sweetest note in seraph song,",
-            "Sweetest name on mortal tongue,",
-            "Sweetest carol ever sung -",
-            "Jesus, blessed Jesus!"
-          ],
-          "3": [
             "Your many sins are all forgiv'n -",
             "O hear the voice of Jesus;",
             "Go on your way in peace to heav'n",
             "And wear a crown with Jesus."
           ],
-          "4": [
+          "3": [
             "All glory to the dying Lamb -",
             "I now believe in Jesus;",
             "I love the blessed Savior's name,",
             "I love the name of Jesus."
           ],
-          "5": [
+          "4": [
             "And when to that bright world above",
             "We rise to be with Jesus,",
             "We'll sing around the throne of love",
             "His name, the name of Jesus."
+          ],
+          "chorus": [
+            "Sweetest note in seraph song,",
+            "Sweetest name on mortal tongue,",
+            "Sweetest carol ever sung -",
+            "Jesus, blessed Jesus!"
           ]
         },
         "cn": {
@@ -6399,27 +6398,26 @@
             "Over and around us lies:"
           ],
           "2": [
-            "(Refrain)",
-            "Christ of God, to Thee we raise,",
-            "This our hymn of grateful praise."
-          ],
-          "3": [
             "For the wonder of each hour",
             "Of the day and of the night,",
             "Hill and vale, and tree and flow'r,",
             "Sun and moon, and stars of light:"
           ],
-          "4": [
+          "3": [
             "For the joy of human love,",
             "Brother, sister, parent, child,",
             "Friends on earth and friends above,",
             "For all gentle thoughts and mild:"
           ],
-          "5": [
+          "4": [
             "For Thy Church that evermore",
             "Lifteth holy hands above,",
             "Off'ring up on ev'ry shore",
             "Her pure sacrifice of love:"
+          ],
+          "chorus": [
+            "Christ of God, to Thee we raise,",
+            "This our hymn of grateful praise."
           ]
         },
         "cn": {
@@ -7613,11 +7611,6 @@
             "In His arms He carries them all day long:"
           ],
           "2": [
-            "(Refrain)",
-            "Praise Him! Praise Him! Tell of His excellent greatness!",
-            "Praise Him! Praise Him! Ever in joyful song!"
-          ],
-          "3": [
             "Praise Him! Praise Him! Jesus, our blessed Redeemer!",
             "For our sins He suffered and bled and died;",
             "He our Rock, our hope of eternal salvation,",
@@ -7625,13 +7618,17 @@
             "Sound His praises - Jesus who bore our sorrows -",
             "Love unbounded, wonderful, deep and strong:"
           ],
-          "4": [
+          "3": [
             "Praise Him! Praise Him! Jesus, our blessed Redeemer!",
             "Heav'nly portals loud with hosannas ring!",
             "Jesus, Savior, reigneth forever and ever.",
             "Crown Him! crown Him! Prophet and Priest and King!",
             "Christ is coming, over the world victorious -",
             "Pow'r and glory unto the Lord belong:"
+          ],
+          "chorus": [
+            "Praise Him! Praise Him! Tell of His excellent greatness!",
+            "Praise Him! Praise Him! Ever in joyful song!"
           ]
         },
         "cn": {
@@ -7697,41 +7694,40 @@
             "To Christ the Savior given."
           ],
           "2": [
-            "(Refrain)",
-            "We love to sing of Christ our King,",
-            "And hail Him, blessed Jesus!",
-            "For there's no word ear ever heard",
-            "So dear, so sweet as \"Jesus!\""
-          ],
-          "3": [
             "'Twas Gabriel first that did proclaim,",
             "To His most blessed mother,",
             "That name which now and evermore",
             "We praise above all other."
           ],
-          "4": [
+          "3": [
             "And when He hung upon the tree",
             "They wrote His name above Him,",
             "That all might see the reason we",
             "Forevermore must love Him."
           ],
-          "5": [
+          "4": [
             "So now, upon His Father's throne,",
             "Almighty to release us",
             "From sin and pain, He ever reigns -",
             "The Prince and Savior, Jesus."
           ],
-          "6": [
+          "5": [
             "O Jesus! by that matchless name",
             "Thy grace shall fail us never;",
             "Today as yesterday the same,",
             "Thou art the same forever!"
           ],
-          "7": [
+          "6": [
             "To Jesus ev'ry knee shall bow",
             "And ev'ry tongue confess Him,",
             "And we unite with saints in light,",
             "Our only Lord, to bless Him."
+          ],
+          "chorus": [
+            "We love to sing of Christ our King,",
+            "And hail Him, blessed Jesus!",
+            "For there's no word ear ever heard",
+            "So dear, so sweet as \"Jesus!\""
           ]
         },
         "cn": {
@@ -7890,11 +7886,6 @@
             "He tells me ev'ry care on Him to roll;"
           ],
           "2": [
-            "(Refrain)",
-            "He's the Lily of the Valley, the Bright and Morning Star,",
-            "He's the fairest of ten thousand to my soul."
-          ],
-          "3": [
             "He all my griefs has taken, and all my sorrows borne,",
             "In temptation He's my strong and mighty tow'r;",
             "I have all for Him forsaken, and all my idols torn",
@@ -7902,13 +7893,17 @@
             "Tho all the world forsake me, and Satan tempt me sore,",
             "Thru Jesus I shall safely reach the goal;"
           ],
-          "4": [
+          "3": [
             "He will never, never leave me, nor yet forsake me here,",
             "While I live by faith and do His blessed will;",
             "A wall of fire about me, I've nothing now to fear -",
             "With His manna He my hungry soul shall fill.",
             "Then sweeping up to glory, I'll see His blessed face,",
             "Where rivers of delight shall ever roll;"
+          ],
+          "chorus": [
+            "He's the Lily of the Valley, the Bright and Morning Star,",
+            "He's the fairest of ten thousand to my soul."
           ]
         },
         "cn": {
@@ -8437,33 +8432,32 @@
             "What a wonderful Savior!"
           ],
           "2": [
-            "(Refrain)",
-            "What a wonderful Savior is Jesus, my Jesus!",
-            "What a wonderful Savior is Jesus, my Lord!"
-          ],
-          "3": [
             "I praise Him for the cleansing blood -",
             "What a wonderful Savior!",
             "That reconciled my soul to God -",
             "What a wonderful Savior!"
           ],
-          "4": [
+          "3": [
             "He cleansed my heart from all its sin -",
             "What a wonderful Savior!",
             "And now He reigns and rules therein -",
             "What a wonderful Savior!"
           ],
-          "5": [
+          "4": [
             "He gives me overcoming pow'r -",
             "What a wonderful Savior!",
             "And triumph in each trying hour -",
             "What a wonderful Savior!"
           ],
-          "6": [
+          "5": [
             "To Him I've given all my heart -",
             "What a wonderful Savior!",
             "The world shall never share a part -",
             "What a wonderful Savior!"
+          ],
+          "chorus": [
+            "What a wonderful Savior is Jesus, my Jesus!",
+            "What a wonderful Savior is Jesus, my Lord!"
           ]
         },
         "cn": {
@@ -8790,22 +8784,21 @@
             "Leaning on the everlasting arms."
           ],
           "2": [
-            "(Refrain)",
-            "Leaning, leaning,",
-            "Safe and secure from all alarms;",
-            "Leaning, leaning,",
-            "Leaning on the everlasting arms."
-          ],
-          "3": [
             "O how sweet to walk in this pilgrim way,",
             "Leaning on the everlasting arms;",
             "O how bright the path grows from day to day,",
             "Leaning on the everlasting arms."
           ],
-          "4": [
+          "3": [
             "What have I to dread, what have I to fear,",
             "Leaning on the everlasting arms?",
             "I have blessed peace with my Lord so near,",
+            "Leaning on the everlasting arms."
+          ],
+          "chorus": [
+            "Leaning, leaning,",
+            "Safe and secure from all alarms;",
+            "Leaning, leaning,",
             "Leaning on the everlasting arms."
           ]
         },
@@ -9035,35 +9028,34 @@
             "O how blest to call Him mine!"
           ],
           "2": [
-            "(Refrain)",
-            "All that thrills my soul is Jesus,",
-            "He is more than life to me;",
-            "And the fairest of ten thousand",
-            "In my blessed Lord I see."
-          ],
-          "3": [
             "Love of Christ so freely given,",
             "Grace of God beyond degree,",
             "Mercy higher than the heaven,",
             "Deeper than the deepest sea!"
           ],
-          "4": [
+          "3": [
             "What a wonderful redemption!",
             "Never can a mortal know",
             "How my sin, tho red like crimson,",
             "Can be whiter than the snow."
           ],
-          "5": [
+          "4": [
             "Ev'ry need His hand supplying,",
             "Ev'ry good in Him I see;",
             "On His strength divine relying,",
             "He is all in all to me."
           ],
-          "6": [
+          "5": [
             "By the crystal flowing river",
             "With the ransomed I will sing,",
             "And forever and forever",
             "Praise and glorify the King."
+          ],
+          "chorus": [
+            "All that thrills my soul is Jesus,",
+            "He is more than life to me;",
+            "And the fairest of ten thousand",
+            "In my blessed Lord I see."
           ]
         },
         "cn": {
@@ -13038,33 +13030,32 @@
             "Until the Son of God appear."
           ],
           "2": [
-            "(Refrain)",
-            "Rejoice! rejoice! Emmanuel",
-            "Shall come to thee, O Israel."
-          ],
-          "3": [
             "O come, O come, Thou Lord of might,",
             "Who to Thy tribes, on Sinai's height,",
             "In ancient times didst give the law",
             "In cloud and majesty and awe."
           ],
-          "4": [
+          "3": [
             "O come, Thou Rod of Jesse, free",
             "Thine own from Satan's tyranny;",
             "From depths of hell Thy people save,",
             "And give them vict'ry over the grave."
           ],
-          "5": [
+          "4": [
             "O come, Thou Day-spring, come and cheer",
             "Our spirits by Thine advent here;",
             "O drive away the shades of night,",
             "And pierce the clouds and bring us light."
           ],
-          "6": [
+          "5": [
             "O come, Thou Key of David, come,",
             "And open wide our heav'nly home;",
             "Where all Thy saints with Thee shall dwell -",
             "O come, O come, Emmanuel!"
+          ],
+          "chorus": [
+            "Rejoice! rejoice! Emmanuel",
+            "Shall come to thee, O Israel."
           ]
         },
         "cn": {
@@ -13229,27 +13220,26 @@
             "Echoing their joyous strains."
           ],
           "2": [
-            "(Refrain)",
-            "Gloria, in excelsis Deo!",
-            "Gloria, in excelsis Deo!"
-          ],
-          "3": [
             "Shepherds, why this jubilee?",
             "Why your joyous strains prolong?",
             "What the gladsome tidings be",
             "Which inspire your heav'nly song?"
           ],
-          "4": [
+          "3": [
             "Come to Bethlehem and see",
             "Him whose birth the angels sing;",
             "Come, adore on bended knee",
             "Christ the Lord, the newborn King."
           ],
-          "5": [
+          "4": [
             "See Him in a manger laid,",
             "Jesus, Lord of heav'n and earth;",
             "Mary, Joseph, lend your aid,",
             "With us sing our Savior's birth."
+          ],
+          "chorus": [
+            "Gloria, in excelsis Deo!",
+            "Gloria, in excelsis Deo!"
           ]
         },
         "cn": {
@@ -13392,39 +13382,38 @@
             "On a cold winter's night that was so deep."
           ],
           "2": [
-            "(Refrain)",
-            "Noel, noel! Noel, noel!",
-            "Born is the King of Israel!"
-          ],
-          "3": [
             "They looked up and saw a star",
             "Shining in the east, beyond them far;",
             "And to the earth it gave great light,",
             "And so it continued both day and night."
           ],
-          "4": [
+          "3": [
             "And by the light of that same star,",
             "Three wise men came from country far;",
             "To seek for a king was their intent,",
             "And to follow the star wherever it went."
           ],
-          "5": [
+          "4": [
             "This star drew nigh to the northwest,",
             "O'er Bethlehem it took its rest;",
             "And there it did both stop and stay,",
             "Right over the place where Jesus lay."
           ],
-          "6": [
+          "5": [
             "Then entered in those wise men three,",
             "Full rev'rently upon the knee,",
             "And offered there, in His presence,",
             "Their gold and myrrh and frankincense."
           ],
-          "7": [
+          "6": [
             "Then let us all with one accord",
             "Sing praises to our heav'nly Lord;",
             "That hath made heav'n and earth of naught,",
             "And with His blood mankind hath bought."
+          ],
+          "chorus": [
+            "Noel, noel! Noel, noel!",
+            "Born is the King of Israel!"
           ]
         },
         "cn": {
@@ -13570,27 +13559,26 @@
             "With th'angelic host proclaim, \"Christ is born in Bethlehem!\""
           ],
           "2": [
-            "(Refrain)",
-            "Hark! the herald angels sing,",
-            "\"Glory to the newborn King!\""
-          ],
-          "3": [
             "Christ, by highest heav'n adored; Christ the everlasting Lord:",
             "Late in time, behold Him come, Offspring of a virgin's womb.",
             "Veiled in flesh the Godhead see; Hail th'incarnate Deity!",
             "Pleased as man with men to dwell, Jesus our Emmanuel."
           ],
-          "4": [
+          "3": [
             "Hail the heav'nly Prince of Peace! Hail the Sun of Righteousness!",
             "Light and life to all He brings, Ris'n with healing in His wings.",
             "Mild He lays His glory by, Born that man no more may die;",
             "Born to raise the sons of earth, Born to give them second birth."
           ],
-          "5": [
+          "4": [
             "Come, Desire of nations, come! Fix in us Thy humble home:",
             "Rise, the woman's conq'ring seed, Bruise in us the serpent's head.",
             "Adam's likeness now efface, Stamp Thine image in its place:",
             "Second Adam from above, Reinstate us in Thy love."
+          ],
+          "chorus": [
+            "Hark! the herald angels sing,",
+            "\"Glory to the newborn King!\""
           ]
         },
         "cn": {
@@ -13656,23 +13644,22 @@
             "While shepherds watch are keeping?"
           ],
           "2": [
-            "(Refrain)",
-            "This, this is Christ the King,",
-            "Whom shepherds guard and angels sing:",
-            "Haste, haste, to bring Him laud -",
-            "The Babe, the Son of Mary."
-          ],
-          "3": [
             "Why lies He in such mean estate,",
             "Where ox and ass are feeding?",
             "Good Christians, fear - for sinners here",
             "The silent Word is pleading."
           ],
-          "4": [
+          "3": [
             "So bring Him incense, gold and myrrh -",
             "Come rich and poor, to own Him;",
             "The King of kings salvation brings -",
             "Let loving hearts enthrone Him."
+          ],
+          "chorus": [
+            "This, this is Christ the King,",
+            "Whom shepherds guard and angels sing:",
+            "Haste, haste, to bring Him laud -",
+            "The Babe, the Son of Mary."
           ]
         },
         "cn": {
@@ -14069,27 +14056,26 @@
             "Now proclaim Messiah's birth:"
           ],
           "2": [
-            "(Refrain)",
-            "Come and worship, come and worship,",
-            "Worship Christ, the newborn King."
-          ],
-          "3": [
             "Shepherds, in the field abiding,",
             "Watching o'er your flocks by night,",
             "God with man is now residing;",
             "Yonder shines the infant Light:"
           ],
-          "4": [
+          "3": [
             "Sages, leave your contemplations,",
             "Brighter visions beam afar;",
             "Seek the great Desire of nations;",
             "Ye have seen His natal star:"
           ],
-          "5": [
+          "4": [
             "Saints, before the altar bending,",
             "Watching long in hope and fear;",
             "Suddenly the Lord, descending,",
             "In His temple shall appear:"
+          ],
+          "chorus": [
+            "Come and worship, come and worship,",
+            "Worship Christ, the newborn King."
           ]
         },
         "cn": {
@@ -14154,20 +14140,19 @@
             "Come and behold Him, born the King of angels:"
           ],
           "2": [
-            "(Refrain)",
-            "O come, let us adore Him,",
-            "O come, let us adore Him,",
-            "O come, let us adore Him, Christ the Lord."
-          ],
-          "3": [
             "Sing, choirs of angels, sing in exultation,",
             "Sing, all ye bright hosts of heav'n above;",
             "Glory to God, all glory in the highest:"
           ],
-          "4": [
+          "3": [
             "Yea, Lord, we greet Thee, born this happy morning,",
             "Jesus, to Thee be all glory giv'n;",
             "Word of the Father, now in flesh appearing:"
+          ],
+          "chorus": [
+            "O come, let us adore Him,",
+            "O come, let us adore Him,",
+            "O come, let us adore Him, Christ the Lord."
           ]
         },
         "cn": {
@@ -14480,31 +14465,30 @@
             "At whose feet the shepherds fall?"
           ],
           "2": [
-            "(Refrain)",
+            "Who is He that stands and weeps",
+            "At the grave where Laz'rus sleeps?"
+          ],
+          "3": [
+            "Lo! at midnight, who is He",
+            "Prays in dark Gethsemane?"
+          ],
+          "4": [
+            "Who is He in Calv'ry's throes,",
+            "Asks for blessings on His foes?"
+          ],
+          "5": [
+            "Who is He that from the grave",
+            "Comes to heal and help and save?"
+          ],
+          "6": [
+            "Who is He that from yon throne",
+            "Rules the world of light along?"
+          ],
+          "chorus": [
             "'Tis the Lord, O wondrous story!",
             "'Tis the Lord, the King of glory!",
             "At His feet we humbly fall,",
             "Crown Him! crown Him, Lord of all."
-          ],
-          "3": [
-            "Who is He that stands and weeps",
-            "At the grave where Laz'rus sleeps?"
-          ],
-          "4": [
-            "Lo! at midnight, who is He",
-            "Prays in dark Gethsemane?"
-          ],
-          "5": [
-            "Who is He in Calv'ry's throes,",
-            "Asks for blessings on His foes?"
-          ],
-          "6": [
-            "Who is He that from the grave",
-            "Comes to heal and help and save?"
-          ],
-          "7": [
-            "Who is He that from yon throne",
-            "Rules the world of light along?"
           ]
         },
         "cn": {
@@ -15304,23 +15288,22 @@
             "And purchased there ... my pardon free."
           ],
           "2": [
-            "(Refrain)",
-            "O Calvary! dark Calvary!",
-            "Where Jesus shed His blood for me (for me);",
-            "O Calvary! blest Calvary!",
-            "'Twas there my Savior died for me."
-          ],
-          "3": [
             "'Mid rending rocks ... and darkening skies ...",
             "My Saviour bows ... His head and dies; ...",
             "The opening veil ... reveals the way ...",
             "To heaven's joys ... and endless day."
           ],
-          "4": [
+          "3": [
             "O Jesus, Lord, ... how can it be ...",
             "That Thou shouldst give ... Thy life for me, ...",
             "To bear the cross ... and agony ...",
             "In that dread hour ... on Calvary!"
+          ],
+          "chorus": [
+            "O Calvary! dark Calvary!",
+            "Where Jesus shed His blood for me (for me);",
+            "O Calvary! blest Calvary!",
+            "'Twas there my Savior died for me."
           ]
         },
         "cn": {
@@ -15553,23 +15536,22 @@
             "All the sins of my life to forgive."
           ],
           "2": [
-            "(Refrain)",
-            "They are nailed to the cross, They are nailed to the cross,",
-            "O how much He was willing to bear!",
-            "With what anguish and loss Jesus went to the cross!",
-            "But He carried my sins with Him there."
-          ],
-          "3": [
             "He is tender and loving and patient with me,",
             "While He cleanses my heart of the dross;",
             "But \"there's no condemnation\" - I know I am free,",
             "For my sins are all nailed to the cross."
           ],
-          "4": [
+          "3": [
             "I will cling to my Savior and never depart -",
             "I will joyfully journey each day,",
             "With a song on my lips and a song in my heart,",
             "That my sins have been taken away."
+          ],
+          "chorus": [
+            "They are nailed to the cross, They are nailed to the cross,",
+            "O how much He was willing to bear!",
+            "With what anguish and loss Jesus went to the cross!",
+            "But He carried my sins with Him there."
           ]
         },
         "cn": {
@@ -16959,21 +16941,20 @@
             "Is gone up in triumph, to His throne above."
           ],
           "2": [
-            "(Refrain)",
-            "All His work is ended, joyfully we sing;",
-            "Jesus hath ascended - glory to our King!"
-          ],
-          "3": [
             "He who came to save us, He who bled and died,",
             "Now is crowned with glory at His Father's side:",
             "Nevermore to suffer, nevermore to die,",
             "Jesus, King of glory, is gone up on high."
           ],
-          "4": [
+          "3": [
             "Praying for His children in that blessed place,",
             "Calling them to glory, sending them His grace;",
             "His bright home preparing, faithful ones, for you;",
             "Jesus ever liveth, ever loveth, too."
+          ],
+          "chorus": [
+            "All His work is ended, joyfully we sing;",
+            "Jesus hath ascended - glory to our King!"
           ]
         },
         "cn": {
@@ -20584,23 +20565,22 @@
             "Is given to Him for the flock of His love."
           ],
           "2": [
-            "(Refrain)",
-            "Only believe, only believe;",
-            "All things are possible, only believe;",
-            "Only believe, only believe;",
-            "All things are possible, only believe."
-          ],
-          "3": [
             "Fear not, little flock, He goeth ahead,",
             "Your Shepherd selecteth the path you must tread;",
             "The waters of Marah He'll sweeten for thee -",
             "He drank all the bitter in Gethsemane."
           ],
-          "4": [
+          "3": [
             "Fear not, little flock, whatever your lot;",
             "He enters all rooms, \"the doors being shut,\"",
             "He never forsakes; He never is gone -",
             "So count on His presence in darkness and dawn."
+          ],
+          "chorus": [
+            "Only believe, only believe;",
+            "All things are possible, only believe;",
+            "Only believe, only believe;",
+            "All things are possible, only believe."
           ]
         },
         "cn": {
@@ -20765,21 +20745,20 @@
             "When the tempter would prevail, He can hold me fast!"
           ],
           "2": [
-            "(Refrain)",
-            "He will hold me fast, He will hold me fast;",
-            "For my Saviour loves me so, He will hold me fast."
-          ],
-          "3": [
             "I could never keep my hold, He must hold me fast!",
             "For my love is often cold, He must hold me fast!"
           ],
-          "4": [
+          "3": [
             "I am precious in His sight, He will hold me fast!",
             "Those He saves are His delight, He will hold me fast!"
           ],
-          "5": [
+          "4": [
             "He'll not let my soul be lost, Christ will hold me fast;",
             "Bought by Him at such a cost, He will hold me fast!"
+          ],
+          "chorus": [
+            "He will hold me fast, He will hold me fast;",
+            "For my Saviour loves me so, He will hold me fast."
           ]
         },
         "cn": {
