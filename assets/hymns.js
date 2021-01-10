@@ -75,7 +75,9 @@
      * @returns {boolean}
      */
     function hasMidi(songbookPrefix, songJsonKey) {
-        if (['TSMS', 'EHS'].includes(songbookPrefix)) { // total 479 songs in TSMS, total 105 songs in EHS
+        // Total of 582 songs in RHC (including the 2 new songs in 2006 reprint)
+        // Total of 479 songs in TSMS, total of 105 songs in EHS
+        if (['RHC', 'TSMS', 'EHS'].includes(songbookPrefix)) {
             return true;
         }
 
@@ -86,15 +88,6 @@
             }
 
             return false;
-        }
-
-        if ('RHC' === songbookPrefix) { // total 582 songs in RHC (including the 2 new songs in 2006 reprint)
-            // RHC has MIDI for all songs except RHC030a and RHC432a as these are new songs in the February 2006 reprint
-            if (['30a', '432a'].includes(songJsonKey)) {
-                return false;
-            }
-
-            return true;
         }
 
         return false;
