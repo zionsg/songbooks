@@ -183,7 +183,7 @@ const utils = (function () {
     self.getSongFilename = function (data, key) {
         let filename = data.bookPrefix || '';
 
-        if (isNumber(key)) {
+        if (self.isNumber(key)) {
             filename += padNum(key);
         } else {
             filename += (filename ? '-' : '') + self.textToVariableName(key);
@@ -203,7 +203,7 @@ const utils = (function () {
      */
     self.getSongPrefix = function (data, key) {
         let bookPrefix = data.bookPrefix || '';
-        let songPrefix = isNumber(key) ? (bookPrefix + padNum(key)) : '';
+        let songPrefix = self.isNumber(key) ? (bookPrefix + padNum(key)) : '';
 
         return (songPrefix || bookPrefix);
     };
@@ -284,7 +284,7 @@ const utils = (function () {
      * @returns {boolean} True if not a number.
      */
     self.isChorus = function (stanzaJsonKey) {
-        return (isNumber(stanzaJsonKey) ? false : true); // Number.isInteger() doesn't seem to work well here
+        return (self.isNumber(stanzaJsonKey) ? false : true); // Number.isInteger() doesn't seem to work well here
     };
 
     /**
@@ -313,6 +313,21 @@ const utils = (function () {
         }
 
         return false; // considered non-empty if cannot resolve
+    };
+
+    /**
+     * Check if text is a number
+     *
+     * @public
+     * @param {string} text
+     * @returns {boolean} True for "123" and "123a" but false for "test".
+     */
+    self.isNumber = function (text) {
+        if (!text) { // ''.match() does not work
+            return false;
+        }
+
+        return (text.match(/^\d+/) ? true : false); // check only the beginning
     };
 
     /**
@@ -428,21 +443,6 @@ const utils = (function () {
     self.textToVariableName = function (text) {
         return (text || '').toLowerCase().replace(/[^a-z0-9_\-\s]/gi, '').trim().replace(/\s/g, '-');
     };
-
-    /**
-     * Check if text is a number
-     *
-     * @private
-     * @param {string} text
-     * @returns {boolean} True for "123" and "123a" but false for "test".
-     */
-    function isNumber(text) {
-        if (!text) { // ''.match() does not work
-            return false;
-        }
-
-        return (text.match(/^\d+/) ? true : false); // check only the beginning
-    }
 
     /**
      * Pad number
