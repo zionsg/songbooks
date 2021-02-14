@@ -479,12 +479,185 @@
           "The Lord Bless You And Keep You",
           "Twofold Amen",
           "Threefold Amen",
+          "Sevenfold Amen",
           "May The Grace Of Christ Our Savior"
         ]
       ]
     }
   },
   "songs": {
+    "Doxology": {
+      "title": {
+        "cn": "三一颂"
+      },
+      "music": {
+        "composers": [
+          "Louis Bourgeois"
+        ],
+        "tune": "OLD HUNDREDTH",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Thomas Ken"
+        ],
+        "en": {
+          "1": [
+            "Praise God, from whom all blessings flow;",
+            "Praise Him, all creatures here below;",
+            "Praise Him above, ye heav'nly host;",
+            "Praise Father, Son and Holy Ghost.",
+            "Amen."
+          ]
+        },
+        "cn": {
+          "1": [
+            "赞美真神万福之源，",
+            "世上万民都当颂扬，",
+            "天使天军赞美主名，",
+            "赞美圣父圣子圣灵，",
+            "阿们。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: TSMS258-1, RHC-doxology"
+      ]
+    },
+    "The Lord Is In His Holy Temple": {
+      "title": {
+        "cn": "上主在祂的圣殿中"
+      },
+      "music": {
+        "composers": [
+          "George F. Root"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Db"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Habakkuk 2:20"
+        ],
+        "en": {
+          "1": [
+            "The Lord is in His holy temple,",
+            "The Lord is in His holy temple:",
+            "Let all the earth keep silence,",
+            "Let all the earth keep silence before Him -",
+            "Keep silence, keep silence before Him.",
+            "Amen."
+          ]
+        },
+        "cn": {
+          "1": [
+            "上主今在祂的圣殿中，",
+            "上主今在祂的圣殿中；",
+            "万国的人当肃静，",
+            "万国的人在主前当肃静，",
+            "当肃静，在主前当肃静。",
+            "阿们。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC-the-lord-is-in-his-holy-temple"
+      ]
+    },
+    "Gloria Patri (Greatorex)": {
+      "title": {
+        "cn": "荣耀归于圣父"
+      },
+      "music": {
+        "composers": [
+          "Henry W. Greatorex"
+        ],
+        "tune": "GLORIA PATRI",
+        "keySignature": [
+          "D"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Source unknown"
+        ],
+        "en": {
+          "1": [
+            "Glory be to the Father and to the Son and to the Holy Ghost,",
+            "As it was in the beginning, is now and ever shall be,",
+            "world without end.",
+            "Amen, Amen."
+          ]
+        },
+        "cn": {
+          "1": [
+            "荣耀都归于圣父，圣子，圣灵，三一全能真神！",
+            "正如太初直到现今，荣耀万古而常新，",
+            "永无穷尽！",
+            "阿们！阿们！"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC-gloria-patri-greatorex",
+        "Same lyrics: HP-gloria-patri-meineke (English only)"
+      ]
+    },
+    "Gloria Patri (Meineke)": {
+      "title": {
+        "cn": "荣耀颂"
+      },
+      "music": {
+        "composers": [
+          "Charles Meineke"
+        ],
+        "tune": "GLORIA PATRI",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Source unknown"
+        ],
+        "en": {
+          "1": [
+            "Glory be to the Father and to the Son and to the Holy Ghost,",
+            "As it was in the beginning, is now and ever shall be,",
+            "world without end.",
+            "Amen, Amen."
+          ]
+        },
+        "cn": {
+          "1": [
+            "但愿荣耀归于父子圣灵，父子圣灵，",
+            "起初这样现在这样，以后也这样，",
+            "永无穷尽。",
+            "阿们，阿们。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC-gloria-patri-meineke",
+        "Same lyrics: HP-gloria-patri-greatorex (English only)"
+      ]
+    },
     "31": {
       "title": {
         "en": "Rejoice, the Lord is King!",
@@ -569,6 +742,207 @@
       },
       "notes": [
         "Same song: RHC217."
+      ]
+    },
+    "The Lord Bless You And Keep You": {
+      "title": {
+        "cn": "原主赐福看顾你"
+      },
+      "music": {
+        "composers": [
+          "Peter C. Lutkin"
+        ],
+        "tune": "",
+        "keySignature": [
+          "C"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Numbers 6:24-26"
+        ],
+        "en": {
+          "1": [
+            "The Lord bless you and keep you;",
+            "The Lord lift His countenance upon you,",
+            "and give you peace, and give you peace;",
+            "The Lord make His face to shine upon you,",
+            "And be gracious unto you, be gracious,",
+            "The Lord be gracious, gracious unto you.",
+            "Amen."
+          ]
+        },
+        "cn": {
+          "1": [
+            "原主赐福看顾你，",
+            "原主向你仰脸赐福与你；",
+            "赐你平安，赐你平安，",
+            "原耶和华使祂脸光照你，",
+            "赐恩与你，保护你，保护你；",
+            "原主保护你，赐恩福与你。",
+            "阿们。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC-the-lord-bless-you-and-keep-you"
+      ]
+    },
+    "Twofold Amen": {
+      "title": {
+        "cn": "二叠阿们"
+      },
+      "music": {
+        "composers": [
+          "Dresden Amen"
+        ],
+        "tune": "",
+        "keySignature": [
+          "C"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [],
+        "en": {
+          "1": [
+            "Amen, Amen."
+          ]
+        },
+        "cn": {
+          "1": [
+            "阿们，阿们。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC-twofold-amen"
+      ]
+    },
+    "Threefold Amen": {
+      "title": {
+        "cn": "三叠阿们"
+      },
+      "music": {
+        "composers": [
+          "Danish"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [],
+        "en": {
+          "1": [
+            "Amen, Amen, Amen."
+          ]
+        },
+        "cn": {
+          "1": [
+            "阿们，阿们，阿们。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC-threefold-amen"
+      ]
+    },
+    "Sevenfold Amen": {
+      "title": {
+        "cn": "七叠阿们"
+      },
+      "music": {
+        "composers": [
+          "John Stainer"
+        ],
+        "tune": "",
+        "keySignature": [
+          "A"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [],
+        "en": {
+          "1": [
+            "Amen, Amen, Amen, Amen,",
+            "Amen, Amen, Amen."
+          ]
+        },
+        "cn": {
+          "1": [
+            "阿们，阿们，阿们，阿们，",
+            "阿们，阿们，阿们。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC-sevenfold-amen"
+      ]
+    },
+    "May The Grace Of Christ Our Savior": {
+      "title": {
+        "cn": "但愿救主基督恩惠"
+      },
+      "music": {
+        "composers": [
+          "Ludwig van Beethoven"
+        ],
+        "tune": "SARDIS",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Newton"
+        ],
+        "en": {
+          "1": [
+            "May the grace of Christ our Savior,",
+            "And the Father's boundless love,",
+            "With the Holy Spirit's favor,",
+            "Rest upon us from above."
+          ],
+          "2": [
+            "Thus may we abide in union,",
+            "With each other and the Lord,",
+            "And possess, in sweet communion,",
+            "Joys which earth cannot afford."
+          ]
+        },
+        "cn": {
+          "1": [
+            "但愿救主基督恩惠，",
+            "天父无穷大慈爱，",
+            "圣灵感动，教训，安慰，",
+            "常与我众人同在。"
+          ],
+          "2": [
+            "愿我们能同心共处，",
+            "爱戴彼此与救主，",
+            "在甜蜜团契中拥有，",
+            "世上无法供之乐。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC-may-the-grace-of-christ-our-savior-stanza1only"
       ]
     }
   }

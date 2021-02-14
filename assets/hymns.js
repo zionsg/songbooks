@@ -82,7 +82,11 @@
         }
 
         if ('HP' === songbookPrefix) { // total 479 songs in HP (tentative cos have not indexed all songs)
-            // HP is still being indexed, only 1 hymn with MIDI
+            // HP is still being indexed, only some hymns have MIDI
+            if (!utils.isNumber(songJsonKey)) { // front cover and back cover
+                return true;
+            }
+
             if (['31'].includes(songJsonKey)) {
                 return true;
             }
