@@ -2568,7 +2568,7 @@
       },
       "lyrics": {
         "authors": [
-          "Thomas Olivers, based on the revised Yigdal of Daniel ben Judah 14th century"
+          "Thomas Olivers, based on the revised Yigdal of Daniel ben Judah"
         ],
         "en": {
           "1": [
@@ -2624,7 +2624,8 @@
         }
       },
       "notes": [
-        "Same song: HP005"
+        "Same song: HP005",
+        "Chinese lyrics provided here is different from HP005."
       ]
     },
     "29": {

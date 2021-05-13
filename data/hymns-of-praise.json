@@ -658,6 +658,84 @@
         "Same lyrics: HP-gloria-patri-greatorex (English only)"
       ]
     },
+    "5": {
+      "title": {
+        "en": "The God of Abraham Praise",
+        "cn": "亚伯拉罕的神"
+      },
+      "music": {
+        "composers": [
+          "From a Hebrew melody, arr. by Meyer Lyon (Leoni)"
+        ],
+        "tune": "LEONI",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Thomas Olivers, based on the revised Yigdal of Daniel ben Judah"
+        ],
+        "en": {
+          "1": [
+            "The God of Abraham praise, Who reigns enthroned above,",
+            "Ancient of everlasting days, And God of love.",
+            "Jehovah, great I AM, By earth and heav'n confessed,",
+            "I bow and bless the sacred Name, Forever blessed."
+          ],
+          "2": [
+            "The God of Abraham praise, at whose supreme command",
+            "From earth I rise and seek the joys, At His right hand.",
+            "I all on earth forsake, Its wisdom, fame, and pow'r,",
+            "And Him my only portion make, My shield and tow'r."
+          ],
+          "3": [
+            "He by Himself has sworn - I on His oath depend;",
+            "I shall, on eagle's wings upborne, To heav'n ascend.",
+            "I shall behold His face, I shall His pow'r adore,",
+            "And sing the wonders of His grace, Forevermore."
+          ],
+          "4": [
+            "The whole triumphant host, Give thanks to God on high;",
+            "\"Hail, Father, Son, and Holy Ghost!\", They ever cry.",
+            "Hail, Abraham's God, and mine! I join the heav'nly lays;",
+            "All might and majesty are Thine, And endless praise."
+          ]
+        },
+        "cn": {
+          "1": [
+            "亚伯拉罕的神，在天统治万民，",
+            "古今将来万世之宗，仁爱的神；",
+            "伟大惟一真神，上天地下同尊，",
+            "我敬低头赞美圣名，永世无尽。"
+          ],
+          "2": [
+            "亚伯拉罕的神，我已奉祢旨意，",
+            "情愿启程远离故土，往寻福地；",
+            "抛弃世俗欢愉，荣禄，权势，名利，",
+            "我既有主，万事俱足，靠主不移。"
+          ],
+          "3": [
+            "主曾亲发誓言，我惟靠主誓言，",
+            "也像天使振翼飞起，上升於天；",
+            "亲眼见主圣容，崇敬我主大权，",
+            "高声颂主奇妙恩慈，万代万年。"
+          ],
+          "4": [
+            "天上快乐众军，大家一致颂称，",
+            "赞美圣父，圣子，圣灵，全能之神！",
+            "我众也来同应 赞美属我的神，",
+            "全能全权威严的主，永世颂吟。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC028"
+      ]
+    },
     "31": {
       "title": {
         "en": "Rejoice, the Lord is King!",
