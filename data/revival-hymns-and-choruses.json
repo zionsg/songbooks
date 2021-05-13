@@ -16536,7 +16536,59 @@
       "lyrics": {
         "authors": [
           "Isaac Watts"
-        ]
+        ],
+        "en": {
+          "1": [
+            "Alas! and did my Savior bleed?",
+            "And did my Sov'reign die?",
+            "Would he devote that sacred head",
+            "For such a worm as I?"
+          ],
+          "2": [
+            "Was it for crimes that I have done",
+            "He groaned upon the tree?",
+            "Amazing pity! grace unknown!",
+            "And love beyond degree!"
+          ],
+          "3": [
+            "Well might the sun in darkness hide,",
+            "And shut its glories in,",
+            "When Christ, the mighty Maker, died",
+            "For man the creature's sin."
+          ],
+          "4": [
+            "But drops of grief can ne'er repay",
+            "The debt of love I owe;",
+            "Here, Lord, I give myself away -",
+            "'Tis all that I can do."
+          ]
+        },
+        "cn": {
+          "1": [
+            "痛哉！我主身流宝血，",
+            "为何忍受死亡？",
+            "为何甘为卑微的我，",
+            "遍历痛苦忧伤？"
+          ],
+          "2": [
+            "救主忍痛十架之上，",
+            "果真为我罪愆？",
+            "大哉慈悲！奇哉怜悯！",
+            "广哉主爱无边！"
+          ],
+          "3": [
+            "当主基督，造物之主，",
+            "为众罪人受难，",
+            "红日自当掩蔽光辉，",
+            "黑暗包围圣范。"
+          ],
+          "4": [
+            "纵使流泪，痛伤心怀，",
+            "难偿爱心之债！",
+            "我惟向主奉献身心，",
+            "稍报深恩为快。"
+          ]
+        }
       },
       "notes": [
         "Same song: HP094",
