@@ -7,7 +7,8 @@
  * For consistency, functions using record and key arguments should always
  * place the record as the 1st argument, e.g. getSongPrefix(data, key). This
  * makes it easier to add optional arguments - compare fn(data, key, optional)
- * versus fn(key, data, optional). This also applies to inline scripts in webpages.
+ * versus fn(key, data, optional). This also applies to inline scripts in
+ * webpages.
  */
 const utils = (function () {
     /**

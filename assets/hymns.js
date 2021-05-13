@@ -1,7 +1,7 @@
 /**
  * Common Javascript file for all hymnals
  *
- * @link Used with https://github.com/zionsg/songbooks/blob/master/html/songbook.webpage.html
+ * @link Used with https://github.com/zionsg/songbooks/blob/master/html/songbook.webpage.html which loads js/utils.js
  */
 
 (function () {
@@ -87,7 +87,7 @@
                 return true;
             }
 
-            if (['31'].includes(songJsonKey)) {
+            if (['5', '31', '94', '178'].includes(songJsonKey)) {
                 return true;
             }
 
