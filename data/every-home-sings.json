@@ -1864,7 +1864,7 @@
       },
       "music": {
         "composers": [
-          "Source unknown(Asa Hull)"
+          "Source unknown (Asa Hull)"
         ],
         "tune": "CONSTANCY",
         "keySignature": [
@@ -2816,7 +2816,7 @@
         }
       },
       "notes": [
-        "Same song: RHC119, TSMS043, HP379-xHP379 translation totally out"
+        "Same song: RHC119, TSMS043, HP379 (translation has different meaning)"
       ]
     },
     "46": {
@@ -3646,7 +3646,7 @@
     },
     "62": {
       "title": {
-        "en": "Lord, Send the OldTime Power",
+        "en": "Lord, Send the Old Time Power",
         "cn": "主赐古时能力"
       },
       "music": {
