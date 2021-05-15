@@ -20268,10 +20268,89 @@
       "lyrics": {
         "authors": [
           "John H. Sammis"
-        ]
+        ],
+        "translators": [
+          "Zion Ng (Chinese, stanza 4)"
+        ],
+        "en": {
+          "1": [
+            "When we walk with the Lord, In the light of His Word,",
+            "What a glory He sheds on our way!",
+            "While we do His good will, He abides with us still,",
+            "And with all who will trust and obey."
+          ],
+          "2": [
+            "Not a shadow can rise, Not a cloud in the skies,",
+            "But His smile quickly drives it away;",
+            "Not a doubt nor a fear, Not a sigh nor a tear,",
+            "Can abide while we trust and obey."
+          ],
+          "3": [
+            "Not a burden we bear, Not a sorrow we share,",
+            "But our toil He doth richly repay;",
+            "Not a grief nor a loss, Not a frown nor a cross,",
+            "But is blest if we trust and obey."
+          ],
+          "4": [
+            "But we never can prove, The delights of His love",
+            "Until all on the altar we lay,",
+            "For the favor He shows, And the joy He bestows,",
+            "Are for them who will trust and obey."
+          ],
+          "5": [
+            "Then in fellowship sweet, We will sit at His feet,",
+            "Or we'll walk by His side in the way;",
+            "What He says we will do, Where He sends we will go -",
+            "Never fear, only trust and obey."
+          ],
+          "chorus": [
+            "Trust and obey,",
+            "for there's no other way",
+            "To be happy in Jesus,",
+            "but to trust and obey."
+          ]
+        },
+        "cn": {
+          "1": [
+            "我与救主同行，在主光明福音，",
+            "何等荣耀照亮我路程；",
+            "只要听主命令，主肯与我同行，",
+            "信靠顺服人，主肯同行。"
+          ],
+          "2": [
+            "没有黑影遮暗，也无云雾弥漫，",
+            "我主笑容使云雾消散；",
+            "没有疑惑畏惧，也无叹息忧虑，",
+            "信靠顺服人，主永不弃。"
+          ],
+          "3": [
+            "不要背负重担，不要愁闷悲哀，",
+            "一切劳苦主都能代替；",
+            "没有伤心眼泪，没有怨恨怒气，",
+            "信靠顺服人，全受福气。"
+          ],
+          "4": [
+            "但我无法证明，祂爱带的欢喜，",
+            "直到将一切献上祭坛，",
+            "因祂施展蒙恩和祂赐的喜悦",
+            "信靠顺服人，才能享有。"
+          ],
+          "5": [
+            "主与我做朋友，我可常向主求，",
+            "救主携我手一路同走；",
+            "主吩咐我就遵，主差遣我就行，",
+            "信靠顺服人，终无不成。"
+          ],
+          "chorus": [
+            "信靠顺服，",
+            "以外并无别法，",
+            "若要得耶稣喜乐",
+            "必要信靠顺服。"
+          ]
+        }
       },
       "notes": [
-        "Same song: TSMS320, EHS041-chorusonly, HP210"
+        "Same song: TSMS320, EHS041 (chorus only), HP210 (1 stanza less)"
       ]
     },
     "324": {
