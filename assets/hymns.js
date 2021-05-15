@@ -8,6 +8,9 @@
     /** @type {string} */
     let isMessageShown = false;
 
+    /** @type {string[]} List of songs in Hymns of Praise with MIDI files */
+    let hpMidi = [5, 31, 94, 146, 178, 210].map((val) => '' + val);
+
     /**
      * Init
      *
@@ -87,7 +90,7 @@
                 return true;
             }
 
-            if (['5', '31', '94', '178'].includes(songJsonKey)) {
+            if (hpMidi.includes(songJsonKey)) {
                 return true;
             }
 
