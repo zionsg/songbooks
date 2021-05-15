@@ -901,6 +901,96 @@
         "Same tune: RHC038"
       ]
     },
+    "146": {
+      "title": {
+        "en": "I Know Whom I Have Believed",
+        "cn": "我知所信是谁"
+      },
+      "music": {
+        "composers": [
+          "James McGranahan"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Daniel W. Whittle"
+        ],
+        "en": {
+          "1": [
+            "I know not why God's wondrous grace",
+            "To me He hath made known,",
+            "Nor why, unworthy, Christ in love",
+            "Redeemed me for His own."
+          ],
+          "2": [
+            "I know not how this saving faith",
+            "To me He did impart,",
+            "Nor how believing in His Word",
+            "Wrought peace within my heart."
+          ],
+          "3": [
+            "I know not how the Spirit moves,",
+            "Convincing men of sin,",
+            "Revealing Jesus thru the Word,",
+            "Creating faith in Him."
+          ],
+          "4": [
+            "I know not what of good or ill",
+            "May be reserved for me,",
+            "Of weary ways or golden days,",
+            "Before His face I see."
+          ],
+          "chorus": [
+            "But \"I know whom I have believed,",
+            "And am persuaded that He is able",
+            "To keep that which I've committed",
+            "Unto Him against that day.\""
+          ]
+        },
+        "cn": {
+          "1": [
+            "不知何以上主恩惠，",
+            "待我如此深厚，",
+            "不堪如我，亦蒙选召，",
+            "主恩何等奇妙。"
+          ],
+          "2": [
+            "不知何以因信得救，",
+            "恩门向我敞开",
+            "不知为何，一信主话，",
+            "平安便满心怀。"
+          ],
+          "3": [
+            "不知如何圣灵感动，",
+            "使人知己罪污，",
+            "由圣经中，显明耶稣，",
+            "引人信靠救主。"
+          ],
+          "4": [
+            "不知明日将遇何事，",
+            "前途或顺或逆，",
+            "但主慈爱，永不更改，",
+            "主必看顾到底。"
+          ],
+          "chorus": [
+            "惟我深知，所信的是谁，",
+            "并且也深信，祂能够保守，",
+            "我一切所交付祂的，",
+            "都全备直到那日。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: TSMS310, EHS002 (chorus only), RHC087 (1 stanza more)"
+      ]
+    },
     "178": {
       "title": {
         "en": "The Church's One Foundation",
