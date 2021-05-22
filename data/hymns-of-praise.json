@@ -822,6 +822,83 @@
         "Same song: RHC217."
       ]
     },
+    "33": {
+      "title": {
+        "en": "Blessed Be the Name"
+      },
+      "music": {
+        "composers": [
+          "Ralph E. Hudson, arr. by William J. Kirkpatrick"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "W. H. Clark, chorus by Ralph E. Hudson"
+        ],
+        "en": {
+          "1": [
+            "All praise to Him Who reigns above",
+            "In majesty supreme,",
+            "Who gave His Son for man to die,",
+            "That He might man redeem!"
+          ],
+          "2": [
+            "His name above all names shall stand,",
+            "Exalted more and more,",
+            "At God the Father's own right hand,",
+            "Where angel hosts adore."
+          ],
+          "3": [
+            "Redeemer, Savior, Friend of man",
+            "Once ruined by the fall,",
+            "Thou hast devised salvation's plan,",
+            "For Thou hast died for all."
+          ],
+          "chorus": [
+            "Blessed be the name, blessed be the name,",
+            "Blessed be the name of the Lord!",
+            "Blessed be the name, blessed be the name,",
+            "Blessed be the name of the Lord!"
+          ]
+        },
+        "cn": {
+          "1": [
+            "颂赞荣耀都归主宰，",
+            "至高全能真神，",
+            "祂爱世人差独生子，",
+            "为人受死捨身。"
+          ],
+          "2": [
+            "主名超乎万名之名，",
+            "至高至尊至圣，",
+            "今坐父神宝座右边，",
+            "天使崇拜奉敬。"
+          ],
+          "3": [
+            "救赎者，救主，人之友，",
+            "对堕落的人群，",
+            "袮已构想救赎计划，",
+            "因袮已为众死。"
+          ],
+          "chorus": [
+            "颂赞主圣名，赞颂主圣名，",
+            "赞颂荣耀归主圣名。",
+            "颂赞主圣名，赞颂主圣名，",
+            "赞颂荣耀归主圣名。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: TSMS097 (1 stanza more), EHS079 (chorus only), RHC031 (1 stanza more)"
+      ]
+    },
     "94": {
       "title": {
         "en": "Alas! and Did My Saviour Bleed?",
