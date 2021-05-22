@@ -899,6 +899,81 @@
         "Same song: TSMS097 (1 stanza more), EHS079 (chorus only), RHC031 (1 stanza more)"
       ]
     },
+    "85": {
+      "title": {
+        "en": "Jesus, Wonderful Lord!",
+        "cn": "耶稣奇妙的主"
+      },
+      "music": {
+        "composers": [
+          "Paul White"
+        ],
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "6/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Paul White"
+        ],
+        "en": {
+          "1": [
+            "Born among cattle in poverty sore,",
+            "Living in meekness by Galilee's shore,",
+            "Dying in shame as the wicked ones swore:",
+            "Jesus, wonderful Lord!"
+          ],
+          "2": [
+            "Weary - yet He is the world's only rest,",
+            "Hungry and thirsty - with plenty has blest,",
+            "Tempted - He promises grace for each test:",
+            "Jesus, wonderful Lord!"
+          ],
+          "3": [
+            "Friend of the friendless - betrayed and denied,",
+            "Help of the weak - in Gethsemane cried,",
+            "Light of the world - in gross darkness He died:",
+            "Jesus, wonderful Lord!"
+          ],
+          "chorus": [
+            "Wonderful, wonderful Jesus!",
+            "He is my friend, true to the end;",
+            "He gave Himself to redeem me -",
+            "Jesus, wonderful Lord!"
+          ]
+        },
+        "cn": {
+          "1": [
+            "祂生在牛群中十分贫苦。",
+            "祂温柔活着近加利利湖，",
+            "祂受诅如罪犯死得羞辱，",
+            "耶稣奇妙的主。"
+          ],
+          "2": [
+            "我疲乏祂是唯一安息处。",
+            "我饥渴祂施恩使我饱足，",
+            "我遇试祂应许赐我恩助，",
+            "耶稣奇妙的主。"
+          ],
+          "3": [
+            "孤者良友竟然被卖被弃。",
+            "弱者良助哭在客西马尼，",
+            "世界真光竟在黑暗中死，",
+            "耶稣奇妙的主。"
+          ],
+          "chorus": [
+            "奇妙又奇妙的耶稣",
+            "是我知己，永远诚实，",
+            "祂为救我罪人代死",
+            "耶稣奇妙的主。"
+          ]
+        }
+      },
+      "notes": []
+    },
     "94": {
       "title": {
         "en": "Alas! and Did My Saviour Bleed?",
