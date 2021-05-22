@@ -9,7 +9,7 @@
     let isMessageShown = false;
 
     /** @type {string[]} List of songs in Hymns of Praise with MIDI files */
-    let hpMidi = [5, 31, 33, 94, 146, 152, 178, 210].map((val) => '' + val);
+    let hpMidi = [5, 31, 33, 85, 94, 146, 152, 178, 210].map((val) => '' + val);
 
     /**
      * Init
