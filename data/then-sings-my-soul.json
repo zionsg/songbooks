@@ -821,9 +821,9 @@
         "Same song: RHC049, HP023"
       ]
     },
-    "16": {
+    "16a": {
       "title": {
-        "en": "All Things Bright and Beautiful"
+        "en": "All Things Bright and Beautiful (Tune 1)"
       },
       "music": {
         "composers": [
@@ -897,9 +897,9 @@
       },
       "notes": []
     },
-    "16a": {
+    "16b": {
       "title": {
-        "en": "All Things Bright and Beautiful"
+        "en": "All Things Bright and Beautiful (Tune 2)"
       },
       "music": {
         "composers": [
