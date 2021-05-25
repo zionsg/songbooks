@@ -14808,8 +14808,8 @@
         }
       },
       "notes": [
-        "Same song: TSMS084-1, HP073-1stanzaless",
-        "Same lyrics: RHC172-stanza2diff"
+        "Same song: TSMS084a, HP073 (1 stanza less)",
+        "Same lyrics: RHC172 (1 stanza diff)"
       ]
     },
     "172": {
@@ -14886,8 +14886,8 @@
         }
       },
       "notes": [
-        "Same song: TSMS084-2",
-        "Same lyrics: stanza 2 diff: RHC171, HP073-1stanzaless"
+        "Same song: TSMS084b",
+        "Same lyrics: RHC171 (1 stanza diff), HP073 (1 stanza less, 1 stanza diff)"
       ]
     },
     "173": {

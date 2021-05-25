@@ -4503,9 +4503,9 @@
         "Same song: RHC143"
       ]
     },
-    "84": {
+    "84a": {
       "title": {
-        "en": "O Little Town of Bethlehem"
+        "en": "O Little Town of Bethlehem (Tune 1)"
       },
       "music": {
         "composers": [
@@ -4553,13 +4553,13 @@
         "cn": {}
       },
       "notes": [
-        "Same song: RHC171, HP073-1stanzaless",
-        "Same lyrics: RHC172-stanza2diff"
+        "Same song: RHC171, HP073 (1 stanza less)",
+        "Same lyrics: RHC172 (1 stanza diff)"
       ]
     },
-    "84a": {
+    "84b": {
       "title": {
-        "en": "O Little Town of Bethlehem"
+        "en": "O Little Town of Bethlehem (Tune 2)"
       },
       "music": {
         "composers": [
@@ -4608,7 +4608,7 @@
       },
       "notes": [
         "Same song: RHC172",
-        "Same lyrics: stanza 2 diff: RHC171, HP073-1stanzaless"
+        "Same lyrics: RHC171 (1 stanza diff), HP073 (1 stanza less, 1 stanza diff)"
       ]
     },
     "85": {
