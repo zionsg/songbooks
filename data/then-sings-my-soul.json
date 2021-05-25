@@ -9739,9 +9739,9 @@
       },
       "notes": []
     },
-    "258": {
+    "258a": {
       "title": {
-        "en": "Praise God from Whom All Blessings Flow"
+        "en": "Praise God from Whom All Blessings Flow (Tune 1)"
       },
       "music": {
         "composers": [
@@ -9761,13 +9761,13 @@
         ]
       },
       "notes": [
-        "Same song: RHC-frontcover, HP-frontcover",
+        "Same song: RHC-doxology, HP-doxology",
         "Same tune: RHC020, RHC048"
       ]
     },
-    "258a": {
+    "258b": {
       "title": {
-        "en": "Praise God from Whom All Blessings Flow"
+        "en": "Praise God from Whom All Blessings Flow (Tune 2)"
       },
       "music": {
         "composers": [
@@ -9788,7 +9788,7 @@
         ]
       },
       "notes": [
-        "Same lyrics: RHC-frontcover, HP-frontcover"
+        "Same lyrics: RHC-doxology, HP-doxology"
       ]
     },
     "259": {
