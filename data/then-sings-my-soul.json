@@ -10039,9 +10039,9 @@
         "Same song: RHC485"
       ]
     },
-    "270": {
+    "270a": {
       "title": {
-        "en": "My Jesus, I Love Thee"
+        "en": "My Jesus, I Love Thee (Tune 1)"
       },
       "music": {
         "composers": [
@@ -10062,12 +10062,12 @@
       },
       "notes": [
         "Same tune: RHC328",
-        "Same lyrics: RHC384, EHS022-stanza1only, HP389"
+        "Same lyrics: RHC384, EHS022 (1 stanza only), HP389"
       ]
     },
-    "270a": {
+    "270b": {
       "title": {
-        "en": "My Jesus, I Love Thee"
+        "en": "My Jesus, I Love Thee (Tune 2)"
       },
       "music": {
         "composers": [
@@ -10089,7 +10089,7 @@
       },
       "notes": [
         "Same song: RHC384, HP389",
-        "Same lyrics: EHS022-stanza1only"
+        "Same lyrics: EHS022 (1 stanza only)"
       ]
     },
     "271": {
