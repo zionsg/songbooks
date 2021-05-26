@@ -28,8 +28,17 @@ th, td {
 th {
   background: #ddd;
 }
-td:not(:first-child) {
+td {
   text-align: center;
+}
+td:first-child,
+td:last-child {
+  text-align: left;
+}
+
+ul {
+  margin: 0;
+  padding-left: 2em;
 }
 
 a {

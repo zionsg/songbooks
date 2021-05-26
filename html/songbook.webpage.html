@@ -344,7 +344,7 @@
                     lyrics: lyricsHtml,
                     music: musicHtml,
                     signature: (music.keySignature || []).join(', ') + '<br>' + (music.timeSignature || []).join(', '),
-                    notes: notes.join('<br>')
+                    notes: '<ul>' + notes.map((val) => `<li>${val}</li>`).join("\n") + '</ul>'
                 };
             }
 
