@@ -1222,6 +1222,96 @@
         "Same song: TSMS310, EHS002 (chorus only), RHC087 (1 stanza more)"
       ]
     },
+    "149": {
+      "title": {
+        "en": "The Light of the Word Is Jesus",
+        "cn": "世上的真光"
+      },
+      "music": {
+        "composers": [
+          "Philip P. Bliss"
+        ],
+        "tune": "",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Philip P. Bliss"
+        ],
+        "en": {
+          "1": [
+            "The whole world was lost in the darkness of sin - ",
+            "The Light of the world is Jesus;",
+            "Like sunshine at noon-day His glory shone in -",
+            "The Light of the world is Jesus."
+          ],
+          "2": [
+            "No darkness have we who in Jesus abide -",
+            "The Light of the world is Jesus;",
+            "We walk in the Light when we follow our Guide -",
+            "The Light of the world is Jesus."
+          ],
+          "3": [
+            "Ye dwellers in darkness with sin-blinded eyes -",
+            "The Light of the world is Jesus;",
+            "Go wash at His bidding and light will arise -",
+            "The Light of the world is Jesus."
+          ],
+          "4": [
+            "No need of the sunlight in heaven, we're told -",
+            "The Light of that world is Jesus;",
+            "The Lamb is the Light in the City of Gold -",
+            "The Light of that world is Jesus."
+          ],
+          "chorus": [
+            "Come to the Light, 'tis shining for thee!",
+            "Sweetly the Light has dawned upon me;",
+            "Once I was blind, but now I can see -",
+            "The Light of the world is Jesus."
+          ]
+        },
+        "cn": {
+          "1": [
+            "全世界丧失在黑暗罪恶中，",
+            "世上的真光是耶稣；",
+            "主大荣耀如同日光在高空，",
+            "世上的真光是耶稣。"
+          ],
+          "2": [
+            "在主耶稣里面绝没有黑暗，",
+            "世上的真光是耶稣；",
+            "跟随耶稣道路乃在光明间，",
+            "世上的真光是耶稣。"
+          ],
+          "3": [
+            "长住黑暗人们请到主前来，",
+            "世上的真光是耶稣；",
+            "你虽失明主能使你眼睁开，",
+            "世上的真光是耶稣。"
+          ],
+          "4": [
+            "天堂里真光明用不着太阳，",
+            "世上的真光是耶稣；",
+            "在金城作万人的光是羔羊，",
+            "世上的真光是耶稣。"
+          ],
+          "chorus": [
+            "快来就光，救恩放光芒，",
+            "主的慈光，今照耀辉煌，",
+            "前我瞎眼，现在见了光，",
+            "才知耶稣是世上光。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC295"
+      ]
+    },
     "152": {
       "title": {
         "en": "Jesus Saves!",
