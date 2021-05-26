@@ -737,6 +737,84 @@
         "Same song: RHC028"
       ]
     },
+    "11": {
+      "title": {
+        "en": "Praise to the Lord, The Almighty",
+        "cn": "赞美全能神"
+      },
+      "music": {
+        "composers": [
+          "Melody adapted from Stralsund Gesangbuch"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Joachim Neander, trans. by Catherine Winkworth"
+        ],
+        "en": {
+          "1": [
+            "Praise to the Lord, the Almighty, the King of creation!",
+            "O my soul, praise Him, for He is thy health and salvation!",
+            "All ye who hear, Now to His temple draw near;",
+            "Join me in glad adoration!"
+          ],
+          "2": [
+            "Praise to the Lord, who o'er all things so wondrously reigneth,",
+            "Shelters thee under His wings, yea, so gently sustaineth!",
+            "Hast thou not seen, How thy desires e'er have been",
+            "Granted in what He ordaineth?"
+          ],
+          "3": [
+            "Praise to the Lord, who with marvelous wisdom hath made thee!",
+            "Decked thee with health, and with loving hand guided and stayed thee;",
+            "How oft in grief, Hath not He brought thee relief,",
+            "Spreading His wings for to shade thee!"
+          ],
+          "4": [
+            "Praise to the Lord! O let all that is in me adore Him!",
+            "All that hath life and breath, come now with praises before Him!",
+            "Let the Amen, Sound from His people again:",
+            "Gladly for aye we adore Him."
+          ]
+        },
+        "cn": {
+          "1": [
+            "赞美上主，全能真神，宇宙万有君王；",
+            "我灵颂主，因主永远是你救赎健康：",
+            "听见之民，都来靠近主圣殿，",
+            "欢然向主恭敬赞扬！"
+          ],
+          "2": [
+            "赞美上主，如此奇妙，统治世间万有，",
+            "展开恩翼，如此温柔，将你时常保佑：",
+            "你岂不见，有求皆蒙主恩典，",
+            "按祂旨意，应允所求。"
+          ],
+          "3": [
+            "赞美上主，扶助保护，使你作工顺利，",
+            "上主美善，上主慈恩，必天天垂顾你：",
+            "仔细思量，全能的主爱深长，",
+            "做你朋友何等福气。"
+          ],
+          "4": [
+            "赞美上主！让我崇拜之心赞美鼓舞！",
+            "但愿天下凡有血气，同来称扬上主！",
+            "属主的民，重新一致说：阿们，",
+            "欢然恭敬赞扬上主。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC024"
+      ]
+    },
     "31": {
       "title": {
         "en": "Rejoice, the Lord is King!",
