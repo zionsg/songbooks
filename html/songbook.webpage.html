@@ -336,6 +336,11 @@
                     arrangers ? 'Arranged by: ' + arrangers : ''
                 );
 
+                // Standardize each note to end with a period
+                let notesHtml = '<ul>'
+                    + notes.map((val) => '<li>' + val + ('.' === val.substr(-1, 1) ? '' : '.') + '</li>').join("\n")
+                    + '</ul>';
+
                 return {
                     songJsonKey: key,
                     songPrefix: songPrefix,
@@ -344,7 +349,7 @@
                     lyrics: lyricsHtml,
                     music: musicHtml,
                     signature: (music.keySignature || []).join(', ') + '<br>' + (music.timeSignature || []).join(', '),
-                    notes: '<ul>' + notes.map((val) => `<li>${val}</li>`).join("\n") + '</ul>'
+                    notes: notesHtml
                 };
             }
 
