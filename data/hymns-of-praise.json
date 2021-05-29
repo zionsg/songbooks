@@ -1129,6 +1129,96 @@
       },
       "notes": []
     },
+    "87": {
+      "title": {
+        "en": "That Beautiful Name",
+        "cn": "最美丽圣名"
+      },
+      "music": {
+        "composers": [
+          "Mabel Johnston Camp"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Jean Perry"
+        ],
+        "en": {
+          "1": [
+            "I know of a Name, A beautiful Name,",
+            "That angels brought down to earth;",
+            "They whispered it low, One night long ago,",
+            "To a maiden of lowly birth."
+          ],
+          "2": [
+            "I know of a Name, A beautiful Name,",
+            "That unto a Babe was giv'n;",
+            "The stars glittered bright, Thru-out that glad night,",
+            "And angels praised God in heav'n."
+          ],
+          "3": [
+            "The One of that Name, My Savior became,",
+            "My Savior of Calvary;",
+            "My sins nailed Him there, My burdens He bare.",
+            "He suffered all this for me."
+          ],
+          "4": [
+            "I love that blest Name, That wonderful Name,",
+            "Made higher than all in heav'n;",
+            "'Twas whispered, I know, In my heart long ago -",
+            "To Jesus my life I've giv'n."
+          ],
+          "chorus": [
+            "That beautiful Name, That beautiful Name,",
+            "From sin has pow'r to free us!",
+            "That beautiful Name, That wonderful Name,",
+            "That matchless Name is Jesus!"
+          ]
+        },
+        "cn": {
+          "1": [
+            "我知一圣名，最美丽圣名，",
+            "由天使送达人间；",
+            "昔年有一夜，天使向童女，",
+            "细语此名，乐无限。"
+          ],
+          "2": [
+            "我知一圣名，最美丽圣名，",
+            "赐给一可爱圣婴；",
+            "昔年欢乐夜，景星放光明，",
+            "众天使赞美不停。"
+          ],
+          "3": [
+            "惟一的尊名，就是我救主，",
+            "曾被钉在十架上；",
+            "我罪钉死祂，亲担我众负，",
+            "为我受尽无限苦。"
+          ],
+          "4": [
+            "我爱这圣名，最奇妙美名，",
+            "远超过诸天之上；",
+            "心中对己说，我知此圣名，",
+            "甘心乐意献生命。"
+          ],
+          "chorus": [
+            "最美丽圣名，最美丽圣名",
+            "使我脱罪与痛苦！",
+            "最美丽圣名，最奇妙圣名，",
+            "最大之名是耶稣。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC141"
+      ]
+    },
     "94": {
       "title": {
         "en": "Alas! and Did My Saviour Bleed?",
