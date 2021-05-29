@@ -815,6 +815,82 @@
         "Same song: RHC024"
       ]
     },
+    "21": {
+      "title": {
+        "en": "Joyful, Joyful, We Adore Thee",
+        "cn": "快乐快乐我们崇拜"
+      },
+      "music": {
+        "composers": [
+          "Melody from Ninth Symphony, Ludwig Van Beethoven"
+        ],
+        "tune": "THE FATHER",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Henry Van Dyke"
+        ],
+        "en": {
+          "1": [
+            "Joyful, joyful, we adore Thee, God of glory, Lord of love;",
+            "Hearts unfold like flow'rs before Thee, Hail Thee as the sun above.",
+            "Melt the clouds of sin and sadness, Drive the dark of doubt away;",
+            "Giver of immortal gladness, Fill us with the light of day!"
+          ],
+          "2": [
+            "All Thy works with joy surround Thee, Earth and heav'n reflect Your rays,",
+            "Stars and angels sing around Thee, Center of unbroken praise;",
+            "Field and forest, vale and mountain, Bloss'ming meadow, flashing sea,",
+            "Chanting bird and flowing fountain, Call us to rejoice in Thee."
+          ],
+          "3": [
+            "Thou are giving and forgiving, Ever blessing, ever blest,",
+            "Well-spring of the joy of living, Ocean-depth of happy rest!",
+            "Thou the Father, Christ our Brother - All hwo live in love are Thine:",
+            "Teach us how to love each other, Lift us to the joy divine."
+          ],
+          "4": [
+            "Mortals, join the mighty chorus, Which the morning stars began;",
+            "Father-love is reigning o'er us, Brother-love binds man to man.",
+            "Ever singing, march we onward, Victors in the midst of strife;",
+            "Joyful music lifts us sunward, In the triumph song of life."
+          ]
+        },
+        "cn": {
+          "1": [
+            "快乐，快乐，我们崇拜，荣耀上主爱之神；",
+            "心如花开，到主面前，主如旭日，我欢迎。",
+            "苦意愁云，恳求消化；疑惑黑荫求散尽；",
+            "永恒快乐，求主赏赐，旭日光华满我心。"
+          ],
+          "2": [
+            "主是不断赞美中心：主所造物都欢欣，",
+            "群星天使，团聚讴歌，天地反映主光明；",
+            "高山幽谷，沃野森林，草场积翠波如镜。",
+            "清歌小鸟，轻注流泉，唤起我们颂主心。"
+          ],
+          "3": [
+            "永远祝福永受尊荣，永远赦免永施恩，",
+            "生之快乐，活水源头，欢乐安息海般深！",
+            "主是父亲，基督是兄，爱中生活皆主民：",
+            "求教我们，怎样相爱，同享神圣大欢欣。"
+          ],
+          "4": [
+            "晨星引起伟大歌声，奉劝凡夫来响应；",
+            "父的慈爱统治我们，兄弟友爱系人群。",
+            "我们前进，歌唱不停，奋斗中间忠勇军：",
+            "得胜生涯，凯歌声里，恳求高举万众心。"
+          ]
+        }
+      },
+      "notes": []
+    },
     "31": {
       "title": {
         "en": "Rejoice, the Lord is King!",
