@@ -5236,10 +5236,12 @@
       },
       "lyrics": {
         "authors": [
-          "Linda Lee Johnson, Claire Cloninger and Tom Fettke"
+          "Linda Lee Johnson",
+          "Claire Cloninger",
+          "Tom Fettke"
         ],
         "translators": [
-          "Zion Ng (stanza 2 Chinese)"
+          "Zion Ng (Chinese, stanza 2)"
         ],
         "en": {
           "1": [
@@ -5272,7 +5274,7 @@
       },
       "notes": [
         "Based on Isaiah 53 and Philippians 2:6-11.",
-        "Same song: HP021a-stanza1only"
+        "Same song: HP021a (1 stanza less)"
       ]
     },
     "97": {
