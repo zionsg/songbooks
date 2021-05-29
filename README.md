@@ -27,4 +27,4 @@ Word documents.
 
 ## Additional assets
 - The files in the `assets` folder, especially `hymns.css` and `hymns.js`, are site-specific (not generic)
-  and hence not put in the `html` folder.
+  and hence not put in the `html` folder. The MIDI files referenced in `hymns.js` are not stored in this repository.
