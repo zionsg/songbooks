@@ -1054,6 +1054,112 @@
         "Same song: TSMS097 (1 stanza more), EHS079 (chorus only), RHC031 (1 stanza more)"
       ]
     },
+    "46": {
+      "title": {
+        "en": "Our Great Savior",
+        "cn": "伟大的救主"
+      },
+      "music": {
+        "composers": [
+          "Rowland W. Prichard"
+        ],
+        "arrangers": [
+          "Robert Harkness"
+        ],
+        "tune": "HYFRYDOL",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "J. Wilbur Chapman"
+        ],
+        "en": {
+          "1": [
+            "Jesus! what a Friend for sinners!",
+            "Jesus! Lover of my soul;",
+            "Friends may fail me, foes assail me,",
+            "He, my Savior, makes me whole."
+          ],
+          "2": [
+            "Jesus! what a Strength in weakness!",
+            "Let me hide myself in Him;",
+            "Tempted, tried, and sometimes failing,",
+            "He, my Strength, my vict'ry wins."
+          ],
+          "3": [
+            "Jesus! what a Help in sorrow!",
+            "While the billows o'er me roll;",
+            "Even when my heart is breaking,",
+            "He, my Comfort, helps my soul."
+          ],
+          "4": [
+            "Jesus! what a Guide and Keeper!",
+            "While the tempest still is high;",
+            "Storms about me, night o'ertakes me,",
+            "He, my Pilot, hears my cry."
+          ],
+          "5": [
+            "Jesus! I do now receive Him,",
+            "More than all in Him I find;",
+            "He hath granted me forgiveness,",
+            "I am His, and He is mine."
+          ],
+          "chorus": [
+            "Hallelujah! what a Savior!",
+            "Hallelujah! what a Friend!",
+            "Saving, helping, keeping, loving,",
+            "He is with me to the end."
+          ]
+        },
+        "cn": {
+          "1": [
+            "耶稣，罪人奇妙良友，",
+            "耶稣，爱我灵之主；",
+            "友或离我敌或害我，",
+            "但救主必定看顾。"
+          ],
+          "2": [
+            "耶稣，弱者奇妙力量，",
+            "让我在主里藏躲；",
+            "试探来临有时跌倒，",
+            "靠主力使我胜过。"
+          ],
+          "3": [
+            "耶稣，忧愁人的帮助，",
+            "纵是海浪漫我身；",
+            "祂支持安慰破碎心，",
+            "祂用慈爱来同行。"
+          ],
+          "4": [
+            "耶稣，我的扶助，前导，",
+            "在海涛中有拯救；",
+            "狂风四吹星夜来临，",
+            "主是良伴听我求。"
+          ],
+          "5": [
+            "耶稣，我愿意接受你，",
+            "发现袮恩典真多；",
+            "用你宝血赦我罪孽，",
+            "我属袮，袮也属我。"
+          ],
+          "chorus": [
+            "哈利路亚！奇妙救主！",
+            "哈利路亚！我良友！",
+            "救我，助我，护我，爱我，",
+            "与我同在到永久。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC055",
+        "Same tune: RHC042, RHC145"
+      ]
+    },
     "85": {
       "title": {
         "en": "Jesus, Wonderful Lord!",
