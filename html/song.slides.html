@@ -153,11 +153,14 @@
                         progress: true,
                         transition: 'none', // default "slide" transition is disturbing especially for elderly folk
 
-                        // Presentation size - give buffer at edges cos usually cut off by projectors
+                        // Presentation size
                         // Note: setting width and height to percentages will mess up the overview "o" mode
-                        width: '80%',
-                        height: '80%',
-                        margin: 0.1,
+                        // Slides are initially designed using 1920x1200 monitor, with div.slides-container being
+                        // about 1388x768, hence setting "normal" size of slides in config to 1388x768 and Reveal.js
+                        // will adjust font size accordingly
+                        width: 1388,
+                        height: 768,
+                        margin: 0.1, // give buffer at edges cos usually cut off by projectors
                     });
                 });
             }
