@@ -53,6 +53,26 @@ const utils = (function () {
     };
 
     /**
+     * Get absolute url from relative url
+     *
+     * @public
+     * @param {string} url
+     * @returns {string}
+     */
+    self.getAbsoluteUrl = function (url) {
+        // Convert url to absolute URL else `new URL()` will throw error
+        // See https://stackoverflow.com/a/14781678
+        let linkElement = document.createElement('a');
+        linkElement.href = (url || window.location); // e.g. /api/test will be changed to https://example.com/api/test
+
+        // # in url can cause issues hence remove them
+        let fragmentPos = linkElement.href.indexOf('#');
+        let href = (-1 === fragmentPos) ? linkElement.href : linkElement.href.substr(0, fragmentPos);
+
+        return href;
+    };
+
+    /**
      * Combine all language versions of title for section/song
      *
      * @public
