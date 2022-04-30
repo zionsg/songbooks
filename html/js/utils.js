@@ -56,7 +56,7 @@ const utils = (function () {
      * Get absolute url from relative url
      *
      * @public
-     * @param {string} url
+     * @param {string} url - Relative url.
      * @returns {string}
      */
     self.getAbsoluteUrl = function (url) {

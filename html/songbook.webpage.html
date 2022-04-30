@@ -8,6 +8,9 @@
        * This webpage is meant to be run from a local/remote server due to reading of JSON file.
        *
        * It takes in the following querystring param(s):
+       *   @param {string} book - Filename of JSON file for songbook, without extension, e.g. "songbook.example"
+       *       for songbook.example.json. If specified, it will be used for `data` param together with default
+       *       values for `css` and `js` params.
        *   @param {string} data - Path to JSON file for songbook. Must be a valid url and not a relative path.
        *   @param {string} css - Path to additional CSS file to load, before dynamic elements are rendered.
        *   @param {string} js - Path to additional Javascript file to load, after dynamic elements are rendered.
@@ -62,96 +65,25 @@
             const ATTR_SONGBOOK = 'data-songbook';
 
             /**
+             * Query params
+             *
+             * @private
+             * @type {string}
+             */
+            let params = {
+                book: utils.getQueryParam('book', ''),
+                data: utils.getQueryParam('data', ''),
+                css: utils.getQueryParam('css', ''),
+                js: utils.getQueryParam('js', ''),
+            };
+
+            /**
              * Parsed songbook info
              *
              * @private
              * @type {object}
              */
             let data = null;
-
-            /**
-             * Initialization - function will be run at the end of this module
-             *
-             * @private
-             * @returns {void}
-             */
-            function init() {
-                // Parse query params
-                let dataFile = utils.getQueryParam('data', '');
-                let cssFile = utils.getQueryParam('css', '');
-                let jsFile = utils.getQueryParam('js', '');
-                if (!dataFile) {
-                    return;
-                }
-
-                utils.readJsonFile(dataFile, function (json) {
-                    // Save contents of JSON file
-                    data = json;
-                    if (!data) {
-                        return;
-                    }
-
-                    // Load additional CSS file if any
-                    utils.loadStylesheet(cssFile);
-
-                    // Book title and copyright
-                    let bookTitles = Object.values(data['title'] || '');
-                    let songbookTitleDiv = document.querySelector('.songbook-title');
-                    document.title = bookTitles.join(' ');
-                    songbookTitleDiv.setAttribute(ATTR_SONGBOOK, data.bookPrefix || '');
-                    songbookTitleDiv.innerHTML = bookTitles.join('<br>');
-
-                    document.querySelector('footer').innerHTML = data['copyright'] || '';
-
-                    // Table of contents and sections
-                    let sections = data.sections || {};
-                    let tableOfContentsHtml = '';
-                    let sectionsHtml = '';
-                    Object.entries(sections).forEach(function (entry) {
-                        let sectionJsonKey = entry[0];
-                        let section = entry[1];
-                        let sectionResult = getSectionInfo(section, sectionJsonKey);
-
-                        sectionResult.forEach(function (sectionInfo) {
-                            tableOfContentsHtml += sectionInfo.link;
-
-                            if (!utils.isEmpty(sectionInfo.songs)) {
-                                sectionsHtml += sectionInfo.anchor + "\n<table>\n"
-                                    + '<tr><th>Name</th><th>Lyrics</th><th>Music</th>'
-                                    + '<th>Key/Time Signature</th><th>Notes</th></tr>'
-                                    + "\n";
-
-                                sectionInfo.songs.forEach(function (song) {
-                                    sectionsHtml += utils.sprintf(
-                                        '<tr %s="%s" %s="%s">'
-                                        + '<td>%s%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td>'
-                                        + "</tr>\n",
-                                        ATTR_SONG,
-                                        song.songJsonKey,
-                                        ATTR_FILENAME,
-                                        song.filename,
-                                        song.songPrefix ? song.songPrefix + ': ' : '',
-                                        song.name,
-                                        song.lyrics,
-                                        song.music,
-                                        song.signature,
-                                        song.notes
-                                    );
-                                });
-
-                                sectionsHtml += "</table>\n"
-                                    + '<br><div class="text-right"><a href="#top">^ back to top ^</a></div>'
-                                    + "\n";
-                            }
-                        });
-                    });
-                    document.querySelector('.table-of-contents').innerHTML = tableOfContentsHtml.trim();
-                    document.querySelector('.sections').innerHTML = sectionsHtml.trim();
-
-                    // Load additional JS file if any
-                    utils.loadScript(jsFile);
-                });
-            }
 
             /**
              * Get rendering for section info, including subsections
@@ -285,7 +217,7 @@
              */
             function getSongInfo(song, key) {
                 let songPrefix = utils.getSongPrefix(data, key);
-                let dataParam = utils.getQueryParam('data', '');
+                let dataParam = params.data;
                 let lyrics = song.lyrics || {};
                 let music = song.music || {};
                 let tune = music.tune || '';
@@ -353,8 +285,92 @@
                 };
             }
 
-            // Run init
-            init();
+            /**
+             * Initialization
+             */
+            (function init() {
+                // Parse query params
+                if (params.book) {
+                    params.data = utils.getAbsoluteUrl(`../data/${params.book}.json`);
+                    params.css = utils.getAbsoluteUrl('../assets/hymns.css');
+                    params.js = utils.getAbsoluteUrl('../assets/hymns.js');
+                }
+
+                let dataFile = params.data;
+                let cssFile = params.css;
+                let jsFile = params.js;
+                if (!dataFile) {
+                    return;
+                }
+
+                utils.readJsonFile(dataFile, function (json) {
+                    // Save contents of JSON file
+                    data = json;
+                    if (!data) {
+                        return;
+                    }
+
+                    // Load additional CSS file if any
+                    utils.loadStylesheet(cssFile);
+
+                    // Book title and copyright
+                    let bookTitles = Object.values(data['title'] || '');
+                    let songbookTitleDiv = document.querySelector('.songbook-title');
+                    document.title = bookTitles.join(' ');
+                    songbookTitleDiv.setAttribute(ATTR_SONGBOOK, data.bookPrefix || '');
+                    songbookTitleDiv.innerHTML = bookTitles.join('<br>');
+
+                    document.querySelector('footer').innerHTML = data['copyright'] || '';
+
+                    // Table of contents and sections
+                    let sections = data.sections || {};
+                    let tableOfContentsHtml = '';
+                    let sectionsHtml = '';
+                    Object.entries(sections).forEach(function (entry) {
+                        let sectionJsonKey = entry[0];
+                        let section = entry[1];
+                        let sectionResult = getSectionInfo(section, sectionJsonKey);
+
+                        sectionResult.forEach(function (sectionInfo) {
+                            tableOfContentsHtml += sectionInfo.link;
+
+                            if (!utils.isEmpty(sectionInfo.songs)) {
+                                sectionsHtml += sectionInfo.anchor + "\n<table>\n"
+                                    + '<tr><th>Name</th><th>Lyrics</th><th>Music</th>'
+                                    + '<th>Key/Time Signature</th><th>Notes</th></tr>'
+                                    + "\n";
+
+                                sectionInfo.songs.forEach(function (song) {
+                                    sectionsHtml += utils.sprintf(
+                                        '<tr %s="%s" %s="%s">'
+                                        + '<td>%s%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td>'
+                                        + "</tr>\n",
+                                        ATTR_SONG,
+                                        song.songJsonKey,
+                                        ATTR_FILENAME,
+                                        song.filename,
+                                        song.songPrefix ? song.songPrefix + ': ' : '',
+                                        song.name,
+                                        song.lyrics,
+                                        song.music,
+                                        song.signature,
+                                        song.notes
+                                    );
+                                });
+
+                                sectionsHtml += "</table>\n"
+                                    + '<br><div class="text-right"><a href="#top">^ back to top ^</a></div>'
+                                    + "\n";
+                            }
+                        });
+                    });
+                    document.querySelector('.table-of-contents').innerHTML = tableOfContentsHtml.trim();
+                    document.querySelector('.sections').innerHTML = sectionsHtml.trim();
+
+                    // Load additional JS file if any
+                    utils.loadScript(jsFile);
+                });
+            })(); // end of init
         })();
     </script>
   </body>
