@@ -334,34 +334,33 @@
                         sectionResult.forEach(function (sectionInfo) {
                             tableOfContentsHtml += sectionInfo.link;
 
-                            if (!utils.isEmpty(sectionInfo.songs)) {
-                                sectionsHtml += sectionInfo.anchor + "\n<table>\n"
-                                    + '<tr><th>Name</th><th>Lyrics</th><th>Music</th>'
-                                    + '<th>Key/Time Signature</th><th>Notes</th></tr>'
-                                    + "\n";
+                            // Render section even if empty, else nothing will happen when user clicks on section link
+                            sectionsHtml += sectionInfo.anchor + "\n<table>\n"
+                                + '<tr><th>Name</th><th>Lyrics</th><th>Music</th>'
+                                + '<th>Key/Time Signature</th><th>Notes</th></tr>'
+                                + "\n";
 
-                                sectionInfo.songs.forEach(function (song) {
-                                    sectionsHtml += utils.sprintf(
-                                        '<tr %s="%s" %s="%s">'
-                                        + '<td>%s%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td>'
-                                        + "</tr>\n",
-                                        ATTR_SONG,
-                                        song.songJsonKey,
-                                        ATTR_FILENAME,
-                                        song.filename,
-                                        song.songPrefix ? song.songPrefix + ': ' : '',
-                                        song.name,
-                                        song.lyrics,
-                                        song.music,
-                                        song.signature,
-                                        song.notes
-                                    );
-                                });
+                            sectionInfo.songs.forEach(function (song) {
+                                sectionsHtml += utils.sprintf(
+                                    '<tr %s="%s" %s="%s">'
+                                    + '<td>%s%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td>'
+                                    + "</tr>\n",
+                                    ATTR_SONG,
+                                    song.songJsonKey,
+                                    ATTR_FILENAME,
+                                    song.filename,
+                                    song.songPrefix ? song.songPrefix + ': ' : '',
+                                    song.name,
+                                    song.lyrics,
+                                    song.music,
+                                    song.signature,
+                                    song.notes
+                                );
+                            });
 
-                                sectionsHtml += "</table>\n"
-                                    + '<br><div class="text-right"><a href="#top">^ back to top ^</a></div>'
-                                    + "\n";
-                            }
+                            sectionsHtml += "</table>\n"
+                                + '<br><div class="text-right"><a href="#top">^ back to top ^</a></div>'
+                                + "\n";
                         });
                     });
                     document.querySelector('.table-of-contents').innerHTML = tableOfContentsHtml.trim();
