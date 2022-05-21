@@ -14,7 +14,7 @@
           "type": "string",
           "format": "uri",
           "examples": [
-            "https://github.com/zionsg/songbooks/blob/master/data/songbook.example.json"
+            "https://github.com/zionsg/songbooks/blob/master/data/songbook-example.json"
           ]
         },
         "schema": {

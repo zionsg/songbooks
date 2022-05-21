@@ -5,16 +5,8 @@
       /**
        * This webpage lists out all the songs in a songbook.
        *
-       * This webpage is meant to be run from a local/remote server due to reading of JSON file.
-       *
-       * It takes in the following querystring param(s):
-       *   @param {string} book - Filename of JSON file for songbook, without extension, e.g. "songbook.example"
-       *       for songbook.example.json. If specified, it will be used for `data` param together with default
-       *       values for `css` and `js` params.
-       *   @param {string} data - Path to JSON file for songbook. Must be a valid url and not a relative path.
-       *   @param {string} css - Path to additional CSS file to load, before dynamic elements are rendered.
-       *   @param {string} js - Path to additional Javascript file to load, after dynamic elements are rendered.
-       *
+       * @see https://github.com/zionsg/songbooks/blob/master/html/js/utils.js:loadSongBook()
+       *     for query params that can be passed to this webpage.
        * @link https://github.com/zionsg/songbooks/blob/master/html/songbook.webpage.html
        */
     -->
@@ -65,17 +57,12 @@
             const ATTR_SONGBOOK = 'data-songbook';
 
             /**
-             * Query params
+             * Parsed query params
              *
              * @private
-             * @type {string}
+             * @type {object}
              */
-            let params = {
-                book: utils.getQueryParam('book', ''),
-                data: utils.getQueryParam('data', ''),
-                css: utils.getQueryParam('css', ''),
-                js: utils.getQueryParam('js', ''),
-            };
+            let params = null;
 
             /**
              * Parsed songbook info
@@ -120,12 +107,12 @@
                     return result;
                 }
 
-                // Only generate info for current section and add to result if its songList key is set
+                // Only generate info for current section and a to result if its songList key is set
                 let songJsonKeys = Object.keys(data.songs || {});
                 let songList = section.songList || [];
                 if (!utils.isEmpty(songList)) {
                     let sectionTitle = utils.getCombinedTitle(section.title, key);
-                    let sectionVarName = utils.textToVariableName(sectionTitle);
+                    let sectionVarName = utils.slugify(sectionTitle);
                     let songs = (data && data.songs) || {};
 
                     // Song ranges
@@ -217,7 +204,6 @@
              */
             function getSongInfo(song, key) {
                 let songPrefix = utils.getSongPrefix(data, key);
-                let dataParam = params.data;
                 let lyrics = song.lyrics || {};
                 let music = song.music || {};
                 let tune = music.tune || '';
@@ -238,9 +224,9 @@
                     Object.keys(langLyrics).forEach(function (lang) {
                         if (!utils.isEmpty(langLyrics[lang])) {
                             slidesHtml += utils.sprintf(
-                                ' <a %s href="song.slides.html?data=%s&song=%s&lang=%s">%s</a>',
+                                ' <a %s href="song.slides.html?book=%s&song=%s&lang=%s">%s</a>',
                                 'target="_blank" rel="noopener"',
-                                dataParam,
+                                params.book,
                                 key,
                                 lang,
                                 lang
@@ -249,10 +235,10 @@
                     });
 
                     lyricsHtml += utils.sprintf(
-                      '%s<a %s href="song.lyrics.html?data=%s&song=%s">lyrics</a><br>slides:%s',
+                      '%s<a %s href="song.lyrics.html?book=%s&song=%s">lyrics</a><br>slides:%s',
                       (lyricsHtml ? '<br><br>' : ''),
                       'target="_blank" rel="noopener"',
-                      dataParam,
+                      params.book,
                       key,
                       slidesHtml
                     );
@@ -289,29 +275,15 @@
              * Initialization
              */
             (function init() {
-                // Parse query params
-                if (params.book) {
-                    params.data = utils.getAbsoluteUrl(`../data/${params.book}.json`);
-                    params.css = utils.getAbsoluteUrl('../assets/hymns.css');
-                    params.js = utils.getAbsoluteUrl('../assets/hymns.js');
-                }
-
-                let dataFile = params.data;
-                let cssFile = params.css;
-                let jsFile = params.js;
-                if (!dataFile) {
-                    return;
-                }
-
-                utils.readJsonFile(dataFile, function (json) {
-                    // Save contents of JSON file
-                    data = json;
+                utils.loadSongBook(function (parsedParams, songbookData) {
+                    params = parsedParams;
+                    data = songbookData;
                     if (!data) {
                         return;
                     }
 
                     // Load additional CSS file if any
-                    utils.loadStylesheet(cssFile);
+                    utils.loadStylesheet(params.css);
 
                     // Book title and copyright
                     let bookTitles = Object.values(data['title'] || '');
@@ -367,8 +339,8 @@
                     document.querySelector('.sections').innerHTML = sectionsHtml.trim();
 
                     // Load additional JS file if any
-                    utils.loadScript(jsFile);
-                });
+                    utils.loadScript(params.js);
+                }); // end of loadSongBook call
             })(); // end of init
         })();
     </script>

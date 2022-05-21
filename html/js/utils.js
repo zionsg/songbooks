@@ -149,7 +149,7 @@ const utils = (function () {
      * @param {string} paramName - Name of querystring param.
      * @param {*} defaultValue - Value to use if param is not found.
      * @returns {*} Single value will be returned if param only has 1 value. Array will be returned
-     *              if the param has multiple values, e.g. "?a=1&a=2" returns [1, 2] for param "a".
+     *     if the param has multiple values, e.g. "?a=1&a=2" returns [1, 2] for param "a".
      */
     self.getQueryParam = function (paramName, defaultValue) {
         if (null === queryParams) { // parse just once
@@ -202,7 +202,7 @@ const utils = (function () {
         if (self.isNumber(key)) {
             filename += padNum(key);
         } else {
-            filename += (filename ? '-' : '') + self.textToVariableName(key);
+            filename += (filename ? '-' : '') + self.slugify(key);
         }
 
         return filename.toLowerCase();
@@ -366,6 +366,55 @@ const utils = (function () {
     };
 
     /**
+     * Load JavaScript file for songbook based on query params and pass JSON contents to callback
+     *
+     * @public
+     * @param {function(object,object): void} callback - Callback function that
+     *     will take in (parsed query params, JSON contents for songbook) and
+     *     returns void. The query params are used for all HTML webpages and
+     *     are as follows (paths mentioned for properties are relative to root
+     *     of repository):
+     *     @property {string} book - Filename of JavaScript file (converted from JSON file) for
+     *         songbook, without extension, e.g. "songbook-example" for dist/songbook-example.js.
+     *         This is provided as a shortcut for data/css/js params. If specified,
+     *         assets/hymns.css and assets/hymns.js will be used for the css and js params
+     *         respectively.
+     *     @property {string} css - Path to additional CSS file to load, before dynamic elements
+     *         are rendered. If not specified, assets/hymns.css will be used.
+     *     @property {string} data - Path to JavaScript file (converted from JSON file) for
+     *         songbook. Must be an absolute url and not a relative path.
+     *     @property {string} js - Path to additional JavaScript file to load, after dynamic
+     *         elements are rendered. Must be an absolute url and not a relative path.
+     *     @property {lang} lang - Language for lyrics, e.g. "en", "cn".
+     *     @property {string} song - JSON key for song in songbook to use, e.g. "31", "Doxology".
+     * @returns {void}
+     */
+    self.loadSongBook = function (callback) {
+        let params = {
+            book: utils.getQueryParam('book', ''),
+            css: utils.getQueryParam('css', ''),
+            data: utils.getQueryParam('data', ''),
+            js: utils.getQueryParam('js', ''),
+            lang: utils.getQueryParam('lang', self.LANG_EN),
+            song: utils.getQueryParam('song', ''),
+        };
+        if (params.book) {
+            // Paths are relative to the webpage that embeds utils.js
+            params.data = utils.getAbsoluteUrl(`../dist/${params.book}.js`);
+            params.css = utils.getAbsoluteUrl('../assets/hymns.css');
+            params.js = utils.getAbsoluteUrl('../assets/hymns.js');
+        }
+
+        // Add event listener to receive contents of songbook before loading songbook file
+        window.addEventListener('songbook.ready', (event) => {
+            callback(params, event.detail.data);
+        });
+
+        // Load songbook file
+        self.loadScript(params.data);
+    };
+
+    /**
      * Load external stylesheet at end of <head>
      *
      * @public
@@ -449,15 +498,18 @@ const utils = (function () {
     };
 
     /**
-     * Convert text to variable name
+     * Slugify a string for use as a variable name
      *
      * @public
-     * @example " Hello World, 1-2_3. " => hello-world-1-2_3
-     * @param {string} text
-     * @returns {string}
+     * @example " Hello World, 1-2_3. " => hello-world-1-23
+     * @link See https://www.ef.com/wwen/english-resources/english-grammar/hyphens-and-dashes on
+     *     the difference between hyphens and dashes.
+     * @param {string} string
+     * @returns {string} String will be lowercased with spaces replaced by
+     *     hyphens (by default), retaining only letters/digits/hyphens.
      */
-    self.textToVariableName = function (text) {
-        return (text || '').toLowerCase().replace(/[^a-z0-9_\-\s]/gi, '').trim().replace(/\s/g, '-');
+    self.slugify = function (string) {
+        return (string || '').toString().toLowerCase().replace(/ /g, '-').replace(/[^a-z0-9\-]/g, '');
     };
 
     /**

@@ -5,12 +5,8 @@
       /**
        * This webpage shows the lyrics for a song in all available language versions.
        *
-       * This webpage is meant to be run from a local/remote server due to reading of JSON file.
-       *
-       * It takes in the following querystring param(s):
-       *   @param {string} data - Path to JSON file for songbook.
-       *   @param {string} song - JSON key for song in songbook, e.g. "31", "Doxology".
-       *
+       * @see https://github.com/zionsg/songbooks/blob/master/html/js/utils.js:loadSongBook()
+       *     for query params that can be passed to this webpage.
        * @link https://github.com/zionsg/songbooks/blob/master/html/song.lyrics.html
        */
     -->
@@ -40,45 +36,6 @@
              * @type {HTMLElement}
              */
             let lyricsContainer = document.getElementById('lyrics');
-
-            /**
-             * Initialization - function will be run at the end of this module
-             *
-             * @private
-             * @returns {void}
-             */
-            function init() {
-                // Parse query params
-                let dataFile = utils.getQueryParam('data', '');
-                let songJsonKey = utils.getQueryParam('song', '');
-                if (!dataFile || !songJsonKey) {
-                    return;
-                }
-
-                utils.readJsonFile(dataFile, function (json) {
-                    // Save contents of JSON file
-                    data = json;
-                    if (!data) {
-                        return;
-                    }
-
-                    // Retrieve song
-                    let song = (data && data.songs && data.songs[songJsonKey]) || null;
-                    if (!song) {
-                        return;
-                    }
-
-                    let songPrefix = utils.getSongPrefix(data, songJsonKey);
-                    let songTitle = utils.getCombinedTitle(song.title, songJsonKey, '<br>');
-                    if (!songPrefix && !songTitle) {
-                        return;
-                    }
-
-                    // Update title and show lyrics
-                    document.title = songPrefix + ': ' + songTitle.replace(/<br>/g, ' ');
-                    showLyrics(songJsonKey);
-                });
-            }
 
             /**
              * Show lyrics for a song in a new window
@@ -136,8 +93,32 @@
                 lyricsContainer.innerHTML = lyricsHtml;
             }
 
-            // Run init
-            init();
+            // Initialization
+            (function init() {
+                utils.loadSongBook(function (parsedParams, songbookData) {
+                    let songJsonKey = parsedParams.song;
+                    data = songbookData;
+                    if (!data) {
+                        return;
+                    }
+
+                    // Retrieve song
+                    let song = (data && data.songs && data.songs[songJsonKey]) || null;
+                    if (!song) {
+                        return;
+                    }
+
+                    let songPrefix = utils.getSongPrefix(data, songJsonKey);
+                    let songTitle = utils.getCombinedTitle(song.title, songJsonKey, '<br>');
+                    if (!songPrefix && !songTitle) {
+                        return;
+                    }
+
+                    // Update title and show lyrics
+                    document.title = songPrefix + ': ' + songTitle.replace(/<br>/g, ' ');
+                    showLyrics(songJsonKey);
+                });
+            })();
         })();
     </script>
   </body>

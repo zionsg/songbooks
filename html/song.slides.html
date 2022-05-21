@@ -3,19 +3,14 @@
   <head>
     <!--
       /**
-       * This webpage shows the language-specific lyrics for a song using slides done up with Reveal.js.
-       *
-       * This webpage needs to be run from a local/remote server due to reading of JSON file.
+       * This webpage shows language-specific lyrics for a song using slides created with Reveal.js.
        *
        * The layout is designed to be shown on a projector screen at a resolution of 1920 x 1080.
        * If using an old projector with lesser resolution, e.g. 800 x 600, use the browser to zoom
        * in/out so that lyrics will not get cut off.
        *
-       * It takes in the following querystring param(s):
-       *   @param {string} data - Path to JSON file for songbook.
-       *   @param {string} song - JSON key for song in songbook, e.g. "31", "Doxology".
-       *   @param {lang} lang - Language for lyrics, e.g. "en", "cn".
-       *
+       * @see https://github.com/zionsg/songbooks/blob/master/html/js/utils.js:loadSongBook()
+       *     for query params that can be passed to this webpage.
        * @link https://github.com/zionsg/songbooks/blob/master/html/song.slides.html
        */
     -->
@@ -81,24 +76,25 @@
             let slidesContainer = document.getElementById('slides-container');
 
             /**
-             * Initialization - function will be run at the end of this module
+             * Create slide
              *
-             * @private
+             * @param {string} html - Slide contents
              * @returns {void}
              */
-            function init() {
-                // Parse query params
-                let dataFile = utils.getQueryParam('data', '');
-                let songJsonKey = utils.getQueryParam('song', '');
-                let language = utils.getQueryParam('lang', utils.LANG_EN);
-                if (!dataFile || !songJsonKey) {
-                    return;
-                }
+            function addSlide(html) {
+                let slide = document.createElement('section');
+                slide.innerHTML = html;
 
-                utils.readJsonFile(dataFile, function (json) {
-                    // Save contents of JSON file
-                    data = json;
-                    if (!data) {
+                slidesContainer.appendChild(slide);
+            }
+
+            // Initialization
+            (function init() {
+                utils.loadSongBook(function (parsedParams, songbookData) {
+                    let language = parsedParams.lang;
+                    let songJsonKey = parsedParams.song;
+                    data = songbookData;
+                    if (!data || !songJsonKey) {
                         return;
                     }
 
@@ -163,23 +159,7 @@
                         margin: 0.1, // give buffer at edges cos usually cut off by projectors
                     });
                 });
-            }
-
-            /**
-             * Create slide
-             *
-             * @param {string} html - Slide contents
-             * @returns {void}
-             */
-            function addSlide(html) {
-                let slide = document.createElement('section');
-                slide.innerHTML = html;
-
-                slidesContainer.appendChild(slide);
-            }
-
-            // Run init
-            init();
+            })();
         })();
     </script>
   </body>

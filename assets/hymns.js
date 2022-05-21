@@ -1,5 +1,5 @@
 /**
- * Common Javascript file for all hymnals
+ * Common JavaScript file for all hymnals
  *
  * @link Used with https://github.com/zionsg/songbooks/blob/master/html/songbook.webpage.html which loads js/utils.js
  */
@@ -8,7 +8,7 @@
     /** @type {string} */
     let isMessageShown = false;
 
-    /** @type {string[]} List of songs in Hymns of Praise with MIDI files */
+    /** @type {string[]} List of songs in Hymns of Praise with MIDI files. */
     let hpMidi = [
         5, 11, 21, 31, 33, 46, 85, 87, 94,
         146, 149, 152, 178,
@@ -16,14 +16,43 @@
     ].map((val) => '' + val);
 
     /**
-     * Init
+     * Check if song has MIDI file
+     *
+     * Using function cos a songbook may have MIDI files for every song except a few, or only have
+     * MIDI files for a few songs.
      *
      * @private
-     * @returns {void}
+     * @param {string} songbookPrefix
+     * @param {string} songJsonKey
+     * @returns {boolean}
      */
-    function init() {
-        // Load MIDIjs - cannot save script locally cos it will call other scripts from MIDIjs.net
-        utils.loadScript('//www.midijs.net/lib/midi.js');
+    function hasMidi(songbookPrefix, songJsonKey) {
+        // Total of 582 songs in RHC (including the 2 new songs in 2006 reprint)
+        // Total of 479 songs in TSMS, total of 105 songs in EHS
+        if (['RHC', 'TSMS', 'EHS'].includes(songbookPrefix)) {
+            return true;
+        }
+
+        if ('HP' === songbookPrefix) { // total 479 songs in HP (tentative cos have not indexed all songs)
+            // HP is still being indexed, only some hymns have MIDI
+            if (!utils.isNumber(songJsonKey)) { // front cover and back cover
+                return true;
+            }
+
+            if (hpMidi.includes(songJsonKey)) {
+                return true;
+            }
+
+            return false;
+        }
+
+        return false;
+    }
+
+    // Initialization
+    (function init() {
+        // Load MIDIjs - cannot save/load script locally cos it will call other scripts from MIDIjs.net
+        utils.loadScript('https://www.midijs.net/lib/midi.js');
 
         // Tack on method in loaded utils.js
         utils.play = function (path) {
@@ -68,42 +97,5 @@
 
             musicCol.innerHTML = currHtml + midiHtml;
         }
-    }
-
-    /**
-     * Check if song has MIDI file
-     *
-     * Using function cos a songbook may have MIDI files for every song except a few, or only have
-     * MIDI files for a few songs.
-     *
-     * @private
-     * @param {string} songbookPrefix
-     * @param {string} songJsonKey
-     * @returns {boolean}
-     */
-    function hasMidi(songbookPrefix, songJsonKey) {
-        // Total of 582 songs in RHC (including the 2 new songs in 2006 reprint)
-        // Total of 479 songs in TSMS, total of 105 songs in EHS
-        if (['RHC', 'TSMS', 'EHS'].includes(songbookPrefix)) {
-            return true;
-        }
-
-        if ('HP' === songbookPrefix) { // total 479 songs in HP (tentative cos have not indexed all songs)
-            // HP is still being indexed, only some hymns have MIDI
-            if (!utils.isNumber(songJsonKey)) { // front cover and back cover
-                return true;
-            }
-
-            if (hpMidi.includes(songJsonKey)) {
-                return true;
-            }
-
-            return false;
-        }
-
-        return false;
-    }
-
-    // Run init
-    init();
+    })();
 })();
