@@ -9,8 +9,8 @@
     "Try to cap line lengths to 100 characters (120 for comments) as much as possible to reduce horizontal scrolling."
   ],
   "json": {
-    "source": "https://github.com/zionsg/songbooks/blob/master/data/songbook.example.json",
-    "schema": "https://github.com/zionsg/songbooks/blob/master/schema/songbook.schema.json"
+    "source": "https://github.com/zionsg/songbooks/blob/master/data/songbook-example.json",
+    "schema": "https://github.com/zionsg/songbooks/blob/master/data/songbook.schema.json"
   },
   "bookPrefix": "ABC",
   "title": {

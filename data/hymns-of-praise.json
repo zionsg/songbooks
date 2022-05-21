@@ -1,7 +1,7 @@
 {
   "json": {
     "source": "https://github.com/zionsg/songbooks/blob/master/data/hymns-of-praise.json",
-    "schema": "https://github.com/zionsg/songbooks/blob/master/schema/songbook.schema.json"
+    "schema": "https://github.com/zionsg/songbooks/blob/master/data/songbook.schema.json"
   },
   "bookPrefix": "HP",
   "title": {

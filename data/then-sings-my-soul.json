@@ -1,7 +1,7 @@
 {
   "json": {
     "source": "https://github.com/zionsg/songbooks/blob/master/data/then-sings-my-soul.json",
-    "schema": "https://github.com/zionsg/songbooks/blob/master/schema/songbook.schema.json"
+    "schema": "https://github.com/zionsg/songbooks/blob/master/data/songbook.schema.json"
   },
   "bookPrefix": "TSMS",
   "title": {

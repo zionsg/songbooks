@@ -6,17 +6,12 @@
  *
  * For consistency, functions using record and key arguments should always
  * place the record as the 1st argument, e.g. getSongPrefix(data, key). This
- * makes it easier to add optional arguments - compare fn(data, key, optional)
- * versus fn(key, data, optional). This also applies to inline scripts in
- * webpages.
+ * makes it easier to add optional arguments - compare
+ * fn(data, key1, key2, optional) versus fn(key1, key2, data, optional).
+ * This also applies to inline scripts in webpages.
  */
 const utils = (function () {
-    /**
-     * Self reference - all public vars/methods will be stored in here and returned as public interface
-     *
-     * @public This is considered public as it will be returned as the public interface at the end.
-     * @type {object}
-     */
+    /** @type {object} Self reference - all public properties/methods are stored here & returned as public interface. */
     const self = {
         // Common constants enumerated here, names to be all in caps, listed alphabetically
         COMMENTS: '//',

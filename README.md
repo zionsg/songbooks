@@ -10,8 +10,8 @@ are any changes, just change these 2 files and run Mail Merge again, instead of 
 Word documents.
 
 ## Schema
-- See `schema/songbook.schema.json`, which is based on [JSON Schema](https://json-schema.org/).
-- Sample songbook document: `data/songbook.example.json`.
+- See `data/songbook.schema.json`, which is based on [JSON Schema](https://json-schema.org/).
+- Sample songbook document: `data/songbook-example.json`.
 - Quick reference: [Understanding JSON Schema](https://json-schema.org/understanding-json-schema/index.html).
 - [JSON Schema Validator](https://www.jsonschemavalidator.net/) may be used to validate a JSON document against
   the JSON schema.
