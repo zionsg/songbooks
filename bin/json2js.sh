@@ -20,6 +20,7 @@ if [ ! -d "bin" ]; then
 fi
 
 # Loop thru files in data directory
+TIMESTAMP=$(date --utc --iso-8601=seconds) # use UTC for easier comparison
 for FILE_PATH in data/*.json; do
     # Skip songbook.schema.json
     if echo "${FILE_PATH}" | grep -q "schema"; then
@@ -29,7 +30,8 @@ for FILE_PATH in data/*.json; do
     FILENAME_WITH_EXT="${FILE_PATH##*/}"
     FILENAME="${FILENAME_WITH_EXT%.json}"
 
-    CONTENTS="(function () { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data: "
+    CONTENTS="// Generated at ${TIMESTAMP} - https://github.com/zionsg/songbooks"
+    CONTENTS="${CONTENTS}\n(function () { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data: "
     CONTENTS="${CONTENTS}\n$(cat ${FILE_PATH})\n}}));\n})();"
     echo "${CONTENTS}" > "dist/${FILENAME}.js"
 done

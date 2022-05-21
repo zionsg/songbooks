@@ -1,3 +1,4 @@
+// Generated at 2022-05-21T05:48:04+00:00 - https://github.com/zionsg/songbooks
 (function () { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data: 
 {
   "json": {
