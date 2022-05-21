@@ -19,7 +19,7 @@ of changing 1000 manually typed out Word documents.
 ## Usage
 - Clone this repository or download the zip file.
 - Open `html/songbook.webpage.html` in the browser. This can be run offline without Internet
-  connection.
+  connection except that the links to play/stop the MIDI files will not work.
 - Pass the name of the songbook via the `book` query param to load the songbook, e.g.
   `file:///C:/Users/Me/Downloads/songbooks/html/songbook.webpage.html?book=songbook-example`. This
   loads the JavaScript file `dist/songbook-example.js` converted from `data/songbook-example.json`
