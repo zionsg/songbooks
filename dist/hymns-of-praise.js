@@ -1,4 +1,4 @@
-// Generated at 2022-05-21T05:48:04+00:00 - https://github.com/zionsg/songbooks
+// Generated at 2022-06-05T10:20:15+00:00 - https://github.com/zionsg/songbooks
 (function () { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data: 
 {
   "json": {
@@ -1404,6 +1404,96 @@
       "notes": [
         "Same song: RHC194",
         "Same tune: RHC038"
+      ]
+    },
+    "103": {
+      "title": {
+        "en": "Ivory Palaces",
+        "cn": "华美天宫"
+      },
+      "music": {
+        "composers": [
+          "Henry Barraclough, arr. by Donald P. Hustad"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "6/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Henry Barraclough"
+        ],
+        "en": {
+          "1": [
+            "My Lord has garments so wondrous fine,",
+            "And myrrh their texture fills;",
+            "Its fragrance reached to this heart of mine,",
+            "With joy my being thrills."
+          ],
+          "2": [
+            "His life had also its sorrows sore,",
+            "For aloes had a part;",
+            "And when I think of the cross He bore,",
+            "My eyes with teardrops start."
+          ],
+          "3": [
+            "His garments too were in cassia dipped,",
+            "With healing in a touch;",
+            "Each time my feet in some sin have slipped,",
+            "He took me from its clutch."
+          ],
+          "4": [
+            "In garments glorious He will come,",
+            "To open wide the door;",
+            "And I shall enter my heav'nly home,",
+            "To dwell forevermore."
+          ],
+          "chorus": [
+            "Out of the ivory palaces,",
+            "Into a world of woe -",
+            "Only His great, eternal love",
+            "Made my Saviour go."
+          ]
+        },
+        "cn": {
+          "1": [
+            "我主衣袍极珍贵华美，",
+            "发出没药馨香；",
+            "阵阵香气直透我心房，",
+            "使我快乐欢畅。"
+          ],
+          "2": [
+            "我主一生曾饱尝忧患，",
+            "有如沉香研碎；",
+            "当我想到主被钉十架，",
+            "不禁使我流泪。"
+          ],
+          "3": [
+            "我主衣袍满玉桂香气，",
+            "病人一模得治；",
+            "每次当我被罪恶绊倒，",
+            "主总把我拉起。"
+          ],
+          "4": [
+            "我主要穿荣耀袍再来，",
+            "快将心门大开；",
+            "我将进入极荣美天家，",
+            "永远与主同在。"
+          ],
+          "chorus": [
+            "从极富丽极华美天宫，",
+            "主降尘世受害；",
+            "是那伟大永远的爱，",
+            "使主甘愿来。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC191, EHS043-edited"
       ]
     },
     "146": {

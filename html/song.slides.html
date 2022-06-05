@@ -105,7 +105,7 @@
                     }
 
                     let songPrefix = utils.getSongPrefix(data, songJsonKey);
-                    let songTitle = utils.getCombinedTitle(song.title, songJsonKey, '<br>');
+                    let songTitle = utils.getLanguageTitle(song.title, songJsonKey, language);
                     if (!songPrefix && !songTitle) {
                         return;
                     }

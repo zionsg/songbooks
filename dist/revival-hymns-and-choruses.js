@@ -1,4 +1,4 @@
-// Generated at 2022-05-21T05:48:04+00:00 - https://github.com/zionsg/songbooks
+// Generated at 2022-06-05T10:20:15+00:00 - https://github.com/zionsg/songbooks
 (function () { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data: 
 {
   "json": {
@@ -238,6 +238,10 @@
   },
   "songs": {
     "Doxology": {
+      "title": {
+        "en": "Doxology",
+        "cn": "三一颂"
+      },
       "music": {
         "composers": [
           "Louis Bourgeois"
@@ -280,6 +284,10 @@
       ]
     },
     "The Lord Is In His Holy Temple": {
+      "title": {
+        "en": "The Lord Is In His Holy Temple",
+        "cn": "上主在祂的圣殿中"
+      },
       "music": {
         "composers": [
           "George F. Root"
@@ -322,6 +330,10 @@
       ]
     },
     "Gloria Patri (Greatorex)": {
+      "title": {
+        "en": "Gloria Patri (Greatorex)",
+        "cn": "荣耀归于圣父"
+      },
       "music": {
         "composers": [
           "Henry W. Greatorex"
@@ -361,6 +373,10 @@
       ]
     },
     "Gloria Patri (Meineke)": {
+      "title": {
+        "en": "Gloria Patri (Meineke)",
+        "cn": "荣耀颂"
+      },
       "music": {
         "composers": [
           "Charles Meineke"
@@ -400,6 +416,10 @@
       ]
     },
     "Pressing On!": {
+      "title": {
+        "en": "Pressing On!",
+        "cn": "往前进！"
+      },
       "music": {
         "composers": [
           "James McGranahan"
@@ -490,7 +510,8 @@
     },
     "1": {
       "title": {
-        "en": "O Worship the King"
+        "en": "O Worship the King",
+        "cn": "齐当俯伏拜"
       },
       "music": {
         "composers": [
@@ -568,7 +589,8 @@
     },
     "2": {
       "title": {
-        "en": "O Worship the King"
+        "en": "O Worship the King",
+        "cn": "齐当俯伏拜"
       },
       "music": {
         "composers": [
@@ -633,7 +655,8 @@
     },
     "3": {
       "title": {
-        "en": "Love Divine"
+        "en": "Love Divine",
+        "cn": "主爱浩大"
       },
       "music": {
         "composers": [
@@ -711,7 +734,8 @@
     },
     "4": {
       "title": {
-        "en": "Love Divine, All Loves Excelling"
+        "en": "Love Divine, All Loves Excelling",
+        "cn": "神圣妙爱超乎一切"
       },
       "music": {
         "composers": [
@@ -788,7 +812,8 @@
     },
     "5": {
       "title": {
-        "en": "Command Thy Blessing From Above"
+        "en": "Command Thy Blessing From Above",
+        "cn": "将恩赐从天而降"
       },
       "music": {
         "composers": [
@@ -850,7 +875,8 @@
     },
     "6": {
       "title": {
-        "en": "The Spacious Firmament on High"
+        "en": "The Spacious Firmament on High",
+        "cn": "仰望天空浩大无穷"
       },
       "music": {
         "composers": [
@@ -915,7 +941,8 @@
     },
     "7": {
       "title": {
-        "en": "God Moves in a Mysterious Way"
+        "en": "God Moves in a Mysterious Way",
+        "cn": "神行事踪影总是奥秘"
       },
       "music": {
         "composers": [
@@ -1007,7 +1034,8 @@
     },
     "8": {
       "title": {
-        "en": "Holy, Holy, Holy"
+        "en": "Holy, Holy, Holy",
+        "cn": "圣哉，圣哉，圣哉"
       },
       "music": {
         "composers": [
@@ -1084,7 +1112,8 @@
     },
     "9": {
       "title": {
-        "en": "Sun of My Soul"
+        "en": "Sun of My Soul",
+        "cn": "亲爱救主我灵之光"
       },
       "music": {
         "composers": [
@@ -1161,7 +1190,8 @@
     },
     "10": {
       "title": {
-        "en": "Still, Still with Thee"
+        "en": "Still, Still with Thee",
+        "cn": "小鸟啼明"
       },
       "music": {
         "composers": [
@@ -1250,7 +1280,8 @@
     },
     "11": {
       "title": {
-        "en": "May Jesus Christ Be Praised"
+        "en": "May Jesus Christ Be Praised",
+        "cn": "晨光灿烂耀空"
       },
       "music": {
         "composers": [
@@ -1328,7 +1359,8 @@
     },
     "12": {
       "title": {
-        "en": "Now the Day Is Over"
+        "en": "Now the Day Is Over",
+        "cn": "黑夜来临"
       },
       "music": {
         "composers": [
@@ -1397,7 +1429,8 @@
     },
     "13": {
       "title": {
-        "en": "Abide with Me"
+        "en": "Abide with Me",
+        "cn": "夕阳西沉"
       },
       "music": {
         "composers": [
@@ -1474,7 +1507,8 @@
     },
     "14": {
       "title": {
-        "en": "Send Out Thy Light and Thy Truth"
+        "en": "Send Out Thy Light and Thy Truth",
+        "cn": "求袮发出圣光真实"
       },
       "music": {
         "composers": [
@@ -1536,7 +1570,8 @@
     },
     "15": {
       "title": {
-        "en": "How Shall I Sing That Majesty"
+        "en": "How Shall I Sing That Majesty",
+        "cn": "要如何歌颂那威严"
       },
       "music": {
         "composers": [
@@ -1614,7 +1649,8 @@
     },
     "16": {
       "title": {
-        "en": "Holy God, We Praise Thy Name"
+        "en": "Holy God, We Praise Thy Name",
+        "cn": "圣洁神，我们称颂袮名"
       },
       "music": {
         "composers": [
@@ -1682,7 +1718,8 @@
     },
     "17": {
       "title": {
-        "en": "Begin, My Tongue, Some Heavenly Theme"
+        "en": "Begin, My Tongue, Some Heavenly Theme",
+        "cn": "让我舌开始奏圣曲"
       },
       "music": {
         "composers": [
@@ -1762,7 +1799,8 @@
     },
     "18": {
       "title": {
-        "en": "Come, Thou Almighty King"
+        "en": "Come, Thou Almighty King",
+        "cn": "恳求圣父来临"
       },
       "music": {
         "composers": [
@@ -1840,7 +1878,8 @@
     },
     "19": {
       "title": {
-        "en": "Come, We That Love the Lord"
+        "en": "Come, We That Love the Lord",
+        "cn": "爱主的人齐来"
       },
       "music": {
         "composers": [
@@ -1918,7 +1957,8 @@
     },
     "20": {
       "title": {
-        "en": "All People That on Earth Do Dwell"
+        "en": "All People That on Earth Do Dwell",
+        "cn": "称谢歌"
       },
       "music": {
         "composers": [
@@ -1996,7 +2036,8 @@
     },
     "21": {
       "title": {
-        "en": "O God, Our Help in Ages Past"
+        "en": "O God, Our Help in Ages Past",
+        "cn": "千古保障"
       },
       "music": {
         "composers": [
@@ -2085,7 +2126,8 @@
     },
     "22": {
       "title": {
-        "en": "When All Thy Mercies, O My God"
+        "en": "When All Thy Mercies, O My God",
+        "cn": "我主我神万般慈仁"
       },
       "music": {
         "composers": [
@@ -2163,7 +2205,8 @@
     },
     "23": {
       "title": {
-        "en": "O Splendor of God's Glory Bright"
+        "en": "O Splendor of God's Glory Bright",
+        "cn": "神明亮荣耀的辉煌"
       },
       "music": {
         "composers": [
@@ -2267,7 +2310,8 @@
     },
     "24": {
       "title": {
-        "en": "Praise to the Lord, The Almighty"
+        "en": "Praise to the Lord, The Almighty",
+        "cn": "赞美全能神"
       },
       "music": {
         "composers": [
@@ -2345,7 +2389,8 @@
     },
     "25": {
       "title": {
-        "en": "The Lord Is King!"
+        "en": "The Lord Is King!",
+        "cn": "主是君王！"
       },
       "music": {
         "composers": [
@@ -2426,7 +2471,8 @@
     },
     "26": {
       "title": {
-        "en": "Come, Thou Fount"
+        "en": "Come, Thou Fount",
+        "cn": "救主耶稣万福恩源"
       },
       "music": {
         "composers": [
@@ -2491,7 +2537,8 @@
     },
     "27": {
       "title": {
-        "en": "Now Thank We All Our God"
+        "en": "Now Thank We All Our God",
+        "cn": "齐来谢主"
       },
       "music": {
         "composers": [
@@ -2556,7 +2603,8 @@
     },
     "28": {
       "title": {
-        "en": "The God of Abraham Praise"
+        "en": "The God of Abraham Praise",
+        "cn": "亚伯拉罕的神"
       },
       "music": {
         "composers": [
@@ -2634,7 +2682,8 @@
     },
     "29": {
       "title": {
-        "en": "I Sing the Mighty Power of God"
+        "en": "I Sing the Mighty Power of God",
+        "cn": "唱述父神伟大权力"
       },
       "music": {
         "composers": [
@@ -2700,7 +2749,8 @@
     },
     "30": {
       "title": {
-        "en": "All Creatures of Our God and King"
+        "en": "All Creatures of Our God and King",
+        "cn": "主手所造"
       },
       "music": {
         "composers": [
@@ -2717,7 +2767,122 @@
       "lyrics": {
         "authors": [
           "Francis of Assisi, trans. by William H. Draper"
-        ]
+        ],
+        "translators": [
+          "Zion Ng (Chinese, stanzas 3 & 6)"
+        ],
+        "en": {
+          "1": [
+            "All creatures of our God and King,",
+            "Lift up your voice and with us sing",
+            "Alleluia, Alleluia!",
+            "Thou burning sun with golden beam,",
+            "Thou silver moon with softer gleam:",
+            "O praise Him, O praise Him!",
+            "Alleluia, Alleluia! Alleluia!"
+          ],
+          "2": [
+            "Thou rushing wind that art so strong,",
+            "Ye clouds that sail in heav'n along,",
+            "O praise Him! Alleluia!",
+            "Thou rising morn, in praise rejoice,",
+            "Ye lights of evening, find a voice:",
+            "O praise Him, O praise Him!",
+            "Alleluia, Alleluia! Alleluia!"
+          ],
+          "3": [
+            "Dear mother earth, who day by day",
+            "Unfoldest blessings on our way,",
+            "O praise Him! Alleluia!",
+            "The flow'rs and fruits that in thee grow,",
+            "Let them His glory also show:",
+            "O praise Him, O praise Him!",
+            "Alleluia, Alleluia! Alleluia!"
+          ],
+          "4": [
+            "And all ye men of tender heart,",
+            "Forgiving others, take your part,",
+            "O sing ye! Alleluia!",
+            "Ye who long pain and sorrow bear,",
+            "Praise God and on Him cast your care:",
+            "O praise Him, O praise Him!",
+            "Alleluia, Alleluia! Alleluia!"
+          ],
+          "5": [
+            "Let all things their Creator bless,",
+            "And worship Him in humbleness -",
+            "O praise Him! Alleluia!",
+            "Praise, praise the Father, praise the Son,",
+            "And praise the Spirit, Three in One:",
+            "O praise Him, O praise Him!",
+            "Alleluia, Alleluia! Alleluia!"
+          ],
+          "6": [
+            "Praise God, from whom all blessings flow,",
+            "Praise Him, all creatures here below,",
+            "Alleluia, Alleluia!",
+            "Praise Him above, ye heav'nly host,",
+            "Praise Father, Son and Holy Ghost:",
+            "Alleluia, Alleluia!",
+            "Alleluia, Alleluia! Alleluia!"
+          ]
+        },
+        "cn": {
+          "1": [
+            "主手所造万象生灵，",
+            "同发声音赞美真神，",
+            "哈利路亚！哈利路亚！",
+            "温柔明月，光耀日轮，",
+            "狂风，密云，清晨，黄昏，",
+            "赞美真神！赞美真神！",
+            "哈利路亚！哈利路亚！哈利路亚！"
+          ],
+          "2": [
+            "清清河水长流不歇，",
+            "熊熊烈火供人光热，",
+            "哈利路亚！哈利路亚！",
+            "大地高山无尽宝藏，",
+            "滋生万物，花草芬芳，",
+            "赞美真神！赞美真神！",
+            "哈利路亚！哈利路亚！哈利路亚！"
+          ],
+          "3": [
+            "大地之母，日复一日，",
+            "在我路途展开祝福，",
+            "哈利路亚！哈利路亚！",
+            "万花果在地里成长，",
+            "让万物展现神荣耀，",
+            "赞美真神！赞美真神！",
+            "哈利路亚！哈利路亚！哈利路亚！"
+          ],
+          "4": [
+            "仁心世人遵守主命，",
+            "饶恕弟兄，荣神益人，",
+            "哈利路亚！哈利路亚！",
+            "世人饱受痛苦忧惊，",
+            "速将忧虑卸给真神，",
+            "赞美真神！赞美真神！",
+            "哈利路亚！哈利路亚！哈利路亚！"
+          ],
+          "5": [
+            "万物赞美造物主宰，",
+            "都当谦卑向主敬拜，",
+            "哈利路亚！哈利路亚！",
+            "赞美圣父，圣子，圣灵，",
+            "同声赞美三一真神，",
+            "赞美真神！赞美真神！",
+            "哈利路亚！哈利路亚！哈利路亚！"
+          ],
+          "6": [
+            "赞美真神万福之源，",
+            "世上万民都当颂扬，",
+            "哈利路亚！哈利路亚！",
+            "天使天军赞美主名，",
+            "赞美圣父，圣子，圣灵，",
+            "哈利路亚！哈利路亚！",
+            "哈利路亚！哈利路亚！哈利路亚！"
+          ]
+        }
       },
       "notes": [
         "Same song: HP017-only4stanzas-stanza2diff"
@@ -16451,7 +16616,8 @@
     },
     "191": {
       "title": {
-        "en": "Ivory Palaces"
+        "en": "Ivory Palaces",
+        "cn": "华美天宫"
       },
       "music": {
         "composers": [
@@ -16468,7 +16634,71 @@
       "lyrics": {
         "authors": [
           "Henry Barraclough"
-        ]
+        ],
+        "en": {
+          "1": [
+            "My Lord has garments so wondrous fine,",
+            "And myrrh their texture fills;",
+            "Its fragrance reached to this heart of mine,",
+            "With joy my being thrills."
+          ],
+          "2": [
+            "His life had also its sorrows sore,",
+            "For aloes had a part;",
+            "And when I think of the cross He bore,",
+            "My eyes with teardrops start."
+          ],
+          "3": [
+            "His garments too were in cassia dipped,",
+            "With healing in a touch;",
+            "Each time my feet in some sin have slipped,",
+            "He took me from its clutch."
+          ],
+          "4": [
+            "In garments glorious He will come,",
+            "To open wide the door;",
+            "And I shall enter my heav'nly home,",
+            "To dwell forevermore."
+          ],
+          "chorus": [
+            "Out of the ivory palaces,",
+            "Into a world of woe -",
+            "Only His great, eternal love",
+            "Made my Saviour go."
+          ]
+        },
+        "cn": {
+          "1": [
+            "我主衣袍极珍贵华美，",
+            "发出没药馨香；",
+            "阵阵香气直透我心房，",
+            "使我快乐欢畅。"
+          ],
+          "2": [
+            "我主一生曾饱尝忧患，",
+            "有如沉香研碎；",
+            "当我想到主被钉十架，",
+            "不禁使我流泪。"
+          ],
+          "3": [
+            "我主衣袍满玉桂香气，",
+            "病人一模得治；",
+            "每次当我被罪恶绊倒，",
+            "主总把我拉起。"
+          ],
+          "4": [
+            "我主要穿荣耀袍再来，",
+            "快将心门大开；",
+            "我将进入极荣美天家，",
+            "永远与主同在。"
+          ],
+          "chorus": [
+            "从极富丽极华美天宫，",
+            "主降尘世受害；",
+            "是那伟大永远的爱，",
+            "使主甘愿来。"
+          ]
+        }
       },
       "notes": [
         "Same song: EHS043-edited, HP103"
@@ -27297,6 +27527,10 @@
       ]
     },
     "Lord Dismiss Us": {
+      "title": {
+        "en": "Lord Dismiss Us",
+        "cn": "主差遣我们"
+      },
       "music": {
         "composers": [
           "William Letton Viner"
@@ -27364,6 +27598,10 @@
       "notes": []
     },
     "Benediction": {
+      "title": {
+        "en": "Benediction",
+        "cn": "祝福"
+      },
       "music": {
         "composers": [
           "John W. Peterson"
@@ -27399,6 +27637,10 @@
       "notes": []
     },
     "The Lord Bless You And Keep You": {
+      "title": {
+        "en": "The Lord Bless You And Keep You",
+        "cn": "原主赐福看顾你"
+      },
       "music": {
         "composers": [
           "Peter C. Lutkin"
@@ -27443,6 +27685,10 @@
       ]
     },
     "Twofold Amen": {
+      "title": {
+        "en": "Twofold Amen",
+        "cn": "二叠阿们"
+      },
       "music": {
         "composers": [
           "Dresden Amen"
@@ -27473,6 +27719,10 @@
       ]
     },
     "Threefold Amen": {
+      "title": {
+        "en": "Threefold Amen",
+        "cn": "三叠阿们"
+      },
       "music": {
         "composers": [
           "Danish"
@@ -27503,6 +27753,10 @@
       ]
     },
     "Sevenfold Amen": {
+      "title": {
+        "en": "Sevenfold Amen",
+        "cn": "七叠阿们"
+      },
       "music": {
         "composers": [
           "John Stainer"
@@ -27535,6 +27789,10 @@
       ]
     },
     "May The Grace Of Christ Our Savior": {
+      "title": {
+        "en": "May The Grace Of Christ Our Savior",
+        "cn": "但愿救主基督恩惠"
+      },
       "music": {
         "composers": [
           "Ludwig van Beethoven"
