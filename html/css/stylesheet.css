@@ -12,7 +12,7 @@ body {
   http://kendraschaefer.com/2012/06/chinese-standard-web-fonts-the-ultimate-guide-to-css-font-family-declarations-for-web-design-in-simplified-chinese
   */
   background-color: lightyellow;
-  font-family: Helvetica, Arial, SimHei, "黑体", sans-serif;
+  font-family: Helvetica, Arial, "Microsoft YaHei", "微软雅黑", SimHei, "黑体", sans-serif; /* YaHei nicer than SimHei */
   font-size: 1rem; /* not setting as 16px so as not to override user's browser settings */
 }
 
