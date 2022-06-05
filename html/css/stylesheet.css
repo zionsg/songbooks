@@ -1,3 +1,10 @@
+/**
+ * Common stylesheet
+ *
+ * @link https://github.com/zionsg/songbooks/blob/master/html/css/stylesheet.css
+ */
+
+/* BEGIN: Containers */
 html,
 body {
   /*
@@ -6,49 +13,27 @@ body {
   */
   background-color: lightyellow;
   font-family: Helvetica, Arial, SimHei, "黑体", sans-serif;
-  font-size: 16px;
+  font-size: 1rem; /* not setting as 16px so as not to override user's browser settings */
 }
 
 footer {
   font-style: italic;
-  margin-top: 1em;
+  margin-top: 1rem;
   text-align: right;
 }
+/* CLOSE: Containers */
 
-table {
-  border-spacing: 0;
-  border-collapse: collapse;
-  width: 100%;
-}
-th, td {
-  border: 1px solid #ccc;
-  padding: 5px;
-  vertical-align: top;
-}
-th {
-  background: #ddd;
-}
-td {
-  text-align: center;
-}
-td:first-child,
-td:last-child {
-  text-align: left;
-}
 
-ul {
-  margin: 0;
-  padding-left: 2em;
-}
-
+/* BEGIN: Links */
 a {
-  color: #0000ff;
+  color: #0000FF;
   text-decoration: none;
 }
 a:hover {
-  color: #ff00ff;
+  color: #ff00FF;
   text-decoration: underline;
 }
+
 a[id] {
   color: black;
   text-decoration: none;
@@ -57,3 +42,48 @@ a[id]:hover {
   color: black;
   text-decoration: none;
 }
+/* CLOSE: Links */
+
+
+/* BEGIN: Lists */
+ul {
+  margin: 0;
+  padding-left: 2rem;
+}
+/* CLOSE: Lists */
+
+
+/* BEGIN: Tables */
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #CCC;
+  padding: 0.25rem;
+  vertical-align: top;
+}
+
+th {
+  background: #DDD;
+}
+
+td {
+  text-align: center;
+}
+
+td:first-child,
+td:last-child {
+  text-align: left;
+}
+/* CLOSE: Tables */
+
+
+/* BEGIN: Text */
+.text-center {
+  text-align: center;
+}
+/* CLOSE: Text */

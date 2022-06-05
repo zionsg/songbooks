@@ -27,6 +27,8 @@ of changing 1000 manually typed out Word documents.
   must be hosted on a localhost/remote server and cannot be run offline.
 - The webpage also takes in query params `css` and `js` for loading of an additional stylesheet and
   script respectively. See the top docblock in `html/songbook.webpage.html` for more details.
+- For convenience, open `html/index.html` in the browser, which lists all the songbooks in this
+  project.
 
 ## Additional assets
 - The files in the `assets` folder, especially `hymns.css` and `hymns.js`, are site-specific (not
