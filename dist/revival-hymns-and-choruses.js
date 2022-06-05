@@ -1,4 +1,4 @@
-// Generated at 2022-06-05T10:20:15+00:00 - https://github.com/zionsg/songbooks
+// Generated at 2022-06-05T10:55:23+00:00 - https://github.com/zionsg/songbooks
 (function () { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data: 
 {
   "json": {
@@ -2890,7 +2890,8 @@
     },
     "30a": {
       "title": {
-        "en": "When This Passing World Is Done"
+        "en": "When This Passing World Is Done",
+        "cn": "当这短暂世界终"
       },
       "music": {
         "composers": [
@@ -2907,6 +2908,9 @@
       "lyrics": {
         "authors": [
           "Robert M. McCheyne"
+        ],
+        "translators": [
+          "Zion Ng (Chinese)"
         ],
         "en": {
           "1": [
@@ -2940,6 +2944,40 @@
             "By the Spirit sanctified;",
             "Teach me, Lord, on earth to show,",
             "By my love, how much I owe."
+          ]
+        },
+        "cn": {
+          "1": [
+            "当这短暂世界终，",
+            "当辉煌阳已日落，",
+            "当我升天与主立，",
+            "回望人生的史历，",
+            "到那时我才全晓，",
+            "至今我欠祢多少。"
+          ],
+          "2": [
+            "当我站在宝座前，",
+            "穿着华美非我原，",
+            "当我看见祢真容，",
+            "以无罪心爱祢丰，",
+            "到那时我才全晓，",
+            "至今我欠祢多少。"
+          ],
+          "3": [
+            "即在尘世镜子透，",
+            "虽模糊愿祢荣过，",
+            "使原谅感觉甜美，",
+            "使祢灵援助延绵，",
+            "即在尘世愿我晓，",
+            "到底我欠祢多少。"
+          ],
+          "4": [
+            "不是因为我多好，",
+            "觉晓愤怒知逃跑，",
+            "到救主身边躲藏，",
+            "圣灵使得我成圣，",
+            "主请教我以我爱，",
+            "在世显我欠多少。"
           ]
         }
       },
