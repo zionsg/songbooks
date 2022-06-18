@@ -1,5 +1,5 @@
-// Generated at 2022-06-05T10:55:23+00:00 - https://github.com/zionsg/songbooks
-(function () { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data: 
+// Generated at 2022-06-18T05:00:37+00:00 - https://github.com/zionsg/songbooks
+(function (currentScript) { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data:
 {
   "json": {
     "source": "https://github.com/zionsg/songbooks/blob/master/data/then-sings-my-soul.json",
@@ -443,7 +443,8 @@
     },
     "7": {
       "title": {
-        "en": "Great Is Thy Faithfulness"
+        "en": "Great Is Thy Faithfulness",
+        "cn": "你信实何广大"
       },
       "music": {
         "composers": [
@@ -766,7 +767,8 @@
     },
     "15": {
       "title": {
-        "en": "How Great Thou Art"
+        "en": "How Great Thou Art",
+        "cn": "祢真伟大"
       },
       "music": {
         "composers": [
@@ -5281,7 +5283,8 @@
     },
     "97": {
       "title": {
-        "en": "Blessed Be The Name"
+        "en": "Blessed Be The Name",
+        "cn": "颂赞主圣名"
       },
       "music": {
         "composers": [
@@ -15144,4 +15147,4 @@
   }
 }
 }}));
-})();
+})(document.currentScript);

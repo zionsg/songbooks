@@ -1,5 +1,5 @@
-// Generated at 2022-06-05T10:55:23+00:00 - https://github.com/zionsg/songbooks
-(function () { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data: 
+// Generated at 2022-06-18T05:00:37+00:00 - https://github.com/zionsg/songbooks
+(function (currentScript) { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data:
 {
   "//": [
     "JSON consists of key-value pairs. Keys are always strings. Values can be strings/arrays/objects. Don't mix types.",
@@ -161,4 +161,4 @@
   }
 }
 }}));
-})();
+})(document.currentScript);

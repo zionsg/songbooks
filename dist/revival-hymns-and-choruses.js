@@ -1,5 +1,5 @@
-// Generated at 2022-06-05T10:55:23+00:00 - https://github.com/zionsg/songbooks
-(function () { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data: 
+// Generated at 2022-06-18T05:00:37+00:00 - https://github.com/zionsg/songbooks
+(function (currentScript) { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data:
 {
   "json": {
     "source": "https://github.com/zionsg/songbooks/blob/master/data/revival-hymns-and-choruses.json",
@@ -2988,7 +2988,8 @@
     },
     "31": {
       "title": {
-        "en": "Blessed Be the Name"
+        "en": "Blessed Be the Name",
+        "cn": "颂赞主圣名"
       },
       "music": {
         "composers": [
@@ -3077,7 +3078,8 @@
     },
     "32": {
       "title": {
-        "en": "Immortal, Invisible, God Only Wise"
+        "en": "Immortal, Invisible, God Only Wise",
+        "cn": "永生神就是灵"
       },
       "music": {
         "composers": [
@@ -3166,7 +3168,8 @@
     },
     "33": {
       "title": {
-        "en": "Thou Art The King of Israel"
+        "en": "Thou Art The King of Israel",
+        "cn": "以色列民之大君"
       },
       "music": {
         "composers": [
@@ -3255,7 +3258,8 @@
     },
     "34": {
       "title": {
-        "en": "Crown Him with Many Crowns"
+        "en": "Crown Him with Many Crowns",
+        "cn": "快来拥主为王"
       },
       "music": {
         "composers": [
@@ -3333,7 +3337,8 @@
     },
     "35": {
       "title": {
-        "en": "Through All the Changing Scenes of Life"
+        "en": "Through All the Changing Scenes of Life",
+        "cn": "经过人生所有情景"
       },
       "music": {
         "composers": [
@@ -3425,7 +3430,8 @@
     },
     "36": {
       "title": {
-        "en": "High in the Heavens, Eternal God"
+        "en": "High in the Heavens, Eternal God",
+        "cn": "永恒的神，高座在上"
       },
       "music": {
         "composers": [
@@ -3503,7 +3509,8 @@
     },
     "37": {
       "title": {
-        "en": "Praise, My Soul, the King of Heaven"
+        "en": "Praise, My Soul, the King of Heaven",
+        "cn": "我灵赞美天上君王"
       },
       "music": {
         "composers": [
@@ -3596,7 +3603,8 @@
     },
     "38": {
       "title": {
-        "en": "As Pants the Hart for Cooling Streams"
+        "en": "As Pants the Hart for Cooling Streams",
+        "cn": "如鹿切慕冷切溪水"
       },
       "music": {
         "composers": [
@@ -3676,7 +3684,8 @@
     },
     "39": {
       "title": {
-        "en": "Thee Will I Love"
+        "en": "Thee Will I Love",
+        "cn": "我必爱袮"
       },
       "music": {
         "composers": [
@@ -3772,7 +3781,8 @@
     },
     "40": {
       "title": {
-        "en": "God the Omnipotent"
+        "en": "God the Omnipotent",
+        "cn": "全能的真活神"
       },
       "music": {
         "composers": [
@@ -3850,7 +3860,8 @@
     },
     "41": {
       "title": {
-        "en": "Before Jehovah's Aweful Throne"
+        "en": "Before Jehovah's Aweful Throne",
+        "cn": "耶和华可畏宝座前"
       },
       "music": {
         "composers": [
@@ -3942,7 +3953,8 @@
     },
     "42": {
       "title": {
-        "en": "Praise the Lord! Ye Heavens, Adore Him"
+        "en": "Praise the Lord! Ye Heavens, Adore Him",
+        "cn": "诸天赞美"
       },
       "music": {
         "composers": [
@@ -4012,7 +4024,8 @@
     },
     "43": {
       "title": {
-        "en": "God is Still on the Throne"
+        "en": "God is Still on the Throne",
+        "cn": "神仍然在宝座"
       },
       "music": {
         "composers": [
@@ -4142,7 +4155,8 @@
     },
     "44": {
       "title": {
-        "en": "We Praise Thee, O God, Our Redeemer"
+        "en": "We Praise Thee, O God, Our Redeemer",
+        "cn": "我们赞美袮，神，救赎主"
       },
       "music": {
         "composers": [
@@ -4210,7 +4224,8 @@
     },
     "45": {
       "title": {
-        "en": "We Gather Together"
+        "en": "We Gather Together",
+        "cn": "我们聚在一起"
       },
       "music": {
         "composers": [
@@ -4278,7 +4293,8 @@
     },
     "46": {
       "title": {
-        "en": "A Mighty Fortress Is Our God"
+        "en": "A Mighty Fortress Is Our God",
+        "cn": "上主是我坚固保障"
       },
       "music": {
         "composers": [
@@ -4363,7 +4379,8 @@
     },
     "47": {
       "title": {
-        "en": "Great Is Thy Faithfulness"
+        "en": "Great Is Thy Faithfulness",
+        "cn": "你信实何广大"
       },
       "music": {
         "composers": [
@@ -4440,7 +4457,8 @@
     },
     "48": {
       "title": {
-        "en": "O Bless Our God With One Accord"
+        "en": "O Bless Our God With One Accord",
+        "cn": "一致称颂我们的神"
       },
       "music": {
         "composers": [
@@ -4505,7 +4523,8 @@
     },
     "49": {
       "title": {
-        "en": "How Great Thou Art!"
+        "en": "How Great Thou Art!",
+        "cn": "祢真伟大"
       },
       "music": {
         "composers": [
@@ -4594,7 +4613,8 @@
     },
     "50": {
       "title": {
-        "en": "Jesus, My Lord, My God, My All"
+        "en": "Jesus, My Lord, My God, My All",
+        "cn": "耶稣，我主，我神，所有"
       },
       "music": {
         "composers": [
@@ -27883,4 +27903,4 @@
   }
 }
 }}));
-})();
+})(document.currentScript);

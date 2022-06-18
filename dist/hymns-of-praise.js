@@ -1,5 +1,5 @@
-// Generated at 2022-06-05T10:55:23+00:00 - https://github.com/zionsg/songbooks
-(function () { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data: 
+// Generated at 2022-06-18T05:00:37+00:00 - https://github.com/zionsg/songbooks
+(function (currentScript) { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data:
 {
   "json": {
     "source": "https://github.com/zionsg/songbooks/blob/master/data/hymns-of-praise.json",
@@ -981,7 +981,8 @@
     },
     "33": {
       "title": {
-        "en": "Blessed Be the Name"
+        "en": "Blessed Be the Name",
+        "cn": "颂赞主圣名"
       },
       "music": {
         "composers": [
@@ -2118,4 +2119,4 @@
   }
 }
 }}));
-})();
+})(document.currentScript);
