@@ -59,7 +59,7 @@
             if (!isMessageShown) {
                 isMessageShown = true;
                 alert(
-                    'Playing of MIDI files only work when webpage is hosted on a server with Internet connection. '
+                    'Playing of MIDI files only works when webpage is hosted on a server with Internet connection. '
                     + 'Please be patient as there may be an initial delay of about 10 secs when a MIDI file is played, '
                     + 'due to loading of MIDI instruments. This message will not be shown again for this session.'
                 );

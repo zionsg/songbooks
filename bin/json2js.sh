@@ -30,8 +30,11 @@ for FILE_PATH in data/*.json; do
     FILENAME_WITH_EXT="${FILE_PATH##*/}"
     FILENAME="${FILENAME_WITH_EXT%.json}"
 
-    CONTENTS="// Generated at ${TIMESTAMP} - https://github.com/zionsg/songbooks"
-    CONTENTS="${CONTENTS}\n(function () { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data: "
-    CONTENTS="${CONTENTS}\n$(cat ${FILE_PATH})\n}}));\n})();"
+    CONTENTS="// Generated at ${TIMESTAMP} - https://github.com/zionsg/songbooks\n(function (currentScript) {"
+    CONTENTS="${CONTENTS} window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data:"
+    CONTENTS="${CONTENTS}\n$(cat ${FILE_PATH})\n}}));"
+    CONTENTS="${CONTENTS}\n})(document.currentScript);"
     echo "${CONTENTS}" > "dist/${FILENAME}.js"
 done
+
+echo "Generated dist/*.js from data/*.json."

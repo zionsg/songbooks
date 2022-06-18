@@ -400,7 +400,7 @@ const utils = (function () {
         };
         if (params.book) {
             // Paths are relative to the webpage that embeds utils.js
-            params.data = utils.getAbsoluteUrl(`../dist/${params.book}.js`);
+            params.data = utils.getAbsoluteUrl('../dist/' + params.book + '.js');
             params.css = utils.getAbsoluteUrl('../assets/hymns.css');
             params.js = utils.getAbsoluteUrl('../assets/hymns.js');
         }
