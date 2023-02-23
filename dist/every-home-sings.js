@@ -1,4 +1,3 @@
-// Generated at 2023-02-23T02:55:14+00:00 - https://github.com/zionsg/songbooks
 (function (currentScript) { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data:
 {
   "json": {
@@ -5672,5 +5671,4 @@
     }
   }
 }
-}}));
-})(document.currentScript);
+}})); })(document.currentScript);
