@@ -1,4 +1,4 @@
-(function (currentScript) { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data:
+(function (currentScript) { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data: // Added line
 {
   "json": {
     "source": "https://github.com/zionsg/songbooks/blob/master/data/then-sings-my-soul.json",
@@ -15145,4 +15145,4 @@
     }
   }
 }
-}})); })(document.currentScript);
+}})); })(document.currentScript); // Added line

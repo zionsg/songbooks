@@ -27,9 +27,9 @@ for FILE_PATH in data/*.json; do
     fi
 
     CONTENTS="(function (currentScript) { "
-    CONTENTS="${CONTENTS}window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data:\n"
+    CONTENTS="${CONTENTS}window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data: // Added line\n"
     CONTENTS="${CONTENTS}$(cat ${FILE_PATH})"
-    CONTENTS="${CONTENTS}\n}})); })(document.currentScript);"
+    CONTENTS="${CONTENTS}\n}})); })(document.currentScript); // Added line" # don't add \n cos echo will add \n
 
     FILENAME_WITH_EXT="${FILE_PATH##*/}"
     FILENAME="${FILENAME_WITH_EXT%.json}"

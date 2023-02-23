@@ -1,4 +1,4 @@
-(function (currentScript) { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data:
+(function (currentScript) { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data: // Added line
 {
   "//": [
     "JSON consists of key-value pairs. Keys are always strings. Values can be strings/arrays/objects. Don't mix types.",
@@ -159,4 +159,4 @@
     }
   }
 }
-}})); })(document.currentScript);
+}})); })(document.currentScript); // Added line
