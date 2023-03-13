@@ -1,5 +1,4 @@
-// Generated at 2022-06-18T05:00:37+00:00 - https://github.com/zionsg/songbooks
-(function (currentScript) { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data:
+(function (currentScript) { window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data: // Added line
 {
   "json": {
     "source": "https://github.com/zionsg/songbooks/blob/master/data/every-home-sings.json",
@@ -5672,5 +5671,4 @@
     }
   }
 }
-}}));
-})(document.currentScript);
+}})); })(document.currentScript); // Added line
