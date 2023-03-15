@@ -21283,7 +21283,7 @@
           "4": [
             "I will be patient, Lord, And do Thy will;",
             "I will not doubt Thy word, My hopes fulfil.",
-            "How can I perish, if in Thee I die;",
+            "How can I perish, if in Thee I hide;",
             "Jesus, my Comforter, my Hope and Guide!"
           ]
         },
