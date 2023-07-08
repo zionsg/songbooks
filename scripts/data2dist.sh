@@ -10,7 +10,7 @@
 # be used to retrieve the JSON contents, instead of guessing whether the file
 # has loaded or not.
 #
-# @example Run this script from the root of this repository: bin/data2dist.sh
+# @example Run this script from the root of this repository: scripts/data2dist.sh
 ##
 
 # Check if in correct directory
@@ -29,7 +29,7 @@ for FILE_PATH in data/*.json; do
     # Add just 1 line before and after the JSON, to make it easy to manually copy out the JSON
     # Do NOT attempt to sanitize JSON, i.e. replace smart punctuation “”″‘’′—– with plain ASCII, as
     # it is not binary-safe & will mess up the multi-byte Unicode characters for the Chinese lyrics
-    CONTENTS="(function (currentScript) { " # no \n here
+    CONTENTS="(function (currentScript) { " # no \n here, don't add timestamp else unchanged JSON produces changed JS
     CONTENTS="${CONTENTS}window.dispatchEvent(new CustomEvent('songbook.ready', { detail: { data: // Added line\n"
     CONTENTS="${CONTENTS}$(cat ${FILE_PATH})"
     CONTENTS="${CONTENTS}\n}})); })(document.currentScript); // Added line" # don't add \n cos echo will add \n
