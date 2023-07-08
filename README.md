@@ -35,4 +35,4 @@ of changing 1000 manually typed out Word documents.
   generic) and hence not put in the `html` folder. The MIDI files referenced in `hymns.js` are not
   stored in this repository.
 - The `.js` files in the `dist` folder are generated from the `.json` files in the `data` folder,
-  using `bin/data2dist.sh`, for easier embedding in webpages without worrying about CORS.
+  using `scripts/data2dist.sh`, for easier embedding in webpages without worrying about CORS.
