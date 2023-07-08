@@ -14,7 +14,7 @@
 ##
 
 # Check if in correct directory
-if [ ! -d "bin" ]; then
+if [ ! -d "scripts" ]; then
     echo "Please run this script from root of repo."
     exit 1
 fi
