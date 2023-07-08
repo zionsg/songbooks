@@ -8,7 +8,9 @@
   },
   "main": "src/index.js",
   "scripts": {
-    "lint": "eslint '**/*.js' --ignore-pattern 'custom/' --ignore-pattern 'dist/' --ignore-pattern 'docs/' --ignore-pattern 'node_modules/' --ignore-pattern 'public/vendor/' --ignore-pattern 'tmp/' --ignore-pattern 'vendor/' --ignore-pattern '*.min.js'"
+    "lint": "eslint '**/*.js' --ignore-pattern 'custom/' --ignore-pattern 'dist/' --ignore-pattern 'docs/' --ignore-pattern 'node_modules/' --ignore-pattern 'public/vendor/' --ignore-pattern 'tmp/' --ignore-pattern 'vendor/' --ignore-pattern '*.min.js'",
+    "ssh-add": "CMD=$(ssh -G git@github.com | grep identityfile | awk '{print \"realpath \" $2}') && eval $(ssh-agent) && ssh-add $(eval $CMD)",
+    "start": "node src/index.js"
   },
   "dependencies": {
     "eslint": "^8.44.0"
