@@ -1,0 +1,139 @@
+{
+  "name": "songbooks",
+  "version": "0.1.0",
+  "description": "Transcription of song books in JSON.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zionsg/songbooks.git"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint '**/*.js' --ignore-pattern 'custom/' --ignore-pattern 'dist/' --ignore-pattern 'docs/' --ignore-pattern 'node_modules/' --ignore-pattern 'public/vendor/' --ignore-pattern 'tmp/' --ignore-pattern 'vendor/' --ignore-pattern '*.min.js'"
+  },
+  "dependencies": {
+    "eslint": "^8.44.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "es2020": true,
+      "node": true,
+      "browser": true
+    },
+    "globals": {
+      "Atomics": "readonly",
+      "Buffer": "readonly",
+      "SharedArrayBuffer": "readonly",
+      "__dirname": true,
+      "__filename": true,
+      "afterAll": false,
+      "beforeAll": false,
+      "describe": false,
+      "expect": false,
+      "exports": true,
+      "global": true,
+      "it": false,
+      "module": false,
+      "process": false,
+      "require": false,
+      "bootstrap": false,
+      "enums": false,
+      "layout": false,
+      "utils": false
+    },
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "ecmaFeatures": {
+        "globalReturn": true
+      }
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-async-promise-executor": "off",
+      "no-console": "error",
+      "no-inner-declarations": "off",
+      "no-tabs": "error",
+      "no-trailing-spaces": "error",
+      "no-unused-vars": "off",
+      "no-useless-escape": "off",
+      "no-param-reassign": [
+        "off",
+        {
+          "props": true
+        }
+      ],
+      "default-case": "error",
+      "brace-style": [
+        "error",
+        "1tbs"
+      ],
+      "indent": [
+        "error",
+        4,
+        {
+          "SwitchCase": 1
+        }
+      ],
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "max-len": [
+        "error",
+        {
+          "code": 120,
+          "ignoreComments": true,
+          "ignoreStrings": true
+        }
+      ],
+      "one-var": [
+        "error",
+        "never"
+      ],
+      "operator-linebreak": [
+        "error",
+        "before",
+        {
+          "overrides": {
+            "=": "after",
+            "+=": "after",
+            "-=": "after"
+          }
+        }
+      ],
+      "quotes": [
+        "error",
+        "single",
+        {
+          "avoidEscape": true,
+          "allowTemplateLiterals": false
+        }
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "space-before-blocks": [
+        "error",
+        "always"
+      ],
+      "space-before-function-paren": [
+        "error",
+        {
+          "anonymous": "always",
+          "named": "never",
+          "asyncArrow": "always"
+        }
+      ]
+    },
+    "overrides": [
+      {
+        "files": [
+          "tests/**/*.js"
+        ],
+        "rules": {
+          "no-restricted-syntax": "off"
+        }
+      }
+    ]
+  }
+}
