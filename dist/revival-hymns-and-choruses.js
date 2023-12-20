@@ -14639,11 +14639,6 @@
         ],
         "en": {
           "1": [
-            "(Chous)",
-            "Glory in the highest heaven! Peace on earth, goodwill to man,",
-            "Let all praise to God be given, For Redemption's glorious plan."
-          ],
-          "2": [
             "When our days on earth are ended, And we rise to worlds above,",
             "Then our songs shall all be blended, In one song of pard'ning love!",
             "Then we'll tell the wondrous story, And our blessed Lord adore!",
@@ -16780,7 +16775,39 @@
       "lyrics": {
         "authors": [
           "Cecil F. Alexander"
-        ]
+        ],
+        "en": {
+          "1": [
+            "There is a green hill far away,",
+            "Without a city wall,",
+            "Where the dear Lord was crucified,",
+            "Who died to save us all."
+          ],
+          "2": [
+            "We may not know, we cannot tell",
+            "What pains He had to bear;",
+            "But we believe it was for us",
+            "He hung and suffered there."
+          ],
+          "3": [
+            "He died that we might be forgiv'n,",
+            "He died to make us good,",
+            "That we might go at last to heav'n,",
+            "Saved by His precious blood."
+          ],
+          "4": [
+            "There was no other good enough",
+            "To pay the price of sin;",
+            "He only could unlock the gate",
+            "Of heav'n and let us in."
+          ],
+          "chorus": [
+            "O dearly, dearly has He loved!",
+            "And we must love Him too,",
+            "And trust in His redeeming blood,",
+            "And try His works to do."
+          ]
+        }
       },
       "notes": [
         "Same song: HP097"
@@ -16805,7 +16832,33 @@
       "lyrics": {
         "authors": [
           "William B. Tappan"
-        ]
+        ],
+        "en": {
+          "1": [
+            "'Tis midnight - and on Olive's brow",
+            "The star is dimmed that lately shone:",
+            "'Tis midnight - in the garden now",
+            "The suff'ring Saviour prays alone."
+          ],
+          "2": [
+            "'Tis midnight - and from all removed",
+            "'Tis midnight - and from all removed",
+            "E'en that disciple whom He loved",
+            "Heeds not His Master's grief and tears."
+          ],
+          "3": [
+            "'Tis midnight - and for others' guilt",
+            "The Man of Sorrows weeps in blood;",
+            "Yet He that hath in anguish knelt",
+            "Is not forsaken by His God."
+          ],
+          "4": [
+            "'Tis midnight - and from ether plains",
+            "Is borne the song that angels know;",
+            "Unheard by mortals are the strains",
+            "That sweetly soothe the Saviour's woe."
+          ]
+        }
       },
       "notes": [
         "Same song: HP093"
@@ -21283,7 +21336,7 @@
           "4": [
             "I will be patient, Lord, And do Thy will;",
             "I will not doubt Thy word, My hopes fulfil.",
-            "How can I perish, if in Thee I die;",
+            "How can I perish, if in Thee I hide;",
             "Jesus, my Comforter, my Hope and Guide!"
           ]
         },

@@ -52,6 +52,7 @@
     // Initialization
     (function init() {
         // Load MIDIjs - cannot save/load script locally cos it will call other scripts from MIDIjs.net
+        let MIDIjs = null;
         utils.loadScript('https://www.midijs.net/lib/midi.js');
 
         // Tack on method in loaded utils.js
@@ -65,7 +66,7 @@
                 );
             }
 
-            MIDIjs.play(path);
+            MIDIjs?.play(path);
         };
 
         let songbook = document.querySelector('h1[data-songbook]').getAttribute('data-songbook');
@@ -89,7 +90,7 @@
             let midiHtml = utils.sprintf( // "javascript:void(0);" prevents scroll to top after click, unlike href="#"
                 '%sMIDI: <a %s href="%s">file</a> '
                     + '<a href="javascript:void(0);" onclick="utils.play(\'%s\');">play</a> '
-                    + '<a href="javascript:void(0);" onclick="MIDIjs.stop();">stop</a>',
+                    + '<a href="javascript:void(0);" onclick="MIDIjs?.stop();">stop</a>',
                 currHtml ? '<br><br>' : '',
                 'target="_blank" rel="noopener"',
                 midiPath,

@@ -9,7 +9,7 @@
        * If using an old projector with lesser resolution, e.g. 800 x 600, use the browser to zoom
        * in/out so that lyrics will not get cut off.
        *
-       * @see https://github.com/zionsg/songbooks/blob/master/html/js/utils.js:loadSongBook()
+       * @see https://github.com/zionsg/songbooks/blob/master/html/js/utils.js::loadSongBook()
        *     for query params that can be passed to this webpage.
        * @link https://github.com/zionsg/songbooks/blob/master/html/song.slides.html
        */
@@ -147,6 +147,7 @@
                         hash: true,
                         loop: false, // do not go back to 1st slide
                         progress: true,
+                        scrollActivationWidth: null, // don't enable scroll view introduced in v5.0.0
                         transition: 'none', // default "slide" transition is disturbing especially for elderly folk
 
                         // Presentation size

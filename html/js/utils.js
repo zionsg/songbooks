@@ -290,7 +290,7 @@ const utils = (function () {
         return {
             lastStanzaKey: lastStanzaKey,
             order: stanzaOrder
-        }
+        };
     };
 
     /**
@@ -347,7 +347,7 @@ const utils = (function () {
     };
 
     /**
-     * Load external script at end of <bodu>
+     * Load external script at end of <body>
      *
      * @public
      * @param {string} path - Path to script.
@@ -451,9 +451,11 @@ const utils = (function () {
         try {
             url = new URL(path);
         } catch (e) {
-            console.log('Invalid url (do not use relative paths): ' + path);
-            songbookData = null; // save copy
+            console.log('Invalid url (do not use relative paths): ' + path); // eslint-disable-line no-console
+
+            songbookData = null;
             callback(null);
+
             return;
         }
 
@@ -472,7 +474,7 @@ const utils = (function () {
                 songbookData = json; // save copy
                 callback(json);
             }
-        }
+        };
 
         req.send(null);
     };
