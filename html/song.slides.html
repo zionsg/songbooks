@@ -18,7 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title> <!-- to be filled in by JavaScript -->
 
-    <link rel="stylesheet" href="vendor/reveal.css">
+    <link rel="stylesheet" href="reveal/reveal.css">
     <link rel="stylesheet" href="css/stylesheet.css">
     <style>
       .reveal .slide-background {
@@ -55,7 +55,7 @@
       </div>
     </div>
 
-    <script src="vendor/reveal.js"></script>
+    <script src="reveal/reveal.js"></script>
     <script src="js/utils.js"></script>
     <script>
         (function () {
@@ -147,6 +147,7 @@
                         hash: true,
                         loop: false, // do not go back to 1st slide
                         progress: true,
+                        scrollActivationWidth: null, // don't enable scroll view introduced in v5.0.0
                         transition: 'none', // default "slide" transition is disturbing especially for elderly folk
 
                         // Presentation size

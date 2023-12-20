@@ -347,7 +347,7 @@ const utils = (function () {
     };
 
     /**
-     * Load external script at end of <bodu>
+     * Load external script at end of <body>
      *
      * @public
      * @param {string} path - Path to script.

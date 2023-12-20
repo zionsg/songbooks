@@ -6,9 +6,8 @@
     "type": "git",
     "url": "git@github.com:zionsg/songbooks.git"
   },
-  "main": "src/index.js",
   "scripts": {
-    "lint": "eslint '**/*.js' --ignore-pattern 'custom/' --ignore-pattern 'dist/' --ignore-pattern 'docs/' --ignore-pattern 'node_modules/' --ignore-pattern 'public/vendor/' --ignore-pattern 'tmp/' --ignore-pattern 'vendor/' --ignore-pattern '*.min.js'"
+    "lint": "eslint '**/*.js' --ignore-pattern 'dist/' --ignore-pattern 'docs/' --ignore-pattern 'node_modules/' --ignore-pattern 'tmp/' --ignore-pattern 'vendor/' --ignore-pattern '*.min.js' --ignore-pattern 'reveal.js'"
   },
   "dependencies": {
     "eslint": "^8.44.0"
