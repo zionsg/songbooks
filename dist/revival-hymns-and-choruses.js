@@ -26805,7 +26805,9 @@
           "Anne Ross Cousin"
         ]
       },
-      "notes": []
+      "notes": [
+        "Same tune: RHC554"
+      ]
     },
     "534": {
       "title": {
@@ -27319,6 +27321,7 @@
         ]
       },
       "notes": [
+        "Same tune: RHC533",
         "Same lyrics: HP426"
       ]
     },
