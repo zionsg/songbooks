@@ -143,16 +143,25 @@
                                 return (aNum < bNum) ? -1 : 1;
                             });
                         }
+
                         songRange.forEach(function (songJsonKey) {
-                            let song = (songs && songs[songJsonKey]) || null;
-                            if (!song) {
+                            // List all songs in section if "*"
+                            if ('*' === songJsonKey) {
+                                Object.keys(songs).forEach((key) => {
+                                    sectionInfo.songs.push(getSongInfo(songs[key], key));
+                                });
+
                                 return;
                             }
 
-                            sectionInfo.songs.push(getSongInfo(song, songJsonKey));
+                            let song = (songs && songs[songJsonKey]) || null;
+                            if (song) {
+                                sectionInfo.songs.push(getSongInfo(song, songJsonKey));
+                            }
                         });
                     });
 
+                    let songRangesStr = songRanges.join(', ');
                     sectionInfo.title = sectionTitle;
                     sectionInfo.anchor = utils.sprintf(
                         '<h3><a id="%s">%s</a></h3>',
@@ -160,10 +169,10 @@
                         sectionTitle
                     );
                     sectionInfo.link = utils.sprintf(
-                        '<div class="section-link">[<a href="#%s">%s: %s</a>]</div>',
+                        '<div class="section-link">[<a href="#%s">%s%s</a>]</div>',
                         sectionVarName,
                         sectionTitle,
-                        songRanges.join(', ')
+                        ('*' === songRangesStr ? '' : utils.sprintf(': %s', songRangesStr))
                     );
 
                     result.push(sectionInfo);
