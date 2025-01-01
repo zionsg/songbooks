@@ -212,7 +212,8 @@ const utils = (function () {
      * Get song prefix
      *
      * @public
-     * @example Given book prefix "ABC", key "31" returns "ABC031", key "test" returns book prefix "ABC".
+     * @example Given book prefix "ABC", key "31" returns "ABC031",
+     *     key "1a" returns "ABC001a", key "Some Example" returns "".
      * @param {object} data - Songbook data.
      * @param {string} key - JSON key for song.
      * @returns {string}
@@ -221,7 +222,7 @@ const utils = (function () {
         let bookPrefix = data.bookPrefix || '';
         let songPrefix = self.isNumber(key) ? (bookPrefix + padNum(key)) : '';
 
-        return (songPrefix || bookPrefix);
+        return songPrefix;
     };
 
     /**
@@ -431,6 +432,19 @@ const utils = (function () {
         linkElement.href = path;
 
         document.querySelector('head').appendChild(linkElement);
+    };
+
+    /**
+     * Simulate keypress event
+     *
+     * @public
+     * @param {string} key - Key to press, e.g. "e".
+     * @returns {void}
+     */
+    self.pressKey = function (key) {
+        window.dispatchEvent(new KeyboardEvent('keydown', {
+            key: key.toLowerCase(),
+        }));
     };
 
     /**

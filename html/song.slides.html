@@ -3,7 +3,7 @@
   <head>
     <!--
       /**
-       * This webpage shows language-specific lyrics for a song using slides created with Reveal.js.
+       * This webpage shows lyrics for a song using slides created with Reveal.js.
        *
        * The layout is designed to be shown on a projector screen at a resolution of 1920 x 1080.
        * If using an old projector with lesser resolution, e.g. 800 x 600, use the browser to zoom
@@ -167,7 +167,7 @@
                         ));
                     });
 
-                    // Add keyboard shortcuts to switch languages
+                    // Add keyboard shortcuts to switch languages, using 1st letter of the language
                     utils.LANGUAGES.forEach((lang) => {
                         let key = lang.substring(0, 1).toLowerCase();
 
@@ -185,9 +185,7 @@
                     });
 
                     // Show slides in specified language first
-                    window.dispatchEvent(new KeyboardEvent('keydown', {
-                        key: language.substring(0, 1).toLowerCase(),
-                    }));
+                    utils.pressKey(language.substring(0, 1));
 
                     // Init Reveal.js only after all the slides have been added
                     Reveal.initialize({

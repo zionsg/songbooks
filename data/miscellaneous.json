@@ -3,7 +3,7 @@
     "source": "https://github.com/zionsg/songbooks/blob/master/data/miscellaneous.json",
     "schema": "https://github.com/zionsg/songbooks/blob/master/data/songbook.schema.json"
   },
-  "bookPrefix": "",
+  "bookPrefix": "MISC",
   "title": {
     "en": "Miscellaneous Hymns",
     "cn": "各种诗歌"
