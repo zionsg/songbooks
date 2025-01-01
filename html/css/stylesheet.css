@@ -82,8 +82,12 @@ td:last-child {
 /* CLOSE: Tables */
 
 
-/* BEGIN: Text */
+/* BEGIN: Utility Classes */
+.d-none { /* same as Bootstrap */
+  display: none;
+}
+
 .text-center {
   text-align: center;
 }
-/* CLOSE: Text */
+/* CLOSE: Utility Classes */

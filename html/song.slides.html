@@ -7,8 +7,21 @@
        *
        * The layout is designed to be shown on a projector screen at a resolution of 1920 x 1080.
        * If using an old projector with lesser resolution, e.g. 800 x 600, use the browser to zoom
-       * in/out so that lyrics will not get cut off.
+       * in/out so that lyrics will not get cut off. There are no speaker notes as the Reveal.js
+       * plugin requires the slides to be served from a local/remote server.
        *
+       * The slides are designed to be used in a combined English/Chinese worship service, where
+       * the congregation switch between English and Chinese during the singing of each hymn. The
+       * language used for each stanza is not fixed (e.g. odd stanzas in English with even stanzas
+       * in Chinese, or first/last stanzas in English with the rest in Chinese), hence stanzas are
+       * rendered in both languages with shortcuts to switch languages at any time.
+       *
+       * Keyboard shortcuts:
+       *   b: Blank slide (Reveal.js built-in)
+       *   c: Switch to Chinese
+       *   e: Switch to English
+       *
+       * @link Reveal.js files copied from https://github.com/hakimel/reveal.js/tree/master/dist
        * @see https://github.com/zionsg/songbooks/blob/master/html/js/utils.js::loadSongBook()
        *     for query params that can be passed to this webpage.
        * @link https://github.com/zionsg/songbooks/blob/master/html/song.slides.html
@@ -105,39 +118,76 @@
                     }
 
                     let songPrefix = utils.getSongPrefix(data, songJsonKey);
-                    let songTitle = utils.getLanguageTitle(song.title, songJsonKey, language);
+                    let songTitle = utils.getCombinedTitle(song.title, songJsonKey, '<br><br>');
                     if (!songPrefix && !songTitle) {
                         return;
                     }
 
                     // Update title and add 1st slide
-                    document.title = songPrefix + ': ' + songTitle.replace(/<br>/g, ' ');
+                    document.title = (songPrefix ? `${songPrefix}: ` : '') + songTitle.replace(/<br>/g, ' ');
                     addSlide(utils.sprintf(
-                        '<h1>%s<br><br>%s</h1>',
-                        songPrefix,
+                        '<h1>%s%s</h1>',
+                        (songPrefix ? `${songPrefix}<br><br>` : ''),
                         songTitle
                     ));
 
                     // Add a slide for each stanza
                     let allLyrics = utils.getLanguageLyrics(song);
-                    let lyrics = allLyrics[language] || {};
                     let stanzaOrder = utils.getStanzaOrder(song);
                     let lastStanzaText = '';
                     (stanzaOrder.order || []).forEach(function (stanzaJsonKey, index) {
-                        let isChorus = utils.isChorus(stanzaJsonKey);
-
                         if (stanzaJsonKey === (stanzaOrder.lastStanzaKey || '')) {
-                            lastStanzaText = ' (Last)'; // this will persist to chorus after last stanza, if any
+                            // this will persist to chorus after last stanza, if any
+                            lastStanzaText = ' <span data-lang="en">(Last)</span>'
+                                + '<span data-lang="cn">（终）</span>';
                         }
+
+                        let stanzaHeading = '';
+                        if (utils.isChorus(stanzaJsonKey)) {
+                            stanzaHeading = '<span data-lang="en">'
+                                + utils.capitalizeFirstLetter(stanzaJsonKey) + '</span>'
+                                + '<span data-lang="cn">副歌</span>'
+                                + lastStanzaText;
+                        } else {
+                            stanzaHeading = '<span data-lang="en">Stanza</span>'
+                                + '<span data-lang="cn">节段</span> '
+                                + stanzaJsonKey + lastStanzaText;
+                        }
+
+                        let stanzaHtml = '';
+                        utils.LANGUAGES.forEach((lang) => {
+                            let lyrics = (allLyrics?.[lang]?.[stanzaJsonKey] || []).join('<br>');
+                            stanzaHtml += `<div data-lang="${lang}">` + lyrics + '</div>';
+                        })
 
                         addSlide(utils.sprintf(
                             '<div class="stanza-heading">%s</div><div class="stanza">%s</stanza>',
-                            isChorus
-                                ? utils.capitalizeFirstLetter(stanzaJsonKey) + lastStanzaText
-                                : 'Stanza ' + stanzaJsonKey + lastStanzaText,
-                            (lyrics[stanzaJsonKey] || []).join('<br>')
+                            stanzaHeading,
+                            stanzaHtml
                         ));
                     });
+
+                    // Add keyboard shortcuts to switch languages
+                    utils.LANGUAGES.forEach((lang) => {
+                        let key = lang.substring(0, 1).toLowerCase();
+
+                        window.addEventListener('keydown', (event) => {
+                            if (key === event.key.toLowerCase()) {
+                                slidesContainer.querySelectorAll('[data-lang]').forEach((element) => {
+                                    if (lang === element.getAttribute('data-lang')) {
+                                        element.classList.remove('d-none');
+                                    } else {
+                                        element.classList.add('d-none')
+                                    }
+                                });
+                            }
+                        });
+                    });
+
+                    // Show slides in specified language first
+                    window.dispatchEvent(new KeyboardEvent('keydown', {
+                        key: language.substring(0, 1).toLowerCase(),
+                    }));
 
                     // Init Reveal.js only after all the slides have been added
                     Reveal.initialize({
