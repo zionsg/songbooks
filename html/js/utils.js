@@ -435,14 +435,14 @@ const utils = (function () {
     };
 
     /**
-     * Simulate keypress event
+     * Simulate key press event
      *
      * @public
      * @param {string} key - Key to press, e.g. "e".
      * @returns {void}
      */
     self.pressKey = function (key) {
-        window.dispatchEvent(new KeyboardEvent('keydown', {
+        window.dispatchEvent(new KeyboardEvent('keydown', { // "keypress" is deprecated
             key: key.toLowerCase(),
         }));
     };

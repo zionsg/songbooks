@@ -16,8 +16,12 @@
        * in Chinese, or first/last stanzas in English with the rest in Chinese), hence stanzas are
        * rendered in both languages with shortcuts to switch languages at any time.
        *
-       * Keyboard shortcuts:
-       *   b: Blank slide (Reveal.js built-in)
+       * Built-in Reveal.js keyboard shortcuts:
+       *   b: Blank slide
+       *   f: Fullscreen (press Esc to exit fullscreen)
+       *   o: Overview
+       *
+       * Custom keyboard shortcuts:
        *   c: Switch to Chinese
        *   e: Switch to English
        *
@@ -54,6 +58,13 @@
       .stanza {
         line-height: 1.5em;
         text-align: left;
+      }
+
+      .shortcuts { /* bottom/right calculated from ".reveal .controls .navigate-left" */
+        bottom: 1.4em;
+        position: absolute;
+        right: 7.5em;
+        z-index: 11;
       }
     </style>
   </head>
@@ -206,6 +217,28 @@
                         width: 1388,
                         height: 768,
                         margin: 0.1, // give buffer at edges cos usually cut off by projectors
+                    }).then(() => {
+                        // Add links beside Reveal.js controls as keyboard shortcuts are not available on mobile devices
+                        let shortcuts = document.createElement('div');
+                        shortcuts.classList.add('shortcuts');
+
+                        let links = []; // no link to blank slide as simulating keydown event for "b" doesn't work
+                        utils.LANGUAGES.forEach((lang) => {
+                            links.push(
+                                `<a href="#" data-key="${lang.substring(0, 1)}">` + lang.toUpperCase() + '</a>'
+                            );
+                        });
+
+                        shortcuts.innerHTML = links.join('&nbsp; | &nbsp;');
+                        document.body.append(shortcuts);
+
+                        // Add click listeners after links are added to DOM
+                        document.querySelectorAll('.shortcuts a[data-key]').forEach((link) => {
+                            link.addEventListener('click', (event) => {
+                                event.preventDefault();
+                                utils.pressKey(link.getAttribute('data-key'));
+                            });
+                        });
                     });
                 });
             })();
