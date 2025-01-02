@@ -143,7 +143,8 @@
                     ));
 
                     // Add a slide for each stanza
-                    let allLyrics = utils.getLanguageLyrics(song);
+                    let langLyrics = utils.getLanguageLyrics(song);
+                    let langKeys = Object.keys(langLyrics);
                     let stanzaOrder = utils.getStanzaOrder(song);
                     let lastStanzaText = '';
                     (stanzaOrder.order || []).forEach(function (stanzaJsonKey, index) {
@@ -166,8 +167,8 @@
                         }
 
                         let stanzaHtml = '';
-                        utils.LANGUAGES.forEach((lang) => {
-                            let lyrics = (allLyrics?.[lang]?.[stanzaJsonKey] || []).join('<br>');
+                        langKeys.forEach((lang) => {
+                            let lyrics = (langLyrics?.[lang]?.[stanzaJsonKey] || []).join('<br>');
                             stanzaHtml += `<div data-lang="${lang}">` + lyrics + '</div>';
                         })
 
@@ -179,7 +180,7 @@
                     });
 
                     // Add keyboard shortcuts to switch languages, using 1st letter of the language
-                    utils.LANGUAGES.forEach((lang) => {
+                    langKeys.forEach((lang) => {
                         let key = lang.substring(0, 1).toLowerCase();
 
                         window.addEventListener('keydown', (event) => {
@@ -223,7 +224,7 @@
                         shortcuts.classList.add('shortcuts');
 
                         let links = []; // no link to blank slide as simulating keydown event for "b" doesn't work
-                        utils.LANGUAGES.forEach((lang) => {
+                        langKeys.forEach((lang) => {
                             links.push(
                                 `<a href="#" data-key="${lang.substring(0, 1)}">` + lang.toUpperCase() + '</a>'
                             );

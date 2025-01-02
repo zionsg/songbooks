@@ -80,7 +80,7 @@ const utils = (function () {
         titles = titles || {};
 
         let result = titles[utils.LANG_EN] || jsonKey || '';
-        self.LANGUAGES.forEach(function (lang) {
+        utils.LANGUAGES.forEach(function (lang) {
             if (self.LANG_EN === lang) {
                 return;
             }
@@ -97,7 +97,8 @@ const utils = (function () {
      *
      * @public
      * @param {object} song - Song data.
-     * @returns {(null|object)} Indexed by languages. Other lyrics info like authors are omitted.
+     * @returns {(null|object)} Lyrics indexed by languages. Other lyrics info like authors are
+     *     omitted.
      */
     self.getLanguageLyrics = function (song) {
         let lyrics = (song && song.lyrics) || null;
@@ -106,7 +107,9 @@ const utils = (function () {
         }
 
         let result = {};
-        utils.LANGUAGES.forEach(function (lang) {
+        let infoKeys = [utils.COMMENTS, 'authors', 'translators', 'stanzaOrder'];
+        let langKeys = Object.keys(lyrics).filter((key) => !infoKeys.includes(key));
+        langKeys.forEach(function (lang) {
             if (lyrics[lang]) {
                 result[lang] = lyrics[lang];
             }
@@ -128,7 +131,7 @@ const utils = (function () {
         titles = titles || {};
 
         let result = titles[utils.LANG_EN] || jsonKey || '';
-        self.LANGUAGES.forEach(function (lang) {
+        utils.LANGUAGES.forEach(function (lang) {
             if (self.LANG_EN === lang || lang !== language) {
                 return;
             }
@@ -235,8 +238,8 @@ const utils = (function () {
      * @returns {object} { lastStanzaKey: "2", order: ["1", "chorus", "2", "chorus"] }.
      */
     self.getStanzaOrder = function (song) {
-        let lyrics = (song && song.lyrics) || null;
-        let stanzaOrder = (lyrics && lyrics.stanzaOrder) || [];
+        let langLyrics = utils.getLanguageLyrics(song);
+        let stanzaOrder = song?.lyrics?.stanzaOrder || [];
         let lastStanzaKey = '';
 
         if (!self.isEmpty(stanzaOrder)) {
@@ -254,16 +257,16 @@ const utils = (function () {
         }
 
         let isDone = false;
-        utils.LANGUAGES.forEach(function (lang) {
-            let langLyrics = lyrics[lang] || null;
-            if (isDone || self.isEmpty(langLyrics)) {
+        Object.keys(langLyrics).forEach(function (lang) {
+            let lyrics = langLyrics[lang] || null;
+            if (isDone || self.isEmpty(lyrics)) {
                 return;
             }
 
             // List stanza keys, find chorus key
             let chorusJsonKey = '';
             let stanzaKeys = [];
-            Object.keys(langLyrics).forEach(function (stanzaJsonKey) {
+            Object.keys(lyrics).forEach(function (stanzaJsonKey) {
                 if (!utils.isChorus(stanzaJsonKey)) {
                     stanzaKeys.push(stanzaJsonKey);
                     return;

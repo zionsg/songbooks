@@ -48,8 +48,8 @@
              */
             function showLyrics(songJsonKey) {
                 let song = (data && data.songs && data.songs[songJsonKey]) || null;
-                let lyrics = utils.getLanguageLyrics(song);
-                if (!lyrics) {
+                let langLyrics = utils.getLanguageLyrics(song);
+                if (!langLyrics) {
                     return;
                 }
 
@@ -63,9 +63,9 @@
                     songPrefix,
                     utils.getCombinedTitle(titles, songJsonKey)
                 );
-                utils.LANGUAGES.forEach(function (lang) {
-                    let langLyrics = lyrics[lang];
-                    if (utils.isEmpty(langLyrics)) {
+                Object.keys(langLyrics).forEach(function (lang) {
+                    let lyrics = langLyrics[lang];
+                    if (utils.isEmpty(lyrics)) {
                         return; // continue
                     }
 
@@ -76,7 +76,7 @@
                         utils.getLanguageTitle(titles, songJsonKey, lang).toUpperCase()
                     );
 
-                    Object.entries(langLyrics).forEach(function (entry) {
+                    Object.entries(lyrics).forEach(function (entry) {
                         let stanzaJsonKey = entry[0];
                         let stanza = entry[1];
 
