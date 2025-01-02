@@ -3,20 +3,22 @@
 
 # This .gitignore caters for Docker, SSH, Terraform, Linux/macOS/Windows
 # operating systems and Node.js/PHP/Python programming languages.
+# Files specific to IDEs and editors should not be committed to repository.
 
 # Directories
 **/.terraform/*
 .idea/
+.venv/
 .vscode/
 __pycache__/
-dist/
+# dist/ # used for this project, hence commented out
 node_modules/
 tmp/
 vendor/
-venv/
 
 # Wildcard files
-# Files ending with :Zone.Identifier due to copying files from Windows to Linux
+# Files with :Zone.Identifier suffix due to copying files from Windows to Linux.
+*.http
 *.id_ed25519
 *.id_rsa
 *.key
@@ -45,9 +47,9 @@ tmp.*
 .env
 .npmrc
 .terraformrc
-.venv
 
-# Files
+# Normal files
+# See https://github.com/zionsg/getmail/blob/master/scripts/version.sh on VERSION.txt.
 Thumbs.db
 VERSION.txt
 desktop.ini
