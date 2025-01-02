@@ -93,6 +93,29 @@ const utils = (function () {
     };
 
     /**
+     * Get transcribed language lyrics for a song
+     *
+     * @public
+     * @param {object} song - Song data.
+     * @returns {(null|object)} Indexed by languages. Other lyrics info like authors are omitted.
+     */
+    self.getLanguageLyrics = function (song) {
+        let lyrics = (song && song.lyrics) || null;
+        if (!lyrics) {
+            return null;
+        }
+
+        let result = {};
+        utils.LANGUAGES.forEach(function (lang) {
+            if (lyrics[lang]) {
+                result[lang] = lyrics[lang];
+            }
+        });
+
+        return utils.isEmpty(result) ? null : result;
+    };
+
+    /**
      * Get language-specific title for section/song
      *
      * @public
@@ -117,29 +140,6 @@ const utils = (function () {
         });
 
         return result;
-    };
-
-    /**
-     * Get transcribed language lyrics for a song
-     *
-     * @public
-     * @param {object} song - Song data.
-     * @returns {(null|object)} Indexed by languages. Other lyrics info like authors are omitted.
-     */
-    self.getLanguageLyrics = function (song) {
-        let lyrics = (song && song.lyrics) || null;
-        if (!lyrics) {
-            return null;
-        }
-
-        let result = {};
-        utils.LANGUAGES.forEach(function (lang) {
-            if (lyrics[lang]) {
-                result[lang] = lyrics[lang];
-            }
-        });
-
-        return utils.isEmpty(result) ? null : result;
     };
 
     /*
