@@ -94,7 +94,7 @@
                 let file = link.getAttribute('data-file');
 
                 if ('stop' === action) {
-                    MIDIjs?.stop();
+                    window.MIDIjs.stop();
                 } else if ('play' === action) {
                     if (!isMessageShown) {
                         isMessageShown = true;
@@ -107,7 +107,7 @@
                         );
                     }
 
-                    MIDIjs?.play(file);
+                    window.MIDIjs.play(file);
                 }
             });
         });
