@@ -49,25 +49,6 @@
         return false;
     }
 
-    /**
-     * Show loading message
-     *
-     * @private
-     * @returns {void}
-     */
-    function showMessage() {
-        if (isMessageShown) {
-            return;
-        }
-
-        isMessageShown = true;
-        alert(
-            'Playing of MIDI files only works when webpage is hosted on a server with Internet connection. '
-            + 'Please be patient as there may be an initial delay of about 10 secs when a MIDI file is played, '
-            + 'due to loading of MIDI instruments. This message will not be shown again for this session.'
-        );
-    }
-
     // Initialization
     (function init() {
         // Load MIDIjs - cannot host/load script locally cos it will call other scripts from MIDIjs.net
@@ -94,8 +75,8 @@
             let currHtml = musicCol.innerHTML;
             let midiHtml = utils.sprintf( // "javascript:void(0);" prevents scroll to top after click, unlike href="#"
                 '%sMIDI: <a %s href="%s">file</a> '
-                    + '<a href="javascript:void(0);" onclick="showMessage(); MIDIjs?.play(\'%s\');">play</a> '
-                    + '<a href="javascript:void(0);" onclick="MIDIjs?.stop();">stop</a>',
+                    + '<a class="js-midi" href="#" data-action="play" data-file="%s">play</a> '
+                    + '<a class="js-midi" href="#" data-action="stop">stop</a>',
                 currHtml ? '<br><br>' : '',
                 'target="_blank" rel="noopener"',
                 midiPath,
@@ -104,5 +85,31 @@
 
             musicCol.innerHTML = currHtml + midiHtml;
         }
+
+        document.querySelectorAll('a.js-midi').forEach((link) => {
+            link.addEventListener('click', (event) => {
+                event.preventDefault();
+
+                let action = link.getAttribute('data-action');
+                let file = link.getAttribute('data-file');
+
+                if ('stop' === action) {
+                    MIDIjs?.stop();
+                } else if ('play' === action) {
+                    if (!isMessageShown) {
+                        isMessageShown = true;
+                        alert(
+                            'Playing of MIDI files only works when webpage is hosted on a server '
+                            + 'with Internet connection. Please be patient as there may be an '
+                            + 'initial delay of about 10 secs when a MIDI file is played, due to '
+                            + 'loading of MIDI instruments. This message will not be shown again '
+                            + 'for this session.'
+                        );
+                    }
+
+                    MIDIjs?.play(file);
+                }
+            });
+        });
     })();
 })();
