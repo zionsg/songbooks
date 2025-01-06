@@ -3775,7 +3775,7 @@
         }
       },
       "notes": [
-        "Same tune: RHC195, RHC429"
+        "Same tune: RHC050, RHC195, RHC429"
       ]
     },
     "40": {
@@ -4619,7 +4619,7 @@
         "composers": [
           "Joseph Barnby"
         ],
-        "tune": "",
+        "tune": "ST. CHRYSOSTOM",
         "keySignature": [
           "Eb"
         ],
@@ -4695,7 +4695,9 @@
           ]
         }
       },
-      "notes": []
+      "notes": [
+        "Same tune: RHC039, RHC195, RHC429"
+      ]
     },
     "51": {
       "title": {
@@ -15335,7 +15337,7 @@
       },
       "lyrics": {
         "authors": [
-          "N. J. C."
+          "Norman J. Clayton"
         ],
         "translators": [
           "Zion Ng (Chinese)"
@@ -17035,7 +17037,7 @@
         }
       },
       "notes": [
-        "Same tune: RHC039, RHC429"
+        "Same tune: RHC039, RHC050, RHC429"
       ]
     },
     "196": {
@@ -24095,7 +24097,7 @@
         }
       },
       "notes": [
-        "Same tune: RHC039, RHC195"
+        "Same tune: RHC039, RHC050, RHC195"
       ]
     },
     "430": {
