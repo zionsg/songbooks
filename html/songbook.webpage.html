@@ -272,7 +272,7 @@
                     songJsonKey: key,
                     songPrefix: songPrefix,
                     filename: utils.getSongFilename(data, key),
-                    name: utils.getCombinedTitle(song.title, key),
+                    name: utils.getCombinedTitle(song.title, key, '<br>'),
                     lyrics: lyricsHtml,
                     music: musicHtml,
                     signature: (music.keySignature || []).join(', ') + '<br>' + (music.timeSignature || []).join(', '),
