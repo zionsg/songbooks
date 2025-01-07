@@ -1326,6 +1326,84 @@
         "Same song: RHC141"
       ]
     },
+    "93": {
+      "title": {
+        "en": "'Tis Midnight - and on Olive's Brow",
+        "cn": "时已夜半，橄榄山头"
+      },
+      "music": {
+        "composers": [
+          "William B. Bradbury"
+        ],
+        "tune": "OLIVE'S BROW",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "William B. Tappan"
+        ],
+        "en": {
+          "1": [
+            "'Tis midnight - and on Olive's brow",
+            "The star is dimmed that lately shone:",
+            "'Tis midnight - in the garden now",
+            "The suff'ring Saviour prays alone."
+          ],
+          "2": [
+            "'Tis midnight - and from all removed",
+            "'Tis midnight - and from all removed",
+            "E'en that disciple whom He loved",
+            "Heeds not His Master's grief and tears."
+          ],
+          "3": [
+            "'Tis midnight - and for others' guilt",
+            "The Man of Sorrows weeps in blood;",
+            "Yet He that hath in anguish knelt",
+            "Is not forsaken by His God."
+          ],
+          "4": [
+            "'Tis midnight - and from ether plains",
+            "Is borne the song that angels know;",
+            "Unheard by mortals are the strains",
+            "That sweetly soothe the Saviour's woe."
+          ]
+        },
+        "cn": {
+          "1": [
+            "时已夜半，橄榄山头，",
+            "晚星已经，幽暗不明：",
+            "时已夜半，山园之中，",
+            "孤单救主，祈祷声切。"
+          ],
+          "2": [
+            "时已夜半，冷冷清清，",
+            "救主孤身，抵挡忧惊；",
+            "纵是救主，所爱门徒，",
+            "也不注意，救主伤心。"
+          ],
+          "3": [
+            "时已夜半，为人罪孽，",
+            "救主痛哭，哀流血泪；",
+            "但是悲伤，跪祷的主，",
+            "并未被祂圣父遗弃。"
+          ],
+          "4": [
+            "时已夜半，天上传来，",
+            "天使所唱，甜蜜歌声；",
+            "此种歌声，人间未闻，",
+            "当时安慰救主伤心。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC193"
+      ]
+    },
     "94": {
       "title": {
         "en": "Alas! and Did My Saviour Bleed?",
