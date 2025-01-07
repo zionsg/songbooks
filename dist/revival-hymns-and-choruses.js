@@ -4701,7 +4701,8 @@
     },
     "51": {
       "title": {
-        "en": "Jesus Is Dearer Than All"
+        "en": "Jesus Is Dearer Than All",
+        "cn": "耶稣，耶稣，比一切更宝贵"
       },
       "music": {
         "composers": [
@@ -4778,7 +4779,8 @@
     },
     "52": {
       "title": {
-        "en": "Jesus, Thou Joy of Loving Hearts"
+        "en": "Jesus, Thou Joy of Loving Hearts",
+        "cn": "我心之乐，我主耶稣"
       },
       "music": {
         "composers": [
@@ -4794,7 +4796,10 @@
       },
       "lyrics": {
         "authors": [
-          "Bernard of Clairvaux, trans. by Ray Palmer"
+          "Bernard of Clairvaux"
+        ],
+        "translators": [
+          "Ray Palmer"
         ],
         "en": {
           "1": [
@@ -4868,7 +4873,8 @@
     },
     "53": {
       "title": {
-        "en": "Jesus, Thou Joy of Loving Hearts"
+        "en": "Jesus, Thou Joy of Loving Hearts",
+        "cn": "救主耶稣，爱心之乐"
       },
       "music": {
         "composers": [
@@ -4884,7 +4890,10 @@
       },
       "lyrics": {
         "authors": [
-          "Bernard of Clairvaux, trans. by Ray Palmer"
+          "Bernard of Clairvaux"
+        ],
+        "translators": [
+          "Ray Palmer"
         ],
         "en": {
           "1": [
@@ -4958,7 +4967,8 @@
     },
     "54": {
       "title": {
-        "en": "His Name is Wonderful"
+        "en": "His Name is Wonderful",
+        "cn": "祂名称为奇妙"
       },
       "music": {
         "composers": [
@@ -5011,7 +5021,8 @@
     },
     "55": {
       "title": {
-        "en": "Our Great Savior"
+        "en": "Our Great Savior",
+        "cn": "伟大的救主"
       },
       "music": {
         "composers": [
@@ -5116,7 +5127,8 @@
     },
     "56": {
       "title": {
-        "en": "Jesus! The Very Thought of Thee"
+        "en": "Jesus! The Very Thought of Thee",
+        "cn": "主耶稣啊！想起了袮"
       },
       "music": {
         "composers": [],
@@ -5130,7 +5142,10 @@
       },
       "lyrics": {
         "authors": [
-          "Bernard of Clairvaux, trans. by Edward Caswall"
+          "Bernard of Clairvaux"
+        ],
+        "translators": [
+          "Edward Caswall"
         ],
         "en": {
           "1": [
@@ -5199,12 +5214,13 @@
       },
       "notes": [
         "Same song: EHS030",
-        "Same lyrics: no chorus: RHC057-1stanzamore, HP055"
+        "Same lyrics: RHC057-1stanzamore-nochorus, HP055-nochorus"
       ]
     },
     "57": {
       "title": {
-        "en": "Jesus, the Very Thought of Thee"
+        "en": "Jesus, the Very Thought of Thee",
+        "cn": "耶稣每逢想念着袮"
       },
       "music": {
         "composers": [
@@ -5220,7 +5236,10 @@
       },
       "lyrics": {
         "authors": [
-          "Bernard of Clairvaux, trans. by Edward Caswall"
+          "Bernard of Clairvaux"
+        ],
+        "translators": [
+          "Edward Caswall"
         ],
         "en": {
           "1": [
@@ -5294,7 +5313,8 @@
     },
     "58": {
       "title": {
-        "en": "The Great Physician"
+        "en": "The Great Physician",
+        "cn": "乐哉天医救主惠临"
       },
       "music": {
         "composers": [
@@ -5383,7 +5403,8 @@
     },
     "59": {
       "title": {
-        "en": "Shepherd of Eager Youth"
+        "en": "Shepherd of Eager Youth",
+        "cn": "良善牧人"
       },
       "music": {
         "composers": [
@@ -5399,7 +5420,10 @@
       },
       "lyrics": {
         "authors": [
-          "Clement of Alexandria, trans. by Henry Martyn Dexter"
+          "Clement of Alexandria"
+        ],
+        "translators": [
+          "enry Martyn Dexter"
         ],
         "en": {
           "1": [
@@ -5449,7 +5473,8 @@
     },
     "60": {
       "title": {
-        "en": "Ye Servants of Go, Your Master Proclaim"
+        "en": "Ye Servants of Go, Your Master Proclaim",
+        "cn": "凡属主仆人"
       },
       "music": {
         "composers": [
@@ -5527,7 +5552,8 @@
     },
     "61": {
       "title": {
-        "en": "O for a Thousand Tongues"
+        "en": "O for a Thousand Tongues",
+        "cn": "万口欢唱"
       },
       "music": {
         "composers": [
@@ -5628,7 +5654,8 @@
     },
     "62": {
       "title": {
-        "en": "All Glory to Jesus"
+        "en": "All Glory to Jesus",
+        "cn": "全荣耀归耶稣"
       },
       "music": {
         "composers": [
@@ -5694,7 +5721,8 @@
     },
     "63": {
       "title": {
-        "en": "Jesus, The Glories of Thy Face"
+        "en": "Jesus, The Glories of Thy Face",
+        "cn": "耶稣袮面容的荣耀"
       },
       "music": {
         "composers": [
@@ -5772,7 +5800,8 @@
     },
     "64": {
       "title": {
-        "en": "Jesus! The Sinner's Friend"
+        "en": "Jesus! The Sinner's Friend",
+        "cn": "耶稣！罪人之友"
       },
       "music": {
         "composers": [
@@ -5874,7 +5903,8 @@
     },
     "65": {
       "title": {
-        "en": "And Can It Be That I Should Gain?"
+        "en": "And Can It Be That I Should Gain?",
+        "cn": "怎能如此"
       },
       "music": {
         "composers": [
@@ -5920,7 +5950,7 @@
         },
         "cn": {
           "1": [
-            "怎么如此，像我这样罪人，",
+            "怎能如此，像我这样罪人，",
             "也能蒙主宝血救赎，",
             "因我罪过使祂受苦，",
             "因我罪过，使祂受死。"
@@ -5951,7 +5981,8 @@
     },
     "66": {
       "title": {
-        "en": "Fairest Lord Jesus!"
+        "en": "Fairest Lord Jesus!",
+        "cn": "美哉主耶稣"
       },
       "music": {
         "composers": [
@@ -6031,7 +6062,8 @@
     },
     "67": {
       "title": {
-        "en": "Praise the Savior"
+        "en": "Praise the Savior",
+        "cn": "赞主伟大"
       },
       "music": {
         "composers": [
@@ -6115,12 +6147,13 @@
         }
       },
       "notes": [
-        "Same song: TSMS297 (1 stanza less), HP036 (1 stanza less)"
+        "Same song: TSMS297-1stanzaless, HP036-1stanzaless)"
       ]
     },
     "68": {
       "title": {
-        "en": "Majestic Sweetness Sits Enthroned"
+        "en": "Majestic Sweetness Sits Enthroned",
+        "cn": "尊贵威严"
       },
       "music": {
         "composers": [
@@ -6206,7 +6239,8 @@
     },
     "69": {
       "title": {
-        "en": "Jesus is the Sweetest Name I Know"
+        "en": "Jesus is the Sweetest Name I Know",
+        "cn": "最甜美的名是主耶稣"
       },
       "music": {
         "composers": [
@@ -6286,7 +6320,8 @@
     },
     "70": {
       "title": {
-        "en": "Jesus, I Am Resting"
+        "en": "Jesus, I Am Resting",
+        "cn": "我正安息"
       },
       "music": {
         "composers": [
@@ -6359,7 +6394,8 @@
     },
     "71": {
       "title": {
-        "en": "The Name of Jesus"
+        "en": "The Name of Jesus",
+        "cn": "耶稣袮名何等甘甜"
       },
       "music": {
         "composers": [
@@ -6448,7 +6484,8 @@
     },
     "72": {
       "title": {
-        "en": "Take the Name of Jesus with You"
+        "en": "Take the Name of Jesus with You",
+        "cn": "忧苦弟兄容我劝你"
       },
       "music": {
         "composers": [
@@ -6537,7 +6574,8 @@
     },
     "73": {
       "title": {
-        "en": "All Hail the Power"
+        "en": "All Hail the Power",
+        "cn": "耶稣圣名众当称颂"
       },
       "music": {
         "composers": [
@@ -6607,7 +6645,8 @@
     },
     "74": {
       "title": {
-        "en": "For the Beauty of the Earth"
+        "en": "For the Beauty of the Earth",
+        "cn": "环观大地好风光"
       },
       "music": {
         "composers": [
@@ -6692,7 +6731,8 @@
     },
     "75": {
       "title": {
-        "en": "Come, Christians, Join to Sing"
+        "en": "Come, Christians, Join to Sing",
+        "cn": "信徒齐来颂主"
       },
       "music": {
         "composers": [
@@ -6757,7 +6797,8 @@
     },
     "76": {
       "title": {
-        "en": "Day Is Dying in the West"
+        "en": "Day Is Dying in the West",
+        "cn": "晚霞渐逝"
       },
       "music": {
         "composers": [
@@ -6854,7 +6895,8 @@
     },
     "77": {
       "title": {
-        "en": "Savior, Again to Thy Dear Name"
+        "en": "Savior, Again to Thy Dear Name",
+        "cn": "聚会将毕"
       },
       "music": {
         "composers": [
@@ -6931,7 +6973,8 @@
     },
     "78": {
       "title": {
-        "en": "At Even, When the Sun was Set"
+        "en": "At Even, When the Sun was Set",
+        "cn": "天晚，当日落的时候"
       },
       "music": {
         "composers": [
@@ -7033,7 +7076,8 @@
     },
     "79": {
       "title": {
-        "en": "God Be with You"
+        "en": "God Be with You",
+        "cn": "愿主同在直到再相会"
       },
       "music": {
         "composers": [
