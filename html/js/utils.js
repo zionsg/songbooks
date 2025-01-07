@@ -411,6 +411,7 @@ const utils = (function () {
 
         // Add event listener to receive contents of songbook before loading songbook file
         window.addEventListener('songbook.ready', (event) => {
+            songbookData = event.detail.data;
             callback(params, event.detail.data);
         });
 
@@ -456,7 +457,7 @@ const utils = (function () {
      * This must be run from a local/remote server due to CORS, i.e. the webpage using this function
      * is accessed via http:// or https:// but not file://.
      *
-     * The parsed JSON will be stored internally and can be retrived via getSongbookData().
+     * The parsed JSON will be stored internally and can be retrieved via getSongbookData().
      *
      * @public
      * @param {string} path - Path to JSON file. This must be a valid URL and not a relative path.
