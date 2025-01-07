@@ -1405,6 +1405,96 @@
         "Same tune: RHC038"
       ]
     },
+    "97": {
+      "title": {
+        "en": "There Is a Green Hill Far Away",
+        "cn": "城外青山歌"
+      },
+      "music": {
+        "composers": [
+          "George C. Stebbins"
+        ],
+        "tune": "GREEN HILL",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Cecil F. Alexander"
+        ],
+        "en": {
+          "1": [
+            "There is a green hill far away,",
+            "Without a city wall,",
+            "Where the dear Lord was crucified,",
+            "Who died to save us all."
+          ],
+          "2": [
+            "We may not know, we cannot tell",
+            "What pains He had to bear;",
+            "But we believe it was for us",
+            "He hung and suffered there."
+          ],
+          "3": [
+            "He died that we might be forgiv'n,",
+            "He died to make us good,",
+            "That we might go at last to heav'n,",
+            "Saved by His precious blood."
+          ],
+          "4": [
+            "There was no other good enough",
+            "To pay the price of sin;",
+            "He only could unlock the gate",
+            "Of heav'n and let us in."
+          ],
+          "chorus": [
+            "O dearly, dearly has He loved!",
+            "And we must love Him too,",
+            "And trust in His redeeming blood,",
+            "And try His works to do."
+          ]
+        },
+        "cn": {
+          "1": [
+            "离此遥远有一座城，",
+            "城外有个青山，",
+            "在那山上，主被钉死，",
+            "替人受苦万般。"
+          ],
+          "2": [
+            "主受痛苦何等的深，",
+            "要说实在不能；",
+            "我只能信我主受害，",
+            "是为我众罪人。"
+          ],
+          "3": [
+            "救主流血，使我成圣，",
+            "使我得免罪愆，",
+            "使我最后得升天庭，",
+            "不再被罪牵连。"
+          ],
+          "4": [
+            "世间没有，这样完人，",
+            "能付罪恶代价，",
+            "祇有耶稣能开天门，",
+            "招呼我众回家。"
+          ],
+          "chorus": [
+            "主爱我们这般恳切，",
+            "我何能不爱主，",
+            "我必信託宝血救恩，",
+            "也必做他圣工。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC192"
+      ]
+    },
     "103": {
       "title": {
         "en": "Ivory Palaces",
