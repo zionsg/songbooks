@@ -57,8 +57,8 @@ Shell commands are all run from the root of the repository.
             }
         }
 
-        console.log('Songs without titles for both languages: ', missingTitles);
-        console.log('Songs without lyrics for both languages: ', missingLyrics);
+        console.log('Songs without titles in both languages: ', missingTitles);
+        console.log('Songs without lyrics in both languages: ', missingLyrics);
         ```
 
 ## Additional assets
