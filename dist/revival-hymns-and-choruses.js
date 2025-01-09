@@ -7166,7 +7166,8 @@
     },
     "80": {
       "title": {
-        "en": "The Day Thou Gavest, Lord"
+        "en": "The Day Thou Gavest, Lord",
+        "cn": "主赐此日"
       },
       "music": {
         "composers": [
@@ -7253,7 +7254,8 @@
     },
     "81": {
       "title": {
-        "en": "Lord of the Sabbath"
+        "en": "Lord of the Sabbath",
+        "cn": "安息日之主"
       },
       "music": {
         "composers": [
@@ -7333,7 +7335,8 @@
     },
     "82": {
       "title": {
-        "en": "This Day at Thy Creating Word"
+        "en": "This Day at Thy Creating Word",
+        "cn": "此日当袮话创造时"
       },
       "music": {
         "composers": [
@@ -7425,7 +7428,8 @@
     },
     "83": {
       "title": {
-        "en": "This Is the Day the Lord Hath Made"
+        "en": "This Is the Day the Lord Hath Made",
+        "cn": "这是耶和华定之日"
       },
       "music": {
         "composers": [
@@ -7517,7 +7521,8 @@
     },
     "84": {
       "title": {
-        "en": "This Is the Day of Light"
+        "en": "This Is the Day of Light",
+        "cn": "这是光明之日"
       },
       "music": {
         "composers": [
@@ -7607,7 +7612,8 @@
     },
     "85": {
       "title": {
-        "en": "O Day of Rest and Gladness"
+        "en": "O Day of Rest and Gladness",
+        "cn": "欢欣安息之圣日"
       },
       "music": {
         "composers": [
@@ -7684,7 +7690,8 @@
     },
     "86": {
       "title": {
-        "en": "Safely Through Another Week"
+        "en": "Safely Through Another Week",
+        "cn": "平安又经过六日"
       },
       "music": {
         "composers": [
