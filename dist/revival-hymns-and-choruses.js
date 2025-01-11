@@ -14814,15 +14814,15 @@
             "Owns and speaks Thy matchless worth!",
             "Till all tongues, Thy praises singing,",
             "Shall Thy mighty wonders tell,",
-            "Till all heav'n with joy is ringing, ",
+            "Till all heav'n with joy is ringing,",
             "As our hearts the chorus swell!"
           ],
           "4": [
-            "When our days on earth are ended, ",
+            "When our days on earth are ended,",
             "And we rise to worlds above,",
             "Then our songs shall all be blended",
             "In one song of pard'ning love!",
-            "Then we'll tell the wondrous story, ",
+            "Then we'll tell the wondrous story,",
             "And our blessed Lord adore!",
             "In our home of bliss and glory",
             "We shall sing forevermore!"
@@ -14837,19 +14837,53 @@
             "Glory in the highest heaven!",
             "Sound aloud the joyful strain,",
             "Glory to the Lamb be given,",
-            "Who for sinners once was slain"
+            "Who for sinners once was slain."
           ]
         },
         "cn": {
           "1": [
-            "当我们在世日子尽，而我们升上天外，",
-            "我们的歌颂将融合，成饶恕之爱的歌！",
-            "我们将述奇妙故事，崇拜我们至亲主！",
-            "在我们福与荣耀家，我们将永远歌唱！"
+            "听！欢呼之音符隆起",
+            "在静夜的气氛里！",
+            "这是天使歌声述说",
+            "耶稣来承担我罪！",
+            "如今音乐带着欢喜，",
+            "破沉隆起如河流！",
+            "地上正从悲伤苏醒，",
+            "加入圣歌的合唱！"
+          ],
+          "2": [
+            "见所有的黑暗消失，",
+            "在圣星上升之时！",
+            "罪与死亡颤抖站着，",
+            "眼望圣光从天降；",
+            "如今地上再次欣喜，",
+            "撒旦强大国度颤，",
+            "因为天上所有歌声，",
+            "合唱破沉越发亮！"
+          ],
+          "3": [
+            "救世之星，崛起闪耀！",
+            "将星光发散全地，",
+            "直到每个遥远国土",
+            "知颂祢无比之价！",
+            "直到万口歌颂赞祢，",
+            "述说祢伟大奇迹，",
+            "直到众天欢乐响起，",
+            "我们心声的合唱！"
+          ],
+          "4": [
+            "当我们在世日子尽，",
+            "而我们升上天外，",
+            "我们的歌颂将融合，",
+            "成饶恕之爱的歌！",
+            "我们将述奇妙故事，",
+            "崇拜我们至亲主！",
+            "在我们福与荣耀家，",
+            "我们将永远歌唱！"
           ],
           "chorus": [
             "至高天上显出荣耀！",
-            "地平安，人善意，",
+            "地平安，善意予人，",
             "让所有颂赞都归神",
             "为荣美救赎计划。"
           ],
