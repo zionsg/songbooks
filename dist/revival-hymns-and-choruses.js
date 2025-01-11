@@ -17639,7 +17639,8 @@
     },
     "207": {
       "title": {
-        "en": "Golden Harps Are Sounding"
+        "en": "Golden Harps Are Sounding",
+        "cn": "金竖琴正响起"
       },
       "music": {
         "composers": [
@@ -17931,7 +17932,8 @@
     },
     "217": {
       "title": {
-        "en": "Rejoice - the Lord Is King!"
+        "en": "Rejoice - the Lord Is King!",
+        "cn": "你当欢欣"
       },
       "music": {
         "composers": [
@@ -18089,7 +18091,8 @@
     },
     "221": {
       "title": {
-        "en": "When We See Christ"
+        "en": "When We See Christ",
+        "cn": "当见基督"
       },
       "music": {
         "composers": [
@@ -18985,7 +18988,8 @@
     },
     "255": {
       "title": {
-        "en": "Thy Word Have I Hid in My Heart"
+        "en": "Thy Word Have I Hid in My Heart",
+        "cn": "祢话我已藏在心里"
       },
       "music": {
         "composers": [
@@ -19077,7 +19081,8 @@
     },
     "256": {
       "title": {
-        "en": "The Bible Stands"
+        "en": "The Bible Stands",
+        "cn": "圣经屹立"
       },
       "music": {
         "composers": [
@@ -19242,7 +19247,8 @@
     },
     "260": {
       "title": {
-        "en": "The Church's One Foundation"
+        "en": "The Church's One Foundation",
+        "cn": "教会惟一的根基"
       },
       "music": {
         "composers": [
@@ -20168,7 +20174,8 @@
     },
     "295": {
       "title": {
-        "en": "The Light of the Word Is Jesus"
+        "en": "The Light of the Word Is Jesus",
+        "cn": "世上的真光"
       },
       "music": {
         "composers": [
@@ -20282,7 +20289,8 @@
     },
     "297": {
       "title": {
-        "en": "Jesus Saves!"
+        "en": "Jesus Saves!",
+        "cn": "主救罪人"
       },
       "music": {
         "composers": [
@@ -20664,7 +20672,8 @@
     },
     "310": {
       "title": {
-        "en": "Glorious Freedom"
+        "en": "Glorious Freedom",
+        "cn": "荣耀的释放"
       },
       "music": {
         "composers": [
@@ -21042,7 +21051,8 @@
     },
     "323": {
       "title": {
-        "en": "Trust and Obey"
+        "en": "Trust and Obey",
+        "cn": "信靠顺服"
       },
       "music": {
         "composers": [
@@ -21421,7 +21431,8 @@
     },
     "335": {
       "title": {
-        "en": "Keep on Believing"
+        "en": "Keep on Believing",
+        "cn": "信心不停止"
       },
       "music": {
         "composers": [
@@ -21513,7 +21524,8 @@
     },
     "336": {
       "title": {
-        "en": "Only Believe"
+        "en": "Only Believe",
+        "cn": "只要相信"
       },
       "music": {
         "composers": [
@@ -21617,7 +21629,8 @@
     },
     "338": {
       "title": {
-        "en": "Show Me Thy Way, O Lord"
+        "en": "Show Me Thy Way, O Lord",
+        "cn": "主，显我祢道路"
       },
       "music": {
         "composers": [
@@ -21695,7 +21708,8 @@
     },
     "339": {
       "title": {
-        "en": "When I Fear My Faith Will Fail"
+        "en": "When I Fear My Faith Will Fail",
+        "cn": "主必保守我"
       },
       "music": {
         "composers": [
@@ -21948,7 +21962,8 @@
     },
     "347": {
       "title": {
-        "en": "Under the Care of My God, The Almighty"
+        "en": "Under the Care of My God, The Almighty",
+        "cn": "在我全能之真神的眷顾下"
       },
       "music": {
         "composers": [
@@ -22711,7 +22726,8 @@
     },
     "375": {
       "title": {
-        "en": "Speak, Lord, in the Stillness"
+        "en": "Speak, Lord, in the Stillness",
+        "cn": "主，宁静中请说"
       },
       "music": {
         "composers": [
@@ -23238,7 +23254,8 @@
     },
     "393": {
       "title": {
-        "en": "Deeper, Deeper"
+        "en": "Deeper, Deeper",
+        "cn": "进深，进深"
       },
       "music": {
         "composers": [
@@ -23471,7 +23488,8 @@
     },
     "400": {
       "title": {
-        "en": "Every Moment of Every Day"
+        "en": "Every Moment of Every Day",
+        "cn": "每一天的每一时刻"
       },
       "music": {
         "composers": [
@@ -23651,7 +23669,8 @@
     },
     "405": {
       "title": {
-        "en": "Have I Done My Best for Jesus?"
+        "en": "Have I Done My Best for Jesus?",
+        "cn": "是否有为耶稣尽力？"
       },
       "music": {
         "composers": [
@@ -24312,7 +24331,8 @@
     },
     "429": {
       "title": {
-        "en": "We Have Not Known Thee as We Ought"
+        "en": "We Have Not Known Thee as We Ought",
+        "cn": "我们没应当认识袮"
       },
       "music": {
         "composers": [
@@ -25495,7 +25515,8 @@
     },
     "471": {
       "title": {
-        "en": "A Christian Home"
+        "en": "A Christian Home",
+        "cn": "信徒之家"
       },
       "music": {
         "composers": [
