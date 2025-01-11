@@ -11768,7 +11768,8 @@
     },
     "131": {
       "title": {
-        "en": "No One Ever Cared for Me Like Jesus"
+        "en": "No One Ever Cared for Me Like Jesus",
+        "cn": "无人曾像耶稣关心着我"
       },
       "music": {
         "composers": [
@@ -11848,7 +11849,8 @@
     },
     "132": {
       "title": {
-        "en": "Where Jesus Is, Tis Heaven"
+        "en": "Where Jesus Is, Tis Heaven",
+        "cn": "耶稣在哪，就是天堂"
       },
       "music": {
         "composers": [
@@ -11928,7 +11930,8 @@
     },
     "133": {
       "title": {
-        "en": "He Took My Sins Away"
+        "en": "He Took My Sins Away",
+        "cn": "祂除掉我的罪"
       },
       "music": {
         "composers": [
@@ -12020,7 +12023,8 @@
     },
     "134": {
       "title": {
-        "en": "Why Do I Sing About Jesus?"
+        "en": "Why Do I Sing About Jesus?",
+        "cn": "我为何歌颂着耶稣？"
       },
       "music": {
         "composers": [
@@ -12100,7 +12104,8 @@
     },
     "135": {
       "title": {
-        "en": "Wonderful Peace"
+        "en": "Wonderful Peace",
+        "cn": "奇妙平安"
       },
       "music": {
         "composers": [
@@ -12201,7 +12206,8 @@
     },
     "136": {
       "title": {
-        "en": "Come, Ye Thankful People"
+        "en": "Come, Ye Thankful People",
+        "cn": "收成歌"
       },
       "music": {
         "composers": [
@@ -12278,7 +12284,8 @@
     },
     "137": {
       "title": {
-        "en": "Thanks to God!"
+        "en": "Thanks to God!",
+        "cn": "感谢神"
       },
       "music": {
         "composers": [
@@ -12341,13 +12348,13 @@
         }
       },
       "notes": [
-        "Alternate Chinese translation provided instead of that from HP432.",
-        "Same song: TSMS267, HP432"
+        "Same song: TSMS267, HP432 (translation has different meaning)"
       ]
     },
     "138": {
       "title": {
-        "en": "He Sat to Watch O'er Customs Paid"
+        "en": "He Sat to Watch O'er Customs Paid",
+        "cn": "他坐在税关上管税"
       },
       "music": {
         "composers": [
@@ -12451,7 +12458,8 @@
     },
     "139": {
       "title": {
-        "en": "One Day!"
+        "en": "One Day!",
+        "cn": "一日"
       },
       "music": {
         "composers": [
@@ -12552,7 +12560,8 @@
     },
     "140": {
       "title": {
-        "en": "On the Victory Side!"
+        "en": "On the Victory Side!",
+        "cn": "站在胜利边！"
       },
       "music": {
         "composers": [
@@ -12602,7 +12611,8 @@
     },
     "141": {
       "title": {
-        "en": "That Beautiful Name"
+        "en": "That Beautiful Name",
+        "cn": "最美丽圣名"
       },
       "music": {
         "composers": [
@@ -12691,7 +12701,8 @@
     },
     "142": {
       "title": {
-        "en": "Tell Me the Story of Jesus"
+        "en": "Tell Me the Story of Jesus",
+        "cn": "述说主耶稣"
       },
       "music": {
         "composers": [
@@ -12754,7 +12765,8 @@
     },
     "143": {
       "title": {
-        "en": "O Holy Night!"
+        "en": "O Holy Night!",
+        "cn": "圣善之夜！"
       },
       "music": {
         "composers": [
@@ -12852,7 +12864,8 @@
     },
     "144": {
       "title": {
-        "en": "Come With Me, Ye Children"
+        "en": "Come With Me, Ye Children",
+        "cn": "孩子们，跟我来"
       },
       "music": {
         "composers": [
@@ -12918,7 +12931,8 @@
     },
     "145": {
       "title": {
-        "en": "Come, Thou Long-Expected Jesus"
+        "en": "Come, Thou Long-Expected Jesus",
+        "cn": "来，期待已久的耶稣"
       },
       "music": {
         "composers": [
@@ -12975,7 +12989,8 @@
     },
     "146": {
       "title": {
-        "en": "Silent Night! Holy Night!"
+        "en": "Silent Night! Holy Night!",
+        "cn": "平安夜"
       },
       "music": {
         "composers": [
@@ -13052,7 +13067,8 @@
     },
     "147": {
       "title": {
-        "en": "Away in a Manger"
+        "en": "Away in a Manger",
+        "cn": "远远在马槽里"
       },
       "music": {
         "composers": [
@@ -13118,7 +13134,8 @@
     },
     "148": {
       "title": {
-        "en": "Once in Royal David's City"
+        "en": "Once in Royal David's City",
+        "cn": "曾在京都大卫城里"
       },
       "music": {
         "composers": [
@@ -13230,7 +13247,8 @@
     },
     "149": {
       "title": {
-        "en": "O Jesus, So Sweet"
+        "en": "O Jesus, So Sweet",
+        "cn": "耶稣，真甜美"
       },
       "music": {
         "composers": [],
@@ -13270,7 +13288,8 @@
     },
     "150": {
       "title": {
-        "en": "Away in a Manger"
+        "en": "Away in a Manger",
+        "cn": "远远在马槽里"
       },
       "music": {
         "composers": [
