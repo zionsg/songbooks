@@ -1353,7 +1353,7 @@
       },
       "notes": [
         "Same tune as \"When Morning Gilds the Skies\".",
-        "Same song: HP059-stanza3diff"
+        "Same song: HP059 (stanza 3 different)"
       ]
     },
     "12": {
@@ -1501,7 +1501,7 @@
         }
       },
       "notes": [
-        "Same song: EHS017, HP061-stanza4diff"
+        "Same song: EHS017, HP061 (stanza 4 different)"
       ]
     },
     "14": {
@@ -2884,7 +2884,7 @@
         }
       },
       "notes": [
-        "Same song: HP017-only4stanzas-stanza2diff"
+        "Same song: HP017 (only 4 stanzas, stanza 2 different)"
       ]
     },
     "30a": {
@@ -3330,7 +3330,7 @@
         }
       },
       "notes": [
-        "Same song: HP041-stanza4diff",
+        "Same song: HP041 (stanza 4 different)",
         "Same tune: RHC442"
       ]
     },
@@ -5398,7 +5398,7 @@
         }
       },
       "notes": [
-        "Same song: HP032-stanza4diff"
+        "Same song: HP032 (stanza 4 different)"
       ]
     },
     "59": {
@@ -9963,7 +9963,8 @@
     },
     "111": {
       "title": {
-        "en": "Only a Sinner"
+        "en": "Only a Sinner",
+        "cn": "只是个罪人"
       },
       "music": {
         "composers": [
@@ -10050,7 +10051,8 @@
     },
     "112": {
       "title": {
-        "en": "Redeemed"
+        "en": "Redeemed",
+        "cn": "救赎"
       },
       "music": {
         "composers": [
@@ -10139,7 +10141,8 @@
     },
     "113": {
       "title": {
-        "en": "It is Glory Just to Walk with Him"
+        "en": "It is Glory Just to Walk with Him",
+        "cn": "与祂同行就已是荣耀"
       },
       "music": {
         "composers": [
@@ -10218,7 +10221,8 @@
     },
     "114": {
       "title": {
-        "en": "At Calvary"
+        "en": "At Calvary",
+        "cn": "在各各他"
       },
       "music": {
         "composers": [
@@ -10307,7 +10311,8 @@
     },
     "115": {
       "title": {
-        "en": "Constantly Abiding"
+        "en": "Constantly Abiding",
+        "cn": "有平安在我心"
       },
       "music": {
         "composers": [
@@ -10385,7 +10390,8 @@
     },
     "116": {
       "title": {
-        "en": "Higher Ground"
+        "en": "Higher Ground",
+        "cn": "向高处行"
       },
       "music": {
         "composers": [
@@ -10462,7 +10468,8 @@
     },
     "117": {
       "title": {
-        "en": "In Tenderness He Sought Me"
+        "en": "In Tenderness He Sought Me",
+        "cn": "妙爱找我"
       },
       "music": {
         "composers": [
@@ -10583,11 +10590,15 @@
     },
     "118": {
       "title": {
-        "en": "O How I Love Jesus"
+        "en": "O How I Love Jesus",
+        "cn": "我何等爱耶稣"
       },
       "music": {
         "composers": [
-          "American melody, arr. by John W. Peterson"
+          "American melody"
+        ],
+        "arrangers": [
+          "John W. Peterson"
         ],
         "tune": "",
         "keySignature": [
@@ -10672,7 +10683,8 @@
     },
     "119": {
       "title": {
-        "en": "Sweeter as the Years Go By"
+        "en": "Sweeter as the Years Go By",
+        "cn": "歌颂主爱"
       },
       "music": {
         "composers": [
@@ -10749,7 +10761,8 @@
     },
     "120": {
       "title": {
-        "en": "Now I Belong to Jesus"
+        "en": "Now I Belong to Jesus",
+        "cn": "我永属主"
       },
       "music": {
         "composers": [
@@ -10826,7 +10839,8 @@
     },
     "121": {
       "title": {
-        "en": "My Redeemer"
+        "en": "My Redeemer",
+        "cn": "我要歌颂我救赎主"
       },
       "music": {
         "composers": [
@@ -10846,7 +10860,7 @@
           "Philip P. Bliss"
         ],
         "translators": [
-          "Zion Ng (Chinese)"
+          "Zion Ng (Chinese, stanza 4)"
         ],
         "en": {
           "1": [
@@ -10919,7 +10933,8 @@
     },
     "122": {
       "title": {
-        "en": "Glory to His Name"
+        "en": "Glory to His Name",
+        "cn": "在十架上我救主捨命"
       },
       "music": {
         "composers": [
@@ -11008,7 +11023,8 @@
     },
     "123": {
       "title": {
-        "en": "Jesus Loves Even Me"
+        "en": "Jesus Loves Even Me",
+        "cn": "耶稣连我都爱"
       },
       "music": {
         "composers": [
@@ -11083,12 +11099,13 @@
         }
       },
       "notes": [
-        "Same song: TSMS031, HP390"
+        "Same song: TSMS031, HP390 (translation has different meaning)"
       ]
     },
     "124": {
       "title": {
-        "en": "Jesus, Still Lead On"
+        "en": "Jesus, Still Lead On",
+        "cn": "耶稣，求前导"
       },
       "music": {
         "composers": [
@@ -11183,7 +11200,8 @@
     },
     "125": {
       "title": {
-        "en": "Jesus is the Joy of Living"
+        "en": "Jesus is the Joy of Living",
+        "cn": "耶稣是活着的喜乐"
       },
       "music": {
         "composers": [
@@ -11275,7 +11293,8 @@
     },
     "126": {
       "title": {
-        "en": "No, Not One!"
+        "en": "No, Not One!",
+        "cn": "那有朋友像耶稣"
       },
       "music": {
         "composers": [
@@ -11376,7 +11395,8 @@
     },
     "127": {
       "title": {
-        "en": "Dwelling in Beulah Land"
+        "en": "Dwelling in Beulah Land",
+        "cn": "前在埃及"
       },
       "music": {
         "composers": [
@@ -11463,12 +11483,13 @@
         }
       },
       "notes": [
-        "Same song: TSMS359, EHS054-stanza1only"
+        "Same song: TSMS359, EHS054 (stanza 1 only)"
       ]
     },
     "128": {
       "title": {
-        "en": "His Yoke is Easy"
+        "en": "His Yoke is Easy",
+        "cn": "祂的轭容易"
       },
       "music": {
         "composers": [
@@ -11544,12 +11565,13 @@
       },
       "notes": [
         "Same song: TSMS370",
-        "Same lyrics: RHC341-345"
+        "Same lyrics: RHC341 to RHC345"
       ]
     },
     "129": {
       "title": {
-        "en": "Since Jesus Came into My Heart"
+        "en": "Since Jesus Came into My Heart",
+        "cn": "自耶稣来住在我心"
       },
       "music": {
         "composers": [
@@ -11641,7 +11663,8 @@
     },
     "130": {
       "title": {
-        "en": "I Waited for the Lord My God"
+        "en": "I Waited for the Lord My God",
+        "cn": "我等候耶和华我神"
       },
       "music": {
         "composers": [
@@ -11900,7 +11923,7 @@
         }
       },
       "notes": [
-        "Same song: EHS058-stanza1only"
+        "Same song: EHS058 (stanza 1 only)"
       ]
     },
     "133": {
@@ -16398,7 +16421,7 @@
         }
       },
       "notes": [
-        "Same song: TSMS124, EHS091-stanza1only, HP095 (1 stanza less)"
+        "Same song: TSMS124, EHS091 (stanza 1 only), HP095 (1 stanza less)"
       ]
     },
     "187": {
@@ -20398,7 +20421,7 @@
         ]
       },
       "notes": [
-        "Same song: EHS092-stanza1plusnewstanza"
+        "Same song: EHS092 (stanza 1 plus new stanza)"
       ]
     },
     "307": {
@@ -22849,7 +22872,7 @@
       },
       "notes": [
         "Same song: TSMS270b, HP389",
-        "Same lyrics: EHS022-stanza1only"
+        "Same lyrics: EHS022 (stanza 1 only)"
       ]
     },
     "385": {
@@ -24988,7 +25011,7 @@
         ]
       },
       "notes": [
-        "Same song: TSMS205, EHS098-stanza1only, HP315"
+        "Same song: TSMS205, EHS098 (stanza 1 only), HP315"
       ]
     },
     "458": {
@@ -26517,7 +26540,7 @@
         ]
       },
       "notes": [
-        "Same song: TSMS028, EHS047-stanza1only"
+        "Same song: TSMS028, EHS047 (stanza 1 only)"
       ]
     },
     "516": {
@@ -27775,7 +27798,7 @@
         ]
       },
       "notes": [
-        "Same song: EHS070-stanza1only"
+        "Same song: EHS070 (stanza 1 only)"
       ]
     },
     "Lord Dismiss Us": {
@@ -28091,7 +28114,7 @@
         }
       },
       "notes": [
-        "Same song: HP-may-the-grace-of-christ-our-savior-stanza1only"
+        "Same song: HP-may-the-grace-of-christ-our-savior (stanza 1 only)"
       ]
     }
   }
