@@ -14774,16 +14774,69 @@
         "translators": [
           "Zion Ng (Chinese)"
         ],
+        "stanzaOrder": [
+          "1",
+          "chorus",
+          "2",
+          "chorus",
+          "3",
+          "chorus",
+          "4",
+          "chorus",
+          "grand chorus"
+        ],
         "en": {
           "1": [
-            "When our days on earth are ended, And we rise to worlds above,",
-            "Then our songs shall all be blended, In one song of pard'ning love!",
-            "Then we'll tell the wondrous story, And our blessed Lord adore!",
-            "In our home of bliss and glory, We shall sing forevermore!"
+            "Hark! what joyful notes are swelling",
+            "On the quiet midnight air!",
+            "'Tis the voice of angels telling",
+            "Jesus comes our sins to bear!",
+            "Now the music, in its gladness,",
+            "Breaks and swells, and glides along!",
+            "Now earth, waking from her sadness, ",
+            "Joins the chorus of the song!"
+          ],
+          "2": [
+            "See all darkness disappearing,",
+            "As the Star begins to rise!",
+            "Sin and Death stand, trembling, fearing,",
+            "As the light falls on their eyes;",
+            "Now, again, the earth rejoices, ",
+            "Satan's pow'rful kingdom shakes,",
+            "As, from all the heav'nly voices, ",
+            "Louder still the chorus breaks!"
+          ],
+          "3": [
+            "Rise and shine, Star of salvation!",
+            "Spread thy beams o'er all the earth,",
+            "Till each distant land and nation",
+            "Owns and speaks Thy matchless worth!",
+            "Till all tongues, Thy praises singing,",
+            "Shall Thy mighty wonders tell,",
+            "Till all heav'n with joy is ringing, ",
+            "As our hearts the chorus swell!"
+          ],
+          "4": [
+            "When our days on earth are ended, ",
+            "And we rise to worlds above,",
+            "Then our songs shall all be blended",
+            "In one song of pard'ning love!",
+            "Then we'll tell the wondrous story, ",
+            "And our blessed Lord adore!",
+            "In our home of bliss and glory",
+            "We shall sing forevermore!"
           ],
           "chorus": [
-            "Glory in the highest heaven! Sound aloud the joyful strain,",
-            "Glory to the Lamb be given, Who for sinners once was slain."
+            "Glory in the highest heaven!",
+            "Peace on earth, goodwill to man,",
+            "Let all praise to God be given",
+            "For Redemption's glorious plan."
+          ],
+          "grand chorus": [
+            "Glory in the highest heaven!",
+            "Sound aloud the joyful strain,",
+            "Glory to the Lamb be given,",
+            "Who for sinners once was slain"
           ]
         },
         "cn": {
@@ -14794,8 +14847,16 @@
             "在我们福与荣耀家，我们将永远歌唱！"
           ],
           "chorus": [
-            "至高天上显出荣耀，大响欢喜的音乐，",
-            "荣耀归于神的羔羊，祂为罪人受一死。"
+            "至高天上显出荣耀！",
+            "地平安，人善意，",
+            "让所有颂赞都归神",
+            "为荣美救赎计划。"
+          ],
+          "grand chorus": [
+            "至高天上显出荣耀！",
+            "大响欢喜的音乐，",
+            "荣耀归于神的羔羊，",
+            "祂为罪人受一死。"
           ]
         }
       },
