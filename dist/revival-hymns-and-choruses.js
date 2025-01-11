@@ -727,7 +727,7 @@
         }
       },
       "notes": [
-        "Same song: HP007-1stanzaless",
+        "Same song: HP007 (1 stanza less)",
         "Same lyrics: RHC004-slightdiff"
       ]
     },
@@ -806,7 +806,7 @@
         }
       },
       "notes": [
-        "Same lyrics: slight diff: RHC003, HP007-1stanzaless"
+        "Same lyrics: slight diff: RHC003, HP007 (1 stanza less)"
       ]
     },
     "5": {
@@ -1274,7 +1274,7 @@
         }
       },
       "notes": [
-        "Same song: HP060-1stanzaless"
+        "Same song: HP060 (1 stanza less)"
       ]
     },
     "11": {
@@ -1423,7 +1423,7 @@
         }
       },
       "notes": [
-        "Same song: HP065-1stanzaless"
+        "Same song: HP065 (1 stanza less)"
       ]
     },
     "13": {
@@ -3597,7 +3597,7 @@
         }
       },
       "notes": [
-        "Same lyrics: HP025-1stanzaless-halfdiff"
+        "Same lyrics: HP025 (latter half different, 1 stanza less)"
       ]
     },
     "38": {
@@ -4607,7 +4607,7 @@
         }
       },
       "notes": [
-        "Same song: TSMS015, HP023-1stanzaless"
+        "Same song: TSMS015, HP023 (1 stanza less)"
       ]
     },
     "50": {
@@ -4774,7 +4774,7 @@
         }
       },
       "notes": [
-        "Same song: TSMS255, EHS020-chorusonly"
+        "Same song: TSMS255, EHS020 (chorus only)"
       ]
     },
     "52": {
@@ -4868,7 +4868,7 @@
       },
       "notes": [
         "Same tune: RHC445",
-        "Same lyrics: RHC053-diffend, HP053-1stanzaless"
+        "Same lyrics: RHC053-diffend, HP053 (1 stanza less)"
       ]
     },
     "53": {
@@ -4961,7 +4961,7 @@
         }
       },
       "notes": [
-        "Same song: HP053-1stanzaless",
+        "Same song: HP053 (1 stanza less)",
         "Same lyrics: RHC052-diffend"
       ]
     },
@@ -5214,7 +5214,7 @@
       },
       "notes": [
         "Same song: EHS030",
-        "Same lyrics: RHC057-1stanzamore-nochorus, HP055-nochorus"
+        "Same lyrics: RHC057 (no chorus, 1 stanza more), HP055 (no chorus)"
       ]
     },
     "57": {
@@ -5307,7 +5307,7 @@
         }
       },
       "notes": [
-        "Same song: HP055-1stanzaless",
+        "Same song: HP055 (1 stanza less)",
         "Same tune: RHC231"
       ]
     },
@@ -6147,7 +6147,7 @@
         }
       },
       "notes": [
-        "Same song: TSMS297-1stanzaless, HP036-1stanzaless)"
+        "Same song: TSMS297 (1 stanza less), HP036 (1 stanza less))"
       ]
     },
     "68": {
@@ -6233,7 +6233,7 @@
         }
       },
       "notes": [
-        "Same song: EHS078, HP048-1stanzaless",
+        "Same song: EHS078, HP048 (1 stanza less)",
         "Same tune: RHC327, RHC556"
       ]
     },
@@ -6968,7 +6968,7 @@
         }
       },
       "notes": [
-        "Same song: HP068-1stanzaless"
+        "Same song: HP068 (1 stanza less)"
       ]
     },
     "78": {
@@ -7768,7 +7768,8 @@
     },
     "87": {
       "title": {
-        "en": "I Know Whom I Have Believed"
+        "en": "I Know Whom I Have Believed",
+        "cn": "我知所信是谁"
       },
       "music": {
         "composers": [
@@ -7869,7 +7870,8 @@
     },
     "88": {
       "title": {
-        "en": "Praise Him! Praise Him!"
+        "en": "Praise Him! Praise Him!",
+        "cn": "赞祂赞祂"
       },
       "music": {
         "composers": [
@@ -7954,7 +7956,8 @@
     },
     "89": {
       "title": {
-        "en": "These Is No Name So Sweet on Earth"
+        "en": "These Is No Name So Sweet on Earth",
+        "cn": "主名甘美"
       },
       "music": {
         "composers": [
@@ -8062,12 +8065,13 @@
         }
       },
       "notes": [
-        "Same song: HP366-2stanzasless"
+        "Same song: HP366 (2 stanzas less)"
       ]
     },
     "90": {
       "title": {
-        "en": "Love Lifted Me"
+        "en": "Love Lifted Me",
+        "cn": "主爱救我"
       },
       "music": {
         "composers": [
@@ -8586,7 +8590,7 @@
         }
       },
       "notes": [
-        "Same song: TSMS037, HP378-1stanzaless"
+        "Same song: TSMS037, HP378 (1 stanza less)"
       ]
     },
     "96": {
@@ -8784,7 +8788,7 @@
         }
       },
       "notes": [
-        "Same song: HP343-1stanzaless"
+        "Same song: HP343 (1 stanza less)"
       ]
     },
     "98": {
@@ -8950,7 +8954,7 @@
         }
       },
       "notes": [
-        "Same song: HP372-1stanzaless"
+        "Same song: HP372 (1 stanza less)"
       ]
     },
     "100": {
@@ -9194,7 +9198,7 @@
         }
       },
       "notes": [
-        "Same song: HP342-chorusonly"
+        "Same song: HP342 (chorus only)"
       ]
     },
     "103": {
@@ -9283,7 +9287,7 @@
         }
       },
       "notes": [
-        "Same song: TSMS301, EHS032-chorusonly, HP345-1stanzaless"
+        "Same song: TSMS301, EHS032 (chorus only), HP345 (1 stanza less)"
       ]
     },
     "104": {
@@ -9575,7 +9579,7 @@
         }
       },
       "notes": [
-        "Same song: HP344-1stanzaless"
+        "Same song: HP344 (1 stanza less)"
       ]
     },
     "107": {
@@ -9677,7 +9681,7 @@
         }
       },
       "notes": [
-        "Same song: HP353-1stanzaless"
+        "Same song: HP353 (1 stanza less)"
       ]
     },
     "108": {
@@ -10552,7 +10556,7 @@
         }
       },
       "notes": [
-        "Same song: TSMS150, EHS050-chorusonly, HP380-1stanzaless"
+        "Same song: TSMS150, EHS050 (chorus only), HP380 (1 stanza less)"
       ]
     },
     "118": {
@@ -10641,7 +10645,7 @@
         }
       },
       "notes": [
-        "Same song: TSMS273, EHS051-chorusonly, HP388"
+        "Same song: TSMS273, EHS051 (chorus only), HP388"
       ]
     },
     "119": {
@@ -10888,7 +10892,7 @@
         }
       },
       "notes": [
-        "Same song: TSMS252, HP374-1stanzaless"
+        "Same song: TSMS252, HP374 (1 stanza less)"
       ]
     },
     "122": {
@@ -10977,7 +10981,7 @@
         }
       },
       "notes": [
-        "Same song: EHS083-chorusonly, HP346-1stanzaless"
+        "Same song: EHS083 (chorus only), HP346 (1 stanza less)"
       ]
     },
     "123": {
@@ -11610,7 +11614,7 @@
         }
       },
       "notes": [
-        "Same song: TSMS300, EHS031-chorusonly"
+        "Same song: TSMS300, EHS031 (chorus only)"
       ]
     },
     "130": {
@@ -11966,7 +11970,7 @@
         }
       },
       "notes": [
-        "Same song: TSMS145, EHS089-chorusonly"
+        "Same song: TSMS145, EHS089 (chorus only)"
       ]
     },
     "134": {
@@ -12147,7 +12151,7 @@
         }
       },
       "notes": [
-        "Same song: HP232-1stanzaless"
+        "Same song: HP232 (1 stanza less)"
       ]
     },
     "136": {
@@ -12498,7 +12502,7 @@
         }
       },
       "notes": [
-        "Same song: TSMS135, HP086-1stanzaless"
+        "Same song: TSMS135, HP086 (1 stanza less)"
       ]
     },
     "140": {
@@ -13560,7 +13564,7 @@
         }
       },
       "notes": [
-        "Same song: TSMS072, HP071-1stanzaless"
+        "Same song: TSMS072, HP071 (1 stanza less)"
       ]
     },
     "154": {
@@ -14586,7 +14590,7 @@
       },
       "notes": [
         "Same song: TSMS090",
-        "Same lyrics: EHS069-chorusonly"
+        "Same lyrics: EHS069 (chorus only)"
       ]
     },
     "166": {
@@ -15367,7 +15371,7 @@
         }
       },
       "notes": [
-        "Same lyrics: with chorus: RHC173-2stanzaless, EHS008-3stanzaless, HP158-3stanzaless"
+        "Same lyrics: with chorus: RHC173 (2 stanzas less), EHS008 (3 stanzas less), HP158 (3 stanzas less)"
       ]
     },
     "175": {
@@ -15535,7 +15539,7 @@
       },
       "notes": [
         "Same tune: RHC023, RHC041, RHC082, RHC138",
-        "Same lyrics: HP089-1stanzaless"
+        "Same lyrics: HP089 (1 stanza less)"
       ]
     },
     "177": {
@@ -15783,7 +15787,7 @@
         }
       },
       "notes": [
-        "Same song: TSMS400, EHS037-chorusonly"
+        "Same song: TSMS400, EHS037 (chorus only)"
       ]
     },
     "180": {
@@ -16027,7 +16031,7 @@
         }
       },
       "notes": [
-        "Same song: TSMS121, HP096-1stanzaless"
+        "Same song: TSMS121, HP096 (1 stanza less)"
       ]
     },
     "183": {
@@ -16372,7 +16376,7 @@
         }
       },
       "notes": [
-        "Same song: TSMS124, EHS091-stanza1only, HP095-1stanzaless"
+        "Same song: TSMS124, EHS091-stanza1only, HP095 (1 stanza less)"
       ]
     },
     "187": {
@@ -16716,7 +16720,7 @@
         }
       },
       "notes": [
-        "Same song: EHS036-chorusonly"
+        "Same song: EHS036 (chorus only)"
       ]
     },
     "191": {
@@ -17548,7 +17552,7 @@
         ]
       },
       "notes": [
-        "Same song: TSMS126, HP207-chorusonly"
+        "Same song: TSMS126, HP207 (chorus only)"
       ]
     },
     "210": {
@@ -18175,7 +18179,7 @@
         ]
       },
       "notes": [
-        "Same song: HP119-chorusonly"
+        "Same song: HP119 (chorus only)"
       ]
     },
     "231": {
@@ -18302,7 +18306,7 @@
         ]
       },
       "notes": [
-        "Same song: EHS062-chorusonly"
+        "Same song: EHS062 (chorus only)"
       ]
     },
     "236": {
@@ -18521,7 +18525,7 @@
         ]
       },
       "notes": [
-        "Same song: EHS063-chorusonly, HP123"
+        "Same song: EHS063 (chorus only), HP123"
       ]
     },
     "245": {
@@ -19329,7 +19333,7 @@
         ]
       },
       "notes": [
-        "Same song: TSMS425, EHS059-chorusonly, HP194"
+        "Same song: TSMS425, EHS059 (chorus only), HP194"
       ]
     },
     "270": {
@@ -19404,7 +19408,7 @@
         ]
       },
       "notes": [
-        "Same song: EHS073-chorusonly, HP193"
+        "Same song: EHS073 (chorus only), HP193"
       ]
     },
     "273": {
@@ -19625,7 +19629,7 @@
         ]
       },
       "notes": [
-        "Same song: TSMS440, EHS012-chorusonly, HP157"
+        "Same song: TSMS440, EHS012 (chorus only), HP157"
       ]
     },
     "282": {
@@ -20271,7 +20275,7 @@
         ]
       },
       "notes": [
-        "Same song: EHS005-chorusonly, HP159"
+        "Same song: EHS005 (chorus only), HP159"
       ]
     },
     "303": {
@@ -20398,7 +20402,7 @@
       },
       "notes": [
         "Same song: TSMS023, EHS088, HP140",
-        "Same lyrics: RHC563-2stanzasmore"
+        "Same lyrics: RHC563 (2 stanzas more)"
       ]
     },
     "308": {
@@ -20448,7 +20452,7 @@
         ]
       },
       "notes": [
-        "Same song: TSMS263, HP433-chorusonly"
+        "Same song: TSMS263, HP433 (chorus only)"
       ]
     },
     "310": {
@@ -20525,7 +20529,7 @@
         }
       },
       "notes": [
-        "Same song: EHS100-chorusonly"
+        "Same song: EHS100 (chorus only)"
       ]
     },
     "311": {
@@ -20701,7 +20705,7 @@
         ]
       },
       "notes": [
-        "Same song: EHS004-chorusonly, HP216"
+        "Same song: EHS004 (chorus only), HP216"
       ]
     },
     "318": {
@@ -21180,7 +21184,7 @@
         ]
       },
       "notes": [
-        "Same song: TSMS014, EHS081-chorusonly, HP221"
+        "Same song: TSMS014, EHS081 (chorus only), HP221"
       ]
     },
     "334": {
@@ -21297,7 +21301,7 @@
         }
       },
       "notes": [
-        "Same song: TSMS311, EHS038-chorusonly"
+        "Same song: TSMS311, EHS038 (chorus only)"
       ]
     },
     "336": {
@@ -21552,7 +21556,7 @@
         }
       },
       "notes": [
-        "Same song: EHS003-chorusonly"
+        "Same song: EHS003 (chorus only)"
       ]
     },
     "340": {
@@ -21972,7 +21976,7 @@
         ]
       },
       "notes": [
-        "Same song: TSMS050, EHS001-chorusonly, HP289"
+        "Same song: TSMS050, EHS001 (chorus only), HP289"
       ]
     },
     "354": {
@@ -22622,7 +22626,7 @@
         ]
       },
       "notes": [
-        "Same song: EHS023-chorusonly, HP251"
+        "Same song: EHS023 (chorus only), HP251"
       ]
     },
     "377": {
@@ -23111,7 +23115,7 @@
         }
       },
       "notes": [
-        "Same song: TSMS169, EHS085-1stanzaless"
+        "Same song: TSMS169, EHS085 (1 stanza less)"
       ]
     },
     "394": {
@@ -23385,7 +23389,7 @@
         ]
       },
       "notes": [
-        "Same song: TSMS178, EHS010-chorusonly, HP239"
+        "Same song: TSMS178, EHS010 (chorus only), HP239"
       ]
     },
     "403": {
@@ -23651,7 +23655,7 @@
       },
       "notes": [
         "Same song: HP307",
-        "Same lyrics: RHC411-nochorus-1stanzamore"
+        "Same lyrics: RHC411 (no chorus, 1 stanza more)"
       ]
     },
     "411": {
@@ -23677,7 +23681,7 @@
       },
       "notes": [
         "Same song: HP308",
-        "Same lyrics: RHC410-withchorus-1stanzaless"
+        "Same lyrics: RHC410-withchorus (1 stanza less)"
       ]
     },
     "412": {
@@ -23947,7 +23951,7 @@
         ]
       },
       "notes": [
-        "Same song: TSMS229, EHS024-chorusonly, HP402"
+        "Same song: TSMS229, EHS024 (chorus only), HP402"
       ]
     },
     "423": {
@@ -24045,7 +24049,7 @@
         ]
       },
       "notes": [
-        "Same song: EHS028-chorusonly, HP393",
+        "Same song: EHS028 (chorus only), HP393",
         "Same tune: RHC381"
       ]
     },
@@ -24559,7 +24563,7 @@
         ]
       },
       "notes": [
-        "Same song: EHS103-chorusonly, HP297"
+        "Same song: EHS103 (chorus only), HP297"
       ]
     },
     "442": {
@@ -26725,7 +26729,7 @@
         ]
       },
       "notes": [
-        "Same song: EHS046-chorusonly"
+        "Same song: EHS046 (chorus only)"
       ]
     },
     "526": {
@@ -26869,7 +26873,7 @@
         ]
       },
       "notes": [
-        "Same song: TSMS151, EHS074-chorusonly"
+        "Same song: TSMS151, EHS074 (chorus only)"
       ]
     },
     "532": {
@@ -26967,7 +26971,7 @@
         ]
       },
       "notes": [
-        "Same song: HP412-chorusonly"
+        "Same song: HP412 (chorus only)"
       ]
     },
     "536": {
@@ -27038,7 +27042,7 @@
         ]
       },
       "notes": [
-        "Same song: TSMS465, EHS057-chorusonly"
+        "Same song: TSMS465, EHS057 (chorus only)"
       ]
     },
     "539": {
@@ -27087,7 +27091,7 @@
       },
       "notes": [
         "Same song: HP423",
-        "Same lyrics: RHC019-nochorus"
+        "Same lyrics: RHC019 (no chorus)"
       ]
     },
     "541": {
@@ -27409,7 +27413,7 @@
         ]
       },
       "notes": [
-        "Same song: HP385-chorusonly"
+        "Same song: HP385 (chorus only)"
       ]
     },
     "554": {
@@ -27557,7 +27561,7 @@
         ]
       },
       "notes": [
-        "Same song: TSMS209, EHS034-chorusonly, HP281"
+        "Same song: TSMS209, EHS034 (chorus only), HP281"
       ]
     },
     "560": {
