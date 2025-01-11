@@ -582,7 +582,7 @@
         }
       },
       "notes": [
-        "Same song: HP001-1stanzadiff",
+        "Same song: HP001 (1 stanza different)",
         "Same tune: RHC060"
       ]
     },
@@ -728,7 +728,7 @@
       },
       "notes": [
         "Same song: HP007 (1 stanza less)",
-        "Same lyrics: RHC004-slightdiff"
+        "Same lyrics: RHC004 (slightly different)"
       ]
     },
     "4": {
@@ -2465,7 +2465,7 @@
         }
       },
       "notes": [
-        "Same lyrics: RHC226-original"
+        "Same lyrics: RHC226 (original)"
       ]
     },
     "26": {
@@ -4868,7 +4868,7 @@
       },
       "notes": [
         "Same tune: RHC445",
-        "Same lyrics: RHC053-diffend, HP053 (1 stanza less)"
+        "Same lyrics: RHC053, HP053 (1 stanza less)"
       ]
     },
     "53": {
@@ -4962,7 +4962,7 @@
       },
       "notes": [
         "Same song: HP053 (1 stanza less)",
-        "Same lyrics: RHC052-diffend"
+        "Same lyrics: RHC052"
       ]
     },
     "54": {
@@ -5649,7 +5649,7 @@
         }
       },
       "notes": [
-        "Same song: HP030-4stanzasonly"
+        "Same song: HP030 (4 stanzas only)"
       ]
     },
     "62": {
@@ -6057,7 +6057,7 @@
         }
       },
       "notes": [
-        "Same song: HP044-3stanzasonly"
+        "Same song: HP044 (3 stanzas only)"
       ]
     },
     "67": {
@@ -6389,7 +6389,7 @@
         }
       },
       "notes": [
-        "Same song: HP051-1stanzadiff"
+        "Same song: HP051 (1 stanza different)"
       ]
     },
     "71": {
@@ -6640,7 +6640,7 @@
       },
       "notes": [
         "Same song: HP038",
-        "Same lyrics: HP039-shortenedlyrics"
+        "Same lyrics: HP039 (shortened lyrics)"
       ]
     },
     "74": {
@@ -11565,7 +11565,7 @@
       },
       "notes": [
         "Same song: TSMS370",
-        "Same lyrics: RHC341 to RHC345"
+        "Same lyrics: RHC341-RHC345"
       ]
     },
     "129": {
@@ -13355,7 +13355,8 @@
     },
     "151": {
       "title": {
-        "en": "O Come, O Come, Emmanuel"
+        "en": "O Come, O Come, Emmanuel",
+        "cn": "来阿，来阿，以马内利"
       },
       "music": {
         "composers": [
@@ -13455,7 +13456,8 @@
     },
     "152": {
       "title": {
-        "en": "Joy to the World!"
+        "en": "Joy to the World!",
+        "cn": "普世欢腾救主下降"
       },
       "music": {
         "composers": [
@@ -13548,7 +13550,8 @@
     },
     "153": {
       "title": {
-        "en": "Angels We Have Heard on High"
+        "en": "Angels We Have Heard on High",
+        "cn": "天使歌唱在高天"
       },
       "music": {
         "composers": [
@@ -13633,7 +13636,8 @@
     },
     "154": {
       "title": {
-        "en": "It Came Upon the Midnight Clear"
+        "en": "It Came Upon the Midnight Clear",
+        "cn": "缅想当年时方夜半"
       },
       "music": {
         "composers": [
@@ -13710,7 +13714,8 @@
     },
     "155": {
       "title": {
-        "en": "The First Noel"
+        "en": "The First Noel",
+        "cn": "天使初报圣诞佳音"
       },
       "music": {
         "composers": [
@@ -13814,12 +13819,13 @@
         }
       },
       "notes": [
-        "Same song: TSMS092, HP082-4stanzasonly"
+        "Same song: TSMS092, HP082 (4 stanzas only)"
       ]
     },
     "156": {
       "title": {
-        "en": "Good Christian Men, Rejoice"
+        "en": "Good Christian Men, Rejoice",
+        "cn": "好基督徒，欢喜"
       },
       "music": {
         "composers": [
@@ -13887,7 +13893,8 @@
     },
     "157": {
       "title": {
-        "en": "Hark! the Herald Angels Sing"
+        "en": "Hark! the Herald Angels Sing",
+        "cn": "听阿天使高声唱"
       },
       "music": {
         "composers": [
@@ -13972,7 +13979,8 @@
     },
     "158": {
       "title": {
-        "en": "What Child Is This?"
+        "en": "What Child Is This?",
+        "cn": "是何婴孩"
       },
       "music": {
         "composers": [
@@ -14049,7 +14057,8 @@
     },
     "159": {
       "title": {
-        "en": "While Shepherds Watched Their Flocks"
+        "en": "While Shepherds Watched Their Flocks",
+        "cn": "牧人闻信"
       },
       "music": {
         "composers": [
@@ -14148,7 +14157,8 @@
     },
     "160": {
       "title": {
-        "en": "As with Gladness Men of Old"
+        "en": "As with Gladness Men of Old",
+        "cn": "古人喜乐"
       },
       "music": {
         "composers": [
@@ -14218,7 +14228,8 @@
     },
     "161": {
       "title": {
-        "en": "There's a Song in the Air!"
+        "en": "There's a Song in the Air!",
+        "cn": "空中天使歌唱！"
       },
       "music": {
         "composers": [
@@ -14295,7 +14306,8 @@
     },
     "162": {
       "title": {
-        "en": "I Heard the Bells on Christmas Day"
+        "en": "I Heard the Bells on Christmas Day",
+        "cn": "圣诞钟声"
       },
       "music": {
         "composers": [
@@ -14384,7 +14396,8 @@
     },
     "163": {
       "title": {
-        "en": "Angels, from the Realms of Glory"
+        "en": "Angels, from the Realms of Glory",
+        "cn": "荣耀天军"
       },
       "music": {
         "composers": [
@@ -14469,7 +14482,8 @@
     },
     "164": {
       "title": {
-        "en": "O Come, All Ye Faithful"
+        "en": "O Come, All Ye Faithful",
+        "cn": "齐来宗主信徒"
       },
       "music": {
         "composers": [
@@ -14538,7 +14552,8 @@
     },
     "165": {
       "title": {
-        "en": "Thou Didst Leave Thy Throne"
+        "en": "Thou Didst Leave Thy Throne",
+        "cn": "袮曾离宝座"
       },
       "music": {
         "composers": [
@@ -14659,7 +14674,8 @@
     },
     "166": {
       "title": {
-        "en": "Christians, Awake, Salute the Happy Morn"
+        "en": "Christians, Awake, Salute the Happy Morn",
+        "cn": "基督徒，醒，向那喜晨敬礼"
       },
       "music": {
         "composers": [
@@ -14737,7 +14753,8 @@
     },
     "167": {
       "title": {
-        "en": "Hark! What Joyful Notes are Swelling"
+        "en": "Hark! What Joyful Notes are Swelling",
+        "cn": ""
       },
       "music": {
         "composers": [
@@ -14787,7 +14804,8 @@
     },
     "168": {
       "title": {
-        "en": "Who is He in Yonder Stall?"
+        "en": "Who is He in Yonder Stall?",
+        "cn": "马槽里的人是谁"
       },
       "music": {
         "composers": [
@@ -14877,7 +14895,8 @@
     },
     "169": {
       "title": {
-        "en": "Brightest and Best of the Sons of the Morning"
+        "en": "Brightest and Best of the Sons of the Morning",
+        "cn": "最光明最佳丽的晨星众子"
       },
       "music": {
         "composers": [
@@ -14967,7 +14986,8 @@
     },
     "170": {
       "title": {
-        "en": "Mary's Boy-Child"
+        "en": "Mary's Boy-Child",
+        "cn": "马利亚生圣婴"
       },
       "music": {
         "composers": [
@@ -15081,7 +15101,8 @@
     },
     "171": {
       "title": {
-        "en": "O Little Town of Bethlehem"
+        "en": "O Little Town of Bethlehem",
+        "cn": "美哉小城，小伯利恒"
       },
       "music": {
         "composers": [
@@ -15159,7 +15180,8 @@
     },
     "172": {
       "title": {
-        "en": "O Little Town of Bethlehem"
+        "en": "O Little Town of Bethlehem",
+        "cn": "美哉小城，小伯利恒"
       },
       "music": {
         "composers": [
@@ -16874,7 +16896,7 @@
         }
       },
       "notes": [
-        "Same song: EHS043-edited, HP103"
+        "Same song: EHS043 (edited), HP103"
       ]
     },
     "192": {
@@ -17266,7 +17288,7 @@
         ]
       },
       "notes": [
-        "Same song: RHC033-diffarrangement, HP088"
+        "Same song: RHC033 (different arrangement), HP088"
       ]
     },
     "198": {
@@ -17591,7 +17613,7 @@
       },
       "notes": [
         "Same tune: RHC440",
-        "Same lyrics: HP112-verse1only"
+        "Same lyrics: HP112 (stanza 1 only)"
       ]
     },
     "209": {
@@ -18144,7 +18166,7 @@
         ]
       },
       "notes": [
-        "Same lyrics: RHC025-adapted"
+        "Same lyrics: RHC025 (adapted)"
       ]
     },
     "227": {
@@ -20669,7 +20691,7 @@
         ]
       },
       "notes": [
-        "Same song: EHS044-edited, HP386"
+        "Same song: EHS044 (edited), HP386"
       ]
     },
     "314": {
@@ -22989,8 +23011,8 @@
         ]
       },
       "notes": [
-        "Same song: HP242-verse1only",
-        "Same tune: RHC063, RHC472, different tune from RHC064"
+        "Same song: HP242 (stanza 1 only)",
+        "Same tune: RHC063, RHC472, RHC064 (different tune though same tune name)"
       ]
     },
     "389": {
@@ -23065,7 +23087,7 @@
         ]
       },
       "notes": [
-        "Same song: EHS021-edited, HP266"
+        "Same song: EHS021 (edited), HP266"
       ]
     },
     "392": {
@@ -23745,7 +23767,7 @@
       },
       "notes": [
         "Same song: HP308",
-        "Same lyrics: RHC410-withchorus (1 stanza less)"
+        "Same lyrics: RHC410 (with chorus, 1 stanza less)"
       ]
     },
     "412": {
@@ -24065,7 +24087,7 @@
         ]
       },
       "notes": [
-        "Same song: EHS027-edited, HP401"
+        "Same song: EHS027 (edited), HP401"
       ]
     },
     "425": {
@@ -24139,7 +24161,7 @@
         ]
       },
       "notes": [
-        "Same lyrics: same title only: RHC426, EHS028"
+        "Same title: RHC426, EHS028"
       ]
     },
     "428": {
@@ -24678,7 +24700,7 @@
         ]
       },
       "notes": [
-        "Same lyrics: RHC442-rearranged, HP298-rearranged"
+        "Same lyrics: RHC442 (rearranged), HP298 (rearranged)"
       ]
     },
     "444": {
@@ -25920,7 +25942,7 @@
       },
       "notes": [
         "Same song: TSMS274",
-        "Same lyrics: RHC094-sametitleonly"
+        "Same title: RHC094"
       ]
     },
     "490": {
