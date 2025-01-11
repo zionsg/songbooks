@@ -14754,7 +14754,7 @@
     "167": {
       "title": {
         "en": "Hark! What Joyful Notes are Swelling",
-        "cn": ""
+        "cn": "听！欢呼之音符隆起"
       },
       "music": {
         "composers": [
@@ -15354,7 +15354,8 @@
     },
     "173": {
       "title": {
-        "en": "There Is a Fountain"
+        "en": "There Is a Fountain",
+        "cn": "今有一处流血之泉"
       },
       "music": {
         "composers": [
@@ -15439,12 +15440,13 @@
       },
       "notes": [
         "Same song: EHS008 (1 stanza less), HP158 (1 stanza less)",
-        "Same lyrics: RHC174 (2 stanzas more, no chorus)"
+        "Same lyrics: RHC174 (no chorus, 2 stanzas more)"
       ]
     },
     "174": {
       "title": {
-        "en": "There Is A Fountain Filled With Blood"
+        "en": "There Is A Fountain Filled With Blood",
+        "cn": "今有一处流血之泉"
       },
       "music": {
         "composers": [
@@ -15552,12 +15554,13 @@
         }
       },
       "notes": [
-        "Same lyrics: with chorus: RHC173 (2 stanzas less), EHS008 (3 stanzas less), HP158 (3 stanzas less)"
+        "Same lyrics (with chorus): RHC173 (2 stanzas less), EHS008 (3 stanzas less), HP158 (3 stanzas less)"
       ]
     },
     "175": {
       "title": {
-        "en": "For All My Sin"
+        "en": "For All My Sin",
+        "cn": "为我全罪"
       },
       "music": {
         "composers": [
@@ -15635,7 +15638,8 @@
     },
     "176": {
       "title": {
-        "en": "Ride On, Ride On In Majesty"
+        "en": "Ride On, Ride On In Majesty",
+        "cn": "骑驴进行"
       },
       "music": {
         "composers": [
@@ -15725,7 +15729,8 @@
     },
     "177": {
       "title": {
-        "en": "Calvary"
+        "en": "Calvary",
+        "cn": "加略山"
       },
       "music": {
         "composers": [
@@ -15803,7 +15808,8 @@
     },
     "178": {
       "title": {
-        "en": "At the Cross"
+        "en": "At the Cross",
+        "cn": "可叹我主圣体血流"
       },
       "music": {
         "composers": [
@@ -15893,7 +15899,8 @@
     },
     "179": {
       "title": {
-        "en": "The Way of the Cross Leads Home"
+        "en": "The Way of the Cross Leads Home",
+        "cn": "十架路领导回家"
       },
       "music": {
         "composers": [
@@ -15973,7 +15980,8 @@
     },
     "180": {
       "title": {
-        "en": "Nailed to the Cross"
+        "en": "Nailed to the Cross",
+        "cn": "被钉十架"
       },
       "music": {
         "composers": [
@@ -16051,7 +16059,8 @@
     },
     "181": {
       "title": {
-        "en": "In the Cross of Christ I Glory"
+        "en": "In the Cross of Christ I Glory",
+        "cn": "基督宝架我所夸耀"
       },
       "music": {
         "composers": [
@@ -16123,12 +16132,14 @@
         }
       },
       "notes": [
+        "Different Chinese translation chosen over HP102",
         "Same song: HP102"
       ]
     },
     "182": {
       "title": {
-        "en": "Lead Me to Calvary"
+        "en": "Lead Me to Calvary",
+        "cn": "同来加冕生命之王"
       },
       "music": {
         "composers": [
@@ -16217,7 +16228,8 @@
     },
     "183": {
       "title": {
-        "en": "Jesus Paid It All"
+        "en": "Jesus Paid It All",
+        "cn": "我听救主说道"
       },
       "music": {
         "composers": [
@@ -16307,7 +16319,8 @@
     },
     "184": {
       "title": {
-        "en": "Rock of Ages"
+        "en": "Rock of Ages",
+        "cn": "万古磐石"
       },
       "music": {
         "composers": [
@@ -16379,12 +16392,14 @@
         }
       },
       "notes": [
+        "Different Chinese translation chosen over HP091",
         "Same song: HP091"
       ]
     },
     "185": {
       "title": {
-        "en": "Hallelujah! What a Savior!"
+        "en": "Hallelujah! What a Savior!",
+        "cn": "哈利路亚，奇妙救主！"
       },
       "music": {
         "composers": [
@@ -16473,7 +16488,8 @@
     },
     "186": {
       "title": {
-        "en": "Wounded for Me"
+        "en": "Wounded for Me",
+        "cn": "为我受伤"
       },
       "music": {
         "composers": [
@@ -16562,7 +16578,8 @@
     },
     "187": {
       "title": {
-        "en": "It Is A Thing Most Wonderful"
+        "en": "It Is A Thing Most Wonderful",
+        "cn": "这是件最奇妙的事"
       },
       "music": {
         "composers": [
@@ -16676,7 +16693,8 @@
     },
     "188": {
       "title": {
-        "en": "O Sacred Head, Now Wounded"
+        "en": "O Sacred Head, Now Wounded",
+        "cn": "受难歌"
       },
       "music": {
         "composers": [
@@ -16692,7 +16710,11 @@
       },
       "lyrics": {
         "authors": [
-          "Bernard of Clairvaux, trans. into German by Paul Gerhardt, trans. from German by James W. Alexander"
+          "Bernard of Clairvaux"
+        ],
+        "translators": [
+            "Paul Gerhardt (into German)",
+            "James W. Alexander (from German)"
         ],
         "en": {
           "1": [
@@ -16741,7 +16763,8 @@
     },
     "189": {
       "title": {
-        "en": "I Know a Fount"
+        "en": "I Know a Fount",
+        "cn": "我知个泉"
       },
       "music": {
         "composers": [
@@ -16826,7 +16849,8 @@
     },
     "190": {
       "title": {
-        "en": "Alone"
+        "en": "Alone",
+        "cn": "独自孤单"
       },
       "music": {
         "composers": [
@@ -17164,7 +17188,8 @@
     },
     "194": {
       "title": {
-        "en": "Alas! and Did My Saviour Bleed?"
+        "en": "Alas! and Did My Saviour Bleed?",
+        "cn": "痛哉！主血倾流"
       },
       "music": {
         "composers": [
@@ -17242,7 +17267,8 @@
     },
     "195": {
       "title": {
-        "en": "O Love Divine!"
+        "en": "O Love Divine!",
+        "cn": "神圣至爱！"
       },
       "music": {
         "composers": [
