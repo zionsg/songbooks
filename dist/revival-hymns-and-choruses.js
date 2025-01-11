@@ -8148,7 +8148,8 @@
     },
     "91": {
       "title": {
-        "en": "The Lily of the Valley"
+        "en": "The Lily of the Valley",
+        "cn": "谷中百合花"
       },
       "music": {
         "composers": [
@@ -8233,7 +8234,8 @@
     },
     "92": {
       "title": {
-        "en": "He Ransomed Me"
+        "en": "He Ransomed Me",
+        "cn": "祂救赎我"
       },
       "music": {
         "composers": [
@@ -8327,7 +8329,8 @@
     },
     "93": {
       "title": {
-        "en": "To God Be the Glory"
+        "en": "To God Be the Glory",
+        "cn": "荣耀归於真神"
       },
       "music": {
         "composers": [
@@ -8404,7 +8407,8 @@
     },
     "94": {
       "title": {
-        "en": "Wonderful, Wonderful Jesus!"
+        "en": "Wonderful, Wonderful Jesus!",
+        "cn": "奇妙，奇妙的耶稣"
       },
       "music": {
         "composers": [
@@ -8488,13 +8492,13 @@
         }
       },
       "notes": [
-        "Same song: HP341",
-        "Same lyrics: RHC489-sametitleonly"
+        "Same song: HP341"
       ]
     },
     "95": {
       "title": {
-        "en": "My Savior's Love"
+        "en": "My Savior's Love",
+        "cn": "我希奇耶稣的恩爱"
       },
       "music": {
         "composers": [
@@ -8595,7 +8599,8 @@
     },
     "96": {
       "title": {
-        "en": "He Keeps Me Singing"
+        "en": "He Keeps Me Singing",
+        "cn": "不住的歌唱"
       },
       "music": {
         "composers": [
@@ -8696,7 +8701,8 @@
     },
     "97": {
       "title": {
-        "en": "What a Wonderful Savior!"
+        "en": "What a Wonderful Savior!",
+        "cn": "奇妙的救主"
       },
       "music": {
         "composers": [
@@ -8793,7 +8799,8 @@
     },
     "98": {
       "title": {
-        "en": "In My Heart There Rings a Melody"
+        "en": "In My Heart There Rings a Melody",
+        "cn": "主耶稣赐我一首诗歌"
       },
       "music": {
         "composers": [
@@ -8870,7 +8877,8 @@
     },
     "99": {
       "title": {
-        "en": "He Is So Precious to Me"
+        "en": "He Is So Precious to Me",
+        "cn": "耶稣基督宝贵非常"
       },
       "music": {
         "composers": [
@@ -8959,7 +8967,8 @@
     },
     "100": {
       "title": {
-        "en": "He Lifted Me"
+        "en": "He Lifted Me",
+        "cn": "祂拯救我"
       },
       "music": {
         "composers": [
@@ -9048,7 +9057,8 @@
     },
     "101": {
       "title": {
-        "en": "Leaning on the Everlasting Arms"
+        "en": "Leaning on the Everlasting Arms",
+        "cn": "何等大快乐"
       },
       "music": {
         "composers": [
@@ -9125,11 +9135,15 @@
     },
     "102": {
       "title": {
-        "en": "O It Is Wonderful!"
+        "en": "O It Is Wonderful!",
+        "cn": "何等奇妙救主"
       },
       "music": {
         "composers": [
-          "Charles H. Gabriel, arr. by Don Peterman"
+          "Charles H. Gabriel"
+        ],
+        "arrangers": [
+          "Don Peterman"
         ],
         "tune": "",
         "keySignature": [
@@ -9203,7 +9217,8 @@
     },
     "103": {
       "title": {
-        "en": "Sunshine in My Soul"
+        "en": "Sunshine in My Soul",
+        "cn": "今有日光照在我心"
       },
       "music": {
         "composers": [
@@ -9292,7 +9307,8 @@
     },
     "104": {
       "title": {
-        "en": "All That Thrills My Soul"
+        "en": "All That Thrills My Soul",
+        "cn": "惟主使我心灵兴奋"
       },
       "music": {
         "composers": [
@@ -9393,7 +9409,8 @@
     },
     "105": {
       "title": {
-        "en": "I Will Praise Him!"
+        "en": "I Will Praise Him!",
+        "cn": "我会赞祂"
       },
       "music": {
         "composers": [
@@ -9495,7 +9512,8 @@
     },
     "106": {
       "title": {
-        "en": "Christ Liveth In Me"
+        "en": "Christ Liveth In Me",
+        "cn": "主活在我心"
       },
       "music": {
         "composers": [
@@ -9584,7 +9602,8 @@
     },
     "107": {
       "title": {
-        "en": "I Will Sing the Wondrous Story"
+        "en": "I Will Sing the Wondrous Story",
+        "cn": "我要唱奇妙故事"
       },
       "music": {
         "composers": [
@@ -9686,7 +9705,8 @@
     },
     "108": {
       "title": {
-        "en": "I've Found a Friend"
+        "en": "I've Found a Friend",
+        "cn": "我得一友"
       },
       "music": {
         "composers": [
@@ -9763,7 +9783,8 @@
     },
     "109": {
       "title": {
-        "en": "Jesus Is All the World to Me"
+        "en": "Jesus Is All the World to Me",
+        "cn": "耶稣是全世界於我"
       },
       "music": {
         "composers": [
@@ -9840,7 +9861,8 @@
     },
     "110": {
       "title": {
-        "en": "Heaven Came Down and Glory Filled My Soul"
+        "en": "Heaven Came Down and Glory Filled My Soul",
+        "cn": "天上荣耀充满我的心灵"
       },
       "music": {
         "composers": [
