@@ -158,7 +158,8 @@
                         if (utils.isChorus(stanzaJsonKey)) {
                             stanzaHeading = '<span data-lang="en">'
                                 + utils.capitalizeFirstLetter(stanzaJsonKey) + '</span>'
-                                + '<span data-lang="cn">副歌</span>'
+                                + '<span data-lang="cn">'
+                                + (stanzaJsonKey.includes('grand') ? '总' : '') + '副歌</span>'
                                 + lastStanzaText;
                         } else {
                             stanzaHeading = '<span data-lang="en">Stanza</span>'
