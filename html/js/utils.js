@@ -401,12 +401,19 @@ const utils = (function () {
             js: utils.getQueryParam('js', ''),
             lang: utils.getQueryParam('lang', self.LANG_EN),
             song: utils.getQueryParam('song', ''),
+            useCurrentTimestamp: (1 === parseInt(utils.getQueryParam('t', '0'))),
         };
         if (params.book) {
+            // Append current timestamp for cache busting
+            let currTimestamp = (new Date()).toISOString();
+            let version = params.useCurrentTimestamp
+                ? `?ver=${currTimestamp}`
+                : '?ver=' + currTimestamp.substring(0, 13) + ':00'; // nearest hour
+
             // Paths are relative to the webpage that embeds utils.js
-            params.data = utils.getAbsoluteUrl('../dist/' + params.book + '.js');
-            params.css = utils.getAbsoluteUrl('../assets/hymns.css');
-            params.js = utils.getAbsoluteUrl('../assets/hymns.js');
+            params.data = utils.getAbsoluteUrl('../dist/' + params.book + '.js' + version);
+            params.css = utils.getAbsoluteUrl('../assets/hymns.css' + version);
+            params.js = utils.getAbsoluteUrl('../assets/hymns.js' + version);
         }
 
         // Add event listener to receive contents of songbook before loading songbook file
