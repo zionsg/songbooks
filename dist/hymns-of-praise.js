@@ -1574,6 +1574,84 @@
         "Same song: RHC192"
       ]
     },
+    "98": {
+      "title": {
+        "en": "Blessed Redeemer",
+        "cn": "恩爱救赎主"
+      },
+      "music": {
+        "composers": [
+          "Harry Dixon Loes"
+        ],
+        "tune": "",
+        "keySignature": [
+          "D"
+        ],
+        "timeSignature": [
+          "9/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Avis B. Christiansen"
+        ],
+        "en": {
+          "1": [
+            "Up Calv'ry's mountain, one dreadful morn,",
+            "Walked Christ my Savior, weary and worn;",
+            "Facing for sinners death on the cross,",
+            "That He might save them from endless loss."
+          ],
+          "2": [
+            "\"Father, forgive them!\" thus did He pray,",
+            "E'en while His life blood flowed fast away;",
+            "Praying for sinners while in such woe -",
+            "No one but Jesus ever loved so."
+          ],
+          "3": [
+            "O how I love Him, Savior and Friend!",
+            "How can my praises ever find end!",
+            "Through years unnumbered on heaven's shore,",
+            "My tongue shall praise Him forevermore."
+          ],
+          "chorus": [
+            "Blessed Redeemer, precious Redeemer!",
+            "Seems now I see Him on Calvary's tree,",
+            "Wounded and bleeding, for sinners pleading -",
+            "Blind and unheeding - dying for me!"
+          ]
+        },
+        "cn": {
+          "1": [
+            "各各他山上，惨恻之晨，",
+            "主憔悴独行，疲倦苦辛；",
+            "为救赎罪人，十架牺牲，",
+            "免人永迷失，大施恩拯。"
+          ],
+          "2": [
+            "父啊赦彼罪，主声祷求，",
+            "纵使血倾流，不忘拯救；",
+            "恳切求父神，赦众罪过，",
+            "惟主有妙爱，为我救我。"
+          ],
+          "3": [
+            "我真深爱主，祂是良朋，",
+            "衷心满感激，发为颂声；",
+            "年年復岁岁，颂主恩典，",
+            "口舌常赞美，直到永远。"
+          ],
+          "chorus": [
+            "恩爱救赎主！尊贵救赎主！",
+            "恍见祢圣身，悬挂十字架，",
+            "枪伤宝血流，仍为罪人求，",
+            "不顾诸烦忧，作我赎价。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC196"
+      ]
+    },
     "103": {
       "title": {
         "en": "Ivory Palaces",
