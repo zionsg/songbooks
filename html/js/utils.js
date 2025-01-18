@@ -391,6 +391,9 @@ const utils = (function () {
      *         elements are rendered. Must be an absolute url and not a relative path.
      *     @property {lang} lang - Language for lyrics, e.g. "en", "cn".
      *     @property {string} song - JSON key for song in songbook to use, e.g. "31", "Doxology".
+     *     @property {boolean} useCurrentTimestamp - Whether to use current timestamp to millisecond
+     *         precision instead of to the nearest hour when appending `version` query param to
+     *         URLs for book/CSS/JS. The actual query param is `t`, using 0 for false, 1 for true.
      * @returns {void}
      */
     self.loadSongBook = function (callback) {
