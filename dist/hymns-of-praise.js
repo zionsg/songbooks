@@ -1327,6 +1327,99 @@
         "Same song: RHC141"
       ]
     },
+    "88": {
+      "title": {
+        "en": "All Glory, Laud and Honor",
+        "cn": "无量赞美和荣光"
+      },
+      "music": {
+        "composers": [
+          "Melchior Teschner"
+        ],
+        "tune": "ST. THEODULPH",
+        "keySignature": [
+          "Bb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Theodulph of Orleans"
+        ],
+        "translators": [
+          "John M. Neale"
+        ],
+        "en": {
+          "1": [
+            "All glory, laud and honor",
+            "To Thee, Redeemer, King,",
+            "To whom the lips of children",
+            "Made sweet hosannas ring:",
+            "Thou art the King of Israel,",
+            "Thou David's royal Son,",
+            "Who in the Lord's name comest,",
+            "The King and blessed One!"
+          ],
+          "2": [
+            "The company of angels",
+            "Are praising Thee on high,",
+            "And mortal men and all things",
+            "Created make reply:",
+            "The people of the Hebrews",
+            "With palms before Thee went;",
+            "Our praise and prayer and anthems",
+            "Before Thee we present."
+          ],
+          "3": [
+            "To Thee, before Thy passion,",
+            "They sang their hymns of praise;",
+            "To Thee, now high exalted,",
+            "Our melody we raise:",
+            "Thou didst accept their praises -",
+            "Accept the praise we bring,",
+            "Who in all good delightest,",
+            "Thou good and gracious King!"
+          ]
+        },
+        "cn": {
+          "1": [
+            "无量赞美和荣光，",
+            "全归救世君王；",
+            "高高在上和散那！",
+            "当年孩童歌唱。",
+            "以色列民之大君，",
+            "大卫王室子孙，",
+            "奉父圣明来世界，",
+            "当受万民颂尊。"
+          ],
+          "2": [
+            "天使天军无量数，",
+            "在天颂赞主名；",
+            "受造万物与万民，",
+            "在地高歌相应。",
+            "彼时选民迎救主，",
+            "欢然挥动棕枝，",
+            "如今我众同奉献，",
+            "颂赞，祈祷，歌诗。"
+          ],
+          "3": [
+            "主未受难舍生时，",
+            "他们向主歌颂；",
+            "如今在主升天后，",
+            "我们同献心声。",
+            "施恩之主最善良，",
+            "曾受选民称赞，",
+            "恳求如今也接受",
+            "我等祈祷颂扬。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC197, RHC033 (different arrangement, 2 stanzas more)"
+      ]
+    },
     "93": {
       "title": {
         "en": "'Tis Midnight - and on Olive's Brow",

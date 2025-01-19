@@ -10,7 +10,7 @@
 
     /** @type {string[]} List of songs in Hymns of Praise with MIDI files. */
     let hpMidi = [
-        5, 11, 21, 31, 33, 46, 85, 87, 93, 94, 97, 98,
+        5, 11, 21, 31, 33, 46, 85, 87, 88, 93, 94, 97, 98,
         146, 149, 152, 178,
         210,
     ].map((val) => '' + val);
