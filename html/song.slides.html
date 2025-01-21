@@ -225,6 +225,7 @@
                         // Add links beside Reveal.js controls as keyboard shortcuts are not available on mobile devices
                         let shortcuts = document.createElement('div');
                         shortcuts.classList.add('shortcuts');
+                        shortcuts.classList.add('d-none'); // hide by default
 
                         let links = []; // no link to blank slide as simulating keydown event for "b" doesn't work
                         langKeys.forEach((lang) => {
@@ -237,11 +238,17 @@
                         document.body.append(shortcuts);
 
                         // Add click listeners after links are added to DOM
-                        document.querySelectorAll('.shortcuts a[data-key]').forEach((link) => {
+                        let shortcutsContainer = document.querySelector('.shortcuts');
+                        shortcutsContainer.querySelectorAll('a[data-key]').forEach((link) => {
                             link.addEventListener('click', (event) => {
                                 event.preventDefault();
                                 utils.pressKey(link.getAttribute('data-key'));
                             });
+                        });
+
+                        Reveal.on('slidechanged', (event) => {
+                            // Hide shortcuts on 1st slide and show for other slides
+                            shortcutsContainer.classList.toggle('d-none', 0 === event.indexh);
                         });
                     });
                 });
