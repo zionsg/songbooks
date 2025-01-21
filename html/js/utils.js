@@ -558,15 +558,15 @@ const utils = (function () {
             case 'chorus': {
                 return '副歌';
             }
-
             case 'grand chorus': {
                 return '总副歌';
             }
-
+            case 'last': {
+                return '终';
+            }
             case 'stanza': {
                 return '诗节'; // see https://baike.baidu.com/item/%E8%AF%97%E8%8A%82/11026733
             }
-
             default: {
                 return term;
             }

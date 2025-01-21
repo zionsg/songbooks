@@ -151,7 +151,8 @@
                         if (stanzaJsonKey === (stanzaOrder.lastStanzaKey || '')) {
                             // this will persist to chorus after last stanza, if any
                             lastStanzaText = ' <span data-lang="en">(Last)</span>'
-                                + '<span data-lang="cn">（终）</span>';
+                                + '<span data-lang="cn">（' + utils.translate('last', utils.LANG_CN)
+                                + '）</span>';
                         }
 
                         let stanzaHeading = '';
@@ -159,11 +160,12 @@
                             stanzaHeading = '<span data-lang="en">'
                                 + utils.capitalizeFirstLetter(stanzaJsonKey) + '</span>'
                                 + '<span data-lang="cn">'
-                                + (stanzaJsonKey.includes('grand') ? '总' : '') + '副歌</span>'
+                                + utils.translate(stanzaJsonKey, utils.LANG_CN) + '</span>'
                                 + lastStanzaText;
                         } else {
                             stanzaHeading = '<span data-lang="en">Stanza</span>'
-                                + '<span data-lang="cn">节段</span> '
+                                + '<span data-lang="cn">'
+                                + utils.translate('stanza', utils.LANG_CN) + '</span> '
                                 + stanzaJsonKey + lastStanzaText;
                         }
 
