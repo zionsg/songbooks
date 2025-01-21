@@ -17,7 +17,6 @@ const utils = (function () {
         COMMENTS: '//',
         LANG_EN: 'en',
         LANG_CN: 'cn',
-        LANGUAGES: ['en', 'cn'],
     };
 
     /**
@@ -80,7 +79,7 @@ const utils = (function () {
         titles = titles || {};
 
         let result = titles[utils.LANG_EN] || jsonKey || '';
-        utils.LANGUAGES.forEach(function (lang) {
+        Object.keys(titles).forEach(function (lang) {
             if (self.LANG_EN === lang) {
                 return;
             }
@@ -131,7 +130,7 @@ const utils = (function () {
         titles = titles || {};
 
         let result = titles[utils.LANG_EN] || jsonKey || '';
-        utils.LANGUAGES.forEach(function (lang) {
+        Object.keys(titles).forEach(function (lang) {
             if (self.LANG_EN === lang || lang !== language) {
                 return;
             }
