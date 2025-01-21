@@ -123,7 +123,7 @@ const utils = (function () {
      * @public
      * @param {object} titles - Value for "titles" key in section/song, e.g. { "en":"A", "cn":"甲" }.
      * @param {string} jsonKey - JSON key for section/song. This is used for the English title if latter not set.
-     * @param {string} language
+     * @param {string} language - Language as per self.LANG_* constants.
      * @returns {string} Defaults to English title if language-specific title does not exist.
      */
     self.getLanguageTitle = function (titles, jsonKey, language) {
@@ -388,7 +388,7 @@ const utils = (function () {
      *         songbook. Must be an absolute url and not a relative path.
      *     @property {string} js - Path to additional JavaScript file to load, after dynamic
      *         elements are rendered. Must be an absolute url and not a relative path.
-     *     @property {lang} lang - Language for lyrics, e.g. "en", "cn".
+     *     @property {lang} lang - Language for lyrics as per self.LANG_* constants.
      *     @property {string} song - JSON key for song in songbook to use, e.g. "31", "Doxology".
      *     @property {boolean} useCurrentTimestamp - Whether to use current timestamp to millisecond
      *         precision instead of to the nearest hour when appending `version` query param to
@@ -539,6 +539,38 @@ const utils = (function () {
      */
     self.slugify = function (string) {
         return (string || '').toString().toLowerCase().replace(/ /g, '-').replace(/[^a-z0-9\-]/g, '');
+    };
+
+    /**
+     * Translate a string
+     *
+     * @public
+     * @param {string} term - Term to be translated, typically in English.
+     * @param {string} language - Language to translate term to, as per self.LANG_* constants.
+     * @returns {string} Term will be returned with 1st letter capitalized if language is in English.
+     */
+    self.translate = function (term, language) {
+        if (!term || language !== self.LANG_CN) {
+            return self.capitalizeFirstLetter(term);
+        }
+
+        switch ((term || '').toString().toLowerCase()) {
+            case 'chorus': {
+                return '副歌';
+            }
+
+            case 'grand chorus': {
+                return '总副歌';
+            }
+
+            case 'stanza': {
+                return '诗节'; // see https://baike.baidu.com/item/%E8%AF%97%E8%8A%82/11026733
+            }
+
+            default: {
+                return term;
+            }
+        }
     };
 
     /**

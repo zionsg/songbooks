@@ -80,11 +80,17 @@
                         let stanzaJsonKey = entry[0];
                         let stanza = entry[1];
 
+                        let heading = '';
+                        if (utils.isChorus(stanzaJsonKey)) {
+                            heading = utils.translate(stanzaJsonKey, lang);
+                        } else {
+                            heading = utils.translate('stanza', lang)
+                                + ' ' + stanzaJsonKey;
+                        }
+
                         lyricsHtml += utils.sprintf(
                             '<div><i>%s</i></div>' + "\n" + '<div>%s</div>' + "\n<br>",
-                            utils.isChorus(stanzaJsonKey)
-                                ? utils.capitalizeFirstLetter(stanzaJsonKey)
-                                : 'Stanza ' + stanzaJsonKey,
+                            heading,
                             stanza.join('<br>')
                         );
                     });
