@@ -17554,6 +17554,9 @@
         "authors": [
           "Jennette Threlfall"
         ],
+        "translators": [
+          "Zion Ng (Chinese)"
+        ],
         "en": {
           "1": [
             "Hosanna, loud hosanna,",
