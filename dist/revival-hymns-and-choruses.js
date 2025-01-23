@@ -17535,7 +17535,8 @@
     },
     "198": {
       "title": {
-        "en": "Hosanna, Loud Hosanna"
+        "en": "Hosanna, Loud Hosanna",
+        "cn": "和散那，向和散那"
       },
       "music": {
         "composers": [
@@ -17552,7 +17553,71 @@
       "lyrics": {
         "authors": [
           "Jennette Threlfall"
-        ]
+        ],
+        "en": {
+          "1": [
+            "Hosanna, loud hosanna,",
+            "The little children sang;",
+            "Through pillared court and temple",
+            "The lovely anthem rang;",
+            "To Jesus who had blessed them",
+            "Close folded to His breast,",
+            "The children sang their praises,",
+            "The simplest and the best."
+          ],
+          "2": [
+            "From Olivet they followed",
+            "'Mid an exultant crowd,",
+            "The victor palm branch waving,",
+            "And chanting clear and loud;",
+            "The Lord of men and angels",
+            "Rode on in lowly state,",
+            "Nor scorned that little children",
+            "Should on His bidding wait."
+          ],
+          "3": [
+            "\"Hosanna in the highest!\"",
+            "That ancient song we sing,",
+            "For Christ is our Redeemer,",
+            "The Lord of heav'n, our King;",
+            "O may we ever praise Him",
+            "With heart and life and voice,",
+            "And in His blissful presence",
+            "Eternally rejoice!"
+          ]
+        },
+        "cn": {
+          "1": [
+            "和散那，响和散那，",
+            "小孩子们齐唱；",
+            "穿透院宇殿中柱子，",
+            "响应美妙圣歌；",
+            "致祝福他们的耶稣",
+            "紧贴祂的胸膛，",
+            "众孩子唱起赞美诗，",
+            "最单纯及最好。"
+          ],
+          "2": [
+            "从橄榄山众跟随",
+            "欢腾人群之中，",
+            "胜者的棕树枝挥舞，",
+            "通澈响亮高唱；",
+            "众人与天使的君主",
+            "谦和地往前骑，",
+            "也并未歧视孩子们",
+            "等待祂的嘱咐。"
+          ],
+          "3": [
+            "至高无上和散那！",
+            "上古圣歌高唱，",
+            "因基督是我救赎主，",
+            "天之主，我君王；",
+            "愿我等永远赞美祂",
+            "以心，命，声献上，",
+            "并在祂幸福的怀里",
+            "永远充满欢喜！"
+          ]
+        }
       },
       "notes": [
         "Same tune: RHC029"
