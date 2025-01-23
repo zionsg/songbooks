@@ -1745,6 +1745,96 @@
         "Same song: RHC196"
       ]
     },
+    "100": {
+      "title": {
+        "en": "The Old Rugged Cross",
+        "cn": "在各各他山上"
+      },
+      "music": {
+        "composers": [
+          "George Bennard"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Bb"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "George Bennard"
+        ],
+        "en": {
+          "1": [
+            "On a hill far away stood an old rugged cross,",
+            "The emblem of suff'ring and shame;",
+            "And I love that old cross where the dearest and best",
+            "For a world of lost sinners was slain."
+          ],
+          "2": [
+            "O that old rugged cross, so despised by the world,",
+            "Has a wondrous attraction for me;",
+            "For the dear Lamb of God left His glory above",
+            "To bear it to dark Calvary."
+          ],
+          "3": [
+            "In the old rugged cross, stained with blood so divine,",
+            "A wondrous beauty I see;",
+            "For 'twas on that old cross Jesus suffered and died",
+            "To pardon and sanctify me."
+          ],
+          "4": [
+            "To the old rugged cross I will ever be true,",
+            "Its shame and reproach gladly bear;",
+            "Then He'll call me someday to my home far away,",
+            "Where His glory forever I'll share."
+          ],
+          "chorus": [
+            "So I'll cherish the old rugged cross,",
+            "Till my trophies at last I lay down;",
+            "I will cling to the old rugged cross,",
+            "And exchange it someday for a crown."
+          ]
+        },
+        "cn": {
+          "1": [
+            "在各各他山上，孤立十字宝架，",
+            "这乃是羞辱痛苦记号；",
+            "圣子耶稣基督，为世人被钉死，",
+            "这十架为我最爱最宝。"
+          ],
+          "2": [
+            "在世人眼光中，十字架是羞辱，",
+            "于我却是为荣耀徽号；",
+            "神爱子主耶稣，离开天堂荣华，",
+            "背此苦架走向各各他。"
+          ],
+          "3": [
+            "各各他的十架，虽然满有血迹，",
+            "我仍看此架为美为圣；",
+            "因在此宝架上，救主为我舍命，",
+            "担我众罪使我蒙拯救。"
+          ],
+          "4": [
+            "故我乐意背负，荣耀十字宝架，",
+            "甘愿受世人轻视辱骂；",
+            "他日救主再临，迎接我同升天，",
+            "永远分享荣耀在天家。"
+          ],
+          "chorus": [
+            "故我高声称颂主十架，",
+            "直到在主台前见主面，",
+            "我一生要背负十字架，",
+            "十字架可换公义冠冕。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC199, TSMS122"
+      ]
+    },
     "103": {
       "title": {
         "en": "Ivory Palaces",
