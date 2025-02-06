@@ -2249,6 +2249,73 @@
         "Same tune: RHC475"
       ]
     },
+    "186": {
+      "title": {
+        "en": "Here, O My Lord, I See Thee Face to Face",
+        "cn": "瞻仰慈容"
+      },
+      "music": {
+        "composers": [
+          "Frederick C. Atkinson"
+        ],
+        "tune": "MORECAMBE",
+        "keySignature": [
+          "Bb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Horatius Bonar"
+        ],
+        "en": {
+          "1": [
+            "Here, O my Lord, I see Thee face to face,",
+            "Here would I touch and handle things unseen,",
+            "Here grasp with firmer hand eternal grace, ",
+            "And all my weariness upon Thee lean."
+          ],
+          "2": [
+            "Here would I feed upon the bread of God,",
+            "Here drink with Thee the royal wine of heav'n,",
+            "Here would I lay aside each earthly load,",
+            "Here taste afresh the calm of sin forgiv'n."
+          ],
+          "3": [
+            "I have no help but Thine, nor do I need",
+            "Another arm save Thine to lean upon;",
+            "It is enough, my Lord, enough indeed -",
+            "My strength is in Thy might, Thy might alone."
+          ]
+        },
+        "cn": {
+          "1": [
+            "在此我能瞻仰救主慈容；",
+            "我能感觉一切无影无踪；",
+            "我能紧握永生恩惠深宏；",
+            "倚主怀中，苏我疲倦之躬。"
+          ],
+          "2": [
+            "在此我能食主永生天粮；",
+            "在此我能饮主圣洁甘浆；",
+            "我能放下世上重大担当；",
+            "我能领略赦罪滋味芬芳。"
+          ],
+          "3": [
+            "我除主外，再无其他助力；",
+            "靠主手臂，无需其他手臂；",
+            "我已满意，我真放心满意；",
+            "凡我之力，皆是我主之力。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC200 (1 stanza more)",
+        "Same tune: RHC234"
+      ]
+    },
     "210": {
       "title": {
         "en": "Trust and Obey",

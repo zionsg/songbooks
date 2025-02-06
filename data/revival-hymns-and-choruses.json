@@ -17717,7 +17717,8 @@
     },
     "200": {
       "title": {
-        "en": "Here, O My Lord, I See Thee Face to Face"
+        "en": "Here, O My Lord, I See Thee Face to Face",
+        "cn": "瞻仰慈容"
       },
       "music": {
         "composers": [
@@ -17734,10 +17735,65 @@
       "lyrics": {
         "authors": [
           "Horatius Bonar"
-        ]
+        ],
+        "translators": [
+          "Zion Ng (Chinese, stanza 4)"
+        ],
+        "en": {
+          "1": [
+            "Here, O my Lord, I see Thee face to face,",
+            "Here would I touch and handle things unseen,",
+            "Here grasp with firmer hand eternal grace, ",
+            "And all my weariness upon Thee lean."
+          ],
+          "2": [
+            "Here would I feed upon the bread of God,",
+            "Here drink with Thee the royal wine of heav'n,",
+            "Here would I lay aside each earthly load,",
+            "Here taste afresh the calm of sin forgiv'n."
+          ],
+          "3": [
+            "I have no help but Thine, nor do I need",
+            "Another arm save Thine to lean upon;",
+            "It is enough, my Lord, enough indeed -",
+            "My strength is in Thy might, Thy might alone."
+          ],
+          "4": [
+            "Mine is the sin, but Thine the righteousness,",
+            "Mine is the guilt, but Thine the cleansing blood;",
+            "Here is my robe, my refuge, and my peace,",
+            "Thy blood, Thy righteousness, O Lord, my God."
+          ]
+        },
+        "cn": {
+          "1": [
+            "在此我能瞻仰救主慈容；",
+            "我能感觉一切无影无踪；",
+            "我能紧握永生恩惠深宏；",
+            "倚主怀中，苏我疲倦之躬。"
+          ],
+          "2": [
+            "在此我能食主永生天粮；",
+            "在此我能饮主圣洁甘浆；",
+            "我能放下世上重大担当；",
+            "我能领略赦罪滋味芬芳。"
+          ],
+          "3": [
+            "我除主外，再无其他助力；",
+            "靠主手臂，无需其他手臂；",
+            "我已满意，我真放心满意；",
+            "凡我之力，皆是我主之力。"
+          ],
+          "4": [
+            "罪恶在我但正义却在祢；",
+            "罪刑在我但有祢洁净血；",
+            "在此我袍，避难所，和平安；",
+            "唯有祢血，祢义，我主我神。"
+          ]
+        }
       },
       "notes": [
-        "Same song: HP186",
+        "Same song: HP186 (1 stanza less)",
         "Same tune: RHC234"
       ]
     },
