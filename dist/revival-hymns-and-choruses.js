@@ -17800,7 +17800,8 @@
     },
     "201": {
       "title": {
-        "en": "According to Thy Gracious Word"
+        "en": "According to Thy Gracious Word",
+        "cn": "聆听温柔之声"
       },
       "music": {
         "composers": [
@@ -17817,7 +17818,83 @@
       "lyrics": {
         "authors": [
           "James Montgomery"
-        ]
+        ],
+        "en": {
+          "1": [
+            "According to Thy gracious Word,",
+            "In meek humility,",
+            "This will I do, my dying Lord:",
+            "I will remember Thee."
+          ],
+          "2": [
+            "Thy body, broken for my sake,",
+            "My bread from heav'n shall be;",
+            "Thy testamental cup I take,",
+            "And thus remember Thee."
+          ],
+          "3": [
+            "Gethsemane can I forget?",
+            "Or there Thy conflict see,",
+            "Thine agony and bloody sweat,",
+            "And not remember Thee?"
+          ],
+          "4": [
+            "When to the cross I turn mine eyes",
+            "And rest on Calvary,",
+            "O Lamb of God, my sacrifice,",
+            "I must remember Thee -"
+          ],
+          "5": [
+            "Remember Thee and all Thy pains",
+            "And all Thy love to me;",
+            "Yea, while a breath, a pulse remains,",
+            "Will I remember Thee."
+          ],
+          "6": [
+            "And when these failing lips grow dumb",
+            "And mind and mem'ry flee,",
+            "When Thou shalt in Thy kingdom come,",
+            "Jesus, remember me!"
+          ]
+        },
+        "cn": {
+          "1": [
+            "今来救主耶稣面前，",
+            "聆听温柔之声，",
+            "时时默想替死之恩，",
+            "时时记念我主。"
+          ],
+          "2": [
+            "为你为我主体破碎，",
+            "成为属天粮食，",
+            "我今接受立约之杯，",
+            "为要记念我主。"
+          ],
+          "3": [
+            "岂能忘记客西马尼，",
+            "看见善恶冲突，",
+            "伤痛使你流汗如血，",
+            "焉能忘记我主。"
+          ],
+          "4": [
+            "主背十架往各各他，",
+            "我眼单单看主，",
+            "上主羔羊完全献上，",
+            "我怎不记念主。"
+          ],
+          "5": [
+            "岂能忘记主受痛苦，",
+            "完全为了爱我，",
+            "只要一气一息在身，",
+            "我要记念我主。"
+          ],
+          "6": [
+            "精力将尽大限将临，",
+            "记忆渐不灵活，",
+            "“在你得国降临之时，",
+            "主啊请记念我”"
+          ]
+        }
       },
       "notes": [
         "Same song: HP185",
