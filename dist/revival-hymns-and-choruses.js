@@ -17903,7 +17903,8 @@
     },
     "202": {
       "title": {
-        "en": "Go to Dark Gethsemane"
+        "en": "Go to Dark Gethsemane",
+        "cn": "去幽暗客西马尼"
       },
       "music": {
         "composers": [
@@ -17920,7 +17921,62 @@
       "lyrics": {
         "authors": [
           "James Montgomery"
-        ]
+        ],
+        "translators": [
+          "Zion Ng (Chinese)"
+        ],
+        "en": {
+          "1": [
+            "Go to dark Gethsemane,",
+            "Ye that feel the tempter's power;",
+            "Your Redeemer's conflict see;",
+            "Watch with Him one bitter hour;",
+            "Turn not from His griefs away;",
+            "Learn of Jesus Christ to pray."
+          ],
+          "2": [
+            "See Him at the judgment hall,",
+            "Beaten, bound, reviled, arraigned;",
+            "See Him meekly bearing all!",
+            "Love to man His soul sustained.",
+            "Shun not suffering, shame, or loss;",
+            "Learn of Christ to bear the cross."
+          ],
+          "3": [
+            "Calvary's mournful mountain climb;",
+            "There, adoring at His feet,",
+            "Mark that miracle of time, ",
+            "God's own sacrifice complete;",
+            "\"It is finished!\" hear Him cry; ",
+            "Learn of Jesus Christ to die."
+          ]
+        },
+        "cn": {
+          "1": [
+            "去幽暗客西马尼，",
+            "当你受试探诱惑；",
+            "看你救赎者争战；",
+            "同祂儆醒片苦时；",
+            "莫向祂悲伤转头；",
+            "学耶稣基督祷告。"
+          ],
+          "2": [
+            "看祂站在衙门里，",
+            "受困打，讥笑，提审；",
+            "看祂谦卑忍一切！",
+            "因爱世人灵支撑。",
+            "莫避受苦，羞与损；",
+            "学习基督背十架。"
+          ],
+          "3": [
+            "爬悲哀的加略山；",
+            "在祂脚前崇拜祂，",
+            "记那时候的奇迹，",
+            "神自身牺牲完毕；",
+            "听祂呼喊声，“成了！”",
+            "学耶稣基督何死。"
+          ]
+        }
       },
       "notes": [
         "Same tune: RHC030a"
