@@ -582,8 +582,9 @@
         }
       },
       "notes": [
-        "Same song: HP001 (1 stanza different)",
-        "Same tune: RHC060"
+        "Same song: HP001",
+        "Same tune: RHC060",
+        "Same lyrics: RHC002 (1 stanza less & 1 stanza diff)"
       ]
     },
     "2": {
@@ -728,7 +729,7 @@
       },
       "notes": [
         "Same song: HP007 (1 stanza less)",
-        "Same lyrics: RHC004 (slightly different)"
+        "Same lyrics: RHC004"
       ]
     },
     "4": {
@@ -806,7 +807,7 @@
         }
       },
       "notes": [
-        "Same lyrics: slight diff: RHC003, HP007 (1 stanza less)"
+        "Same lyrics: RHC003, HP007 (1 stanza less)"
       ]
     },
     "5": {
@@ -1353,7 +1354,7 @@
       },
       "notes": [
         "Same tune as \"When Morning Gilds the Skies\".",
-        "Same song: HP059 (stanza 3 different)"
+        "Same song: HP059"
       ]
     },
     "12": {
@@ -1501,7 +1502,7 @@
         }
       },
       "notes": [
-        "Same song: EHS017, HP061 (stanza 4 different)"
+        "Same song: EHS017, HP061"
       ]
     },
     "14": {

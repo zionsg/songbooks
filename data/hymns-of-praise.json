@@ -659,6 +659,254 @@
         "Same lyrics: HP-gloria-patri-greatorex (English only)"
       ]
     },
+    "1": {
+      "title": {
+        "en": "O Worship the King",
+        "cn": "齐当俯伏拜"
+      },
+      "music": {
+        "composers": [
+          "J. Michael Haydn"
+        ],
+        "tune": "LYONS",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Robert Grant"
+        ],
+        "en": {
+          "1": [
+            "O worship the King, all glorious above,",
+            "And gratefully sing His pow'r and His love;",
+            "Our Shield and Defender, the Ancient of Days,",
+            "Pavilioned in splendor, and girded with praise."
+          ],
+          "2": [
+            "O tell of His might, O sing of His grace,",
+            "Whose robe is the light, whose canopy space,",
+            "His chariots of wrath the deep thunderclouds form,",
+            "And dark is His path on the wings of the storm."
+          ],
+          "3": [
+            "Thy bountiful care, what tongue can recite?",
+            "It breathes in the air, it shines in the light;",
+            "It streams from the hills, it descends to the plain,",
+            "And sweetly distills in the dew and the rain."
+          ],
+          "4": [
+            "Frail children of dust, and feeble as frail,",
+            "In Thee do we trust, nor find Thee to fail;",
+            "Thy mercies how tender, how firm to the end!",
+            "Our Maker, Defender, Redeemer, and Friend."
+          ]
+        },
+        "cn": {
+          "1": [
+            "齐当俯伏拜，荣耀大君王！",
+            "主权力仁慈，须同心颂扬！",
+            "主亘古如盾牌，护我免灾害，",
+            "荣光罩若宫帏，颂声环如带。"
+          ],
+          "2": [
+            "主权能慈爱，我等当颂赞，",
+            "光辉是主袍，穹苍是主幔；",
+            "黑云内藏雷电，主当华车乘，",
+            "狂风追逐暴雨，主当道路行。"
+          ],
+          "3": [
+            "人舌何能述，我主关切心，",
+            "主使风吹拂，主使光生明；",
+            "主使高山泉源，下注遍平壤，",
+            "主使甘霖时雨，润泽各地方。"
+          ],
+          "4": [
+            "我原是微尘，懦弱无力量，",
+            "专心依靠主，必能获健康，",
+            "因主慈爱覆育，永远无变更！",
+            "至尊造化主宰，我救主大君。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC001",
+        "Same tune: RHC060",
+        "Same lyrics: RHC002 (1 stanza less & 1 stanza diff)"
+      ]
+    },
+    "3": {
+      "title": {
+        "en": "O God, Our Help in Ages Past",
+        "cn": "千古保障"
+      },
+      "music": {
+        "composers": [
+          "William Croft"
+        ],
+        "tune": "ST. ANNE",
+        "keySignature": [
+          "C"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "From Psalm 90, Isaac Watts"
+        ],
+        "en": {
+          "1": [
+            "Our God, our help in ages past,",
+            "Our hope for years to come,",
+            "Our shelter from the stormy blast,",
+            "And our eternal home!"
+          ],
+          "2": [
+            "Under the shadow of Thy throne",
+            "Thy saints have dwelt secure;",
+            "Sufficient is Thine arm alone,",
+            "And our defense is sure."
+          ],
+          "3": [
+            "Before the hills in order stood,",
+            "Or earth received her frame,",
+            "From everlasting Thou art God,",
+            "To endless years the same."
+          ],
+          "4": [
+            "Time, like an ever rolling stream,",
+            "Bears all its sons away;",
+            "They fly, forgotten, as a dream",
+            "Dies at the opening day."
+          ],
+          "5": [
+            "Our God, our help in ages past,",
+            "Our hope for years to come,",
+            "Be Thou our guard while life shall last,",
+            "And our eternal home."
+          ]
+        },
+        "cn": {
+          "1": [
+            "上帝是人千古保障，",
+            "是人将来希望，",
+            "是人居所，抵御风雨，",
+            "是人永久家乡。"
+          ],
+          "2": [
+            "在主宝座蔽荫之下，",
+            "群圣一向安居；",
+            "惟赖神臂威权保护，",
+            "永远平安无虑。"
+          ],
+          "3": [
+            "山川尚未发现之时，",
+            "星球未结之先，",
+            "远自太初便有神在，",
+            "永在无穷尽年。"
+          ],
+          "4": [
+            "时间正似大江流水，",
+            "浪淘万象众生，",
+            "转瞬飞逝，恍若梦境，",
+            "朝来不留余痕。"
+          ],
+          "5": [
+            "恩主是我昔日帮助，",
+            "是我将来盼望，",
+            "有生之年，请引导我，",
+            "作我永恒安宅。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC021"
+      ]
+    },
+    "4": {
+      "title": {
+        "en": "Holy, Holy, Holy",
+        "cn": "圣哉，圣哉，圣哉"
+      },
+      "music": {
+        "composers": [
+          "John B. Dykes"
+        ],
+        "tune": "NICAEA",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Reginald Heber"
+        ],
+        "en": {
+          "1": [
+            "Holy, Holy, Holy! Lord God Almighty!",
+            "Early in the morning our song shall rise to Thee;",
+            "Holy, Holy, Holy! Merciful and Mighty!",
+            "God in Three Persons, blessed Trinity!"
+          ],
+          "2": [
+            "Holy, Holy, Holy! All the saints adore Thee,",
+            "Casting down their golden crowns around the glassy sea;",
+            "Cherubim and seraphim falling down before Thee,",
+            "Who wert and art and evermore shalt be."
+          ],
+          "3": [
+            "Holy, Holy, Holy! Tho the darkness hide Thee,",
+            "Tho the eye of sinful man Thy glory may not see;",
+            "Only Thou art holy - there is none beside Thee,",
+            "Perfect in pow'r, in love, and purity."
+          ],
+          "4": [
+            "Holy, Holy, Holy! Lord God Almighty!",
+            "All Thy works shall praise Thy Name in earth and sky and sea;",
+            "Holy, Holy, Holy! Merciful and Mighty!",
+            "God in Three Persons, blessed Trinity!"
+          ]
+        },
+        "cn": {
+          "1": [
+            "圣哉，圣哉，圣哉！全能大主宰！",
+            "清晨我众歌声，穿云上达至尊；",
+            "圣哉，圣哉，圣哉！慈悲与全能，",
+            "荣耀与赞美，归三一真神。"
+          ],
+          "2": [
+            "圣哉，圣哉，圣哉！众圣都崇敬，",
+            "放下黄金冠冕，环绕晶海之滨；",
+            "千万天军叩拜，同声颂主名，",
+            "昔在，而今在，永在亿万春。"
+          ],
+          "3": [
+            "圣哉，圣哉，圣哉！至圣又至尊，",
+            "罪人不能仰视，庄严伟大真神；",
+            "惟独主为真原，惟主为至尊，",
+            "全权，又全爱，全善，全能神。"
+          ],
+          "4": [
+            "圣哉，圣哉，圣哉！全能大主宰！",
+            "海天云山酬和，吾众赞美歌声；",
+            "圣哉，圣哉，圣哉！慈悲与全能，",
+            "荣耀与赞美，归三一真神。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC008"
+      ]
+    },
     "5": {
       "title": {
         "en": "The God of Abraham Praise",
@@ -737,6 +985,231 @@
         "Same song: RHC028"
       ]
     },
+    "6": {
+      "title": {
+        "en": "All People That on Earth Do Dwell",
+        "cn": "称谢歌"
+      },
+      "music": {
+        "composers": [
+          "Louis Bourgeois"
+        ],
+        "tune": "OLD HUNDREDTH",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "2/2"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "From Psalm 100, William Kethe"
+        ],
+        "en": {
+          "1": [
+            "All people that on earth do dwell,",
+            "Sing to the Lord with cheerful voice;",
+            "Him serve with fear, His praise forth-tell,",
+            "Come ye before Him and rejoice."
+          ],
+          "2": [
+            "Know that the Lord is God indeed:",
+            "Without our aid He did us make;",
+            "We are His folk, He doth us feed,",
+            "And for His sheep He doth us take."
+          ],
+          "3": [
+            "O enter then His gates with praise,",
+            "Approach with joy His courts unto;",
+            "Praise, laud, and bless His Name always,",
+            "For it is seemly so to do."
+          ],
+          "4": [
+            "For why? the Lord our God is good;",
+            "His mercy is for ever sure;",
+            "His truth at all times firmly stood,",
+            "And shall from age to age endure."
+          ]
+        },
+        "cn": {
+          "1": [
+            "普天之下，万族万民，",
+            "俱当向主欢呼颂扬，",
+            "乐意事奉，虔诚称颂，",
+            "来到主前高声歌唱。"
+          ],
+          "2": [
+            "当知主是独一真神，",
+            "不藉人力创造万人，",
+            "赐人身心，赐人粮食，",
+            "招收万众进他羊群。"
+          ],
+          "3": [
+            "大家踊跃来到主门，",
+            "欢欣快乐进主院庭，",
+            "同心同意，感谢真神，",
+            "高歌颂扬，赞美主名。"
+          ],
+          "4": [
+            "我主我神，本是善良，",
+            "我主慈爱永远长存，",
+            "我主信实，亘古不变，",
+            "我主恩德，万世永恒。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC020",
+        "Same tune: Doxology, RHC048"
+      ]
+    },
+    "7": {
+      "title": {
+        "en": "Love Divine, All Loves Excelling",
+        "cn": "主爱浩大"
+      },
+      "music": {
+        "composers": [
+          "John Zundel"
+        ],
+        "tune": "BEECHER",
+        "keySignature": [
+          "A"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Charles Wesley"
+        ],
+        "en": {
+          "1": [
+            "Love divine, all loves excelling, Joy of heav'n to earth come down;",
+            "Fix in us Thy humble dwelling, All thy faithful mercies crown.",
+            "Jesus, Thou art all compassion, Pure unbounded love Thou art;",
+            "Visit us with Thy salvation; Enter ev'ry trembling heart."
+          ],
+          "2": [
+            "Breathe, O breathe Thy loving Spirit, Into ev'ry troubled breast!",
+            "Let us all in Thee inherit, Let us find that second rest.",
+            "Take away our bent to sinning, Alpha and Omega be;",
+            "End of faith, as its beginning, Set our hearts at liberty."
+          ],
+          "3": [
+            "Come, almighty to deliver, Let us all Thy life receive;",
+            "Suddenly return and never, Never more Thy temples leave.",
+            "Thee we would be always blessing, Serve Thee as Thy hosts above,",
+            "Pray and praise Thee without ceasing, Glory in Thy perfect love."
+          ]
+        },
+        "cn": {
+          "1": [
+            "主爱极大，主恩奇妙，虚己屈尊降人间，",
+            "加我信心，学主谦卑，仁义圣洁将主现；",
+            "耶稣祢有恩慈怜悯，纯洁爱心永无尽，",
+            "祢以乐歌，鼓舞我心，除我软弱胜试诱。"
+          ],
+          "2": [
+            "福雨降下，圣灵充满，慰我胸怀艰难散，",
+            "我与救主，同得基业，永为主伴享安息；",
+            "更要圣洁，不再犯罪，始终凭信稳固站，",
+            "祢是忠信，诚实恩主，使我释放得自由。"
+          ],
+          "3": [
+            "全能恩主，施行拯救，靠袮恩慈胜魔鬼，",
+            "使我爱袮，与袮联合，不离圣所常留守；",
+            "我即蒙恩，奉献自己，忠心事袮不贪懒，",
+            "献上祭物，不住祷告，衷心爱袮至永远。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC003 (1 stanza more)",
+        "Same lyrics: RHC004 (1 stanza more)"
+      ]
+    },
+    "9": {
+      "title": {
+        "en": "Come, We That Love the Lord",
+        "cn": "爱主的人齐来"
+      },
+      "music": {
+        "composers": [
+          "Aaron Williams"
+        ],
+        "tune": "ST. THOMAS",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Isaac Watts"
+        ],
+        "en": {
+          "1": [
+            "Come, we that love the Lord,",
+            "And let our joys be known;",
+            "Join in a song with sweet accord,",
+            "And thus surround the throne."
+          ],
+          "2": [
+            "Let those refuse to sing,",
+            "Who never knew our God;",
+            "But children of the heav'nly King,",
+            "May speak their joys abroad."
+          ],
+          "3": [
+            "The hill of Zion yields",
+            "A thousand sacred sweets",
+            "Before we reach the heav'nly fields,",
+            "Or walk the golden streets."
+          ],
+          "4": [
+            "Then let our songs abound,",
+            "And ev'ry tear be dry;",
+            "We're marching through Emmanuel's ground,",
+            "To fairer worlds on high."
+          ]
+        },
+        "cn": {
+          "1": [
+            "爱主的人齐来，",
+            "欢乐环绕宝座；",
+            "齐心歌唱声调和谐，",
+            "诗音琴韵交作。"
+          ],
+          "2": [
+            "不认识主的人，",
+            "自然无心歌唱；",
+            "但是但是上主所选子民，",
+            "必将喜乐传扬。"
+          ],
+          "3": [
+            "未到天上良田，",
+            "未走黄金街道，",
+            "郇山已结百果新鲜，",
+            "其味甘甜佳妙。"
+          ],
+          "4": [
+            "故当欢喜颂称，",
+            "将眼泪尽抹干，",
+            "经由以马内利路程，",
+            "达到美丽天乡。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC019",
+        "Same tune: RHC262"
+      ]
+    },
     "11": {
       "title": {
         "en": "Praise to the Lord, The Almighty",
@@ -813,6 +1286,230 @@
       },
       "notes": [
         "Same song: RHC024"
+      ]
+    },
+    "12": {
+      "title": {
+        "en": "When All Thy Mercies, O My God",
+        "cn": "我主我神万般慈仁"
+      },
+      "music": {
+        "composers": [
+          "From Gardiner's Sacred Melodies"
+        ],
+        "tune": "BELMONT",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Joseph Addison"
+        ],
+        "en": {
+          "1": [
+            "When all Thy mercies, O my God,",
+            "My rising soul surveys,",
+            "Transported with the view, I'm lost",
+            "In wonder, love and praise."
+          ],
+          "2": [
+            "Unnumbered comforts to my soul",
+            "Thy tender care bestowed,",
+            "Before my infant heart conceived",
+            "From Whom those comforts flowed."
+          ],
+          "3": [
+            "When worn with sickness, oft hast Thou",
+            "With health renewed my face;",
+            "And, when in sins and sorrows bowed,",
+            "Revived my soul with grace."
+          ],
+          "4": [
+            "Thru ev'ry period of my life",
+            "Thy goodness I'll pursue",
+            "And after death, in distant worlds,",
+            "The glorious theme renew."
+          ]
+        },
+        "cn": {
+          "1": [
+            "我主我神万般慈仁，",
+            "每逢救主恩宠，",
+            "悟性顿开，不觉淹没",
+            "在大爱颂赞中。"
+          ],
+          "2": [
+            "无法计算安慰之情，",
+            "时时温柔关怀，",
+            "在这幼稚心灵之中，",
+            "安慰不断涌来。"
+          ],
+          "3": [
+            "病痛腐蚀宝贵生命，",
+            "从主再得壮志，",
+            "有时为罪忧愁所围，",
+            "我主用恩扶持。"
+          ],
+          "4": [
+            "在世不断为主生活，",
+            "要更追求良善。",
+            "远展来日死后世界，",
+            "再叙荣耀话题。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC022",
+        "Same tune: RHC007"
+      ]
+    },
+    "14": {
+      "title": {
+        "en": "Come, Thou Almighty King",
+        "cn": "恳求圣父来临"
+      },
+      "music": {
+        "composers": [
+          "Felice De Giardini"
+        ],
+        "tune": "ITALIAN HYMN",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Source unknown"
+        ],
+        "en": {
+          "1": [
+            "Come, Thou almighty King, Help us Thy Name to sing,",
+            "Help us to praise: Father all glorious,",
+            "O'er all victorious, Come and reign over us,",
+            "Ancient of Days."
+          ],
+          "2": [
+            "Come, Thou Incarnate Word, Gird on Thy mighty sword,",
+            "Our prayer attend: Come and Thy people bless,",
+            "And give Thy Word success - Spirit of holiness,",
+            "On us descend."
+          ],
+          "3": [
+            "Come, Holy Comforter, Thy sacred witness bear,",
+            "In this glad hour: Thou Who almighty art,",
+            "Now rule in ev'ry heart, And ne'er from us depart,",
+            "Spirit of pow'r."
+          ],
+          "4": [
+            "To the great One in Three, Eternal praises be,",
+            "Hence evermore: His sov'reign majesty,",
+            "May we in glory see, And to eternity,",
+            "Love and adore."
+          ]
+        },
+        "cn": {
+          "1": [
+            "恳求圣父来临，助我赞美主名，",
+            "敬献心声！惟主无上尊荣，",
+            "惟主完全得胜，求主统治我们，",
+            "万古之神！"
+          ],
+          "2": [
+            "恳求圣子来临，彰显威严大能，",
+            "垂听呼声！施恩与众子民，",
+            "使主圣道振兴，建立善义公平，",
+            "救主良朋！"
+          ],
+          "3": [
+            "恳求圣灵来临，显出神圣见证，",
+            "感化众人！惟主全能至尊，",
+            "恳求统治众心，永不离开我们，",
+            "大能圣灵！"
+          ],
+          "4": [
+            "圣父、圣子、圣灵，当受万民颂赞，",
+            "世世无尽！但愿我众齐来，",
+            "欢然瞻仰圣明，虔诚亲爱崇敬，",
+            "直到永恒。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC018",
+        "Same tune: RHC059"
+      ]
+    },
+    "16": {
+      "title": {
+        "en": "The Spacious Firmament on High",
+        "cn": "仰望天空浩大无穷"
+      },
+      "music": {
+        "composers": [
+          "Franz Joseph Haydn"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Psalm 19, Joseph Addison"
+        ],
+        "en": {
+          "1": [
+            "The spacious firmament on high, With all the blue ethereal sky,",
+            "And spangled heavens, a shining frame, Their great Original proclaim.",
+            "Th'unwearied sun, from day to day, Does his Creator's powers display,",
+            "And publishes to every land, The work of an almighty hand."
+          ],
+          "2": [
+            "Soon as the evening shades prevail, The moon takes up the wondrous tale,",
+            "And nightly to the listening earth, Repeats the story of her birth;",
+            "Whilst all the stars that round her burn, And all the planets in their turn,",
+            "Confirm the tidings as they roll, And spread the truth from pole to pole."
+          ],
+          "3": [
+            "What though in solemn silence all, Move round this dark terrestrial ball?",
+            "What though no real voice nor sound, Amidst the radiant orbs be found?",
+            "In reason's ear they all rejoice, And utter forth a glorious voice;",
+            "Forever singing as they shine, \"The hand that made us is divine.\""
+          ]
+        },
+        "cn": {
+          "1": [
+            "仰看天空，浩大无穷，万千天体，错杂纵横，",
+            "合成整个光明系统，共宣上主创造奇功；",
+            "一轮红日，西落东升，彰主太初创造大能，",
+            "普照万类，至正至公，显示上主能力无穷。"
+          ],
+          "2": [
+            "温柔明月，清辉似银，面向大地轻轻诉陈，",
+            "重新自述由来所因，赞美上主超凡权能；",
+            "在她周围，无数星辰，好似万盏光耀明灯，",
+            "一面游行，一面颂神，反覆赞扬创造深恩。"
+          ],
+          "3": [
+            "虽然他们肃穆沉静，围绕地球来复运行，",
+            "虽然他们不发声音，仅依轨迹发出光明，",
+            "明智的耳，却能倾听他们所发荣耀歌声，",
+            "在光明中赞美颂称，「造我之主，全能神圣。」"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC006"
       ]
     },
     "21": {
@@ -1159,6 +1856,380 @@
       "notes": [
         "Same song: RHC055",
         "Same tune: RHC042, RHC145"
+      ]
+    },
+    "59": {
+      "title": {
+        "en": "When Morning Gilds the Skies",
+        "cn": "晨光灿烂耀空"
+      },
+      "music": {
+        "composers": [
+          "Joseph Barnby"
+        ],
+        "tune": "LAUDES DOMINI",
+        "keySignature": [
+          "C"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "German hymn, trans. by Edward Caswall"
+        ],
+        "en": {
+          "1": [
+            "When morning gilds the skies, My heart awaking cries:",
+            "May Jesus Christ be praised!",
+            "Alike at work and prayer, to Jesus I repair:",
+            "May Jesus Christ be praised!"
+          ],
+          "2": [
+            "Does sadness fill my mind? A solace here I find:",
+            "May Jesus Christ be praised!",
+            "Or fades my earthly bliss? My comfort still is this:",
+            "May Jesus Christ be praised!"
+          ],
+          "3": [
+            "In heav'n's eternal bliss, The loveliest strain is this:",
+            "May Jesus Christ be praised!",
+            "The pow'rs of darkness fear, When this sweet chant they hear:",
+            "May Jesus Christ be praised!"
+          ],
+          "4": [
+            "Be this, while life is mine, My canticle divine:",
+            "May Jesus Christ be praised!",
+            "Be this th'eternal song, Thru all the ages long:",
+            "May Jesus Christ be praised!"
+          ]
+        },
+        "cn": {
+          "1": [
+            "晨光灿烂耀空，醒来我心歌颂；",
+            "赞美基督耶稣！",
+            "或祈祷或作工，与耶稣常交通；",
+            "赞美基督耶稣！"
+          ],
+          "2": [
+            "倘若愁满心头，安慰何处寻求？",
+            "赞美基督耶稣！",
+            "人间幸福几何？安慰还是此歌；",
+            "赞美基督耶稣！"
+          ],
+          "3": [
+            "在天永恒极乐，最美旋律如此，",
+            "赞美基督耶稣！",
+            "黑暗势力惧怕，当甜美圣歌唱；",
+            "赞美基督耶稣！"
+          ],
+          "4": [
+            "当我还在此世，我心永唱此诗，",
+            "赞美基督耶稣！",
+            "但愿此歌悠久，直到万古千秋；",
+            "赞美基督耶稣！"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC011"
+      ]
+    },
+    "60": {
+      "title": {
+        "en": "Still, Still with Thee",
+        "cn": "小鸟啼明"
+      },
+      "music": {
+        "composers": [
+          "Felix Mendelssohn"
+        ],
+        "tune": "CONSOLATION",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Harriet B. Stowe"
+        ],
+        "en": {
+          "1": [
+            "Still, still with Thee, when purple morning breaketh,",
+            "When the bird waketh, and the shadows flee;",
+            "Fairer than morning, lovelier than daylight,",
+            "Dawns the sweet consciousness - I am with Thee!"
+          ],
+          "2": [
+            "Alone with Thee, amid the mystic shadows -",
+            "The solemn hush of nature newly born;",
+            "Alone with Thee in breathless adoration,",
+            "In the calm dew and freshness of the morn!"
+          ],
+          "3": [
+            "When sinks the soul, subdued by toil, to slumber,",
+            "Its closing eyes look up to Thee in prayer;",
+            "Sweet the repose beneath Thy wings o'ershading,",
+            "But sweeter still to wake and find Thee there!"
+          ],
+          "4": [
+            "So shall it be at last, in that bright morning,",
+            "When the soul waketh and life's shadows flee;",
+            "O in that hour, fairer than daylight dawning,",
+            "Shall rise the glorious tho't - I am with Thee!"
+          ]
+        },
+        "cn": {
+          "1": [
+            "小鸟啼明，白日初回黑障开，",
+            "晨光破曙，主仍与我同在；",
+            "美胜清晨，丽胜白昼的光彩，",
+            "即此寸心，长觉与主同在。"
+          ],
+          "2": [
+            "与主同在，玄妙神奇荫影中，",
+            "静对自然，体会造化之工；",
+            "与主同在，庄严虔诚契合中，",
+            "朝露晶莹，此中天趣无穷。"
+          ],
+          "3": [
+            "劳苦工完，灵魂疲乏睡意生，",
+            "双眼倦扬，还自仰望天庭；",
+            "在主恩中，宵眠甘美而安宁，",
+            "更甘美者，醒来主仍相亲。"
+          ],
+          "4": [
+            "最後一天，正当那荣耀清晨，",
+            "我灵初醒，不见尘世黑阴，",
+            "片刻之间，领略光明美万分，",
+            "我心乐悉，永远与主相亲。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC010 (1 stanza more)"
+      ]
+    },
+    "61": {
+      "title": {
+        "en": "Abide with Me",
+        "cn": "夕阳西沉"
+      },
+      "music": {
+        "composers": [
+          "William H. Monk"
+        ],
+        "tune": "EVENTIDE",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Henry F. Lyte"
+        ],
+        "en": {
+          "1": [
+            "Abide with me - fast falls the eventide,",
+            "The darkness deepens - Lord, with me abide;",
+            "When other helpers fail and comforts flee,",
+            "Help of the helpless, O abide with me!"
+          ],
+          "2": [
+            "Swift to its close ebbs out life's little day,",
+            "Earth's joys grow dim, its glories pass away;",
+            "Change and decay in all around I see -",
+            "O Thou who changest not, abide with me!"
+          ],
+          "3": [
+            "I need Thy presence ev'ry passing hour -",
+            "What but Thy grace can foil the tempter's pow'r?",
+            "Who, like Thyself, my guide and stay can be?",
+            "Thru cloud and sunshine, O, abide with me!"
+          ],
+          "4": [
+            "Hold Thou Thy word before my closing eyes,",
+            "Shine thru the gloom and point me to the skies;",
+            "Heav'n's morning breaks and earth's vain shadows flee -",
+            "In life, in death, O Lord, abide with me!"
+          ]
+        },
+        "cn": {
+          "1": [
+            "夕阳西沉，求主与我同居；",
+            "黑暗渐深，求主与我同居；",
+            "求助无门，安慰也无求处，",
+            "常助孤苦之神，与我同居。"
+          ],
+          "2": [
+            "渺小浮生，飘向生涯尽处；",
+            "欢娱好景，转瞬都成往事；",
+            "变化无常，环境何能留住？",
+            "恳求不变之神，与我同居。"
+          ],
+          "3": [
+            "我深需主，时刻需主眷顾，",
+            "除却主恩，尚有何法驱魔？",
+            "谁能如主，时常导引扶持？",
+            "无论风雨晦明，恳求同居。"
+          ],
+          "4": [
+            "示我宝语，双眸垂闭之时，",
+            "照彻昏幽，指我直上天冲；",
+            "阴翳飞逝，欣看天光破曙，",
+            "无论天上人间，求主同居。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: EHS017, RHC013"
+      ]
+    },
+    "62": {
+      "title": {
+        "en": "Sun of My Soul",
+        "cn": "亲爱救主我灵之光"
+      },
+      "music": {
+        "composers": [
+          "From Katholisches Gesangbuch, Vienna"
+        ],
+        "tune": "HURSLEY",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Keble"
+        ],
+        "en": {
+          "1": [
+            "Sun of my soul, Thou Savior dear,",
+            "It is not night if Thou be near;",
+            "O may no earthborn cloud arise",
+            "To hide Thee from Thy servant's eyes."
+          ],
+          "2": [
+            "When the soft dews of kindly sleep",
+            "My wearied eyelids gently steep,",
+            "Be my last thought, how sweet to rest",
+            "Forever on my Savior's breast!"
+          ],
+          "3": [
+            "Abide with me from morn till eve,",
+            "For without Thee I cannot live;",
+            "Abide with me when night is nigh,",
+            "For without Thee I dare not die."
+          ],
+          "4": [
+            "Be near to bless me when I wake,",
+            "Ere thru the world my way I take;",
+            "Abide with me till in Thy love",
+            "I lose myself in heav'n above."
+          ]
+        },
+        "cn": {
+          "1": [
+            "亲爱救主我灵之光，",
+            "若主相近，黑夜必亮，",
+            "愿无世事如云上起，",
+            "将主圣面一时遮蔽。"
+          ],
+          "2": [
+            "贪眠倦态，渐渐而来，",
+            "使我双目，交闭不开，",
+            "将睡以先我心默想，",
+            "永在主怀是我盼望。"
+          ],
+          "3": [
+            "自朝到暮，求主同在，",
+            "若无我主，前途艰难，",
+            "求主夜间也常同在，",
+            "因我有主便不孤单。"
+          ],
+          "4": [
+            "清早睡醒，求主同在，",
+            "助我在世，力行正路，",
+            "日日领我直到天家，",
+            "使我与主永远相偕。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC009"
+      ]
+    },
+    "65": {
+      "title": {
+        "en": "Now the Day Is Over",
+        "cn": "黑夜来临"
+      },
+      "music": {
+        "composers": [
+          "Joseph Barnby"
+        ],
+        "tune": "MERRIAL",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Sabine Baring-Gould"
+        ],
+        "en": {
+          "1": [
+            "Now the day is over, Night is drawing nigh;",
+            "Shadows of the evening, Steal across the sky."
+          ],
+          "2": [
+            "Jesus, give the weary, Calm and sweet repose;",
+            "With Thy tend'rest blessing, May our eyelids close."
+          ],
+          "3": [
+            "Thru the long night watches, May Thine angels spread",
+            "Their white wings above me, Watching round my bed."
+          ],
+          "4": [
+            "When the morning wakens, Then may I arise",
+            "Pure and fresh and sinless, In Thy holy eyes."
+          ]
+        },
+        "cn": {
+          "1": [
+            "白天刚才过去，黑夜临眼前，",
+            "天上晚霞消逝，暮色遍人间。"
+          ],
+          "2": [
+            "求主怜人困倦，赐甜蜜睡眠，",
+            "蒙主温柔祝福，我们闭双眼。"
+          ],
+          "3": [
+            "虽然长夜漫漫，我不感恐慌，",
+            "天使展翅护卫，停留在我旁。"
+          ],
+          "4": [
+            "直等黎明日光，照耀我床上，",
+            "起来志虑清新，向我主仰望。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC012 (1 stanza more)"
       ]
     },
     "85": {
