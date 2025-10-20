@@ -2147,6 +2147,84 @@
         "Same tune: RHC198"
       ]
     },
+    "30": {
+      "title": {
+        "en": "O For a Thousand Tongues to Sing",
+        "cn": "万口欢唱"
+      },
+      "music": {
+        "composers": [
+          "Carl G. Glaser, arr. by Lowell Mason"
+        ],
+        "tune": "AZMON",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "3/2"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Charles Wesley"
+        ],
+        "en": {
+          "1": [
+            "O for a thousand tongues to sing",
+            "My great Redeemer's praise,",
+            "The glories of my God and King,",
+            "The triumphs of His grace."
+          ],
+          "2": [
+            "My gracious Master and my God,",
+            "Assist me to proclaim,",
+            "To spread thru all the earth abroad",
+            "The honors of Thy name."
+          ],
+          "3": [
+            "Jesus! the name that charms our fears,",
+            "That bids our sorrows cease;",
+            "'Tis music in the sinner's ears,",
+            "'Tis life and health and peace."
+          ],
+          "4": [
+            "He breaks the pow'r of canceled sin,",
+            "He sets the pris'ner free;",
+            "His blood can make the foulest clean -",
+            "His blood availed for me."
+          ]
+        },
+        "cn": {
+          "1": [
+            "但愿万口欢声高唱，",
+            "颂扬救主我王，",
+            "赞美我神恩爱深长，",
+            "并祂莫大荣光。"
+          ],
+          "2": [
+            "大爱之神恩慈无量，",
+            "助我到处宣扬，",
+            "圣名荣尊，举世无双，",
+            "传遍全地四方。"
+          ],
+          "3": [
+            "耶稣之名能消惊恐，",
+            "堪慰心中忧情，",
+            "好似妙乐，进入耳中，",
+            "欣得生命安宁。"
+          ],
+          "4": [
+            "主除过犯灭绝罪权，",
+            "斩断罪奴锁链，",
+            "主血能洁至污不堪，",
+            "主血使我完全。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC061 (2 stanzas more)"
+      ]
+    },
     "31": {
       "title": {
         "en": "Rejoice, the Lord is King!",
@@ -2467,6 +2545,84 @@
         "Same song: RHC026"
       ]
     },
+    "40": {
+      "title": {
+        "en": "And Can It Be That I Should Gain?",
+        "cn": "怎能如此"
+      },
+      "music": {
+        "composers": [
+          "Thomas Campbell"
+        ],
+        "tune": "SAGINA",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Charles Wesley"
+        ],
+        "en": {
+          "1": [
+            "And can it be that I should gain",
+            "An interest in the Savior's blood?",
+            "Died He for me, who caused His pain?",
+            "For me, who Him to death pursued?"
+          ],
+          "2": [
+            "He left His Father's throne above,",
+            "So free, so infinite His grace!",
+            "Emptied Himself of all but love,",
+            "And bled for Adam's helpless race."
+          ],
+          "3": [
+            "No condemnation now I dread,",
+            "I am my Lord's and He is mine;",
+            "Alive in Him, my living Head,",
+            "And clothed in righteousness divine."
+          ],
+          "chorus": [
+            "Amazing love! How can it be",
+            "That Thou, my God, shouldst die for me?",
+            "Amazing love! How can it be",
+            "That Thou, my God, shouldst die for me?"
+          ]
+        },
+        "cn": {
+          "1": [
+            "怎能如此，像我这样罪人，",
+            "也能蒙主宝血救赎，",
+            "因我罪过使祂受苦，",
+            "因我罪过，使祂受死。"
+          ],
+          "2": [
+            "祂离天上，父神施恩宝座，",
+            "白白恩典无穷无尽，",
+            "舍弃一切只余慈爱，",
+            "流血救我亚当后裔。"
+          ],
+          "3": [
+            "不再定罪，今我再不畏惧，",
+            "我属耶稣而祂属我，",
+            "我活在永活元首里，",
+            "穿起公义圣洁白衣。"
+          ],
+          "chorus": [
+            "奇异的爱！何能如此，",
+            "我主我神，竟为我死。",
+            "奇异的爱！何能如此，",
+            "我主我神，竟为我死。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC065, TSMS025"
+      ]
+    },
     "41": {
       "title": {
         "en": "Crown Him with Many Crowns",
@@ -2614,6 +2770,75 @@
       "notes": [
         "Same song: RHC059",
         "Same tune: RHC018"
+      ]
+    },
+    "44": {
+      "title": {
+        "en": "Fairest Lord Jesus!",
+        "cn": "美哉主耶稣"
+      },
+      "music": {
+        "composers": [
+          "From Schlesische Volkslieder, adapted by Richard S. Willis"
+        ],
+        "tune": "CRUSADERS' HYMN",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "From Munster Gesangbuch"
+        ],
+        "translators": [
+          "4th verse by Joseph A. Seiss"
+        ],
+        "en": {
+          "1": [
+            "Fairest Lord Jesus! Ruler of all nature!",
+            "O Thou of God and man the Son!",
+            "Thee will I cherish, Thee will I honor,",
+            "Thou my soul's glory, joy and crown!"
+          ],
+          "2": [
+            "Fair are the meadows, Fairer still the woodlands,",
+            "Robed in the blooming garb of spring:",
+            "Jesus is fairer, Jesus is purer,",
+            "Who makes the woeful heart to sing."
+          ],
+          "3": [
+            "Fair is the sunshine, Fairer still the moonlight,",
+            "And all the twinkling starry host:",
+            "Jesus shines brighter, Jesus shines purer",
+            "Than all the angels heav'n can boast."
+          ]
+        },
+        "cn": {
+          "1": [
+            "美哉主耶稣，统治万美群生，",
+            "世人之子神明化身；",
+            "主我所景仰，主我所崇尊，",
+            "主是我灵荣耀欢欣。"
+          ],
+          "2": [
+            "美哉芳草地，郊原更加美丽，",
+            "他们披服灿烂春衣；",
+            "耶稣更清洁，耶稣更美丽，",
+            "能使愁心发生歌意。"
+          ],
+          "3": [
+            "美哉是朝晖，夜月更觉清妍，",
+            "繁星灿烂嵌遍诸天；",
+            "耶稣更辉煌，耶稣更皎洁，",
+            "光华照澈天上人间。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC066 (1 stanza more)"
       ]
     },
     "46": {
