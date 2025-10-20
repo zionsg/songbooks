@@ -1132,6 +1132,72 @@
         "Same lyrics: RHC004 (1 stanza more)"
       ]
     },
+    "8": {
+      "title": {
+        "en": "Now Thank We All Our God",
+        "cn": "齐来谢主"
+      },
+      "music": {
+        "composers": [
+          "Johann Cruger, arr. by Eldon Burkwall"
+        ],
+        "tune": "NUN DANKET",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Martin Rinkart, trans. by Catherine Winkworth"
+        ],
+        "en": {
+          "1": [
+            "Now thank we all our God, With heart and hands and voices,",
+            "Who wondrous things has done, In whom this world rejoices;",
+            "Who from our mothers' arms, Hath blessed us on our way",
+            "With countless gifts of love, And still is ours today."
+          ],
+          "2": [
+            "O may this bounteous God, Thru all our life be near us,",
+            "With ever joyful hearts, And blessèd peace to cheer us;",
+            "And keep us in His grace, And guide us when perplexed,",
+            "And free us from all ills, In this world and the next."
+          ],
+          "3": [
+            "All praise and thanks to God the Father now be given,",
+            "The Son and Him Who reigns, With Them in highest heaven -",
+            "The one eternal God, Whom earth and heav'n adore -",
+            "For thus it was, is now, And shall be evermore."
+          ]
+        },
+        "cn": {
+          "1": [
+            "今当齐来谢主，以心，以手，以声音，",
+            "主既完成奇事，世人欢颂主圣名；",
+            "我从初生时起，蒙主福佑到今，",
+            "前受无穷的爱，今仍安慰怜悯。"
+          ],
+          "2": [
+            "但愿恩慈之神，时刻伴我到终身，",
+            "常将快乐平安，鼓励安慰我中心；",
+            "使我脱离疑惑，救我避免忧惊，",
+            "无论今生来世，使我蒙主宏恩。"
+          ],
+          "3": [
+            "我将感谢颂扬，敬献父，子，与圣灵，",
+            "三位本同一体，在天执掌大权能；",
+            "独一永生上主，天地崇拜同心，",
+            "昔在，今在，永在，千秋万古永恒。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC027"
+      ]
+    },
     "9": {
       "title": {
         "en": "Come, We That Love the Lord",
@@ -1513,6 +1579,111 @@
         "Same song: RHC006"
       ]
     },
+    "17": {
+      "title": {
+        "en": "All Creatures of Our God and King",
+        "cn": "主手所造"
+      },
+      "music": {
+        "composers": [
+          "From Geistliche Kirchengesang, arr. by Norman Johnson"
+        ],
+        "tune": "LASST UNS ERFREUEN",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Francis of Assisi, trans. by William H. Draper"
+        ],
+        "translators": [
+          "Zion Ng (Chinese, stanzas 3 & 6)"
+        ],
+        "en": {
+          "1": [
+            "All creatures of our God and King,",
+            "Lift up your voice and with us sing",
+            "Alleluia, Alleluia!",
+            "Thou burning sun with golden beam,",
+            "Thou silver moon with softer gleam:",
+            "O praise Him, O praise Him!",
+            "Alleluia, Alleluia! Alleluia!"
+          ],
+          "2": [
+            "Thou rushing wind that art so strong,",
+            "Ye clouds that sail in heav'n along,",
+            "O praise Him! Alleluia!",
+            "Thou rising morn, in praise rejoice,",
+            "Ye lights of evening, find a voice:",
+            "O praise Him, O praise Him!",
+            "Alleluia, Alleluia! Alleluia!"
+          ],
+          "3": [
+            "And all ye men of tender heart,",
+            "Forgiving others, take your part,",
+            "O sing ye! Alleluia!",
+            "Ye who long pain and sorrow bear,",
+            "Praise God and on Him cast your care:",
+            "O praise Him, O praise Him!",
+            "Alleluia, Alleluia! Alleluia!"
+          ],
+          "4": [
+            "Let all things their Creator bless,",
+            "And worship Him in humbleness -",
+            "O praise Him! Alleluia!",
+            "Praise, praise the Father, praise the Son,",
+            "And praise the Spirit, Three in One:",
+            "O praise Him, O praise Him!",
+            "Alleluia, Alleluia! Alleluia!"
+          ]
+        },
+        "cn": {
+          "1": [
+            "主手所造万象生灵，",
+            "同发声音赞美真神，",
+            "哈利路亚！哈利路亚！",
+            "温柔明月，光耀日轮，",
+            "狂风，密云，清晨，黄昏，",
+            "赞美真神！赞美真神！",
+            "哈利路亚！哈利路亚！哈利路亚！"
+          ],
+          "2": [
+            "清清河水长流不歇，",
+            "熊熊烈火供人光热，",
+            "哈利路亚！哈利路亚！",
+            "大地高山无尽宝藏，",
+            "滋生万物，花草芬芳，",
+            "赞美真神！赞美真神！",
+            "哈利路亚！哈利路亚！哈利路亚！"
+          ],
+          "3": [
+            "仁心世人遵守主命，",
+            "饶恕弟兄，荣神益人，",
+            "哈利路亚！哈利路亚！",
+            "世人饱受痛苦忧惊，",
+            "速将忧虑卸给真神，",
+            "赞美真神！赞美真神！",
+            "哈利路亚！哈利路亚！哈利路亚！"
+          ],
+          "4": [
+            "万物赞美造物主宰，",
+            "都当谦卑向主敬拜，",
+            "哈利路亚！哈利路亚！",
+            "赞美圣父，圣子，圣灵，",
+            "同声赞美三一真神，",
+            "赞美真神！赞美真神！",
+            "哈利路亚！哈利路亚！哈利路亚！"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC030 (2 stanzas more)"
+      ]
+    },
     "21": {
       "title": {
         "en": "Joyful, Joyful, We Adore Thee",
@@ -1588,6 +1759,73 @@
         }
       },
       "notes": []
+    },
+    "28": {
+      "title": {
+        "en": "I Sing the Mighty Power of God",
+        "cn": "唱述父神伟大权力"
+      },
+      "music": {
+        "composers": [
+          "From Gesangbuch der Herzogl, Wurttemberg"
+        ],
+        "tune": "ELLACOMBE",
+        "keySignature": [
+          "Bb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Isaac Watts"
+        ],
+        "en": {
+          "1": [
+            "I sing the mighty power of God, That made the mountains rise,",
+            "That spread the flowing seas abroad, And built the lofty skies.",
+            "I sing the wisdom that ordained, The sun to rule the day;",
+            "The moon shines full at His command, And all the stars obey."
+          ],
+          "2": [
+            "I sing the goodness of the Lord, That filled the earth with food;",
+            "He formed the creatures with His word, And then pronounced them good.",
+            "Lord, how Thy wonders are displayed, Where'er I turn my eye:",
+            "If I survey the ground I tread, Or gaze upon the sky!"
+          ],
+          "3": [
+            "There's not a plant or flow'r below, But makes Thy glories known;",
+            "And clouds arise and tempests blow, By order from Thy throne;",
+            "While all that borrows life from Thee, Is ever in Thy care,",
+            "And ev'rywhere that man can be, Thou, God art present there."
+          ]
+        },
+        "cn": {
+          "1": [
+            "唱述父神伟大权力，兴起群山高峰；",
+            "更使海洋辽阔无边，布置万里晴空。",
+            "唱述父神智慧安排，太阳管理白天；",
+            "清月光辉听祂命令，群星顺服不变。"
+          ],
+          "2": [
+            "唱述上主无限美善，使地出产食粮；",
+            "祂用言语造出万物，美巧配受称扬。",
+            "袮手所造无不奇妙，到处可以寻见；",
+            "花草树木，蔚蓝天空，主大能无边。"
+          ],
+          "3": [
+            "一朵小花一棵小树，都被装饰鲜明；",
+            "微风吹拂，祥云飘扬，都听宝座命令。",
+            "万物既从主得命令，父神必永眷顾；",
+            "天父子民无论何去，父神都必随护。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC029",
+        "Same tune: RHC198"
+      ]
     },
     "31": {
       "title": {
