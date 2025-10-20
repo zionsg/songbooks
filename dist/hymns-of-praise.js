@@ -1760,6 +1760,84 @@
       },
       "notes": []
     },
+    "26": {
+      "title": {
+        "en": "Immortal, Invisible",
+        "cn": "永生神就是灵"
+      },
+      "music": {
+        "composers": [
+          "Welsh Hymn Melody"
+        ],
+        "tune": "ST. DENIO",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "3/2"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Walter Chalmers Smith"
+        ],
+        "en": {
+          "1": [
+            "Immortal, invisible, God only wise,",
+            "In light inaccessible hid from our eyes,",
+            "Most blessed, most glorious, the Ancient of Days,",
+            "Almighty, victorious, Thy great Name we praise."
+          ],
+          "2": [
+            "Unresting, unhasting, and silent as light,",
+            "Nor wanting, nor wasting, Thou rulest in might;",
+            "Thy justice, like mountains, high soaring above,",
+            "Thy clouds, which are fountains of goodness and love."
+          ],
+          "3": [
+            "To all life Thou givest, to both great and small;",
+            "In all life Thou livest, the true life of all;",
+            "We blossom and flourish as leaves on the tree,",
+            "And wither and perish, but naught changeth Thee."
+          ],
+          "4": [
+            "Great Father of glory, pure Father of light,",
+            "Thine angels adore Thee, all veiling their sight;",
+            "All laud we would render, O help us to see",
+            "'Tis only the splendour of light hideth Thee."
+          ]
+        },
+        "cn": {
+          "1": [
+            "永生神就是灵，智慧广无边；",
+            "深居在光明中，肉眼不能见；",
+            "极丰富，极荣美，亘古至永远；",
+            "至权能，永胜利，我众乐颂赞。"
+          ],
+          "2": [
+            "不急躁，不烦乱，神恬然无言；",
+            "看万有不缺乏，皆属祂掌管；",
+            "祂公义如高山，极显赫威严，",
+            "慈爱恩，绕脚前，汇成为泉源。"
+          ],
+          "3": [
+            "宇宙中众生命，皆从主而来；",
+            "惟靠主能存活，因主是真宰；",
+            "人一生如草木，转眼便朽坏；",
+            "惟有主永长存，永远不更改。"
+          ],
+          "4": [
+            "主伟大又圣洁，是众光之父；",
+            "众天使皆崇拜，但不敢仰目；",
+            "众圣徒献颂赞，求助我瞻望；",
+            "在宝座所隐藏，圣天父荣光。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC032 (1 stanza more)"
+      ]
+    },
     "28": {
       "title": {
         "en": "I Sing the Mighty Power of God",
@@ -1993,7 +2071,7 @@
     },
     "37": {
       "title": {
-        "en": "Come, Thou Fount",
+        "en": "Come, Thou Fount of Every Blessing",
         "cn": "救主耶稣万福恩源"
       },
       "music": {
@@ -2055,6 +2133,85 @@
       },
       "notes": [
         "Same song: RHC026"
+      ]
+    },
+    "41": {
+      "title": {
+        "en": "Crown Him with Many Crowns",
+        "cn": "快来拥主为王"
+      },
+      "music": {
+        "composers": [
+          "George J. Elvey"
+        ],
+        "tune": "DIADEMATA",
+        "keySignature": [
+          "D"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Matthew Bridges and Godfrey Thring"
+        ],
+        "en": {
+          "1": [
+            "Crown Him with many crowns, The Lamb upon His throne:",
+            "Hark! How the heav'nly anthem drowns, All music but its own!",
+            "Awake, my soul, and sing, Of Him who died for thee,",
+            "And hail Him as thy matchless King, Thru all eternity."
+          ],
+          "2": [
+            "Crown Him the Lord of love: Behold His hands and side -",
+            "Rich wounds, yet visible above, In beauty glorified;",
+            "No angel in the sky, Can fully bear that sight,",
+            "But downward bends his wond'ring eye, At mysteries so bright."
+          ],
+          "3": [
+            "Crown Him the Lord of life: who triumphed o'er the grave,",
+            "Who rose victorious in the strife, For those He came to save;",
+            "His glories now we sing, Who died, and rose on high,",
+            "Who died eternal life to bring, And lives that death may die."
+          ],
+          "4": [
+            "Crown Him the Lord of heav'n: One with the Father known,",
+            "One with the Spirit thru Him giv'n, From yonder glorious throne.",
+            "To Thee be endless praise, For Thou for us hast died;",
+            "Be Thou, O Lord, thru endless days, Adored and magnified."
+          ]
+        },
+        "cn": {
+          "1": [
+            "快来拥主为王，圣羔在宝座上，",
+            "听啊!好乐传遍诸天，和声压倒群响；",
+            "醒啊!我心同唱，颂他救恩浩荡，",
+            "欢呼为你受死之主，千秋万岁无疆。"
+          ],
+          "2": [
+            "来拥戴主为王！主的慈爱无量，",
+            "手足肋旁昔被创伤，今显何等辉煌；",
+            "荣美发出光芒，天使敬拜颂扬，",
+            "谛视惊喜赞其超奇，奥秘不可测想。"
+          ],
+          "3": [
+            "来拥戴主为王！无比生命之王，",
+            "击败阴间复活得胜，为救我免沉沦；",
+            "今来向祂歌颂，赞美我主宏恩，",
+            "因祂为罪替我受死，为我带来永生。"
+          ],
+          "4": [
+            "加冕主为天王！祂与天父同一，",
+            "与圣灵同一通祂赐，从天荣耀宝座；",
+            "袮应得无穷赞，因袮为我命丧，",
+            "愿袮，主，永恒无尽日，被仰望尊为大。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC034",
+        "Same tune: RHC442"
       ]
     },
     "46": {
