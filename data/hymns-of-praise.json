@@ -2229,7 +2229,97 @@
         }
       },
       "notes": [
-        "Same song: RHC217."
+        "Same song: RHC217"
+      ]
+    },
+    "32": {
+      "title": {
+        "en": "The Great Physician Now Is Near",
+        "cn": "乐哉天医救主惠临"
+      },
+      "music": {
+        "composers": [
+          "John H. Stockton"
+        ],
+        "tune": "",
+        "keySignature": [
+          "D"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "William Hunter"
+        ],
+        "en": {
+          "1": [
+            "The great Physician now is near -",
+            "The sympathizing Jesus;",
+            "He speaks the drooping heart to cheer -",
+            "O hear the voice of Jesus!"
+          ],
+          "2": [
+            "Your many sins are all forgiv'n -",
+            "O hear the voice of Jesus;",
+            "Go on your way in peace to heav'n",
+            "And wear a crown with Jesus."
+          ],
+          "3": [
+            "All glory to the dying Lamb -",
+            "I now believe in Jesus;",
+            "I love the blessed Savior's name,",
+            "I love the name of Jesus."
+          ],
+          "4": [
+            "And when to that bright world above",
+            "We rise to be with Jesus,",
+            "We'll sing around the throne of love",
+            "His name, the name of Jesus."
+          ],
+          "chorus": [
+            "Sweetest note in seraph song,",
+            "Sweetest name on mortal tongue,",
+            "Sweetest carol ever sung -",
+            "Jesus, blessed Jesus!"
+          ]
+        },
+        "cn": {
+          "1": [
+            "乐哉天医，救主惠临，",
+            "体恤人苦之耶稣；",
+            "其言有权，立愈病心，",
+            "请你速来就耶稣。"
+          ],
+          "2": [
+            "你罪虽多，祂尽饶恕，",
+            "劝你来就主耶稣；",
+            "得祂平安，脱你劳苦，",
+            "终戴华冠同耶稣。"
+          ],
+          "3": [
+            "荣耀全归，复活羔羊，",
+            "我今专信主耶稣；",
+            "荣耀尊名，万古流芳，",
+            "我心深爱主耶稣。"
+          ],
+          "4": [
+            "一闻其名，罪惧皆消，",
+            "能安忧心惟耶稣；",
+            "一听主名，我便欢欣，",
+            "至尊无匹即耶稣。"
+          ],
+          "chorus": [
+            "乐天使赞美声飏，",
+            "人歌詠主名无双，",
+            "大宇宙时常颂扬，",
+            "至尊名主耶稣。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC058 (stanza 4 different in Chinese)"
       ]
     },
     "33": {
@@ -2455,6 +2545,76 @@
         "Same tune: RHC442"
       ]
     },
+    "43": {
+      "title": {
+        "en": "Shepherd of Eager Youth",
+        "cn": "良善牧人"
+      },
+      "music": {
+        "composers": [
+          "Felice De Giardini, arr. by Norman Johnson"
+        ],
+        "tune": "ITALIAN HYMN",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Clement of Alexandria"
+        ],
+        "translators": [
+          "enry Martyn Dexter"
+        ],
+        "en": {
+          "1": [
+            "Shepherd of eager youth, Guiding in love and truth",
+            "Thru devious ways - Christ our triumphant King,",
+            "We come Thy name to sing, Hither Thy children bring",
+            "Tributes of praise."
+          ],
+          "2": [
+            "Thou art our Holy Lord, The all subduing Word,",
+            "Healer of strife; Thou didst Thyself abase",
+            "That from sin's deep disgrace, Thou mightest save our race,",
+            "And give us life."
+          ],
+          "3": [
+            "Ever be near our side, Our shepherd and our guide,",
+            "Our staff and song; Jesus, Thou Christ of God,",
+            "By Thine enduring word, Lead us where Thou hast trod,",
+            "Make our faith strong."
+          ]
+        },
+        "cn": {
+          "1": [
+            "孩童良善牧人，求领我众归真，",
+            "远离邪行；基督得胜君王，",
+            "我们赞袮圣名，请听我众孩童",
+            "颂袮宏恩。"
+          ],
+          "2": [
+            "恳求圣洁牧人，得胜一切大君，",
+            "医治子民；袮愿自己卑微，",
+            "拯救世上万灵，离开罪恶忧惊，",
+            "赏赐生命。"
+          ],
+          "3": [
+            "求主近我身旁，作我善牧榜样，",
+            "安慰竿，杖；圣子耶稣基督，",
+            "藉袮稳固圣言；引我随袮向前，",
+            "信心加添。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC059",
+        "Same tune: RHC018"
+      ]
+    },
     "46": {
       "title": {
         "en": "Our Great Savior",
@@ -2559,6 +2719,249 @@
       "notes": [
         "Same song: RHC055",
         "Same tune: RHC042, RHC145"
+      ]
+    },
+    "47": {
+      "title": {
+        "en": "Ye Servants of Go, Your Master Proclaim",
+        "cn": "凡属主仆人"
+      },
+      "music": {
+        "composers": [
+          "arr. from J. Michael Haydn"
+        ],
+        "tune": "LYONS",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Charles Wesley"
+        ],
+        "en": {
+          "1": [
+            "Ye servants of God, your Master proclaim,",
+            "And publish abroad His wonderful name;",
+            "The name all victorious of Jesus extol:",
+            "His kingdom is glorious and rules over all."
+          ],
+          "2": [
+            "God ruleth on high, almighty to save,",
+            "And still He is nigh, His presence we have;",
+            "The great congregation His triumph shall sing,",
+            "Ascribing salvation to Jesus our King."
+          ],
+          "3": [
+            "\"Salvation to God, who sits on the throne,\"",
+            "Let all cry aloud and honor the Son;",
+            "The praises of Jesus the angels proclaim,",
+            "Fall down on their faces and worship the Lamb."
+          ],
+          "4": [
+            "Then let us adore and give Him His right -",
+            "All glory and pow'r, and wisdom and might;",
+            "All honor and blessing, with angels above,",
+            "And thanks never ceasing, and infinite love."
+          ]
+        },
+        "cn": {
+          "1": [
+            "凡属主仆人，同来颂主名，",
+            "努力广宣传，讲给万民听，",
+            "主名奇妙非常，到处能得胜，",
+            "主国统辖万邦，焕发大光明。"
+          ],
+          "2": [
+            "上主在高天，有力能拯救，",
+            "又长在世间，与人相亲近，",
+            "会众大声欢乐，庆贺主得胜，",
+            "称颂君王耶稣，救渡之功勋。"
+          ],
+          "3": [
+            "救恩都当归，宝座之真神，",
+            "又当归圣子，入世渡万民，",
+            "天军欢然奏乐，天堂歌声震，",
+            "俯伏环绕羔羊，叩拜至虔诚。"
+          ],
+          "4": [
+            "吾人恭敬拜，岂堪报万一！",
+            "天军永赞美，世人歌不息，",
+            "同归荣耀威严，智慧和权力，",
+            "感谢无边大爱，颂扬无量德。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC060",
+        "Same tune: RHC001"
+      ]
+    },
+    "53": {
+      "title": {
+        "en": "Jesus, Thou Joy of Loving Hearts",
+        "cn": "救主耶稣，爱心之乐"
+      },
+      "music": {
+        "composers": [
+          "Henry Baker"
+        ],
+        "tune": "QUEBEC",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Bernard of Clairvaux"
+        ],
+        "translators": [
+          "Ray Palmer"
+        ],
+        "en": {
+          "1": [
+            "Jesus, Thou Joy of loving hearts,",
+            "Thou Fount of life, Thou Light of men,",
+            "From the best bliss that earth imparts,",
+            "We turn unfilled to Thee again."
+          ],
+          "2": [
+            "Thy truth unchanged hath ever stood,",
+            "Thou savest those that on Thee call;",
+            "To them that seek Thee, Thou art good,",
+            "To them that find Thee, all in all."
+          ],
+          "3": [
+            "Our restless spirits yearn for Thee,",
+            "Where'er our changeful lot is cast;",
+            "Glad when Thy gracious smile we see,",
+            "Blest when our faith can hold Thee fast."
+          ],
+          "4": [
+            "O Jesus, ever with us stay,",
+            "Make all our moments calm and bright;",
+            "Chase the dark night of sin away,",
+            "Shed o'er the world Thy holy light."
+          ]
+        },
+        "cn": {
+          "1": [
+            "救主耶稣，爱心之乐！",
+            "生命之源！万人之光！",
+            "令我撇下世间幸福，",
+            "转面归向救主君王。"
+          ],
+          "2": [
+            "救主真理万古不变；",
+            "呼主之人，蒙主恩拯；",
+            "寻主之人，见主善良，",
+            "得主之人，感主深恩。"
+          ],
+          "3": [
+            "我灵望主十分恳切，",
+            "苦海浮沉悠悠我心；",
+            "睹主慈容，我便喜乐，",
+            "因信近主，我便欢欣。"
+          ],
+          "4": [
+            "求主为我永恒依靠！",
+            "使我时刻平安辉煌！",
+            "恳求驱除罪恶之夜！",
+            "恳求焕发圣洁之光。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC053 (1 stanza more)",
+        "Same lyrics: RHC052"
+      ]
+    },
+    "55": {
+      "title": {
+        "en": "Jesus, the Very Thought of Thee",
+        "cn": "耶稣每逢想念着袮"
+      },
+      "music": {
+        "composers": [
+          "John B. Dykes"
+        ],
+        "tune": "ST. AGNES",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Bernard of Clairvaux"
+        ],
+        "translators": [
+          "Edward Caswall"
+        ],
+        "en": {
+          "1": [
+            "Jesus, the very thought of Thee",
+            "With sweetness fills the breast;",
+            "But sweeter far Thy face to see",
+            "And in Thy presence rest."
+          ],
+          "2": [
+            "Nor voice can sing, nor heart can frame,",
+            "Nor can the mem'ry find",
+            "A sweeter sound than Thy blest Name,",
+            "O Savior of mankind."
+          ],
+          "3": [
+            "O hope of ev'ry contrite heart,",
+            "O joy of all the meek,",
+            "To those who fall, how kind Thou art!",
+            "How good to those who seek!"
+          ],
+          "4": [
+            "But what to those who find? Ah, this",
+            "Nor tongue nor pen can show -",
+            "The love of Jesus, what it is,",
+            "None but His loved ones know."
+          ]
+        },
+        "cn": {
+          "1": [
+            "耶稣，每逢想念着袮，",
+            "愉快充满心怀，",
+            "若能到袮面前安息，",
+            "何等愉快欢欣。"
+          ],
+          "2": [
+            "有声难唱，有心难想，",
+            "记忆之中难寻，",
+            "能比慈爱救主圣名，",
+            "更加甜蜜的名。"
+          ],
+          "3": [
+            "痛悔之心得着希望，",
+            "柔和之心得恩，",
+            "倾跌之人如何蒙爱，",
+            "寻者如何相逢。"
+          ],
+          "4": [
+            "寻着之人到底如何，",
+            "笔墨何能形容！",
+            "耶稣之爱究竟如何，",
+            "惟有爱能了解。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC057 (1 stanza more)",
+        "Same tune: RHC231"
       ]
     },
     "59": {
