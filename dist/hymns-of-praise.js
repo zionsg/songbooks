@@ -1991,6 +1991,72 @@
         "Same song: TSMS097 (1 stanza more), EHS079 (chorus only), RHC031 (1 stanza more)"
       ]
     },
+    "37": {
+      "title": {
+        "en": "Come, Thou Fount",
+        "cn": "救主耶稣万福恩源"
+      },
+      "music": {
+        "composers": [
+          "John Wyeth, arr. by Norman Johnson"
+        ],
+        "tune": "NETTLETON",
+        "keySignature": [
+          "D"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Robert Robinson"
+        ],
+        "en": {
+          "1": [
+            "Come, Thou Fount of every blessing, Tune my heart to sing Thy grace;",
+            "Streams of mercy, never ceasing, Call for songs of loudest praise.",
+            "Teach me some melodious sonnet, Sung by flaming tongues above.",
+            "Praise the mount! I'm fixed upon it - Mount of Thy redeeming love."
+          ],
+          "2": [
+            "Here I raise my Ebenezer - Hither by Thy great help I'm come;",
+            "And I hope by Thy good pleasure, Safely to arrive at home.",
+            "Jesus sought me when a stranger, Wander'ng from the fold of God;",
+            "He to rescue me from danger, Interposed His precious blood."
+          ],
+          "3": [
+            "O to grace how great a debtor, Daily I'm constrained to be!",
+            "Let Thy goodness, like a fetter, Bind my wand'ring heart to Thee.",
+            "Prone to wander, Lord, I feel it - Prone to leave the God I love;",
+            "Here's my heart - O take and seal it, Seal it for Thy courts above."
+          ]
+        },
+        "cn": {
+          "1": [
+            "全能真主万福恩源，求使我心常赞美；",
+            "主赐恩典涌流不断，应当颂扬主恩惠。",
+            "求主教我歌唱不停，如天使歌颂在天，",
+            "主的恩典无穷无尽，永远稳定永不变。"
+          ],
+          "2": [
+            "我愿纪念救主宏恩，因赐福到如今；",
+            "更求恩主引我前程，使我安然到天庭。",
+            "我曾漂流迷失正路，主用大爱寻找我，",
+            "为救我命宝血流出，赐我平安与快乐。"
+          ],
+          "3": [
+            "每日主赐恩典无限，负主恩债有万千；",
+            "愿主恩典如鍊牵连，系我心在主身边。",
+            "我深知道我心易变，常离主爱行己路，",
+            "今将身心完全奉献，从今以後永属主。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC026"
+      ]
+    },
     "46": {
       "title": {
         "en": "Our Great Savior",
