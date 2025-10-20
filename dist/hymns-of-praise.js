@@ -1684,6 +1684,92 @@
         "Same song: RHC030 (2 stanzas more)"
       ]
     },
+    "20": {
+      "title": {
+        "en": "A Mighty Fortress Is Our God",
+        "cn": "上主是我坚固保障"
+      },
+      "music": {
+        "composers": [
+          "Martin Luther"
+        ],
+        "tune": "EIN' FESTE BURG",
+        "keySignature": [
+          "C"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Martin Luther, trans. by Frederick H. Hedge"
+        ],
+        "en": {
+          "1": [
+            "A mighty fortress is our God, a bulwark never failing;",
+            "Our helper He amid the flood, Of mortal ills prevailing.",
+            "For still our ancient foe, Doth seek to work us woe -",
+            "His craft and powe'r are great, And, armed with cruel hate,",
+            "On earth is not his equal."
+          ],
+          "2": [
+            "Did we in our own strength confide, Our striving would be losing,",
+            "Were not the right Man on our side, The Man of God's own choosing.",
+            "Dost ask who that may be? Christ Jesus, it is He -",
+            "Lord Sabaoth His Name, From age to age the same -",
+            "And He must win the battle."
+          ],
+          "3": [
+            "And tho this world, with devils filled, Should threaten to undo us,",
+            "We will not fear, for God hath willed, His truth to triumph thru us.",
+            "The prince of darkness grim - We tremble not for him;",
+            "His rage we can endure, For lo! his doom is sure -",
+            "One little word shall fell him."
+          ],
+          "4": [
+            "That word above all earthly pow'rs - No thanks to them - abideth;",
+            "The Spirit and the gifts are ours, Thru Him who with us sideth.",
+            "Let goods and kindred go, This mortal life also;",
+            "The body they may kill: God's truth abideth still -",
+            "His kingdom is forever."
+          ]
+        },
+        "cn": {
+          "1": [
+            "上主是我坚固保障，是我山寨和避难所，",
+            "苦海汪洋主为救星，似无生路我仍有望，",
+            "虽有凶恶仇敌，攻击不留余力，",
+            "对我仇恨刺骨，常用狡猾引诱，",
+            "但我救主将我保护。"
+          ],
+          "2": [
+            "我若单靠己力行走，每遇战争必要退败，",
+            "须有能者随时帮助，即神设立救赎恩主，",
+            "若问所设为谁，乃主耶稣基督，",
+            "又称万有主宰，永远并无更改，",
+            "他已得胜做我元帅。"
+          ],
+          "3": [
+            "若全世界充满鬼魔，救主圣徒仍能安然，",
+            "仇敌降灾设下网罗，主为道路助我胜过，",
+            "幽暗魔王兴起，我靠救主能抵，",
+            "敌怒不能长久，敌迫我能忍受，",
+            "主言一出敌即败溃。"
+          ],
+          "4": [
+            "主言有权高过万王，世上帝王不能相比，",
+            "圣灵恩赐全备可信，降我身何等奇妙，",
+            "名利任其失去，生命我也无虑，",
+            "身家虽然失丧，主道终必兴旺，",
+            "救主之国存到永远。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC046"
+      ]
+    },
     "21": {
       "title": {
         "en": "Joyful, Joyful, We Adore Thee",
@@ -1759,6 +1845,162 @@
         }
       },
       "notes": []
+    },
+    "22": {
+      "title": {
+        "en": "Great Is Thy Faithfulness",
+        "cn": "你信实何广大"
+      },
+      "music": {
+        "composers": [
+          "William M. Runyan"
+        ],
+        "tune": "",
+        "keySignature": [
+          "D"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Thomas O. Chisholm"
+        ],
+        "en": {
+          "1": [
+            "Great is Thy faithfulness, O God my Father!",
+            "There is no shadow of turning with Thee;",
+            "Thou changest not, Thy compassions, they fail not:",
+            "As Thou hast been, Thou forever wilt be."
+          ],
+          "2": [
+            "Summer and winter and springtime and harvest,",
+            "Sun, moon and stars in their courses above,",
+            "Join with all nature in manifold witness",
+            "To Thy great faithfulness, mercy and love."
+          ],
+          "3": [
+            "Pardon for sin and a peace that endureth,",
+            "Thine own dear presence to cheer and to guide;",
+            "Strength for today and bright hope for tomorrow -",
+            "Blessings all mine, with ten thousand beside!"
+          ],
+          "chorus": [
+            "Great is Thy faithfulness! Great is Thy faithfulness!",
+            "Morning by morning new mercies I see;",
+            "All I have needed Thy hand hath provided -",
+            "Great is Thy faithfulness, Lord, unto me!"
+          ]
+        },
+        "cn": {
+          "1": [
+            "袮信实何广大，神，我的天父，",
+            "在袮没有丝毫转动影儿，",
+            "袮不改变袮怜爱也无减少，",
+            "像袮以往一样直到永远。"
+          ],
+          "2": [
+            "暑夏和严寒冬，春风和秋雨，",
+            "日月众星晨在天上运行，",
+            "联合全宇宙共同多方见证，",
+            "述说袮的信实，怜悯，慈爱。"
+          ],
+          "3": [
+            "袮赦免我罪愆，赐我永平安，",
+            "袮的容光亲自安慰导引，",
+            "日日加力，更赐我光明盼望，",
+            "已受恩惠重重，万恩等待。"
+          ],
+          "chorus": [
+            "袮信实何广大！袮信实何广大！",
+            "每天早晨我领受新恩惠，",
+            "我一切需用，袮全早已预备，",
+            "主，袮对我的信实何广大！"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC047, TSMS007"
+      ]
+    },
+    "23": {
+      "title": {
+        "en": "How Great Thou Art!",
+        "cn": "祢真伟大"
+      },
+      "music": {
+        "composers": [
+          "Swedish melody, arr. by Manna Music, Inc."
+        ],
+        "tune": "O STORE GUD",
+        "keySignature": [
+          "Bb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Carl Boberg, trans. by Stuart K. Hine"
+        ],
+        "en": {
+          "1": [
+            "O Lord my God, when I in awesome wonder",
+            "Consider all the worlds Thy hands have made,",
+            "I see the stars, I hear the rolling thunder,",
+            "Thy pow'r thru out the universe displayed!"
+          ],
+          "2": [
+            "And when I think that God, His Son not sparing,",
+            "Sent Him to die, I scarce can take it in -",
+            "That on the cross, my burden gladly bearing,",
+            "He bled and died to take away my sin!"
+          ],
+          "3": [
+            "When Christ shall come with shout of acclamation",
+            "And take me home, what joy shall fill my heart!",
+            "Then I shall bow in humble adoration",
+            "And there proclaim, my God, how great Thou art!"
+          ],
+          "chorus": [
+            "Then sings my soul, my Savior God, to Thee;",
+            "How great Thou art, how great Thou art!",
+            "Then sings my soul, my Savior God, to Thee;",
+            "How great Thou art, how great Thou art!"
+          ]
+        },
+        "cn": {
+          "1": [
+            "主阿，我神！我每逢举目观看，",
+            "祢手所造，一切奇妙大工；",
+            "看见星宿，又听到隆隆雷声，",
+            "祢的大工，遍满了宇宙中。"
+          ],
+          "2": [
+            "当我想到，神竟愿差祂儿子，",
+            "降世捨命，我几乎不领会；",
+            "主在十架，甘愿背我的重担，",
+            "流血捨身，为要赦免我罪。"
+          ],
+          "3": [
+            "当主再来，欢呼声响彻天空，",
+            "何等喜乐，主接我回天家；",
+            "我要跪下，谦恭的崇拜敬奉，",
+            "并要颂扬，「神阿，祢真伟大。」"
+          ],
+          "chorus": [
+            "我灵歌唱，赞美救主我神，",
+            "「祢真伟大！何等伟大！」",
+            "我灵歌唱，赞美救主我神，",
+            "「祢真伟大！何等伟大！」"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC049 (1 stanza more), TSMS015"
+      ]
     },
     "26": {
       "title": {
