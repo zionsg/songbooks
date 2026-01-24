@@ -3428,6 +3428,72 @@
         "Same tune: RHC327, RHC556"
       ]
     },
+    "49": {
+      "title": {
+        "en": "Come, Christians, Join to Sing",
+        "cn": "信徒齐来颂主"
+      },
+      "music": {
+        "composers": [
+          "Source unknown, arr. by Don Peterman"
+        ],
+        "tune": "MADRID",
+        "keySignature": [
+          "A"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Christian Henry Bateman"
+        ],
+        "en": {
+          "1": [
+            "Come, Christians, join to sing - Alleluia! Amen!",
+            "Loud praise to Christ our King - Alleluia! Amen!",
+            "Let all, with heart and voice, Before His throne rejoice;",
+            "Praise is His gracious choice: Alleluia! Amen!"
+          ],
+          "2": [
+            "Come, lift your hearts on high - Alleluia! Amen!",
+            "Let praises fill the sky - Alleluia! Amen!",
+            "He is our Guide and Friend, To us He'll condescend;",
+            "His love shall never end: Alleluia! Amen!"
+          ],
+          "3": [
+            "Praise yet our Christ again - Alleluia! Amen!",
+            "Life shall not end the strain - Alleluia! Amen!",
+            "On heaven's blissful shore, His goodness we'll adore,",
+            "Singing forevermore, \"Alleluia! Amen!\""
+          ]
+        },
+        "cn": {
+          "1": [
+            "信徒齐来颂主，哈利路亚！阿们！",
+            "赞美我主基督，哈利路亚！阿们！",
+            "万众一心颂扬，在主座前欢唱，",
+            "主必喜悦欣赏，哈利路亚！阿们！"
+          ],
+          "2": [
+            "来齐心高声唱，哈利路亚！阿们！",
+            "赞美声达穹苍，哈利路亚！阿们！",
+            "主是牧者良朋，降卑代赎捨生，",
+            "慈爱丰盈永恒，哈利路亚！阿们！"
+          ],
+          "3": [
+            "赞美基督至尊，哈利路亚！阿们！",
+            "生命永远长存，哈利路亚！阿们！",
+            "在天福乐岸边，同崇敬主美善，",
+            "欢唱亿万万年，哈利路亚！阿们！"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC075"
+      ]
+    },
     "51": {
       "title": {
         "en": "Jesus, I Am Resting",
@@ -3978,6 +4044,104 @@
         "Same song: RHC009"
       ]
     },
+    "63": {
+      "title": {
+        "en": "Day Is Dying in the West",
+        "cn": "晚霞渐逝"
+      },
+      "music": {
+        "composers": [
+          "William F. Sherwin"
+        ],
+        "tune": "CHAUTAUQUA",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "6/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Mary A. Lathbury"
+        ],
+        "en": {
+          "1": [
+            "Day is dying in the west,",
+            "Heav'n is touching earth with rest;",
+            "Wait and worship while the night",
+            "Sets the evening lamps alight",
+            "Thru all the sky."
+          ],
+          "2": [
+            "Lord of life, beneath the dome",
+            "Of the universe, Thy home,",
+            "Gather us who seek Thy face",
+            "To the fold of Thy embrace,",
+            "For Thou art nigh."
+          ],
+          "3": [
+            "While the deep'ning shadows fall,",
+            "Heart of love enfolding all,",
+            "Thru the glory and the grace",
+            "Of the stars that veil Thy face,",
+            "Our hearts ascend."
+          ],
+          "4": [
+            "When forever from our sight",
+            "Pass the stars, the day, the night,",
+            "Lord of angels, on our eyes",
+            "Let eternal morning rise,",
+            "And shadows end."
+          ],
+          "chorus": [
+            "Holy, holy, holy, Lord God of Hosts!",
+            "Heav'n and earth are full of Thee!",
+            "Heav'n and earth are praising Thee,",
+            "O Lord most high!"
+          ]
+        },
+        "cn": {
+          "1": [
+            "晚霞渐逝，日西沉，",
+            "暮色遍地夜来临；",
+            "俯伏跪拜主座前，",
+            "仰见星光满诸天，",
+            "灿烂无边。"
+          ],
+          "2": [
+            "生命主宰，施怜悯，",
+            "召集我等寻主恩，",
+            "到袮怀里得安宁，",
+            "作袮儿女享永生，",
+            "与主接近。"
+          ],
+          "3": [
+            "大地沉沉，黑影深，",
+            "救主慈心吸引人，",
+            "我们感谢忽忘形，",
+            "超过星月到天庭，",
+            "献上寸心。"
+          ],
+          "4": [
+            "将来昼夜，星和月，",
+            "必要永与人相别，",
+            "虔祝永晨快来到，",
+            "不落朝阳常照耀，",
+            "黑暗全消。"
+          ],
+          "chorus": [
+            "圣哉，圣哉，圣哉，万有之神！",
+            "充满天地宇宙间，",
+            "万物，万灵同颂赞，",
+            "至高之神！"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC076"
+      ]
+    },
     "65": {
       "title": {
         "en": "Now the Day Is Over",
@@ -4038,6 +4202,72 @@
       },
       "notes": [
         "Same song: RHC012 (1 stanza more)"
+      ]
+    },
+    "68": {
+      "title": {
+        "en": "Savior, Again to Thy Dear Name",
+        "cn": "聚会将毕"
+      },
+      "music": {
+        "composers": [
+          "Edward J. Hopkins, arr. by Eldon Burkwall"
+        ],
+        "tune": "ELLERS",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Ellerton"
+        ],
+        "en": {
+          "1": [
+            "Savior, again to Thy dear Name we raise",
+            "With one accord our parting hymn of praise;",
+            "Once more we bless Thee ere our worship cease,",
+            "Then, lowly kneeling, wait Thy word of peace."
+          ],
+          "2": [
+            "Grant us Thy peace upon our homeward way:",
+            "With Thee began, with Thee shall end the day;",
+            "Guard Thou the lips from sin, the hearts from shame,",
+            "That in this house have called upon Thy Name."
+          ],
+          "3": [
+            "Grant us Thy peace, Lord, thru the coming night,",
+            "Turn Thou for us its darkness into light;",
+            "From harm and danger, keep Thy children free,",
+            "For dark and light are both alike to Thee."
+          ]
+        },
+        "cn": {
+          "1": [
+            "仁慈救主，现今聚会将毕，",
+            "容我们再次唱诗赞美袮；",
+            "未离圣堂前，同颂主恩义，",
+            "低头同祷告，求主赐平安。"
+          ],
+          "2": [
+            "主赐平安，归程蒙福安宁，",
+            "更使从今天随袮脚步行；",
+            "口不出恶言，心里常洁清，",
+            "行为遵主则，披戴主圣名。"
+          ],
+          "3": [
+            "主赐平安，经长夜无惊慌，",
+            "有救主保护，随处享平康；",
+            "白昼和黑夜，主看是一样，",
+            "有主指引我，凡事都顺畅。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC077 (1 stanza more)"
       ]
     },
     "85": {
@@ -5389,6 +5619,96 @@
       },
       "notes": [
         "Same song: TSMS320, EHS041 (chorus only), RHC323 (1 stanza more)"
+      ]
+    },
+    "436": {
+      "title": {
+        "en": "God Be with You",
+        "cn": "愿主同在直到再相会"
+      },
+      "music": {
+        "composers": [
+          "William G. Tomer"
+        ],
+        "tune": "",
+        "keySignature": [
+          "C"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Jeremiah E. Rankin"
+        ],
+        "en": {
+          "1": [
+            "God be with you till we meet again,",
+            "By His counsels guide, uphold you -",
+            "With His sheep securely fold you;",
+            "God be with you till we meet again."
+          ],
+          "2": [
+            "God be with you till we meet again,",
+            "'Neath His wings protecting hide you,",
+            "Daily manna still provide you -",
+            "God be with you till we meet again."
+          ],
+          "3": [
+            "God be with you till we meet again,",
+            "When life's perils thick confound you,",
+            "Put His arms unfailing round you -",
+            "God be with you till we meet again."
+          ],
+          "4": [
+            "God be with you till we meet again,",
+            "Keep love's banner floating o'er you,",
+            "Strike death's threat'ning wave before you -",
+            "God be with you till we meet again."
+          ],
+          "chorus": [
+            "Till we meet, till we meet,",
+            "Till we meet at Jesus' feet;",
+            "Till we meet, till we meet -",
+            "God be with you till we meet again."
+          ]
+        },
+        "cn": {
+          "1": [
+            "愿主同在直到再相会，",
+            "主为良师常指导你，",
+            "主为牧人常养护你，",
+            "愿主同在直到再相会。"
+          ],
+          "2": [
+            "愿主同在直到再相会，",
+            "主展全能羽翼护你，",
+            "主赐日用粮食养你，",
+            "愿主同在直到再相会。"
+          ],
+          "3": [
+            "愿主同在直到再相会，",
+            "生活危机虽侵扰你，",
+            "仁爱圣臂必卫护你，",
+            "愿主同在直到再相会。"
+          ],
+          "4": [
+            "愿主同在直到再相会，",
+            "爱的旌旗常率引你，",
+            "死的冷波不能伤你，",
+            "愿主同在直到再相会。"
+          ],
+          "chorus": [
+            "再相会，再相会，",
+            "靠主恩得再相会，",
+            "再相会，再相会，",
+            "愿主同在直到再相会。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC079"
       ]
     },
     "The Lord Bless You And Keep You": {
