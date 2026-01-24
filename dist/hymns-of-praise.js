@@ -2476,7 +2476,85 @@
         }
       },
       "notes": [
-        "Same song: TSMS097 (1 stanza more), EHS079 (chorus only), RHC031 (1 stanza more)"
+        "Same song: RHC031 (1 stanza more), TSMS097 (1 stanza more), EHS079 (chorus only)"
+      ]
+    },
+    "36": {
+      "title": {
+        "en": "Praise the Savior",
+        "cn": "赞主伟大"
+      },
+      "music": {
+        "composers": [
+          "German melody"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Thomas Kelly"
+        ],
+        "en": {
+          "1": [
+            "Praise the Savior, ye who know Him!",
+            "Who can tell how much we owe Him?",
+            "Gladly let us render to Him",
+            "All we are and have."
+          ],
+          "2": [
+            "Jesus is the name that charms us,",
+            "He for conflict fits and arms us;",
+            "Nothing moves and nothing harms us",
+            "While we trust in Him."
+          ],
+          "3": [
+            "Trust in Him, ye saints, forever -",
+            "He is faithful, changing never;",
+            "Neither force nor guile can sever",
+            "Those He loves from Him."
+          ],
+          "4": [
+            "Keep us, Lord, O keep us cleaving",
+            "To Thyself, and still believing,",
+            "Till the hour of our receiving",
+            "Promised joys with Thee."
+          ]
+        },
+        "cn": {
+          "1": [
+            "神的儿女同来歌颂，",
+            "赞主伟大无比救恩，",
+            "我们全心，全意献唱，",
+            "救主大恩功。"
+          ],
+          "2": [
+            "耶稣圣名是我喜乐，",
+            "祂藉困难来造就我，",
+            "当我诚心，倚赖信靠，",
+            "无人能害我。"
+          ],
+          "3": [
+            "真神信实永远坚定，",
+            "信靠之心永不迁移，",
+            "虽有刀剑，不能分开，",
+            "真心爱主人。"
+          ],
+          "4": [
+            "恳求我主常保守我，",
+            "恩主手中坚信不移，",
+            "直到那日，与主同居，",
+            "快乐永不止。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC067 (1 stanza more), TSMS297 (1 stanza more)"
       ]
     },
     "37": {
@@ -3024,6 +3102,153 @@
       "notes": [
         "Same song: RHC060",
         "Same tune: RHC001"
+      ]
+    },
+    "48": {
+      "title": {
+        "en": "Majestic Sweetness Sits Enthroned",
+        "cn": "尊贵威严"
+      },
+      "music": {
+        "composers": [
+          "Thomas Hastings"
+        ],
+        "tune": "ORTONVILLE",
+        "keySignature": [
+          "Ab"
+        ],
+        "timeSignature": [
+          "6/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Samuel Stennett"
+        ],
+        "en": {
+          "1": [
+            "Majestic sweetness sits enthroned",
+            "Upon the Savior's brow;",
+            "His head with radiant glories crowned,",
+            "His lips with grace o'erflow,",
+            "His lips with grace o'erflow."
+          ],
+          "2": [
+            "He saw me plunged in deep distress",
+            "And flew to my relief;",
+            "For me He bore the shameful cross",
+            "And carried all my grief,",
+            "And carried all my grief."
+          ],
+          "3": [
+            "To Him I owe my life and breath",
+            "And all the joys I have;",
+            "He makes me triumph over death",
+            "And saves me from the grave,",
+            "And saves me from the grave."
+          ]
+        },
+        "cn": {
+          "1": [
+            "慈祥，和蔼，尊贵，威严，",
+            "显在救主圣颜；",
+            "祂头上戴荣耀冠冕，",
+            "祂口流出恩言，",
+            "祂口流出恩言。"
+          ],
+          "2": [
+            "祂见我陷苦难彷徨，",
+            "竟来抚慰悲伤；",
+            "为我背负羞辱十架，",
+            "忧患祂尽担当，",
+            "忧患祂尽担当。"
+          ],
+          "3": [
+            "生命气息都在乎祂，",
+            "又赐喜乐无挂，",
+            "更将死亡权柄毁塌，",
+            "救我脱离永罚，",
+            "救我脱离永罚。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC068 (1 stanza more), EHS078 (1 stanza more)",
+        "Same tune: RHC327, RHC556"
+      ]
+    },
+    "51": {
+      "title": {
+        "en": "Jesus, I Am Resting",
+        "cn": "我正安息"
+      },
+      "music": {
+        "composers": [
+          "James Mountain"
+        ],
+        "tune": "TRANQUILITY",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Jean Sophia Pigott"
+        ],
+        "en": {
+          "1": [
+            "Jesus, I am resting, resting, In the joy of what Thou art;",
+            "I am finding out the greatness, Of Thy loving heart.",
+            "Thou hast bid me gaze upon Thee, And Thy beauty fills my soul,",
+            "For by Thy transforming power, Thou hast made me whole."
+          ],
+          "2": [
+            "Simply trusting Thee, Lord Jesus, I behold Thee as Thou art,",
+            "And Thy love, so pure, so changeless, Satisfies my heart -",
+            "Satisfies its deepest longings, Meets, supplies its ev'ry need,",
+            "Compasseth me round with blessings: Thine is love indeed!"
+          ],
+          "3": [
+            "Ever lift Thy face upon me, As I work and wait for Thee;",
+            "Resting 'neath Thy smile, Lord Jesus, Earth's dark shadows flee.",
+            "Brightness of my Father's glory, Sunshine of my Father's face,",
+            "Keep me ever trusting, resting, Fill me with Thy grace."
+          ],
+          "chorus": [
+            "Jesus, I am resting, resting, In the joy of what Thou art;",
+            "I am finding out the greatness, Of Thy loving heart."
+          ]
+        },
+        "cn": {
+          "1": [
+            "耶稣，我正安息安息，在袮无限欢乐中；",
+            "我已寻得袮的大爱，得知袮慈心。",
+            "袮吸引我注目望袮，袮的柔美满我灵，",
+            "袮又用袮 “改变” 全能，使我得安全。"
+          ],
+          "2": [
+            "哦，主，袮仁慈何广大，比海更深更广大；",
+            "哦，主，袮恩爱何奇妙，竟全赐我身！",
+            "主啊，我今安息袮内，确知袮恩典何丰！",
+            "确知袮的应许可信，更知全属我。"
+          ],
+          "3": [
+            "哦，主，我要单纯望袮，我要专一仰靠袮，",
+            "袮那纯洁不变的爱，满足了我的心！",
+            "满足了极深的渴慕，满足了每一要求，",
+            "更以福气围绕我身，袮真正是爱。"
+          ],
+          "chorus": [
+            "耶稣，我正安息安息，在袮无限欢乐中；",
+            "我已寻得袮大恩爱，得知袮慈心。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC070 (stanza 2 different for Chinese lyrics)"
       ]
     },
     "53": {
