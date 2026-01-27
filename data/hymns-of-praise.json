@@ -3731,6 +3731,162 @@
         "Same tune: RHC231"
       ]
     },
+    "57": {
+      "title": {
+        "en": "Safely Through Another Week",
+        "cn": "平安又经过六日"
+      },
+      "music": {
+        "composers": [
+          "Lowell Mason"
+        ],
+        "tune": "SABBATH",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "John Newton"
+        ],
+        "en": {
+          "1": [
+            "Safely through another week, God has brought us on our way;",
+            "Let us now a blessing seek, Waiting in His courts today:",
+            "Day of all the week the best, Emblem of eternal rest,",
+            "Day of all the week the best, Emblem of eternal rest."
+          ],
+          "2": [
+            "While we pray for pard'ning grace, Thru the dear Redeemer's name,",
+            "Show Thy reconciled face, Take away our sin and shame;",
+            "From our worldly cares set free, May we rest this day in Thee,",
+            "From our worldly cares set free, may we rest this day in Thee."
+          ],
+          "3": [
+            "Here we come Thy name to praise - Let us feel Thy presence near;",
+            "May Thy glory meet our eyes, While we in Thy house appear:",
+            "Here afford us, Lord, a taste, Of our everlasting feast,",
+            "Here afford us, Lord, a taste, Of our everlasting feast."
+          ],
+          "4": [
+            "May Thy gospel's joyful sound, Conquer sinners, comfort saints;",
+            "May the fruits of grace abound, Bring relief for all complaints:",
+            "Thus may all our Sabbaths prove, Till we join the Church above,",
+            "Thus may all our Sabbaths prove, Till we join the Church above!"
+          ]
+        },
+        "cn": {
+          "1": [
+            "平安又经过六日，主护卫一路带领；",
+            "今日安静主面前，专心等候主家中：",
+            "这一日分别为圣，共同享受永安息。",
+            "这一日分别为圣，共同享受永安息。"
+          ],
+          "2": [
+            "同心祈求赦罪恩，同奉耶稣的圣名；",
+            "显明袮慈爱圣容，赦免我罪除羞情：",
+            "不被俗事来缠绕，今日自由在主内。",
+            "不被俗事来缠绕，今日自由在主内。"
+          ],
+          "3": [
+            "我们同声赞主名，能感到主的同在；",
+            "在袮家中敬拜时，求袮显明大荣耀：",
+            "求袮开启我灵觉，能欣赏永生筵席。",
+            "求袮开启我灵觉，能欣赏永生筵席。"
+          ],
+          "4": [
+            "愿你福音好信息，克服罪恶安人心；",
+            "结出更多恩典果，解人忧愁除重荷：",
+            "誓愿从此尊主日，直到教会被提时。",
+            "誓愿从此尊主日，直到教会被提时。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC086"
+      ]
+    },
+    "58": {
+      "title": {
+        "en": "O Day of Rest and Gladness",
+        "cn": "欢欣安息之圣日"
+      },
+      "music": {
+        "composers": [
+          "German melody, arr. by Lowell Mason"
+        ],
+        "tune": "MENDEBRAS",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Christopher Wordsworth"
+        ],
+        "en": {
+          "1": [
+            "O day of rest and gladness, O day of joy and light,",
+            "O balm of care and sadness, Most beautiful, most bright:",
+            "On Thee, the high and lowly, Thru ages joined in tune,",
+            "Sing \"Holy, Holy, Holy,\" To the great God Triune."
+          ],
+          "2": [
+            "On thee, at the creation, The light first had its birth;",
+            "On thee, for our salvation, Christ rose from depths of earth;",
+            "On thee, our Lord, victorious, the Spirit sent from heav'n,",
+            "And thus on thee, most glorious, A triple light was giv'n."
+          ],
+          "3": [
+            "Today on weary nations, The heav'nly manna falls;",
+            "To holy convocations, The silver trumpet calls,",
+            "Where Gospel light is glowing, With pure and radiant beams,",
+            "And living water flowing, With soul refreshing streams."
+          ],
+          "4": [
+            "New graces ever gaining, From this our day of rest,",
+            "We reach the rest remaining, To spirits of the blest.",
+            "To Holy Ghost be praises, to Father, and to Son;",
+            "The Church her voice upraises, To Thee, blest Three in One."
+          ]
+        },
+        "cn": {
+          "1": [
+            "欢欣安息之圣日，洋溢快乐光明；",
+            "劳苦忧愁得慰乐，此日美好难名；",
+            "无论世人之贵贱，皆向宝座前来，",
+            "敬拜三一无怠倦，同唱：‘圣哉！圣哉！’"
+          ],
+          "2": [
+            "此日真神行创造，光明应命而生；",
+            "此日救主复活了，救恩完满作成；",
+            "此日得胜之救主，从天遣下圣灵，",
+            "此日光荣大广布，主赐三种光明。"
+          ],
+          "3": [
+            "此日吗那从天降，普济众人饥馑；",
+            "此日银号已吹响，招集属主子民；",
+            "看福音真光普照，灿烂纯洁如银，",
+            "有活水泉湧滔滔，流注苏人灵魂。"
+          ],
+          "4": [
+            "新恩典不绝宠锡，守圣日心洁清，",
+            "我灵希望得安息，永远蒙福天庭；",
+            "当赞圣灵常保护，圣父，圣子厚恩，",
+            "教会信众齐颂主，赞美三一真神。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC085"
+      ]
+    },
     "59": {
       "title": {
         "en": "When Morning Gilds the Skies",
