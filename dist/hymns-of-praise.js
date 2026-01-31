@@ -5777,6 +5777,346 @@
         "Same song: TSMS320, EHS041 (chorus only), RHC323 (1 stanza more)"
       ]
     },
+    "364": {
+      "title": {
+        "en": "Praise Him! Praise Him!",
+        "cn": "赞祂赞祂"
+      },
+      "music": {
+        "composers": [
+          "Chester G. Allen"
+        ],
+        "tune": "",
+        "keySignature": [
+          "G"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Fanny J. Crosby"
+        ],
+        "en": {
+          "1": [
+            "Praise Him! Praise Him! Jesus, our blessed Redeemer!",
+            "Sing, O earth - His wonderful love proclaim!",
+            "Hail Him! hail Him! highest archangels in glory;",
+            "Strength and honor give to His holy name!",
+            "Like a shepherd, Jesus will guard His children -",
+            "In His arms He carries them all day long:"
+          ],
+          "2": [
+            "Praise Him! Praise Him! Jesus, our blessed Redeemer!",
+            "For our sins He suffered and bled and died;",
+            "He our Rock, our hope of eternal salvation,",
+            "Hail Him! hail Him! Jesus the Crucified.",
+            "Sound His praises - Jesus who bore our sorrows -",
+            "Love unbounded, wonderful, deep and strong:"
+          ],
+          "3": [
+            "Praise Him! Praise Him! Jesus, our blessed Redeemer!",
+            "Heav'nly portals loud with hosannas ring!",
+            "Jesus, Savior, reigneth forever and ever.",
+            "Crown Him! crown Him! Prophet and Priest and King!",
+            "Christ is coming, over the world victorious -",
+            "Pow'r and glory unto the Lord belong:"
+          ],
+          "chorus": [
+            "Praise Him! Praise Him! Tell of His excellent greatness!",
+            "Praise Him! Praise Him! Ever in joyful song!"
+          ]
+        },
+        "cn": {
+          "1": [
+            "赞祂！赞祂！赞美耶稣慈爱救主；",
+            "全地高唱将祂奇爱宣扬！",
+            "颂祂！颂祂！荣耀天使俯伏歌唱，",
+            "荣耀，尊贵，归于救主圣名！",
+            "耶稣如同牧人护卫祂羊群，",
+            "终日怀抱在祂慈爱怀中；"
+          ],
+          "2": [
+            "赞祂！赞祂！赞美耶稣慈爱救主；",
+            "祂为我罪受苦流血捨身！",
+            "祂是磐石，是我永远救恩盼望，",
+            "颂祂！颂祂！颂扬钉十架主。",
+            "慈爱救主默默无声受创痛，",
+            "头戴荆棘额上鲜血点点；"
+          ],
+          "3": [
+            "赞祂！赞祂！赞美耶稣慈爱救主；",
+            "天上众圣高声唱 “和散那”！",
+            "耶稣基督，掌权直到永永远远，",
+            "冠祂！冠祂！先知，祭司，君王！",
+            "死亡消减让我们齐声歌唱：",
+            "“你所夸耀得胜坟墓安在？”"
+          ],
+          "chorus": [
+            "赞祂！赞祂！锡安居民当赞祂！",
+            "赞祂！赞祂！永以乐歌赞祂！"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC088 (different Chinese lyrics)"
+      ]
+    },
+    "366": {
+      "title": {
+        "en": "These Is No Name So Sweet on Earth",
+        "cn": "主名甘美"
+      },
+      "music": {
+        "composers": [
+          "William B. Bradbury"
+        ],
+        "tune": "SWEETEST NAME",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "3/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "George W. Bethune"
+        ],
+        "en": {
+          "1": [
+            "There is no name so sweet on earth,",
+            "No name so sweet in heaven -",
+            "The name, before His wondrous birth,",
+            "To Christ the Savior given."
+          ],
+          "2": [
+            "'Twas Gabriel first that did proclaim,",
+            "To His most blessed mother,",
+            "That name which now and evermore",
+            "We praise above all other."
+          ],
+          "3": [
+            "And when He hung upon the tree",
+            "They wrote His name above Him,",
+            "That all might see the reason we",
+            "Forevermore must love Him."
+          ],
+          "4": [
+            "So now, upon His Father's throne,",
+            "Almighty to release us",
+            "From sin and pain, He ever reigns -",
+            "The Prince and Savior, Jesus."
+          ],
+          "chorus": [
+            "We love to sing of Christ our King,",
+            "And hail Him, blessed Jesus!",
+            "For there's no word ear ever heard",
+            "So dear, so sweet as \"Jesus!\""
+          ]
+        },
+        "cn": {
+          "1": [
+            "天上人间更有何名，",
+            "如此甘美而可爱？",
+            "惟耶稣尚未降生，",
+            "名已从天报下来。"
+          ],
+          "2": [
+            "昔加百列首将此名",
+            "向敬虔童女传诵；",
+            "自此以后，长被称颂，",
+            "从今世直到无穷。"
+          ],
+          "3": [
+            "昔当救主被钉捨生，",
+            "此名昭然在十架",
+            "普告众人，当念主恩，",
+            "到永远要敬爱祂！"
+          ],
+          "4": [
+            "主今坐在父神右边，",
+            "拯救我，恤我疾苦；",
+            "永远掌权，恩能广远，",
+            "我中保，神子耶稣！"
+          ],
+          "chorus": [
+            "愿向我王拥戴欢呼，",
+            "歌颂神子主耶稣；",
+            "天上，人间更有其名",
+            "甘美可爱像耶稣。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC089 (2 stanzas more)"
+      ]
+    },
+    "368": {
+      "title": {
+        "en": "The Lily of the Valley",
+        "cn": "谷中百合花"
+      },
+      "music": {
+        "composers": [
+          "William S. Hays"
+        ],
+        "tune": "",
+        "keySignature": [
+          "F"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Charles W. Fry"
+        ],
+        "en": {
+          "1": [
+            "I have found a friend in Jesus - He's ev'rything to me,",
+            "He's the fairest of ten thousand to my soul;",
+            "The Lily of the Valley - in Him alone I see",
+            "All I need to cleanse and make me fully whole.",
+            "In sorrow He's my comfort, in trouble He's my stay,",
+            "He tells me ev'ry care on Him to roll;"
+          ],
+          "2": [
+            "He all my griefs has taken, and all my sorrows borne,",
+            "In temptation He's my strong and mighty tow'r;",
+            "I have all for Him forsaken, and all my idols torn",
+            "From my heart and now He keeps me by His pow'r.",
+            "Tho all the world forsake me, and Satan tempt me sore,",
+            "Thru Jesus I shall safely reach the goal;"
+          ],
+          "3": [
+            "He will never, never leave me, nor yet forsake me here,",
+            "While I live by faith and do His blessed will;",
+            "A wall of fire about me, I've nothing now to fear -",
+            "With His manna He my hungry soul shall fill.",
+            "Then sweeping up to glory, I'll see His blessed face,",
+            "Where rivers of delight shall ever roll;"
+          ],
+          "chorus": [
+            "He's the Lily of the Valley, the Bright and Morning Star,",
+            "He's the fairest of ten thousand to my soul."
+          ]
+        },
+        "cn": {
+          "1": [
+            "主耶稣是我良友，有主胜得万有，",
+            "万人中救主是我最好灵友；",
+            "主是谷中百合花，我惟一需要祂，",
+            "祂能洗净我使我圣洁无瑕。",
+            "悲伤时祂来解忧，患难时祂保佑，",
+            "一切忧虑全放在主肩头；"
+          ],
+          "2": [
+            "主带走一切忧愁，将我悲伤担当，",
+            "当我受试探时祂是我力量；",
+            "我尽心尽力爱祂，毁掉一切偶像，",
+            "祂有能力保守我为祂而生活。",
+            "纵然世界弃绝我，撒但来试探我，",
+            "却靠耶稣能过得胜生活；"
+          ],
+          "3": [
+            "主永不把我捨弃，我主何等慈爱，",
+            "我要忠诚信靠遵行主旨意，",
+            "有云柱火柱护围，任遭何事不慌，",
+            "主赐吗哪喂养我灵得健壮。",
+            "那日在天见主面，享受主爱甘甜，",
+            "有快乐江河长流至永年；"
+          ],
+          "chorus": [
+            "主是晨星灿烂光华，是谷中百合花，",
+            "万人中救主最美好，我爱祂。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC091, TSMS371"
+      ]
+    },
+    "384": {
+      "title": {
+        "en": "Love Lifted Me",
+        "cn": "主爱救我"
+      },
+      "music": {
+        "composers": [
+          "Howard E. Smith"
+        ],
+        "tune": "",
+        "keySignature": [
+          "Bb"
+        ],
+        "timeSignature": [
+          "6/8"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "James Rowe"
+        ],
+        "en": {
+          "1": [
+            "I was sinking deep in sin, Far from the peaceful shore,",
+            "Very deeply stained within, Sinking to rise no more;",
+            "But the Master of the sea, Heard my despairing cry,",
+            "From the waters lifted me - now safe am I."
+          ],
+          "2": [
+            "All my heart to Him I give, Ever to Him I'll cling,",
+            "In His blessed presence live, Ever His praises sing.",
+            "Love so mighty and so true, Merits my soul's best songs,",
+            "Faithful, loving service too, To Him belongs."
+          ],
+          "3": [
+            "Souls in danger, look above, Jesus completely saves;",
+            "He will lift you by His love, Out of the angry waves.",
+            "He's the Master of the sea, Billows His will obey;",
+            "He your Savior wants to be - Be saved today."
+          ],
+          "chorus": [
+            "Love lifted me, Love lifted me,",
+            "When nothing else could help, Love lifted me;",
+            "Love lifted me, Love lifted me,",
+            "When nothing else could help, Love lifted me."
+          ]
+        },
+        "cn": {
+          "1": [
+            "我曾在罪中流浪，远离平安之岸，",
+            "被罪恶重重捆绑，痛苦呻吟失望，",
+            "幸蒙大能的主宰，听我凄惨呼声，",
+            "就伸慈手到苦海拯救我命。"
+          ],
+          "2": [
+            "我今献上灵魂体，跟随恩主到底，",
+            "我一生活着是主，赞美祂的恩惠，",
+            "主恩浩大且真诚，我心歌唱不停，",
+            "愿为主忠心服役以表尊敬。"
+          ],
+          "3": [
+            "当我遭遇危险时，应当仰望恩主，",
+            "祂有恩典与大能，必能救我有余，",
+            "祂是大能的主宰，风浪亦听祂命，",
+            "祂是爱我的救主能救我命。"
+          ],
+          "chorus": [
+            "主爱救我，主爱救我，",
+            "当我凄凉绝望，主爱救我，",
+            "主爱救我，主爱救我，",
+            "当我凄凉绝望，主爱救我。"
+          ]
+        }
+      },
+      "notes": [
+        "Same song: RHC090, TSMS026"
+      ]
+    },
     "436": {
       "title": {
         "en": "God Be with You",
