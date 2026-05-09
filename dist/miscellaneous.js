@@ -20,9 +20,63 @@
           "*"
         ]
       ]
-    },
+    }
   },
   "songs": {
+    "Far Above Riches": {
+      "music": {
+        "composers": [
+          "Richard S. Willis"
+        ],
+        "tune": "CRUSADER'S HYMN",
+        "keySignature": [
+          "Eb"
+        ],
+        "timeSignature": [
+          "4/4"
+        ]
+      },
+      "lyrics": {
+        "authors": [
+          "Ken Bible"
+        ],
+        "en": {
+          "1": [
+            "Far above riches,",
+            "Far above honor,",
+            "Lasting beauty beyond compare - ",
+            "She is more noble,",
+            "She is more precious,",
+            "Treasure this one whose life we share."
+          ],
+          "2": [
+            "Woman of honor,",
+            "Priceless companion,",
+            "Wife and mother and faithful friend,",
+            "Shepherd and servant,",
+            "Teacher and helper -",
+            "She lives a love that has no end."
+          ],
+          "3": [
+            "Morning and evening,",
+            "Summer and winter,",
+            "Ever faithful and glad to share;",
+            "Touching and lifting,",
+            "Tenderly giving -",
+            "In her we feel our Father's care."
+          ],
+          "4": [
+            "God of all comfort,",
+            "Fountain of blessing,",
+            "Ever loving in all You do,",
+            "Thank you for giving",
+            "Far above riches.",
+            "Gladly we lift our praise to You!"
+          ]
+        }
+      },
+      "notes": []
+    },
     "We Wise Men of Orient Are": {
       "title": {
         "cn": "东方三博士"
@@ -54,19 +108,19 @@
             "Born a King on Bethlehem's plain,",
             "Gold I bring to crown Him again,",
             "King for ever, ceasing never",
-            "Over us all to reign.",
+            "Over us all to reign."
           ],
           "3": [
             "Frankincense to offer have I;",
             "Incense owns a Deity nigh;",
             "Prayer and praising all men raising,",
-            "Worship Him, God on high.",
+            "Worship Him, God on high."
           ],
           "4": [
             "Myrrh is mine: its bitter perfume",
             "Breathes a life of gathering gloom:",
             "Sorrowing, sighing, bleeding, dying,",
-            "Sealed in the stone-cold tomb.",
+            "Sealed in the stone-cold tomb."
           ],
           "chorus": [
             "O star of wonder, star of night,",
@@ -86,19 +140,19 @@
             "新王降生伯利恒城，",
             "奉献金冕贺他为王，",
             "掌握权柄治理万邦，",
-            "世人蒙他恩光。",
+            "世人蒙他恩光。"
           ],
           "3": [
             "我今献上乳香奇珍；",
             "认识真神常与亲近；",
             "愿万人来祷告颂赞，",
-            "朝拜真神在天。",
+            "朝拜真神在天。"
           ],
           "4": [
             "没药味难苦却甘芳；",
             "深思主为我罪舍身：",
             "忧愁，叹息，流血死亡，",
-            "埋葬封在坟墓。",
+            "埋葬封在坟墓。"
           ],
           "chorus": [
             "啊！奇妙星，夜放辉煌，",
